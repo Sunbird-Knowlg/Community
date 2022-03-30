@@ -4,7 +4,7 @@
 
 <summary><strong>Navigate</strong></summary>
 
-This navigate feature will provide the user to jump to any number of pages in given pdf content and also be able view previous and next pages from a given page. \
+&#x20;Navigate feature allows user to jump to a specific page and also navigate between previous and next pages. \
 \
 ![](../../../../../.gitbook/assets/epubPlayerV2Navigate.png)
 
@@ -14,7 +14,7 @@ This navigate feature will provide the user to jump to any number of pages in gi
 
 <summary>Progress</summary>
 
-This feature will help us to understand how much percentage (%) of content I have read.\
+This feature informs users their progress within the document.\
 \
 ![](../../../../../.gitbook/assets/epubPlayerV2Location.png)
 
@@ -24,10 +24,10 @@ This feature will help us to understand how much percentage (%) of content I hav
 
 <summary>Side Menu</summary>
 
-This player has the side menu feature like share, download and etc based input config provided.
+Side menu has features like share & download.
 
 *   **Share**: \
-    &#x20;This share feature is used to help share content link. and the default value is false.\
+    &#x20;This feature allows for sharing content link. The default value is false.\
 
 
     sample config to enable is\
@@ -48,7 +48,7 @@ This player has the side menu feature like share, download and etc based input c
 <!---->
 
 *   **Download**\
-    ****This download feature helps to download content and the default value is false.\
+    ****This download feature allows for content download. The default value is false.\
 
 
     sample config to enable is\
