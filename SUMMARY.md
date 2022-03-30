@@ -131,6 +131,7 @@
     * [DIAL Service](use/installation-guide/services/dial-service.md)
     * [Taxonomy Service](use/installation-guide/services/taxonomy-service.md)
     * [Object Category Service](use/installation-guide/services/object-category-service.md)
+* [Deployment](use/deployment.md)
 * [Release notes](use/release-notes.md)
 * [USE](use/use.md)
 * [Additional Reading](use/additional-reading.md)
