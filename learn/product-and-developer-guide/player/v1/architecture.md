@@ -1,6 +1,6 @@
 # Architecture
 
-This is the classic version of the asset player. Using this player, users can play the following asset types.
+This is the classic version of the player. The following formats are supported by this player:
 
 * ECML
 * PDF
@@ -35,7 +35,7 @@ mimetypes: [
 
 **Supported MIME Types are:**
 
-| Content Type                                                                                                                                                                | MIME Type                                                                                                                                                                               |
+| Content Format                                                                                                                                                              | MIME Type                                                                                                                                                                               |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [ECML](players/ecml-player-v1.md)                                                                                                                                           | [application/vnd.ekstep.ecml-archive](players/ecml-player-v1.md)                                                                                                                        |
 | [HTML](players/html-h5p-player-v1.md)                                                                                                                                       | [application/vnd.ekstep.html-archive](players/html-h5p-player-v1.md)                                                                                                                    |
@@ -49,7 +49,7 @@ mimetypes: [
 
 ### Content Launchers
 
-Content player v1 is able to play the different types of contents using the configuration. You just need to provide the mimeType and plugin launchers in config. Its capable to load the content launchers according to the mimeType
+Content player v1 is able to play the different format of content using the configuration. You just need to provide the mimeType and plugin launchers in config. Its capable to load the content launchers according to the mimeType
 
 #### Sample config to launch the ECML content
 
