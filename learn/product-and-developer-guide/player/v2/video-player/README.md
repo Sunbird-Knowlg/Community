@@ -1,6 +1,6 @@
 # Video Player
 
-The [Content v1 player](broken-reference) is packaged with all the asset types. Gradually it was spilt in independent players, **video player** and **YouTube player**, to enable quick launch, this improved the performance and load time.
+Video player enables playing of video content.&#x20;
 
 ### Tech Stack
 
