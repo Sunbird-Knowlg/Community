@@ -1,7 +1,7 @@
 ---
 description: >-
-  Content player v1 which is used to play/render the contents in both device and
-  web - based on the mime types.
+  Content player v1 has the capability to play/render a variety of content in
+  both mobile and web form factors.
 ---
 
 # V1
