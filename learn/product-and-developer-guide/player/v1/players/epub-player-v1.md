@@ -8,7 +8,7 @@ description: >-
 
 **Configuration**
 
-Based on the following configuration EPUB content can be rendered.
+Below is the configuration to render/play EPUB content:
 
 ```
 {
@@ -33,4 +33,4 @@ Based on the following configuration EPUB content can be rendered.
 1. **Location**\
    This is a default feature and help user to understand current page number and total number of pages
 
-![](../../../../../.gitbook/assets/epub-location.png)\\
+![](../../../../../.gitbook/assets/epub-location.png)

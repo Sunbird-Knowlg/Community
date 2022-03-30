@@ -21,7 +21,7 @@ Overlay is used to show some extra information on top of the content. This is a 
 }
 ```
 
-* **User switcher** _(enableUserSwitcher)_**:** Content player v1 is capable to play the one content for more one user on the same device. The _enableUserSwitcher_ is a overlay property and it used to switch the users while playing the contents
+* **User switcher** _(enableUserSwitcher)_**:** Content player v1 has the capability to enable multi-user with this feature. The _enableUserSwitcher_ is a overlay property and it is used to switch between users while playing content.
 
 ![](../../../../.gitbook/assets/ezgif.com-gif-maker.gif)
 
@@ -57,8 +57,8 @@ This is one of the property of [overlay config](content-player-v1.md#overlay). T
 
 ![](<../../../../.gitbook/assets/ezgif.com-gif-maker (2).gif>)
 
-* **Replay**: Its a default feature of the side menu, by clicking on the replay user can reload the content
-* **Switch user:** Side menu enables user to switch the current user by clicking on this side menu option. refer [user switcher config](content-player-v1.md#sample-overlay-config) to configure this button.
+* **Replay**: Its a default feature of the side menu. By clicking on  'replay' user can play the content again.
+* **Switch user:** Side menu enables user to switch the current user by clicking on this side menu option. Refer [user switcher config](content-player-v1.md#sample-overlay-config) to configure this button.
 * **Mute:** Side menu allows user to mute and unmute the sound of the content. Default is unmute.
 * **Exit:** Its a default feature of the side menu options and user can exit the content bu clicking on this button
 * **Read teacher instructions:** While creating the [ECML type content](players/ecml-player-v1.md) if creator added the instruction to the stage, each stage will show that instructions. This is a configurable property of the side menu
@@ -83,24 +83,24 @@ Sample config to show end page
 }
 ```
 
-* **Previous:** In a collection play - the previous button will indicate the previous content of the current content on the current content end page.
+* **Previous:** In a collection play - the previous button will indicate the previous content in the collection.
 
 ![](<../../../../.gitbook/assets/endpage (2).png>)
 
-* **Score:** This will indicate the user assessment score on the end page
-* **Time:** This will indicate - how much time user spend on the content.
+* **Score:** This will indicate the user's score on the end page
+* **Time:** This will indicate - how much time user has spent on the content.
 * **Name :** It shows the Name of the content. This will show as per the name property of the content metadata.
 * **Creator:** It shows the Name of the content creator. This will show as per the creator property of the content metadata.
 * **Replay:** By clicking on the replay button user can reload the content. Its a default property of the end page.
-* **Username:** Initial latter of the user will show on the end page. By clicking on the this button user switcher popup will show - witch allows you to select and switch the user.
+* **Username:** Initial letter of the user will show on the end page. By clicking on this button user switcher popup will show - witch allows you to select and switch the user.
 * **Exit:** By clicking on the Exit button user can exit the content and application.
-* **Next:** In a collection play - the next button will indicate the next content of the current content on the current content end page. This should be your [getRelevantContent()](https://github.com/project-sunbird/sunbird-content-player/blob/9fc06f842ff2bc0bd1b1143d288caed1075ada83/player/public/services/localservice.js#L101) API response.
+* **Next:** In a collection play - the next button will indicate the next content in the collection. This should be your [getRelevantContent()](https://github.com/project-sunbird/sunbird-content-player/blob/9fc06f842ff2bc0bd1b1143d288caed1075ada83/player/public/services/localservice.js#L101) API response.
 
 ### Next and previous
 
 Next and previous buttons are used see the next and previous slide of the content. On end page, the next and previous button can be configured.
 
-To show these buttons on the end page, you have expose the service methods. Please refer to [these services](https://github.com/project-sunbird/sunbird-content-player/tree/9fc06f842ff2bc0bd1b1143d288caed1075ada83/player/public/services) for more information.
+To show these buttons on the end page, you have to expose the service methods. Please refer to [these services](https://github.com/project-sunbird/sunbird-content-player/tree/9fc06f842ff2bc0bd1b1143d288caed1075ada83/player/public/services) for more information.
 
 Sample API response to show the next and previous button
 

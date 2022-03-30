@@ -8,7 +8,7 @@ description: ECML Player is used to play the interactive contents
 
 ### ECML
 
-ECML is a short form of Ekstep content markup language. The content player v1 is capable to play the ECML type contents.
+ECML is a short form of Ekstep content markup language. The content player v1 is capable to play the ECML format contents.
 
 ### **Workflow**
 
@@ -94,9 +94,9 @@ Content editor is responsible to creation of assessment content. Following plugi
 ### **Assessment** Plugins
 
 * Question unit plugin: This plugin is responsible to load the different types of questions and templates
-* Question set: Question set plugin is responsible to create and save the different types of questions set and questions
-* Mcq plugin: Using mcq plugin, you can create and rendered the multiple choice questions
-* FTP plugin: FTB plugins creates and loads fill in the blanks types questions
+* Question set: Question set plugin is responsible to create and save the different types of question sets and questions
+* Mcq plugin: Using mcq plugin, you can create and render the multiple choice questions
+* FTB plugin: FTB plugins creates and loads fill in the blanks types questions
 * MTF plugin: Match the following type questions can be created in this plugin
 * Reorder plugin: By using this plugin, you can create and render the reordering type questions
 * Question bank: Question bank plugin is responsible to create and load the questions.
