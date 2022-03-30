@@ -1,6 +1,6 @@
 # V2
 
-The V2 version of the content player are designed to be lighter, better performance & specific to the requirement.
+The V2 version of the content players are designed to be lighter, deliver better performance & to be specific to the requirement.
 
 {% content-ref url="pdf-player/" %}
 [pdf-player](pdf-player/)
