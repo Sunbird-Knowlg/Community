@@ -2,9 +2,9 @@
 description: File upload editor(pdf, video, h5p, epub etc..)
 ---
 
-# Generic Editor
+# File Upload Editor
 
-The generic editor is used to create for all non-ECML contents. This editor is used for the contents which can be uploaded as files(H5P, epub, PDF, HTML, Youtube, Video).
+The file upload editor is used to create for all non-ECML contents. This editor is used for the contents which can be uploaded as files(H5P, epub, PDF, HTML, Youtube, Video).
 
 ## :stars:Supported files
 
@@ -25,8 +25,8 @@ The generic editor is used to create for all non-ECML contents. This editor is u
 
 ## :stars:Installation guide
 
-{% content-ref url="../../../use/installation-guide/editors/generic-editor.md" %}
-[generic-editor.md](../../../use/installation-guide/editors/generic-editor.md)
+{% content-ref url="../../../use/installation-guide/editors/file-upload-editor.md" %}
+[file-upload-editor.md](../../../use/installation-guide/editors/file-upload-editor.md)
 {% endcontent-ref %}
 
 ## :stars:Git Repo

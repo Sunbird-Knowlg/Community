@@ -39,7 +39,7 @@ Here’s the configuration:
 ```
 
 ****\
-****![](<../../../../.gitbook/assets/image (5).png>)****\
+****![](<../../../../.gitbook/assets/image (3) (1).png>)****\
 ****\
 **- review**\
 ****It’s similar to read mode only. but here users can perform some actions such as publish, reject. \
@@ -75,7 +75,7 @@ Here is the sample configuration for review mode:
 
 <details>
 
-<summary>Media Config</summary>
+<summary>Asset Config</summary>
 
 Asset Config sets the max size limit for images to be uploaded in the collection editor and the type of images.\
 Here is the configuration:
@@ -158,7 +158,7 @@ _**(Note: If you add more depth you need to add more levels in the hierarchy.)**
 
 <details>
 
-<summary><strong>Show/Add collaborator</strong></summary>
+<summary>Collaboration</summary>
 
 When "showAddCollaborator" is set it to `true` it enables the add collaborator option in the collection editor. With which creator can as select the collaborate to contribute to the same collection.\
 Here is the configuration:

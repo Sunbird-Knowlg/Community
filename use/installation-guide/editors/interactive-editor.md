@@ -1,4 +1,4 @@
-# Resource Editor
+# Interactive Editor
 
 ### How to setup
 
@@ -16,6 +16,6 @@ Please refer to the [How to Configure section of the README.md ](https://github.
 
 Please refer to the [integration section of the README.md](https://github.com/gouravmore/sunbird-generic-editor/blob/release-4.8.0/README.md#integration) file of the [git repository](https://github.com/project-sunbird/sunbird-content-editor)
 
-### How to use content editor
+### How to use the Interactive editor
 
 {% embed url="http://docs.sunbird.org/2.8.0/features-documentation/contenteditor" %}

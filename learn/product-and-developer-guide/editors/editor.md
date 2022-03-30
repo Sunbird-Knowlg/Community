@@ -1,4 +1,4 @@
-# Editor
+# Interactive Editor
 
 The ECML editor is similar to Google slides. Using this editor the users can add slides and add some elements to the slide to present.
 
@@ -14,8 +14,8 @@ Once the content is updated in the slides, users can preview the content on how
 
 ## :stars:Installation guide
 
-{% content-ref url="../../../use/installation-guide/editors/resource-editor.md" %}
-[resource-editor.md](../../../use/installation-guide/editors/resource-editor.md)
+{% content-ref url="../../../use/installation-guide/editors/interactive-editor.md" %}
+[interactive-editor.md](../../../use/installation-guide/editors/interactive-editor.md)
 {% endcontent-ref %}
 
 ## :stars:Git Repo
