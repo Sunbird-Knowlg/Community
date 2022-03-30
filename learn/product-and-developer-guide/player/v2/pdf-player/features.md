@@ -4,7 +4,7 @@
 
 <summary>Zoom</summary>
 
-This zoom feature has the ability to view given pdf content in a much larger and smaller view.\
+This zoom feature allows the user zoom in/out.\
 ![](../../../../../.gitbook/assets/psdPlayerV2zoom.png)
 
 </details>
@@ -13,7 +13,7 @@ This zoom feature has the ability to view given pdf content in a much larger and
 
 <summary><strong>Rotate</strong></summary>
 
-This rotate feature has the ability to rotate given pdf content based on some angle(as of now 90 degree rotation)\
+This feature allows users to rotate pdf content.\
 ![](../../../../../.gitbook/assets/pdfPlayerV2Rotate1.png)
 
 </details>
@@ -22,7 +22,7 @@ This rotate feature has the ability to rotate given pdf content based on some an
 
 <summary>Navigate</summary>
 
-This navigate feature will provide the user to jump to any number of page in given pdf content and also able view previous and next page from given page.\
+Navigate feature allows user to jump to a specific page within the PDF document.\
 ![](<../../../../../.gitbook/assets/pdfPlayerV2Navigate1 (1).png>)
 
 </details>
@@ -31,7 +31,9 @@ This navigate feature will provide the user to jump to any number of page in giv
 
 <summary>Progress</summary>
 
-This feature will help us to understand how much percentage (%) of content I have read![](<../../../../../.gitbook/assets/pdfPlayerv2Location (1).png>)
+This feature informs users their progress within the PDF document.&#x20;
+
+![](<../../../../../.gitbook/assets/pdfPlayerv2Location (1).png>)
 
 </details>
 
@@ -39,10 +41,10 @@ This feature will help us to understand how much percentage (%) of content I hav
 
 <summary>Side Menu</summary>
 
-This player has the side menu feature like share, download and etc based input config provided.\
+In the side menu, one can configure additional capabilities such as 'Share', 'Download' and 'Print'. \
 ![](../../../../../.gitbook/assets/pdfPlayerV2Sidemenu.png)
 
-sample config to enable is
+Sample config:
 
 ```
 "config": {  
