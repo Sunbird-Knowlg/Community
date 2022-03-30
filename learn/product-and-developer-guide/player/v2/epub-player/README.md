@@ -16,6 +16,12 @@ The [Content v1 player](broken-reference) is package with all the content types.
 4. SCSS
 5. HTML
 
+## Installation guide
+
+{% content-ref url="../../../../../use/installation-guide/players/v2/epub-player.md" %}
+[epub-player.md](../../../../../use/installation-guide/players/v2/epub-player.md)
+{% endcontent-ref %}
+
 ### Git Repo
 
 {% embed url="https://github.com/project-sunbird/sunbird-epub-player/tree/release-4.7.0" %}

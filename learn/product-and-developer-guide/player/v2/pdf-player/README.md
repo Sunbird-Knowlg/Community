@@ -18,6 +18,12 @@ The [Content v1 player](broken-reference) is packaged with all the asset types. 
 4. SCSS
 5. HTML
 
+## Installation guide
+
+{% content-ref url="../../../../../use/installation-guide/players/v2/pdf-player.md" %}
+[pdf-player.md](../../../../../use/installation-guide/players/v2/pdf-player.md)
+{% endcontent-ref %}
+
 ### Git Repo
 
 {% embed url="https://github.com/project-sunbird/sunbird-pdf-player/tree/release-4.7.0" %}

@@ -10,6 +10,12 @@ The [Content v1 player](broken-reference) is packaged with all the asset types. 
 4. SCSS
 5. HTML
 
+## Installation guide
+
+{% content-ref url="../../../../../use/installation-guide/players/v2/video-player.md" %}
+[video-player.md](../../../../../use/installation-guide/players/v2/video-player.md)
+{% endcontent-ref %}
+
 ### Default Video Features
 
 <details>
