@@ -4,13 +4,12 @@ description: This describes about the architecture diagram of the pdf player.
 
 # Architecture
 
-![](../../../../../.gitbook/assets/pdfPlayerV2Architecture.png)
 
-**Common Service Lib:**
 
+![](<../../../../../.gitbook/assets/Content  player Achitecture-PDF player-PDF player.drawio.png>)
+
+**Common Service Lib:**\
 This is used for generating the telemetry from the player as a utility dependency library.
-
-
 
 **Sunbird Player SDK:**
 

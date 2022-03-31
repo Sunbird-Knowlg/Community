@@ -28,6 +28,15 @@ Please refer to the github readme document.
       [https://github.com/project-sunbird/sunbird-pdf-player/blob/master/src/app/data.ts](https://github.com/project-sunbird/sunbird-pdf-player/blob/master/src/app/data.ts)\
 
 
+    ### Sample code for references
+
+    * **Angular** \
+      Refer sample code for Angular  [here](https://github.com/project-sunbird/sunbird-pdf-player)\
+
+    * Web component \
+      Refer sample code for Web component  [here](https://github.com/project-sunbird/sunbird-pdf-player/blob/master/web-component/index.html)\
+
+
     ### How to set up
 
 
@@ -49,3 +58,4 @@ Please refer to the github readme document.
     Sunbird Telemetry is a specification to instrument all the key events. Using this specification reference applications & services will generate telemetry events.
 
     #### &#x20;
+

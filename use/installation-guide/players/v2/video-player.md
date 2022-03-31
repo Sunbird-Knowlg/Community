@@ -26,6 +26,16 @@ Please refer to the github readme document.
       [https://github.com/project-sunbird/sunbird-video-player/blob/master/src/app/data.ts](https://github.com/project-sunbird/sunbird-video-player/blob/master/src/app/data.ts)\
 
 
+    ### Sample code for references
+
+    * **Angular** \
+      Refer sample code for Angular  [here](https://github.com/project-sunbird/sunbird-video-player)\
+
+    * Web component \
+      Refer sample code for Web component  [here](https://github.com/project-sunbird/sunbird-video-player/blob/master/web-component/index.html)
+
+
+
     ### How to set up
 
     * **Angular** \

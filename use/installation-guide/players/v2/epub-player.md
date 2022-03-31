@@ -22,6 +22,14 @@ Player need some config that needs to be pass to the player as input , below lis
 * Please check in below link for mock player input config data\
   [https://github.com/project-sunbird/sunbird-epub-player/blob/main/src/app/data.ts](https://github.com/project-sunbird/sunbird-epub-player/blob/main/src/app/data.ts)
 
+### Sample code for references
+
+* **Angular** \
+  Refer sample code for Angular  [here](https://github.com/project-sunbird/sunbird-epub-player)\
+
+* Web component \
+  Refer sample code for Web component  [here](https://github.com/project-sunbird/sunbird-epub-player/blob/main/web-component/index.html)
+
 ### How to set up
 
 * **Angular** \

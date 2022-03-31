@@ -1,6 +1,6 @@
 # Architecture
 
-![](../../../../../.gitbook/assets/EpubplayerArchitecture.png)
+![](<../../../../../.gitbook/assets/Content  player Achitecture-PDF player-Epub player 2.drawio (3).png>)
 
 **Common Service Lib:**
 
