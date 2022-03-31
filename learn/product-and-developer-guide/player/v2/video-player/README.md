@@ -87,4 +87,4 @@ This feature will help us play the video at different speeds.![](../../../../../
 
 ### Git Repo
 
-{% embed url="https://github.com/project-sunbird/sunbird-video-player/tree/release-4.7.0" %}
+{% embed url="https://github.com/project-sunbird/sunbird-video-player/tree/master" %}

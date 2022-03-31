@@ -2,7 +2,7 @@
 
 Please refer to the github readme document.
 
-{% embed url="https://github.com/project-sunbird/sunbird-pdf-player/tree/release-4.8.0#readme" %}
+{% embed url="https://github.com/project-sunbird/sunbird-pdf-player/tree/master#readme" %}
 
 *   ### System Requirements <a href="#system-requirements" id="system-requirements"></a>
 
@@ -22,10 +22,11 @@ Please refer to the github readme document.
 
 
     * Please check sample player config in below link\
-      [https://github.com/project-sunbird/sunbird-pdf-player/tree/release-4.8.0#player-config](https://github.com/project-sunbird/sunbird-pdf-player/tree/release-4.8.0#player-config)\
+      [https://github.com/project-sunbird/sunbird-pdf-player/tree/master#player-config](https://github.com/project-sunbird/sunbird-pdf-player/tree/master#player-config)\
 
     * Please check in below link for mock player input config data\
-      [https://github.com/project-sunbird/sunbird-pdf-player/blob/release-4.8.0/src/app/data.ts](https://github.com/project-sunbird/sunbird-pdf-player/blob/release-4.8.0/src/app/data.ts)&#x20;
+      [https://github.com/project-sunbird/sunbird-pdf-player/blob/master/src/app/data.ts](https://github.com/project-sunbird/sunbird-pdf-player/blob/master/src/app/data.ts)\
+
 
     ### How to set up
 
@@ -33,17 +34,17 @@ Please refer to the github readme document.
 
     * **Angular** \
       For set up in angular please follow the below link\
-      [Angular Library](https://github.com/project-sunbird/sunbird-pdf-player/tree/release-4.8.0#getting-started)\
+      [Angular Library](https://github.com/project-sunbird/sunbird-pdf-player/tree/master#getting-started)\
 
     * **Others** \
       For set up in mobile and as web component , please follow below link\
-      [Mobile app](https://github.com/project-sunbird/sunbird-pdf-player/tree/release-4.8.0#mobile-app-integration-steps)\
-      [Web Component](https://github.com/project-sunbird/sunbird-pdf-player/tree/release-4.8.0#use-as-web-components)\
+      [Mobile app](https://github.com/project-sunbird/sunbird-pdf-player/tree/master#mobile-app-integration-steps)\
+      [Web Component](https://github.com/project-sunbird/sunbird-pdf-player/tree/master#use-as-web-components)\
 
 
     ### External Dependencies
 
-    #### [Sunbird Telemetry](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/-MkM7F4oILSpCJPO0YUu/)
+    #### [Sunbird Telemetry](https://telemetry.sunbird.org)
 
     Sunbird Telemetry is a specification to instrument all the key events. Using this specification reference applications & services will generate telemetry events.
 

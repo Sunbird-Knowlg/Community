@@ -5,7 +5,7 @@
 <summary>How to use player outside of angular app ?</summary>
 
 We can use as web component and its link is \
-[Web Component](https://github.com/project-sunbird/sunbird-epub-player/tree/release-4.8.0#use-as-web-components)
+[Web Component](https://github.com/project-sunbird/sunbird-video-player/tree/master#use-as-web-components)
 
 </details>
 
