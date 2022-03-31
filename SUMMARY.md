@@ -100,7 +100,6 @@
       * [Configuration](learn/product-and-developer-guide/taxonomy-and-tagging/object-category-service/configuration.md)
       * [FAQs](learn/product-and-developer-guide/taxonomy-and-tagging/object-category-service/faqs.md)
   * [DIAL Service](learn/product-and-developer-guide/dialcode/README.md)
-    * [Usecase](https://www.youtube.com/watch?v=EtYU11qNciQ\&t=612s)
     * [Architecture](learn/product-and-developer-guide/dialcode/architecture.md)
     * [APIs](learn/product-and-developer-guide/dialcode/apis.md)
     * [How to setup](learn/product-and-developer-guide/dialcode/how-to-setup.md)

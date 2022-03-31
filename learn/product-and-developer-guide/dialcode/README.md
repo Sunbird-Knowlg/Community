@@ -20,4 +20,8 @@ In practice physical artefacts will be published once, serving as coordinate to 
 
 ![DIAL code  as coordinate to discover digital coordinates](<../../../.gitbook/assets/DIAL\_code\_ flow (1).png>)
 
-[DIAL API](http://docs.sunbird.org/latest/apis/dialapi/) DIAL service provides the APIs to manage DIAL codes.
+
+
+DIAL Service Usecase
+
+{% embed url="https://www.youtube.com/watch?t=612s&v=EtYU11qNciQ" %}
