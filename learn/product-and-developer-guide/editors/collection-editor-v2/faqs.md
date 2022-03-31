@@ -284,6 +284,6 @@ Here's the sample configuration for the Digital textbook:
 
 <summary>How to filter specific contents in the "Add from Library" Page?</summary>
 
-To be updated.....
+
 
 </details>

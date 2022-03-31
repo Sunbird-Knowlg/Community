@@ -29,8 +29,12 @@ Content service APIs are being used to read the content details using READ/GET A
 
 The content players are used to playing the different types of content such as PDF, VIDEO, EPUB, etc...
 
+<mark style="color:blue;">****</mark>[<mark style="color:blue;">**SunbirdEd Forms**</mark>](https://ed.sunbird.org/use/learn-more/specifications/sunbirded-forms)
+
+Contains Form component powered by angular. This component expects a configuration and renders form according to the view.
+
 ### External Dependencies
 
-#### [Sunbird Telemetry](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/-MkM7F4oILSpCJPO0YUu/)
+#### [Sunbird Telemetry](https://telemetry.sunbird.org)
 
 Sunbird Telemetry is a specification to instrument all the key events. Using this specification reference applications & services will generate telemetry events.

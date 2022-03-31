@@ -6,6 +6,8 @@ description: File upload editor(pdf, video, h5p, epub etc..)
 
 The file upload editor is used to create for all non-ECML contents. This editor is used for the contents which can be uploaded as files(H5P, epub, PDF, HTML, Youtube, Video).
 
+![](<../../../../.gitbook/assets/image (3).png>)
+
 ## :stars:Supported files
 
 | File Type        | Details                                                                          |
@@ -25,8 +27,8 @@ The file upload editor is used to create for all non-ECML contents. This editor 
 
 ## :stars:Installation guide
 
-{% content-ref url="../../../use/installation-guide/editors/file-upload-editor.md" %}
-[file-upload-editor.md](../../../use/installation-guide/editors/file-upload-editor.md)
+{% content-ref url="../../../../use/installation-guide/editors/file-upload-editor.md" %}
+[file-upload-editor.md](../../../../use/installation-guide/editors/file-upload-editor.md)
 {% endcontent-ref %}
 
 ## :stars:Git Repo

@@ -1,16 +1,16 @@
 ---
-description: TDB
+description: Multilevel hierarchy contents like Book, Course, Collection, etc.
 ---
 
 # Collection Editor - V1
 
 {% hint style="warning" %}
-**Note:** The collection editor - V1 is <mark style="color:orange;">not maintained</mark> anymore. So we encourage all developers to upgrade to the [**Collection Editor V2**](collection-editor-v2/)**.**
+**Note:** The collection editor - V1 is <mark style="color:orange;">not maintained</mark> anymore. So we encourage all to upgrade to the [**Collection Editor V2**](collection-editor-v2/)**.**
 {% endhint %}
 
-Collection Editor which allows user to create a group of contents. It can be (ECML, Pdf, HTML, H5P, Epub, Youtube, Mp4/Webm)
+Collection Editor which allows users to create a group of contents. It can be (ECML, Pdf, HTML, H5P, Epub, Youtube, Mp4/Webm)
 
-![](<../../../.gitbook/assets/image (2).png>)
+![](<../../../.gitbook/assets/image (2) (1).png>)
 
 ## :stars:Tech Stack
 

@@ -1,6 +1,10 @@
+---
+description: Multilevel hierarchy contents like Book, Course, Collection, etc.
+---
+
 # Collection Editor - V2
 
-As the Collection-Editor evolves to create the collection contents like(Textbook, Course, Collection etc..), we have noticed users facing some difficulty to prepare the skeleton of collection & collaborating with contributors to enrich the content.
+As the Collection-Editor evolves to create the collection contents like(Textbook, Course, Collection etc..), we have noticed users facing some difficulty to prepare the skeleton of the collection & collaborating with contributors to enrich the content.
 
 To overcome the above challenges the new collection-editor version-2 built with an upgraded tech stack.
 
@@ -19,6 +23,7 @@ To overcome the above challenges the new collection-editor version-2 built with 
 * [x] Ability to organize your assets in a multi-level hierarchy
 * [x] Ability to link/delete any assets at any level of the hierarchy
 * [x] Ability to generate and link DIALcode to any level of hierarchy
+* [x] Ability to preview linked assets
 
 ## :stars:Tech Stack
 

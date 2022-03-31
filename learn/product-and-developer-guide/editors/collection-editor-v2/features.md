@@ -39,7 +39,7 @@ Here’s the configuration:
 ```
 
 ****\
-****![](<../../../../.gitbook/assets/image (5).png>)****\
+****![](<../../../../.gitbook/assets/image (3) (1) (1).png>)****\
 ****\
 **- review**\
 ****It’s similar to read mode only. but here users can perform some actions such as publish, reject. \
@@ -299,5 +299,23 @@ config: {
 ```
 
 ![](<../../../../.gitbook/assets/NIT (7).png>)![](<../../../../.gitbook/assets/NIT (9).png>)![](../../../../.gitbook/assets/NIT\_and\_data\_ts\_—\_sunbird-collection-editor-1.png)![](<../../../../.gitbook/assets/NIT (2).png>)
+
+By using this configuration, you can also filter specific contents in the add form library page.
+
+```
+children: {
+  Content: [
+   'Explanation Content',
+   'Learning Resource',
+   'eTextbook',
+   'Teacher Resource',
+   'Course Assessment'
+  ]
+ }
+```
+
+\
+Here is the screenshot:\
+![](<../../../../.gitbook/assets/image (2).png>)
 
 </details>

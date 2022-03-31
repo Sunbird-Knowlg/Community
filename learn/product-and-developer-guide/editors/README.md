@@ -17,29 +17,3 @@ As the name indicates, there are multiple editors to create a specific type of c
 | [Collection Editor](https://github.com/project-sunbird/sunbird-collection-editor) | Collection                       | <ul><li>Collection</li><li>Textbook</li><li>Course</li></ul>                                                                     | [Collection Editor](https://github.com/project-sunbird/sunbird-collection-editor) |
 
 ![](<../../../.gitbook/assets/Screenshot from 2021-11-24 14-52-26.png>)
-
-### Git Repo:
-
-Content Plugins repo is the common placeholder for all the plugins. Each editor will be configured with specific plugins while building the project.
-
-#### Content-Plugins
-
-{% embed url="https://github.com/project-sunbird/sunbird-content-plugins" %}
-Content-Plugins
-{% endembed %}
-
-#### Content Editor:
-
-{% embed url="https://github.com/project-sunbird/sunbird-content-editor" %}
-Content-Editor
-{% endembed %}
-
-#### Collection Editor: Multilevel hierarchy contents like Book, Course, Collection, etc.
-
-{% embed url="https://github.com/project-sunbird/sunbird-collection-editor" %}
-Collection-Editor
-{% endembed %}
-
-#### Generic Editor: File upload contents to create
-
-{% embed url="https://github.com/project-sunbird/sunbird-Generic-editor" %}
