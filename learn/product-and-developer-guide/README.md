@@ -2,7 +2,7 @@
 
 ## Feature specific components
 
-In this page, we map the [capabilities](../capabilities/) offered by Knowlg to the various components in the Sunbird Knowlg building block. This view provides you understanding what components are needed to enable a specific capability.&#x20;
+In this page, we map the [capabilities](../capabilities/) offered by Knowlg to the various components in the Sunbird Knowlg building block. This view provides you understanding of what components are needed to enable a specific capability.&#x20;
 
 * [Rich & Diverse Assets](./#rich-and-diverse-assets)
 * [Organized Collections](./#organized-collections)
