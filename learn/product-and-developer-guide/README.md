@@ -2,7 +2,7 @@
 
 ## Feature specific components
 
-on this page, we are detailing the list of [capabilities](../capabilities/) mapping to the components. How each capability can be achieved or integrated with the components.
+In this page, we map the [capabilities](../capabilities/) offered by Knowlg to the various components in the Sunbird Knowlg building block. This view provides you understanding what components are needed to enable a specific capability.&#x20;
 
 * [Rich & Diverse Assets](./#rich-and-diverse-assets)
 * [Organized Collections](./#organized-collections)
@@ -13,17 +13,17 @@ on this page, we are detailing the list of [capabilities](../capabilities/) mapp
 
 ### Rich & Diverse Assets
 
-| Component                           | Description                                        |
-| ----------------------------------- | -------------------------------------------------- |
-| [Content service](content-service/) | Allow users to define Rich & diverse asset schema. |
+| Component                           | Description                           |
+| ----------------------------------- | ------------------------------------- |
+| [Content service](content-service/) | Enables users to define asset schema. |
 
 ### Organized Collections
 
-| Component                                                     | Description                                                                                                                                                               |
-| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Content-service](content-service/)                           | Allow users to define Rich & diverse asset schema. This service also provides APIs to organize the assets as a collection.                                                |
-| [Creation - Collection editor](editors/collection-editor-v2/) | As the name indicates, it is a tool used to create the collection or organized assets by the creators.                                                                    |
-| <mark style="color:red;">Consumption - no player</mark>       | There is no player to consume or represent a collection at present. But the assets of the collection can be played using the [content-players V1](broken-reference) or V2 |
+| Component                                                     | Description                                                                                                                                              |
+| ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Content-service](content-service/)                           | Enables users to define asset schema and consists of APIs to organize the assets as a collection.                                                        |
+| [Creation - Collection editor](editors/collection-editor-v2/) | It is a pluggable tool used to create the collections.                                                                                                   |
+| <mark style="color:red;">Consumption - no player</mark>       | There is no separate collection player however the assets linked to the collection can be played using the [content-players V1](broken-reference) or V2. |
 
 ### Asset Lifecycle Management
 
@@ -33,9 +33,9 @@ on this page, we are detailing the list of [capabilities](../capabilities/) mapp
 | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [Content service](content-service/)                      | <p>Content service API's helps to curate the assets created by creators(using asset creation tools - <a href="editors/">editors</a>).<br><br>The lifecycle to curate the content<br>Draft -> Review -> Publish</p> |
 | [Creation - Interactive editor](editors/editor/)         | This tool helps user/creators to create the assets(ECML format).                                                                                                                                                   |
-| [Creation - File upload editor](editors/generic-editor/) | This tool helps users/creators to create the assets by uploding the files format of Videos, PDFs, HTML, H5P & EPUBs.                                                                                               |
-| [Consumption - Content player V1](broken-reference)      | This tool helps end-users to view/consume the contents created by the creators. This allow to play all the types of contents supported by sunbird platform.                                                        |
-| Consumption - Content player's V2                        | This is enhaced or un-bundled version of content-player-V1. Unbundled to be smaller & specific format to play. So adopters can choose specific player as per their need.                                           |
+| [Creation - File upload editor](editors/generic-editor/) | Upload editor tool allows creators to create assets by a simple upload. Supports Video, PDF, HTML, H5P & EPUB format.                                                                                              |
+| [Consumption - Content player V1](broken-reference)      | Content player V1 enables users to consume content. This player is compatible with all asset format supported by sunbird platform.                                                                                 |
+| Consumption - Content player's V2                        | This is enhanced or un-bundled version of content-player-V1. Unbundled to be lighter & specific to the format. For ex., video player to play video content, epub player to play epub content etc.                  |
 
 ### Powerful Discovery
 
