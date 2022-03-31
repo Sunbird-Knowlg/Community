@@ -4,7 +4,7 @@ description: File upload editor(pdf, video, h5p, epub etc..)
 
 # File Upload Editor
 
-The file upload editor is used to create for all non-ECML contents. This editor is used for the contents which can be uploaded as files(H5P, epub, PDF, HTML, Youtube, Video).
+The file upload editor enables creators to create content by a simple upload. This editor supports upload of content which can be uploaded as files(H5P, epub, PDF, HTML, Youtube, Video).
 
 ![](<../../../../.gitbook/assets/image (3).png>)
 
