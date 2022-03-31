@@ -1,8 +1,6 @@
 # Interactive Editor
 
-The ECML editor is similar to Google slides. Using this editor the users can add slides and add some elements to the slide to present.
-
-Once the content is updated in the slides, users can preview the content on how
+The interactive editor is similar to Google slides. Using this editor users can create content on slides. The editor also allows creators to preview the content.
 
 ![](<../../../../.gitbook/assets/image (4).png>)
 
