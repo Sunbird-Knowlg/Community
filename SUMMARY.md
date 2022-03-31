@@ -55,8 +55,6 @@
     * [Schemas](learn/product-and-developer-guide/content-service/schemas.md)
     * [APIs](learn/product-and-developer-guide/content-service/content-api.md)
     * [Configuration](learn/product-and-developer-guide/content-service/service-configuration.md)
-    * [How to setup](learn/product-and-developer-guide/content-service/how-to-setup.md)
-    * [Deployment](learn/product-and-developer-guide/content-service/deployment.md)
     * [FAQs](learn/product-and-developer-guide/content-service/faqs.md)
     * [Channel Service](learn/product-and-developer-guide/content-service/channel-service/README.md)
       * [Architecture](learn/product-and-developer-guide/content-service/channel-service/architecture.md)
