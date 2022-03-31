@@ -2,32 +2,58 @@
 
 Please refer to [FAQs of sunbird](http://docs.sunbird.org/latest/faqs/) documents for more questions
 
+<details>
 
-
-1. How to setup content player v1?
+<summary>How to setup content player v1?</summary>
 
 Refer [setup the content player](../../../../use/installation-guide/players/v1/how-to-setup.md) locally.
 
-2\. How to configure content player v1?
+</details>
+
+<details>
+
+<summary> How to configure content player v1?</summary>
 
 Refer [configuration section](faqs.md#configurations) for configuration.
 
-3\. How to launch the different types of contents in content player v1
+</details>
+
+<details>
+
+<summary>How to launch the different types of contents in content player v1</summary>
 
 Refer [content launchers](faqs.md#content-launchers) section.
 
-4\. What is mimeType
+</details>
+
+<details>
+
+<summary>What is mimeType</summary>
 
 Refer [mime Type](faqs.md#mime-type) section
 
-5\. Can we switch the user while playing the contents
+</details>
+
+<details>
+
+<summary>Can we switch the user while playing the contents</summary>
 
 Yes, we can switch the user while playing the contents. Refer [user switcher config](faqs.md#sample-overlay-config) section for more information.
 
-6\. How to render the HTML file in content player v1?
+</details>
+
+<details>
+
+<summary>How to render the HTML file in content player v1?</summary>
 
 Refer [HTML/h5p player](players/html-h5p-player-v1.md) v1 page
 
-7\. Video can be stream in content player v1?
+</details>
+
+<details>
+
+<summary>Video can be stream in content player v1?</summary>
 
 Yes, Video can be stream using the [streamingUrl](broken-reference). For more information refer [video player v1](broken-reference) page
+
+</details>

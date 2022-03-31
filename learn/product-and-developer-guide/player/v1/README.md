@@ -6,59 +6,50 @@ description: >-
 
 # V1
 
-## Architecture
+This is the classic version of the player. The following formats are supported by this player:
 
-## Players
+* ECML
+* PDF
+* EPUB
+* HTML and H5P
+* Video (MP4, WebM)
+* Youtube
 
-{% content-ref url="players/html-h5p-player-v1.md" %}
-[html-h5p-player-v1.md](players/html-h5p-player-v1.md)
-{% endcontent-ref %}
+![](<../../../../.gitbook/assets/Screenshot from 2021-11-24 15-00-25.png>)
 
-{% content-ref url="players/epub-player-v1.md" %}
-[epub-player-v1.md](players/epub-player-v1.md)
-{% endcontent-ref %}
+### MIME Type
 
-{% content-ref url="players/pdf-player-v1.md" %}
-[pdf-player-v1.md](players/pdf-player-v1.md)
-{% endcontent-ref %}
+**What is mime-type**
 
-{% content-ref url="players/ecml-player-v1.md" %}
-[ecml-player-v1.md](players/ecml-player-v1.md)
-{% endcontent-ref %}
+MIME Types defines the what type of the content it is. According to the mimeType you can load the specific content launcher and play the different types of contents
 
-{% content-ref url="players/video-player-v1.md" %}
-[video-player-v1.md](players/video-player-v1.md)
-{% endcontent-ref %}
+#### Sample config to load the MIME types
 
-FAQ's\
+```
+mimetypes: [
+    "application/vnd.ekstep.ecml-archive",
+    "application/vnd.ekstep.html-archive",
+    "application/vnd.ekstep.h5p-archive",
+    "application/epub",
+    "video/mp4",
+    "application/pdf",
+    "video/x-youtube",
+    "video/webm",
+    "audio/mp3"
+]
+```
 
+**Supported MIME Types are:**
 
-
-Please refer to [FAQs of sunbird](http://docs.sunbird.org/latest/faqs/) documents
-
-ans: Please refer this link to [setup the content player](../../../../use/installation-guide/players/v1/how-to-setup.md) locally.
-
-2\. How to configure content player v1
-
-ans: Please refer [configuration section](./#configurations) for configuration.
-
-3\. How to launch the different types of contents in content player v1
-
-ans: Please refer [content launchers](./#content-launchers) section.
-
-4\. What is mimeType
-
-ans: Please refer [mime Type](./#mime-type) section
-
-5\. Can we switch the user while playing the contents
-
-ans: Yes, we can switch the user while playing the contents. Please refer refer [user switcher config](./#sample-overlay-config) section for more information.
-
-6\. How to render the HTML file in content player v1?
-
-ans: Please refer [HTML/h5p player](players/html-h5p-player-v1.md) v1 page
-
-7\. Video can be stream in content player v1?
-
-ans: Yes, Video can be stream using the [streamingUrl](broken-reference). for more please refer [video player v1](broken-reference) page
+| Content Format                                                                                                                                                              | MIME Type                                                                                                                                                                               |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [ECML](players/ecml-player-v1.md)                                                                                                                                           | [application/vnd.ekstep.ecml-archive](players/ecml-player-v1.md)                                                                                                                        |
+| [HTML](players/html-h5p-player-v1.md)                                                                                                                                       | [application/vnd.ekstep.html-archive](players/html-h5p-player-v1.md)                                                                                                                    |
+| [PDF](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/aanfWbeVT74C5lXDPde3/\~/changes/uO8tokGf3RxCXA1P4fnr/learn/product-and-developer-guide/content-player-v1/pdf-player) | [application/pdf](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/aanfWbeVT74C5lXDPde3/\~/changes/uO8tokGf3RxCXA1P4fnr/learn/product-and-developer-guide/content-player-v1/pdf-player) |
+| [Epub](players/epub-player-v1.md)                                                                                                                                           | [application/epub](players/epub-player-v1.md)                                                                                                                                           |
+| [H5P](players/html-h5p-player-v1.md)                                                                                                                                        | [application/vnd.ekstep.h5p-archive](players/html-h5p-player-v1.md)                                                                                                                     |
+| YOUTUBE                                                                                                                                                                     | video/x-youtube                                                                                                                                                                         |
+| WEBM                                                                                                                                                                        | video/Webm                                                                                                                                                                              |
+| MP4                                                                                                                                                                         | video/mp4                                                                                                                                                                               |
+| EXTERNAL CONTENT                                                                                                                                                            | text/x-url                                                                                                                                                                              |
 
