@@ -6,9 +6,9 @@ description: >-
 
 # Editors
 
-Sunbird houses a wide variety of content. Users can create content on Sunbird or upload content that is created offline.
+Sunbird houses a wide variety of assets. Users can create them either from scratch or upload already created content using the editors provided by Sunbird Knowlg.
 
-As the name indicates, there are multiple editors to create a specific type of content.
+There are multiple editors - depending on the type of content.
 
 | Editor                                                                            | Type                             | Mime types                                                                                                                       | Git Repo                                                                          |
 | --------------------------------------------------------------------------------- | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
