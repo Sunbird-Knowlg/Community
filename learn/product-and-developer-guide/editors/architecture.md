@@ -2,9 +2,7 @@
 
 ### Plugin Framework
 
-The plugin framework is the core custom framework build by Ekstep. Which will enables external users to contribute, Easy maintainability & scale.
-
-This plugin framework is used as a core framework to build all the editors which are listed in the below diagram.
+Plugin framework is the core custom framework of the editors. Each capability is a plugin thereby enabling anyone to contribute new capabilities, ease of maintenance, scalability and extensibility.
 
 {% hint style="info" %}
 <mark style="color:blue;">**Good to know:**</mark>  The [collection editor - V2](collection-editor-v2/) is not part of the plugin framework.
