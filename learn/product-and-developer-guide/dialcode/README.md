@@ -5,7 +5,7 @@ description: >-
   API that enables create, retrieve, delete, publi
 ---
 
-# Phygital discovery
+# DIAL Service
 
 DIAL refers to _Digital Infrastructure for Augmented learning_. It provides tools for DIAL code management. DIAL powers the discovery of digital resources using physical artefacts like QR codes, can be extended to other physical artefacts. DIAL code does the loose binding of digital assets with physical artefacts.
 
@@ -18,6 +18,6 @@ In practice physical artefacts will be published once, serving as coordinate to 
 * User scans the DIAL code and access all the linked assets in that folder
 * This enables easy extension and modification of assets accessed through a DIAL code
 
-![DIAL code  as coordinate to discover digital coordinates](<../../.gitbook/assets/DIAL\_code\_ flow (1).png>)
+![DIAL code  as coordinate to discover digital coordinates](<../../../.gitbook/assets/DIAL\_code\_ flow (1).png>)
 
 [DIAL API](http://docs.sunbird.org/latest/apis/dialapi/) DIAL service provides the APIs to manage DIAL codes.
