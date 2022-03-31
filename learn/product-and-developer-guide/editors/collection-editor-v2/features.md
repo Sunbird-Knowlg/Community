@@ -8,7 +8,7 @@ description: Here are the list of features.
 
 <summary>Mode</summary>
 
-The editor can be set into a read-only mode simply by changing the value of the Config#mode property. \
+The editor can be set into a read-only mode, by changing the value of the Config#mode property. \
 \
 Following are types of mode:\
 1\.  read\
@@ -75,9 +75,9 @@ Here is the sample configuration for review mode:
 
 <details>
 
-<summary>Asset Config</summary>
+<summary>Media Upload Config</summary>
 
-Asset Config sets the max size limit for images to be uploaded in the collection editor and the type of images.\
+Media Config sets the max size limit for images to be uploaded in the collection editor and the type of images.\
 Here is the configuration:
 
 ```
@@ -98,7 +98,7 @@ Here is the configuration:
 
 <details>
 
-<summary>Organize collection TOC</summary>
+<summary>Organize TOC</summary>
 
 The maximum number of levels in the collection has to be defined using the `maxDepth` property. This has to be updated in the object metadata of the primary category definition under hierarchy.\
 `maxDepth` defines the level of collection i.e at which level content is to be linked. If `maxDepth` is set as 0, `Add from library` button gets enabled at the root node.
@@ -151,8 +151,7 @@ Here is the configuration:
 ```
 
 _**(Note: If you add more depth you need to add more levels in the hierarchy.)**_\
-![](<../../../../.gitbook/assets/NIT (4).png>)\
-
+![](<../../../../.gitbook/assets/NIT (4).png>)
 
 </details>
 
@@ -160,7 +159,7 @@ _**(Note: If you add more depth you need to add more levels in the hierarchy.)**
 
 <summary>Collaboration</summary>
 
-When "showAddCollaborator" is set it to `true` it enables the add collaborator option in the collection editor. With which creator can as select the collaborate to contribute to the same collection.\
+This feature allow us to share the collection with other users so they can contribure back to the same collection. To enables the add collaborator option in the collection editor. With which creator can as select the collaborate to contribute to the same collection.\
 Here is the configuration:
 
 ```
@@ -170,26 +169,6 @@ Here is the configuration:
 ```
 
 ![](<../../../../.gitbook/assets/NIT (3).png>)
-
-</details>
-
-<details>
-
-<summary><strong>Max contents limit</strong></summary>
-
-This defines the maximum number of content to be created in a collection.\
-Here is the configuration:
-
-```
-"config": {  
-    collection: {
-      maxContentsLimit: 8,
-    }
-}
-```
-
-Suppose if `maxContentsLimit` is set to **“8“** then while trying to add new content from `Add from library` it will give an error maxlimit message as:\
-\*\*\*\*![](../../../../.gitbook/assets/SunbirdCollectionEditor\_and\_New\_Tab.png)
 
 </details>
 
@@ -247,7 +226,7 @@ This defines the icon which comes in the node and levels, you can set your own i
 
 <summary>Add from library</summary>
 
-This feature allows us to link content to any unit/level of the collection.\
+This feature allows us to link content to any unit/level  from the add from library page.\
 Here's the sample configuration:
 
 ```
@@ -300,6 +279,24 @@ config: {
 
 ![](<../../../../.gitbook/assets/NIT (7).png>)![](<../../../../.gitbook/assets/NIT (9).png>)![](../../../../.gitbook/assets/NIT\_and\_data\_ts\_—\_sunbird-collection-editor-1.png)![](<../../../../.gitbook/assets/NIT (2).png>)
 
+Following are the configuration for add from library page:\
+\
+**1. Max content limit**\
+This defines the maximum number of content to be created in a collection.\
+Here is the configuration:
+
+```
+"config": {  
+    collection: {
+      maxContentsLimit: 8,
+    }
+}
+```
+
+Suppose if `maxContentsLimit` is set to **“8“** then while trying to add new content from `Add from library` it will give an error maxlimit message as:\
+![](../../../../.gitbook/assets/SunbirdCollectionEditor\_and\_New\_Tab.png) \
+\
+**2. Configure specific contents** \
 By using this configuration, you can also filter specific contents in the add form library page.
 
 ```

@@ -14,9 +14,10 @@ Collection Editor which allows users to create a group of contents. It can be (E
 
 ## :stars:Tech Stack
 
-* **Angular v9**
-* **HTML, SCSS**
-* **Typescript**
+1. Angular
+2. Typescript
+3. Javascript
+4. HTML/SCSS
 
 ## :stars:Installation guide
 

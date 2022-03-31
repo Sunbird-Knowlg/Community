@@ -1,10 +1,18 @@
 # Collection Editor - V2
 
-## :stars:How to setup
+### System Requirements <a href="#system-requirements" id="system-requirements"></a>
+
+To install the editor, ensure that your laptop or desktop has the following minimum system requirements:
+
+* Operating System: Windows 7 and above, or 4.2 Mac OS X 10.0 and above/Linux
+* RAM: >2GB
+* CPU: 2 cores, >2 GHz
+
+### How to setup
 
 Please refer to the [README](https://github.com/Sunbird-Ed/sunbird-collection-editor/tree/release-4.8.0#readme).md of the git repository
 
-## :stars:Configuration
+### Configuration
 
 Before going to the next section, you should know about [object category definition](https://project-sunbird.atlassian.net/wiki/spaces/SingleSource/pages/2696183813/How+to+configure+forms+in+primaryCategory#Overview) is the key part of the configuration to load the editor.\
 \
@@ -17,9 +25,7 @@ For more information, please refer to the [config section of the README.md ](htt
 
 {% embed url="https://github.com/Sunbird-Ed/sunbird-collection-editor/blob/d033e4d7495e63e2e0f05641491a51184dcc17fa/docs/CONFIGURATION.md" %}
 
-## :stars:Dependencies
-
-### Internal Dependencies
+### Dependencies
 
 #### [Content Service](../../../learn/product-and-developer-guide/content-service/)
 
@@ -32,8 +38,6 @@ The content players are used to playing the different types of content such as P
 <mark style="color:blue;">****</mark>[<mark style="color:blue;">**SunbirdEd Forms**</mark>](https://ed.sunbird.org/use/learn-more/specifications/sunbirded-forms)
 
 Contains Form component powered by angular. This component expects a configuration and renders form according to the view.
-
-### External Dependencies
 
 #### [Sunbird Telemetry](https://telemetry.sunbird.org)
 

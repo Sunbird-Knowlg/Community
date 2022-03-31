@@ -27,9 +27,10 @@ To overcome the above challenges the new collection-editor version-2 built with 
 
 ## :stars:Tech Stack
 
-* **Angular v9**
-* **HTML, SCSS**
-* **Typescript**
+1. Angular
+2. Typescript
+3. Javascript
+4. HTML/SCSS
 
 ## :stars:Installation guide
 

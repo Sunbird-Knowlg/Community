@@ -4,18 +4,19 @@ The ECML editor is similar to Google slides. Using this editor the users can add
 
 Once the content is updated in the slides, users can preview the content on how
 
-![](<../../../.gitbook/assets/image (4).png>)
+![](<../../../../.gitbook/assets/image (4).png>)
 
 ## :stars:Tech Stack
 
-* **AngularJS**
-* **HTML, CSS**
-* **JavaScript**
+1. Angular
+2. Typescript
+3. Javascript
+4. HTML/SCSS
 
-## :stars:Installation guide
+## :stars:Installation Guide
 
-{% content-ref url="../../../use/installation-guide/editors/interactive-editor.md" %}
-[interactive-editor.md](../../../use/installation-guide/editors/interactive-editor.md)
+{% content-ref url="../../../../use/installation-guide/editors/interactive-editor.md" %}
+[interactive-editor.md](../../../../use/installation-guide/editors/interactive-editor.md)
 {% endcontent-ref %}
 
 ## :stars:Git Repo

@@ -21,9 +21,10 @@ The file upload editor is used to create for all non-ECML contents. This editor 
 
 ## :stars:Tech Stack
 
-* **AngularJS**
-* **HTML, CSS**
-* **JavaScript**
+1. Angular
+2. Typescript
+3. Javascript
+4. HTML/SCSS
 
 ## :stars:Installation guide
 
@@ -34,3 +35,7 @@ The file upload editor is used to create for all non-ECML contents. This editor 
 ## :stars:Git Repo
 
 {% embed url="https://github.com/project-sunbird/sunbird-generic-editor" %}
+
+## ​:stars:FAQ's
+
+Please refer this link for FAQ's : [http://docs.sunbird.org/latest/faqs/content\_upload/](http://docs.sunbird.org/latest/faqs/content\_upload/)
