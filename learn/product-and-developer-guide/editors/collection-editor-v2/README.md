@@ -38,11 +38,3 @@ Collection Editor - V2 is a generalized editor which can be used for creating, v
 {% content-ref url="../../../../use/installation-guide/editors/collection-editor-v2.md" %}
 [collection-editor-v2.md](../../../../use/installation-guide/editors/collection-editor-v2.md)
 {% endcontent-ref %}
-
-## :stars:Git Repo
-
-{% embed url="https://github.com/Sunbird-Ed/sunbird-collection-editor" %}
-
-## :stars:NPM Repository
-
-{% embed url="https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor" %}

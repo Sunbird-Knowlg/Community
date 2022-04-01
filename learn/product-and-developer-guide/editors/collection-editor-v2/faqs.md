@@ -282,8 +282,320 @@ Here's the sample configuration for the Digital textbook:
 
 <details>
 
-<summary>How to filter specific contents in the "Add from Library" Page?</summary>
+<summary>Is it possible to add review comment in the editor?</summary>
 
+Yes, For more information please check the [features](features.md) section of the editor.
 
+</details>
+
+<details>
+
+<summary>What is the "Publish checklist" in the editor?</summary>
+
+When the reviewer tries to publish the collection, a dialog with the list of items in the checklist is shown. The reviewer has to check all the items before the collection can be published.\
+![](<../../../../.gitbook/assets/NIT (1).png>)
+
+In case there is no checklist configured, a standard confirmation dialog is shown. \
+![](../../../../.gitbook/assets/NIT\_and\_FAQ\_s\_-\_Sunbird\_Knowlg.png)\
+\
+The checklist is currently configured at a tenant level. It can be updated in the object category definition of the collection under the publish checklist form.
+
+```
+{
+    "objectCategoryDefinition": {
+        "identifier": "obj-cat:digital-textbook_collection_all",
+        "objectMetadata": {
+            "config": {
+              ...
+            },
+            "schema": {
+              ...
+            }
+        },
+        "name": "Digital Textbook",
+        "forms": {
+            "publishchecklist": {
+                "templateName": "",
+                "required": [],
+                "properties": [
+                    {
+                        "name": "Appropriateness",
+                        "renderingHints": {
+                            "class": "d-grid-inline-3 display-sectionName"
+                        },
+                        "fields": [
+                            {
+                                "code": "appropriatenessOne",
+                                "name": "No Hate speech, Abuse, Violence, Profanity",
+                                "label": "No Hate speech, Abuse, Violence, Profanity",
+                                "dataType": "boolean",
+                                "inputType": "checkbox",
+                                "editable": true,
+                                "required": false,
+                                "visible": true,
+                                "validations": [
+                                    {
+                                        "type": "required",
+                                        "message": ""
+                                    }
+                                ],
+                                "renderingHints": {
+                                    "class": "sb-g-col-lg-1"
+                                }
+                            },
+                            {
+                                "code": "appropriatenessTwo",
+                                "name": "No Sexual content, Nudity or Vulgarity",
+                                "label": "No Sexual content, Nudity or Vulgarity",
+                                "dataType": "boolean",
+                                "inputType": "checkbox",
+                                "editable": true,
+                                "required": false,
+                                "visible": true,
+                                "validations": [
+                                    {
+                                        "type": "required",
+                                        "message": ""
+                                    }
+                                ],
+                                "renderingHints": {
+                                    "class": "sb-g-col-lg-1"
+                                }
+                            },
+                            {
+                                "code": "appropriatenessThree",
+                                "name": "No Discrimination or Defamation",
+                                "label": "No Discrimination or Defamation",
+                                "dataType": "boolean",
+                                "inputType": "checkbox",
+                                "editable": true,
+                                "required": false,
+                                "visible": true,
+                                "validations": [
+                                    {
+                                        "type": "required",
+                                        "message": ""
+                                    }
+                                ],
+                                "renderingHints": {
+                                    "class": "sb-g-col-lg-1"
+                                }
+                            },
+                            {
+                                "code": "appropriatenessFour",
+                                "name": "Is suitable for children",
+                                "label": "Is suitable for children",
+                                "dataType": "boolean",
+                                "inputType": "checkbox",
+                                "editable": true,
+                                "required": false,
+                                "visible": true,
+                                "validations": [
+                                    {
+                                        "type": "required",
+                                        "message": ""
+                                    }
+                                ],
+                                "renderingHints": {
+                                    "class": "sb-g-col-lg-1"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Content details",
+                        "renderingHints": {
+                            "class": "d-grid-inline-3 display-sectionName"
+                        },
+                        "fields": [
+                            {
+                                "code": "contentdetailsOne",
+                                "name": "Appropriate Title, Description",
+                                "label": "Appropriate Title, Description",
+                                "dataType": "boolean",
+                                "inputType": "checkbox",
+                                "editable": true,
+                                "required": false,
+                                "visible": true,
+                                "validations": [
+                                    {
+                                        "type": "required",
+                                        "message": ""
+                                    }
+                                ],
+                                "renderingHints": {
+                                    "class": "sb-g-col-lg-1"
+                                }
+                            },
+                            {
+                                "code": "contentdetailsTwo",
+                                "name": "Correct Board, Grade, Subject, Medium",
+                                "label": "Correct Board, Grade, Subject, Medium",
+                                "dataType": "boolean",
+                                "inputType": "checkbox",
+                                "editable": true,
+                                "required": false,
+                                "visible": true,
+                                "validations": [
+                                    {
+                                        "type": "required",
+                                        "message": ""
+                                    }
+                                ],
+                                "renderingHints": {
+                                    "class": "sb-g-col-lg-1"
+                                }
+                            },
+                            {
+                                "code": "contentdetailsThree",
+                                "name": "Appropriate tags such as Resource Type, Concepts",
+                                "label": "Appropriate tags such as Resource Type, Concepts",
+                                "dataType": "boolean",
+                                "inputType": "checkbox",
+                                "editable": true,
+                                "required": false,
+                                "visible": true,
+                                "validations": [
+                                    {
+                                        "type": "required",
+                                        "message": ""
+                                    }
+                                ],
+                                "renderingHints": {
+                                    "class": "sb-g-col-lg-1"
+                                }
+                            },
+                            {
+                                "code": "contentdetailsFour",
+                                "name": "Relevant Keywords",
+                                "label": "Relevant Keywords",
+                                "dataType": "boolean",
+                                "inputType": "checkbox",
+                                "editable": true,
+                                "required": false,
+                                "visible": true,
+                                "validations": [
+                                    {
+                                        "type": "required",
+                                        "message": ""
+                                    }
+                                ],
+                                "renderingHints": {
+                                    "class": "sb-g-col-lg-1"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Usability",
+                        "renderingHints": {
+                            "class": "d-grid-inline-3 display-sectionName"
+                        },
+                        "fields": [
+                            {
+                                "code": "usabilityOne",
+                                "name": "Content plays correctly",
+                                "label": "Content plays correctly",
+                                "dataType": "boolean",
+                                "inputType": "checkbox",
+                                "editable": true,
+                                "required": false,
+                                "visible": true,
+                                "validations": [
+                                    {
+                                        "type": "required",
+                                        "message": ""
+                                    }
+                                ],
+                                "renderingHints": {
+                                    "class": "sb-g-col-lg-1"
+                                }
+                            },
+                            {
+                                "code": "usabilityTwo",
+                                "name": "Can see the content clearly on Desktop and App",
+                                "label": "Can see the content clearly on Desktop and App",
+                                "dataType": "boolean",
+                                "inputType": "checkbox",
+                                "editable": true,
+                                "required": false,
+                                "visible": true,
+                                "validations": [
+                                    {
+                                        "type": "required",
+                                        "message": ""
+                                    }
+                                ],
+                                "renderingHints": {
+                                    "class": "sb-g-col-lg-1"
+                                }
+                            },
+                            {
+                                "code": "usabilityThree",
+                                "name": "Audio (if any) is clear and easy to understand",
+                                "label": "Audio (if any) is clear and easy to understand",
+                                "dataType": "boolean",
+                                "inputType": "checkbox",
+                                "editable": true,
+                                "required": false,
+                                "visible": true,
+                                "validations": [
+                                    {
+                                        "type": "required",
+                                        "message": ""
+                                    }
+                                ],
+                                "renderingHints": {
+                                    "class": "sb-g-col-lg-1"
+                                }
+                            },
+                            {
+                                "code": "usabilityFour",
+                                "name": "No Spelling mistakes in the text",
+                                "label": "No Spelling mistakes in the text",
+                                "dataType": "boolean",
+                                "inputType": "checkbox",
+                                "editable": true,
+                                "required": false,
+                                "visible": true,
+                                "validations": [
+                                    {
+                                        "type": "required",
+                                        "message": ""
+                                    }
+                                ],
+                                "renderingHints": {
+                                    "class": "sb-g-col-lg-1"
+                                }
+                            },
+                            {
+                                "code": "usabilityFive",
+                                "name": "Language is simple to understand",
+                                "label": "Language is simple to understand",
+                                "dataType": "boolean",
+                                "inputType": "checkbox",
+                                "editable": true,
+                                "required": false,
+                                "visible": true,
+                                "validations": [
+                                    {
+                                        "type": "required",
+                                        "message": ""
+                                    }
+                                ],
+                                "renderingHints": {
+                                    "class": "sb-g-col-lg-1"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "review": {},
+            "update": {}
+        }
+    }
+}
+```
 
 </details>

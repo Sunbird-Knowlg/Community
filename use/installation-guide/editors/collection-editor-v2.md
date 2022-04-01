@@ -1,5 +1,9 @@
 # Collection Editor - V2
 
+Please refer to the Github readme document.
+
+{% embed url="https://github.com/Sunbird-Ed/sunbird-collection-editor" %}
+
 ### System Requirements <a href="#system-requirements" id="system-requirements"></a>
 
 To install the editor, ensure that your laptop or desktop has the following minimum system requirements:
@@ -42,3 +46,7 @@ Contains Form component powered by angular. This component expects a configurati
 #### [Sunbird Telemetry](https://telemetry.sunbird.org)
 
 Sunbird Telemetry is a specification to instrument all the key events. Using this specification reference applications & services will generate telemetry events.
+
+### NPM Repository
+
+{% embed url="https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor" %}

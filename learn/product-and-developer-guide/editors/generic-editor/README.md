@@ -6,7 +6,7 @@ description: File upload editor(pdf, video, h5p, epub etc..)
 
 The file upload editor enables creators to create content by a simple upload. This editor supports upload of content which can be uploaded as files(H5P, epub, PDF, HTML, Youtube, Video).
 
-![](<../../../../.gitbook/assets/image (3).png>)
+![](../../../../.gitbook/assets/image1.png)
 
 ## :stars:Supported files
 
@@ -32,10 +32,6 @@ The file upload editor enables creators to create content by a simple upload. Th
 [file-upload-editor.md](../../../../use/installation-guide/editors/file-upload-editor.md)
 {% endcontent-ref %}
 
-## :stars:Git Repo
-
-{% embed url="https://github.com/project-sunbird/sunbird-generic-editor" %}
-
 ## ​:stars:FAQ's
 
-Please refer this link for FAQ's : [http://docs.sunbird.org/latest/faqs/content\_upload/](http://docs.sunbird.org/latest/faqs/content\_upload/)
+Please refer to this link for FAQ's: [http://docs.sunbird.org/latest/faqs/content\_upload/](http://docs.sunbird.org/latest/faqs/content\_upload/)

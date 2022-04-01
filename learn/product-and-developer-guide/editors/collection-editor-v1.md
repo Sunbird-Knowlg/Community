@@ -24,7 +24,3 @@ Collection editor enables creators to create collections such as courses textboo
 {% content-ref url="../../../use/installation-guide/editors/collection-editor-v1.md" %}
 [collection-editor-v1.md](../../../use/installation-guide/editors/collection-editor-v1.md)
 {% endcontent-ref %}
-
-## :stars:Git repo
-
-{% embed url="https://github.com/project-sunbird/sunbird-collection-editor" %}

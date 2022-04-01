@@ -17,6 +17,3 @@ The interactive editor is similar to Google slides. Using this editor users can 
 [interactive-editor.md](../../../../use/installation-guide/editors/interactive-editor.md)
 {% endcontent-ref %}
 
-## :stars:Git Repo
-
-{% embed url="https://github.com/project-sunbird/sunbird-content-editor" %}

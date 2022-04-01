@@ -1,5 +1,9 @@
 # Interactive Editor
 
+Please refer to the Github readme document.
+
+{% embed url="https://github.com/project-sunbird/sunbird-content-editor" %}
+
 ### System Requirements <a href="#system-requirements" id="system-requirements"></a>
 
 To install the editor, ensure that your laptop or desktop has the following minimum system requirements:

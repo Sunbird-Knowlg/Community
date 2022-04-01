@@ -1,6 +1,6 @@
 # Architecture
 
-![Collection Editor V2 - Architecture](<../../../../.gitbook/assets/collection-editor-architecture.drawio (1).png>)
+![Collection Editor V2 - Architecture](../../../../.gitbook/assets/collection-editor-architecture-Page-4.png)
 
 <mark style="color:blue;">****</mark>[<mark style="color:blue;">**Fancytree**</mark>](https://github.com/mar10/fancytree/wiki)****\
 ****The main purpose of using fancytree is the tree view/tree grid that allows to dynamically render powerful, user-friendly tree view, drag\&drop, lazy loading, and/or JSON data.
@@ -18,12 +18,3 @@
 ****This is used for generating the telemetry from the editor as a utility dependency library.
 
 [**Telemetry SDK**](https://telemetry.sunbird.org)
-
-****
-
-****\
-****\
-****\
-****\
-****
-
