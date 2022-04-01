@@ -21,7 +21,3 @@ Epub player is a lightweight player built to deliver better performance and load
 {% content-ref url="../../../../../use/installation-guide/players/v2/epub-player.md" %}
 [epub-player.md](../../../../../use/installation-guide/players/v2/epub-player.md)
 {% endcontent-ref %}
-
-### Git Repo
-
-{% embed url="https://github.com/project-sunbird/sunbird-epub-player/tree/main" %}

@@ -84,7 +84,3 @@ This feature is used play and pause the content
 This feature will help us play the video at different speeds.![](../../../../../.gitbook/assets/videoPlayerV2PlayingRate.png)
 
 </details>
-
-### Git Repo
-
-{% embed url="https://github.com/project-sunbird/sunbird-video-player/tree/master" %}

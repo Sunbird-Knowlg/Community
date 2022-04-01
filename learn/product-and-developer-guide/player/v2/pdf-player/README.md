@@ -16,14 +16,10 @@ The [Content v1 player](broken-reference) is packaged to play multiple asset typ
 [pdf-player.md](../../../../../use/installation-guide/players/v2/pdf-player.md)
 {% endcontent-ref %}
 
-### Git Repo
-
 ### Additional Information:
 
 Refer the below documents for more context about the PDF player
 
 {% embed url="https://project-sunbird.atlassian.net/wiki/spaces/CON/pages/1586561053/PDF+Player+V2" %}
-
-{% embed url="https://github.com/project-sunbird/sunbird-pdf-player/tree/master" %}
 
 {% embed url="https://project-sunbird.atlassian.net/wiki/spaces/CON/pages/1700102177/PDF+Player+v2.0+Architecture" %}
