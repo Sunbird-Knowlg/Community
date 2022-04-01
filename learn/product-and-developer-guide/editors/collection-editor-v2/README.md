@@ -4,9 +4,10 @@ description: Multilevel hierarchy contents like Book, Course, Collection, etc.
 
 # Collection Editor - V2
 
-As the Collection-Editor evolves to create the collection contents like(Textbook, Course, Collection etc..), we have noticed users facing some difficulty to prepare the skeleton of the collection & collaborating with contributors to enrich the content.
+Collection Editor - V2 is a generalized editor which can be used for creating, viewing and editing multiple types of learning assets that are assets of collection mime-type. They can be - a collection of content (like textbook, course, program etc.), a Question set (collection of questions) or any other object type that is a collection of other objects. The generalized collection editor has the following benefits:
 
-To overcome the above challenges the new collection-editor version-2 built with an upgraded tech stack.
+* Ensure all existing collection categories like textbook, course use the same code. Hence, ease of maintenance.
+* Editors for new collection categories can be enabled with minimal or no coding.
 
 ## :stars:Capabilities
 
