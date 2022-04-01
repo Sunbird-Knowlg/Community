@@ -1,6 +1,6 @@
 # Architecture
 
-![Content player v1 architecture](<../../../../.gitbook/assets/Content  player Achitecture-PDF player-Epub player 2.drawio (1).png>)
+![Content player v1 architecture](<../../../../.gitbook/assets/contentv1fea-Epub player 2.drawio.png>)
 
 ### Content Launchers
 
