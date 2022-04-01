@@ -8,7 +8,7 @@ description: Multilevel hierarchy contents like Book, Course, Collection, etc.
 **Note:** The collection editor - V1 is <mark style="color:orange;">not maintained</mark> anymore. So we encourage all to upgrade to the [**Collection Editor V2**](collection-editor-v2/)**.**
 {% endhint %}
 
-Collection Editor which allows users to create a group of contents. It can be (ECML, Pdf, HTML, H5P, Epub, Youtube, Mp4/Webm)
+Collection editor enables creators to create collections such as courses textbooks etc. The key capabilities of this editor are: a) ability for creators to define the structure of the ToC b) ability to tag the collection and c) link assets to the collection&#x20;
 
 ![](<../../../.gitbook/assets/image (2) (1).png>)
 
