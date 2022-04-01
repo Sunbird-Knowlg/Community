@@ -112,7 +112,7 @@
 
 ## ENGAGE
 
-* [Discuss](https://github.com/project-sunbird/sunbird-community/discussions)
+* [Discuss](https://github.com/Sunbird-knowlg/Community/discussions)
 
 ## USE
 
