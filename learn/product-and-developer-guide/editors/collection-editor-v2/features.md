@@ -6,7 +6,7 @@ description: Here are the list of features.
 
 <details>
 
-<summary>Mode</summary>
+<summary>Access Mode for different types of Users</summary>
 
 The editor can be set into a read-only mode, by changing the value of the Config#mode property. \
 \
@@ -75,7 +75,7 @@ Here is the sample configuration for review mode:
 
 <details>
 
-<summary>Media Upload Config</summary>
+<summary>Define the Media Size and Type as per your needs</summary>
 
 Media Config sets the max size limit for images to be uploaded in the collection editor and the type of images.\
 Here is the configuration:
@@ -98,7 +98,7 @@ Here is the configuration:
 
 <details>
 
-<summary>Organize TOC</summary>
+<summary>Structure the Editor TOC as per your needs</summary>
 
 The maximum number of levels in the collection has to be defined using the `maxDepth` property. This has to be updated in the object metadata of the primary category definition under hierarchy.\
 `maxDepth` defines the level of collection i.e at which level content is to be linked. If `maxDepth` is set as 0, `Add from library` button gets enabled at the root node.
@@ -157,9 +157,9 @@ _**(Note: If you add more depth you need to add more levels in the hierarchy.)**
 
 <details>
 
-<summary>Collaboration</summary>
+<summary>Collaborate and Create</summary>
 
-This feature allow us to share the collection with other users so they can contribure back to the same collection. To enables the add collaborator option in the collection editor. With which creator can as select the collaborate to contribute to the same collection.\
+This feature allow us to share the collection with other users so they can contribute back to the same collection. Here is the configuration to enable the add collaborator option in the collection editor: \
 Here is the configuration:
 
 ```
@@ -174,9 +174,9 @@ Here is the configuration:
 
 <details>
 
-<summary><strong>Content policy URL</strong></summary>
+<summary><strong>Publish Content in Adherence to your Platform Content Policy</strong></summary>
 
-It defines where should the content policy link should be redirected. This popup will get appear on click of `submit for review` button.\
+This capability is enabled by the '**Content policy URL.** It defines where should the content policy link should be redirected. This popup will get appear on click of `submit for review` button.\
 Here is the configuration:
 
 ```
@@ -191,9 +191,9 @@ Here is the configuration:
 
 <details>
 
-<summary>Generate/Link <strong>DIALCodes</strong></summary>
+<summary>Enable Phygital Discovery </summary>
 
-When "generateDIALCodes" is set to `yes` it enables the add dialcode option in the collection editor. With which the creator can generate and link to the same collection.\
+When "generateDIALCodes" is set to `yes` it enables the add dialcode option in the collection editor. Creators can then generate and link DIAL codes to the same collection.\
 `generateDIALCodes: yes/no`
 
 ![](<../../../../.gitbook/assets/NIT (8).png>)\
@@ -215,7 +215,7 @@ The default value is `2`
 
 <details>
 
-<summary>icon</summary>
+<summary>Nodel level Icons</summary>
 
 This defines the icon which comes in the node and levels, you can set your own icon here by adding the class of icon, in the root node for `iconClass: 'fa fa-book'` an icon is shown as:\
 ![](<../../../../.gitbook/assets/NIT (11).png>)
