@@ -70,7 +70,8 @@ Let's say you want to disable this feature for level1 and enable it for level2 t
 
 <summary>How to use collection editor with frameworks (Angular, React, Vue, etc.)?</summary>
 
-Currently, we are only supporting angular framework, not others frameworks likes react, Vue.\
+The current implementation supports using the editor with Angular framework. However, adopters can create custom integrations to work with other frameworks such as React, Vue etc.
+
 For angular, Please refer to the [README](https://github.com/Sunbird-Ed/sunbird-collection-editor/tree/release-4.8.0#readme).md of the [git repository](faqs.md#git-repo)
 
 </details>
