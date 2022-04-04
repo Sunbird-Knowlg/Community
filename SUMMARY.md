@@ -78,6 +78,7 @@
     * [FAQs](learn/product-and-developer-guide/content-service-1/faqs.md)
   * [Media service](learn/product-and-developer-guide/content-service-2/README.md)
     * [Architecture](learn/product-and-developer-guide/content-service-2/architecture.md)
+    * [Features](learn/product-and-developer-guide/content-service-2/features.md)
     * [Schemas](learn/product-and-developer-guide/content-service-2/schemas.md)
     * [APIs](learn/product-and-developer-guide/content-service-2/content-api.md)
     * [Configuration](learn/product-and-developer-guide/content-service-2/service-configuration.md)

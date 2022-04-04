@@ -1,16 +1,28 @@
 ---
 description: >-
   Content service is a micro-service which provides APIs to manage the lifecycle
-  and workflows of creation and consumption of content object.
+  and workflows of creation and consumption of content.
 ---
 
 # Features
 
-Content service is a micro-service which provides APIs to manage the lifecycle and workflows of creation and consumption of content object.
+Content service is a micro-service which provides APIs to manage the lifecycle and workflows of creation and consumption of content.
 
 ### **Offline Play**
 
 Enables offline consumption via generation of ECAR files in the packaging stage of the publish lifecycle. Contents can be download from _**downloadUrl**_. Two _**variants**_ of the ECAR are available for each content. i.e. FULL and SPINE. ECAR can be downloaded and extracted in client (mobile and desktop) to play offline.
+
+### **Publish control**
+
+Content publishing can be done in two ways: Public (status: Live) and Private (status: Unlisted). When the content status is _**Live**,_ content is available for consumption publicly. When the content status is _**Unlisted**,_ content can be accessed only by direct content link (deep link).
+
+### ECAR generation
+
+ECAR is an archive file which contains metadata and artifact related to content. After generating the ECAR file, it's uploaded to the cloud and tagged the _**downloadUrl**_ with the cloud path. ECAR generates the different variants - FULL, SPINE and ONLINE. All the variants URL are tagged in _**variants**_ attribute.
+
+* FULL - It contains metadata and all the artifacts.
+* SPINE - It contains metadata and app icons.
+* ONLINE - It contains only metadata.
 
 ```
 "downloadUrl": "<full ecar url>",
@@ -29,14 +41,6 @@ Enables offline consumption via generation of ECAR files in the packaging stage 
     }
 }
 ```
-
-### **Publish control**
-
-Content publishing can be done in two ways: Public (status: Live) and Private (status: Unlisted). When the content status is _**Live**,_ content is available for consumption publicly. When the content status is _**Unlisted**,_ content can be accessed only by direct content link (deep link).
-
-### ECAR generation
-
-TBD
 
 ### **Video Streaming**
 
@@ -60,7 +64,7 @@ Retired (status: Retired)
 Failed (status: Failed)
 ```
 
-Content object having the status Retired can't be discovered for consumption/adoption.\
+Content having the status Retired can't be discovered for consumption/adoption.\
 
 
 ![](<../../../.gitbook/assets/sunbird-knowlg-status flow diagram.png>)
@@ -95,21 +99,59 @@ You can define the target audience e.g. Student, Teacher, Administrator, Parent.
 
 ### **Organizing content based on channel**
 
-TBD channel/createdFor
+Contents created within an organization tagged with _channel_. Content created by any organization can be consumed by other organization, this can be managed by _createdFor_ attribute.&#x20;
 
 ### Organizing content by taxonomy
 
-TBD framework
+Contents can be tagged with framework and its category terms to categories it based on framework and enhance the search capabilities. To broaden the search criteria, it would be better to tag content with multiple framework and their category terms. With this, content can be available for different frameworks for consumption.
+
+Contents created within an organisation framework can also be available for other frameworks. Contents can be tagged with multiple frameworks and their respective categories, so that while searching with different frameworks (framework within which content is not created), contents can be available.
+
+More detail can be found [here](https://project-sunbird.atlassian.net/wiki/spaces/User/pages/1878884361/Tag+Contents+with+Multiple+Frameworks).
 
 ### List of supported content mimeType
 
-TBD
+```
+"application/pdf",
+"application/vnd.ekstep.ecml-archive",  
+"application/vnd.ekstep.html-archive",  
+"application/vnd.android.package-archive",  
+"application/vnd.ekstep.content-archive", 
+"application/epub", 
+"application/msword",   
+"application/vnd.ekstep.h5p-archive", 
+"video/webm", 
+"video/mp4"
+```
 
 ### Copy content
 
-* **Shallow copy:**\
-  TBD
-* **Deep copy:**\
-  TBD
+Platform supports deep and shallow copy. _**copyType**_ attribute hold the value of copy type. When you copy a content, it is tagged with _**origin**_ (URI of the source object) and _**originData**_ (basic metadata of the source object).
 
-### DIAL code
+* **Shallow copy:**\
+  A collection can also be reused (adopted) by creating a shallow copy of the collection. When a shallow copy is created, the hierarchy of the original collection is not modifiable in the shallow copy. Only the metadata such as name, description, icon etc. of the shallow copy is modifiable. Any change to the hierarchy of the original collection automatically reflects in the shallow copy.
+* **Deep copy:**\
+  Deep  copy makes the duplicate copy of the content. After that user can modify any metadata of the content.
+
+### [DIAL code generation](https://project-sunbird.atlassian.net/wiki/spaces/SingleSource/pages/1966080027/DIAL+Code+generation)
+
+A DIAL code is a unique code associated to a QR image. A DIAL code can be linked to any learning asset. However, sourcing solution currently enables generating DIAL codes for a collection and link them to the root as well as any node in its hierarchy.
+
+DIAL codes can be generated and linked to a draft version of a collection.
+
+### Concurrent Modification
+
+_versionKey_ attribute is used for concurrent modification. When ever update happened, content tagged wit the updated version key.
+
+### License
+
+Default licenses are available in systems listed below
+
+```
+"CC BY-NC-SA 4.0",
+"CC BY-NC 4.0",
+"CC BY-SA 4.0",
+"CC BY 4.0",
+"CC BY-ND 4.0",
+"Standard YouTube License"
+```
