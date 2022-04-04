@@ -105,7 +105,7 @@
   * [DIAL Service](learn/product-and-developer-guide/dialcode/README.md)
     * [Architecture](learn/product-and-developer-guide/dialcode/architecture.md)
     * [APIs](learn/product-and-developer-guide/dialcode/apis.md)
-    * [How to setup](learn/product-and-developer-guide/dialcode/how-to-setup.md)
+    * [Configuration](learn/product-and-developer-guide/dialcode/configuration.md)
     * [FAQs](learn/product-and-developer-guide/dialcode/faqs.md)
   * [Knowlg Jobs](learn/product-and-developer-guide/knowlg-jobs.md)
   * [Other](learn/product-and-developer-guide/other/README.md)

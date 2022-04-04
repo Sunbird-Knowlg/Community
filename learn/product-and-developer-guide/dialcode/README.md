@@ -20,8 +20,3 @@ In practice physical artefacts will be published once, serving as coordinate to 
 
 ![DIAL code  as coordinate to discover digital coordinates](<../../../.gitbook/assets/DIAL\_code\_ flow (1).png>)
 
-
-
-DIAL Service Usecase
-
-{% embed url="https://www.youtube.com/watch?t=612s&v=EtYU11qNciQ" %}
