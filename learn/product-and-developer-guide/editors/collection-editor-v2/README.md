@@ -12,19 +12,14 @@ Collection Editor - V2 is a generalized editor which can be used for creating, v
 ## :stars:Capabilities
 
 * [x] Efficient and performant handling of large data sets
-* [x] Ability to drag and drop any assets in a multi-level hierarchy.
-* [x] Ability to load dynamic reactive forms with configuration fields and validations
+* [x] Ability to load dynamic reactive forms and validations of form through configuration
 * [x] Configuration driven architecture
-* [x] Asset manager and uploader\
-  But there are some features available, for instance:\
-  **uploading** using the full user interface,\
-  **browsing** previously uploaded images,\
-  **organizing** images
-* [x] Supported multi types of content such as video, pdf, epub, etc…
+* [x] The asset manager for easy creation and discovery of assets (Images, Videos, etc…)
 * [x] Ability to organize your assets in a multi-level hierarchy
-* [x] Ability to link/delete any assets at any level of the hierarchy
-* [x] Ability to generate and link DIALcode to any level of hierarchy
+* [x] Ability to generate and link DIALcode(QRCodes) to any level of hierarchy.
 * [x] Ability to preview linked assets
+* [x] Collaboration of users
+* [x] Collection creation processes like Draft, Review, and Publish
 
 ## :stars:Tech Stack
 
