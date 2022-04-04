@@ -10,7 +10,7 @@ Please refer to the [Sunbird-Ed deployment ](https://ed.sunbird.org/use/prerequi
 [Sunbird ED](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/-MkgPDmvKwE\_DgYJbvPS/)
 {% endcontent-ref %}
 
-![](<../.gitbook/assets/SB-Knowlg (1).png>)
+![](<../.gitbook/assets/SB-Knowlg (2).png>)
 
 [SB-Knowlg ](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/aanfWbeVT74C5lXDPde3/)is packaged with some micro-services as shown in the above architecture.
 
