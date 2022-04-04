@@ -1,3 +1,3 @@
 # Technical Architecture
 
-![](<../.gitbook/assets/sunbird-knowlg-Knowlg Architecture.drawio.png>)
+![](../.gitbook/assets/kp\_architecture.png)
