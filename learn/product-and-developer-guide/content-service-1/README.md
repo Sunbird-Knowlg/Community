@@ -24,25 +24,9 @@ Draft --> Review --> Publish --> Package --> Update
 
 ![Asset lifecycle](<../../../.gitbook/assets/Asset LifeCycle.png>)
 
-The initial stage of asset creation is _Draft_. In this stage asset creation happens. After the creation asset move to the _Review_ stage\_.\_ In the _review_ stage, \_\_ the reviewer approves, reject or request changes in the assets. Reject and request change assets move back to the Draft stage. While approved assets move to Publish stage.
 
-Packaging follows immediately after the Publish stage. In the Package stage, an asset is prepared for online and offline usage. For online usage (streaming), assets are prepared for streaming flows. For offline assets are package and bundle to be used offline, Offline usage involves assets downloads first and uses later.
 
-## Object <a href="#object" id="object"></a>
-
-This is the master definition for Types of items that are supported on sunbird.\
-Example from education - _**Question set**_ is an object\
-Analogous example from the real-world - A _**foot wear**_ is an object
-
-An object is the core system entity through which any type of asset is managed. Services such as creation, modification, publishing, discovery, consumption - are built around the core objects.
-
-Since an object is the core entity that can be used across multiple use cases in multiple ways, it has to be defined, managed and support wide variety of behaviours, in a very generalized way, so that it can be easily reused in wide range of use cases.
-
-![](<../../../.gitbook/assets/Screenshot from 2021-11-25 08-59-20.png>) ![](<../../../.gitbook/assets/Screenshot from 2021-11-25 08-59-32.png>)
-
-{% embed url="https://project-sunbird.atlassian.net/wiki/spaces/CO/pages/1572536374/Object+Types" %}
-
-#### Youtube videos
+### Additional Information
 
 For further explanation of objects and categories can be found in the following videos:
 
