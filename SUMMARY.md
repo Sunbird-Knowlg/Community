@@ -39,6 +39,7 @@
         * [Features](learn/product-and-developer-guide/player/v2/video-player/features.md)
         * [Configuration](learn/product-and-developer-guide/player/v2/video-player/configuration.md)
         * [FAQ's](learn/product-and-developer-guide/player/v2/video-player/faqs.md)
+    * [Telemetry Events](learn/product-and-developer-guide/player/telemetry-events.md)
   * [Editors](learn/product-and-developer-guide/editors/README.md)
     * [Architecture](learn/product-and-developer-guide/editors/architecture.md)
     * [Interactive Editor](learn/product-and-developer-guide/editors/editor/README.md)

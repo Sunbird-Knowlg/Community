@@ -4,7 +4,7 @@ Epub player is a lightweight player built to deliver better performance and load
 
 
 
-**Design Document**:
+### **Design Document**:
 
 {% embed url="https://project-sunbird.atlassian.net/wiki/spaces/CON/pages/3060400129/Epub+Player+v2.0+Architecture" %}
 
@@ -16,7 +16,11 @@ Epub player is a lightweight player built to deliver better performance and load
 4. SCSS
 5. HTML
 
-## Installation guide
+### MIME Type
+
+MIME Types defines the what type of the content it is. this player supports for  **application/epub** type.
+
+### Installation guide
 
 {% content-ref url="../../../../../use/installation-guide/players/v2/epub-player.md" %}
 [epub-player.md](../../../../../use/installation-guide/players/v2/epub-player.md)

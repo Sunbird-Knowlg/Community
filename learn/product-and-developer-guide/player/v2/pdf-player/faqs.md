@@ -65,3 +65,11 @@ Follow the below link for version \
 [https://www.npmjs.com/package/@project-sunbird/sunbird-pdf-player-v9](https://www.npmjs.com/package/@project-sunbird/sunbird-pdf-player-v9)
 
 </details>
+
+<details>
+
+<summary>What is the size of the PDF content supported by player ?</summary>
+
+The player supports any size of the pdf content , but based on the size the loading time differs.&#x20;
+
+</details>

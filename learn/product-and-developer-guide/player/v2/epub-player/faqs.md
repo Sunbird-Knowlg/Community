@@ -49,3 +49,11 @@ Follow the below link for version \
 [https://www.npmjs.com/package/@project-sunbird/sunbird-epub-player-v9](https://www.npmjs.com/package/@project-sunbird/sunbird-epub-player-v9)
 
 </details>
+
+<details>
+
+<summary>What is the size of the EPUB content supported by player ?</summary>
+
+The player supports any size of the epub content , but based on the size the loading time differs.&#x20;
+
+</details>

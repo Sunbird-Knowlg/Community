@@ -1,6 +1,6 @@
 # Architecture
 
-![](<../../../../../.gitbook/assets/Content  player Achitecture-PDF player-Epub player 2.drawio (3).png>)
+![](../../../../../.gitbook/assets/contentPlayerV2Epub.png)
 
 **Common Service Lib:**
 

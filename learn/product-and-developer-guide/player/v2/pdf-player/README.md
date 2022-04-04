@@ -10,7 +10,11 @@ The [Content v1 player](broken-reference) is packaged to play multiple asset typ
 4. SCSS
 5. HTML
 
-## Installation guide
+### MIME Type
+
+MIME Types defines the what type of the content it is. this player supports for  **application/pdf** type.
+
+### Installation guide
 
 {% content-ref url="../../../../../use/installation-guide/players/v2/pdf-player.md" %}
 [pdf-player.md](../../../../../use/installation-guide/players/v2/pdf-player.md)
