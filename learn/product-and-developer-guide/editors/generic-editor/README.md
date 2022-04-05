@@ -8,7 +8,7 @@ The file upload editor enables creators to create content by a simple upload. Th
 
 ![](../../../../.gitbook/assets/image1.png)
 
-## :stars:Supported files
+### :stars:Supported files
 
 | File Type        | Details                                                                          |
 | ---------------- | -------------------------------------------------------------------------------- |
@@ -19,19 +19,19 @@ The file upload editor enables creators to create content by a simple upload. Th
 | H5P              | H5P files                                                                        |
 | Epub             | epub files                                                                       |
 
-## :stars:Tech Stack
+### :stars:Tech Stack
 
 1. Angular
 2. Typescript
 3. Javascript
 4. HTML/SCSS
 
-## :stars:Installation guide
+### :stars:Installation guide
 
 {% content-ref url="../../../../use/installation-guide/editors/file-upload-editor.md" %}
 [file-upload-editor.md](../../../../use/installation-guide/editors/file-upload-editor.md)
 {% endcontent-ref %}
 
-## ​:stars:FAQ's
+### ​:stars:FAQ's
 
 Please refer to this link for FAQ's: [http://docs.sunbird.org/latest/faqs/content\_upload/](http://docs.sunbird.org/latest/faqs/content\_upload/)

@@ -12,14 +12,14 @@ Collection editor enables creators to create collections such as courses textboo
 
 ![](<../../../.gitbook/assets/image (2) (1).png>)
 
-## :stars:Tech Stack
+### :stars:Tech Stack
 
 1. Angular
 2. Typescript
 3. Javascript
 4. HTML/SCSS
 
-## :stars:Installation guide
+### :stars:Installation guide
 
 {% content-ref url="../../../use/installation-guide/editors/collection-editor-v1.md" %}
 [collection-editor-v1.md](../../../use/installation-guide/editors/collection-editor-v1.md)
