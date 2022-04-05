@@ -4,42 +4,38 @@ description: HTML player is used to render the HTML type contents
 
 # HTML-h5p Player - v1
 
-**Configuration**
+## Overview
 
-Based on the following configuration HTML content can be rendered.
+Html Player is used to play the html and h5p files. These files can be renderer offline.
+
+![](../../../../../.gitbook/assets/htmlcontent.png)
+
+#### Mime type
 
 ```
-{
-    "context": {},
-    "config": {
-        "mimetypes": [ // Content mimetypes for new cotent lucnhers
-            "application/vnd.ekstep.html-archive",
-            "application/vnd.ekstep.h5p-archive"
-        ],
-        "contentLaunchers": [ // content laucher plugins for specific content mimetypes
-            { // Plugin used for ECML content to launch, It is default plugin
-                "mimeType": ["application/vnd.ekstep.html-archive", "application/vnd.ekstep.h5p-archive"]
-                "id": 'org.sunbird.htmlrenderer',
-                "ver": 1.0,
-                "type": 'plugin'
-            }
-        ]
-    },
-    "metadata":{
-        "artifactUrl": "https://sunbirdstagingpublic.blob.core.windows.net/sunbird-content-staging/content/do_21339805065209446416747/artifact/zip-95kb_1635504230861_1635504790958.zip",
-        "identifier": "do_21339805065209446416747",
-        "mimeType": "application/vnd.ekstep.html-archive", // this could be html of h5p
-        "streamingUrl": "https://sunbirdstagingpublic.blob.core.windows.net/sunbird-content-staging/content/html/do_21339805065209446416747-latest"
-    },
-    "data": undefined // content body json object (from API response take -> response.result.content.body)
+"mimeType": "application/vnd.ekstep.html-archive"
+```
+
+## ****
+
+## **Configuration**
+
+Below is the configuration metadata to render/play html/h5p content:
+
+```
+"metadata": {
+    "artifactUrl": "https://sunbirdstagingpublic.blob.core.windows.net/sunbird-content-staging/content/do_21339805065209446416747/artifact/zip-95kb_1635504230861_1635504790958.zip",
+    "identifier": "do_21339805065209446416747",
+    "mimeType": "application/vnd.ekstep.html-archive", // this could be html of h5p
+    "streamingUrl": "https://sunbirdstagingpublic.blob.core.windows.net/sunbird-content-staging/content/html/do_21339805065209446416747-latest"
 }
 ```
 
 Please refer to the [config section of README.md ](https://github.com/project-sunbird/sunbird-collection-editor#how-to-configure)file of the below [git repository](https://github.com/project-sunbird/sunbird-collection-editor)
 
-![](../../../../../.gitbook/assets/htmlcontent.png)
+## Features
 
-**Interact with player**
+#### **Interact with player**
 
 Interact with player by using the html interface library.
 

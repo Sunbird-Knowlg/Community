@@ -1,52 +1,86 @@
 # Features
 
+<details>
 
+<summary><strong>Progress Bar</strong></summary>
+
+
+
+In the side menu, one can configure additional capabilities such as 'Share', 'Download'xt and 'Print'. \
+![](../../../../../.gitbook/assets/pdfPlayerV2Sidemenu.png)
+
+Sample config:
+
+```
+"config": {  
+    "sideMenu": { 
+      "showShare": true, // show/hide share button in side menu. default value is true
+      "showDownload": true, // show/hide download button in side menu. default value is true
+      "showExit": false, // show/hide exit button in side menu. default value is false
+      "showPrint": true // show/hide print button in side menu. default value is true
+    }
+}
+```
+
+</details>
 
 <details>
 
-<summary>Side Menu</summary>
-
-This player has the side menu feature like share, download and etc based input config provided.\
-\
-****![](../../../../../.gitbook/assets/videoPlayerV2SideMenu.png)
-
-*   **Share**: \
-    &#x20;This share feature is used to help share content link. and the default value is true.\
+<summary>Volume</summary>
 
 
-    sample config to enable is\
-    ****&#x20;
 
-    ```
-    "config": { 
-        "sideMenu": { 
-          "showShare": true, // show/hide share button in side menu. default value is false     
-        }
-    }
-    ```
+This volume feature will be used to increase and decrease sound of the video content.\
+![](../../../../../.gitbook/assets/videoPlayerV2Volume.png)\
 
-    \
-    ![](../../../../../.gitbook/assets/videoPlayerV2Share.png)\
+
+* **Mute:** This mute feature will used to mute the sound of video.![](../../../../../.gitbook/assets/videoPlayerV2Mute.png)\
+
+* **Unmute**\
+  This unmute feature will used to unmute the sound of video.![](../../../../../.gitbook/assets/videoPlayerV2Unmute.png)
+
+</details>
+
+<details>
+
+<summary><strong>Forward and backward</strong></summary>
+
+This forward and backward feature will help us to play video ahead and back.![](../../../../../.gitbook/assets/videoPlayerV2ForwardBackword.png)
+
+</details>
+
+<details>
+
+<summary><strong>Quality selection</strong>(with streaming) </summary>
+
+This quality selection provides  min and max content quality selection based on streaming  quality options.\
+![](../../../../../.gitbook/assets/videoPlayerV2QualitySelection.png)
+
+</details>
+
+<details>
+
+<summary>Play/Pause</summary>
+
+
+
+This feature is used play and pause the content
+
+* **Play** : This feature will help us to play content.\
+  ![](../../../../../.gitbook/assets/videoPlayerV2Play.png)\
 
 
 <!---->
 
-*   **Download**\
-    ****This download feature helps to download content and the default value is true.\
+* **Pause**: This feature will help us to pause content.\
+  ![](../../../../../.gitbook/assets/videoPlayerV2Pause.png)
 
+</details>
 
-    sample config to enable is\
-    **** &#x20;
+<details>
 
-    ```
-    "config": {
-         "sideMenu": {      
-          "showDownload": true, // show/hide download button in side menu. default value is true  
-        }
-    }
-    ```
+<summary>Playing Rate</summary>
 
-    ****\
-    ****![](../../../../../.gitbook/assets/videoPlayerV2Download.png)
+This feature will help us play the video at different speeds.![](../../../../../.gitbook/assets/videoPlayerV2PlayingRate.png)
 
 </details>

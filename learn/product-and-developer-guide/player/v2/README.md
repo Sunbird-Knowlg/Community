@@ -13,3 +13,32 @@ The V2 version of the content players are designed to be lighter, deliver better
 {% content-ref url="video-player/" %}
 [video-player](video-player/)
 {% endcontent-ref %}
+
+
+
+**Default Features**
+
+<details>
+
+<summary>Side Menu</summary>
+
+
+
+In the side menu, one can configure additional capabilities such as 'Share', 'Download'xt and 'Print'. \
+![](../../../../.gitbook/assets/pdfPlayerV2Sidemenu.png)
+
+Sample config:
+
+```
+"config": {  
+    "sideMenu": { 
+      "showShare": true, // show/hide share button in side menu. default value is true
+      "showDownload": true, // show/hide download button in side menu. default value is true
+      "showExit": false, // show/hide exit button in side menu. default value is false
+      "showPrint": true // show/hide print button in side menu. default value is true
+    }
+}
+```
+
+</details>
+

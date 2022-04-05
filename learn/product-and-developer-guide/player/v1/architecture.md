@@ -2,11 +2,23 @@
 
 ![Content player v1 architecture](<../../../../.gitbook/assets/contentv1fea-Epub player 2.drawio.png>)
 
+Content player v1 can be integrate in Desktop app, Mobile app by using the npm package. This  provide the capability to render ECML, epub, pdf, mp4, youtube, mp3 and html type contents. V1 player has dependency on sunbird telemetry sdk and content plugins.
+
 ### Content Launchers
 
 Content player v1 is able to play the different format of content using the configuration. You just need to provide the mimeType and plugin launchers in config. Its capable to load the content launchers according to the mimeType
 
-#### Sample config to launch the ECML content
+#### Base launcher
+
+Base launcher is responsible to launch following launcher based on the mime types of the assets
+
+* ECML launcher: ECML launcher derived from the base launcher and also is responsible to launch the ecml type assets
+* Epub launcher: Epub type assets can be render by using this launcher
+* PDF launcher: If the mime type is application/pdf, base launcher will launches the pdf launcher
+* Video launcher: This launcher is responsible to to launch the mp4, mp3, webm and youtube type assets
+* HTML launcher: This launcher also derived from the base launcher and this launcher is responsible to launch the Html files.
+
+#### Sample config to launch the ECML assets
 
 ```
 "contentLaunchers": [ // content laucher plugins for specific content mimetypes

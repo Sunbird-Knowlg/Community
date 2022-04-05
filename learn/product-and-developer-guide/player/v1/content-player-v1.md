@@ -4,6 +4,17 @@
 
 Overlay is used to show some extra information on top of the content. This is a configurable properties
 
+* **User switcher** _(enableUserSwitcher)_**:** Content player v1 has the capability to enable multi-user with this feature. The _enableUserSwitcher_ is a overlay property and it is used to switch between users while playing content.
+
+![](../../../../.gitbook/assets/ezgif.com-gif-maker.gif)
+
+* **Show user \_** (showUser)\_**:** Player provide the capability to hide and show the users while rendering the content. The show/hide user-switcher functionality. default is true to show user information
+* **Show Overlay** _(showOverlayshowOverlay)_**:** This property enhance the content player capability to show extra information about contents. Default is true.
+* **Show next** _(showNext)_**:** This is a navigation property of next button for content. You can hide and show the next navigation button. Default is true.
+* **Show previous** _(showPrevious)_**:** This is a navigation property of previous button for content. You can hide and show the previous navigation button. Default is true.
+* **Show Submit** _(showSubmit):_ This is used to show a submit button after attending the assessment. Default is true.
+* **Show reload** _(showReload)_**:** Show reload button is used to reload or re-render the stage. This is a configurable property to show/hide this reply button. Default is true.
+
 #### Sample overlay config
 
 ```
@@ -20,17 +31,6 @@ Overlay is used to show some extra information on top of the content. This is a 
     }
 }
 ```
-
-* **User switcher** _(enableUserSwitcher)_**:** Content player v1 has the capability to enable multi-user with this feature. The _enableUserSwitcher_ is a overlay property and it is used to switch between users while playing content.
-
-![](../../../../.gitbook/assets/ezgif.com-gif-maker.gif)
-
-* **Show user \_** (showUser)\_**:** Player provide the capability to hide and show the users while rendering the content. The show/hide user-switcher functionality. default is true to show user information
-* **Show Overlay** _(showOverlayshowOverlay)_**:** This property enhance the content player capability to show extra information about contents. Default is true.
-* **Show next** _(showNext)_**:** This is a navigation property of next button for content. You can hide and show the next navigation button. Default is true.
-* **Show previous** _(showPrevious)_**:** This is a navigation property of previous button for content. You can hide and show the previous navigation button. Default is true.
-* **Show Submit** _(showSubmit):_ This is used to show a submit button after attending the assessment. Default is true.
-* **Show reload** _(showReload)_**:** Show reload button is used to reload or re-render the stage. This is a configurable property to show/hide this reply button. Default is true.
 
 ### **Splash screen**
 
@@ -94,7 +94,6 @@ Sample config to show end page
 * **Replay:** By clicking on the replay button user can reload the content. Its a default property of the end page.
 * **Username:** Initial letter of the user will show on the end page. By clicking on this button user switcher popup will show - witch allows you to select and switch the user.
 * **Exit:** By clicking on the Exit button user can exit the content and application.
-* **Next:** In a collection play - the next button will indicate the next content in the collection. This should be your [getRelevantContent()](https://github.com/project-sunbird/sunbird-content-player/blob/9fc06f842ff2bc0bd1b1143d288caed1075ada83/player/public/services/localservice.js#L101) API response.
 
 ### Next and previous
 

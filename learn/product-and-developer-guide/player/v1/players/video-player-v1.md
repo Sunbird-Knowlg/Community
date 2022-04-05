@@ -4,6 +4,32 @@ description: Video player is used to play the Youtube, Mp4, Webm and Mp3type vid
 
 # Video Player v1
 
+## Overview
+
+Mp4, webm and youtube type video can be render in video player v1. Video renderer is the common renderer which supports the following video mime types
+
+#### Mime type
+
+```
+"video/mp4", "video/webm", "audio/mp3"
+```
+
+## Configuration
+
+Based on the following metadata configuration video assets can be rendered.
+
+```
+"metadata": {
+    mimeType: "video/mp4"
+    primaryCategory: "Teacher Resource",
+    artifactUrl: "https://sunbirdstagingpublic.blob.core.windows.net/sunbird-content-staging/content/do_2133803600096624641146/artifact/do_2133803600096624641146_1633348628271_do_2133803600096624641146_1633345648679_mp4_212.mp4",
+    contentType: "MarkingSchemeRubric",
+    identifier: "do_2133803600096624641146",
+    "mediaType": "content",
+    streamingUrl: "https://sunbirdspikemedia-inct.streaming.media.azure.net/e785cfbe-f6ac-42e4-a725-baedd50efcb3/do_2133803600096624641146_163334.ism/manifest(format=m3u8-aapl-v3)"
+}
+```
+
 ## Features
 
 Content Player v1 supports to play the following types of video contents
