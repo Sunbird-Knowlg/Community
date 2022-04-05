@@ -7,7 +7,7 @@ description: >-
 
 # DIAL Service
 
-DIAL refers to _Digital Infrastructure for Augmented learning_. It provides tools for DIAL code management. DIAL powers the discovery of digital resources using physical artefacts like QR codes, can be extended to other physical artefacts. DIAL code does the loose binding of digital assets with physical artefacts.
+DIAL refers to _Digital Infrastructure for Augmented learning_. Sunbird Knowlg uses the [DIAL spec](https://github.com/sunbird-specs/DIAL-specs/blob/main/README.md) to power the phygital discovery of assets. It provides tools for DIAL code management. DIAL powers the discovery of digital resources using physical artefacts like QR codes, can be extended to other physical artefacts. DIAL code does the loose binding of digital assets with physical artefacts.&#x20;
 
 In practice physical artefacts will be published once, serving as coordinate to the discovery of digital resources. Digital resources can be published and modified later multiple times, this is done to improve digital resources. In short DIAL code serves as a coordinate for digital resources discovery, where the digital resources can be modified, improved and personalised at runtime.
 
