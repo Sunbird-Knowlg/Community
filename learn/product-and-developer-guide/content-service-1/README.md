@@ -36,6 +36,6 @@ For further explanation of objects and categories can be found in the following 
 
 ## :stars:Installation guide
 
-{% content-ref url="../../../use/installation-guide/services/asset-management-service.md" %}
-[asset-management-service.md](../../../use/installation-guide/services/asset-management-service.md)
+{% content-ref url="../../../use/installation-guide/services/asset-management-service/" %}
+[asset-management-service](../../../use/installation-guide/services/asset-management-service/)
 {% endcontent-ref %}

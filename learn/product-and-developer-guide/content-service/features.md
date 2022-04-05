@@ -12,7 +12,7 @@ Content service is a micro-service which provides APIs to manage the lifecycle a
 
 Enables offline consumption via generation of ECAR files in the packaging stage of the publish lifecycle. Contents can be download from _**downloadUrl**_. Two _**variants**_ of the ECAR are available for each content. i.e. FULL and SPINE. ECAR can be downloaded and extracted in client (mobile and desktop) to play offline.
 
-### **Publish control**
+### Controlled Publishing
 
 Content publishing can be done in two ways: Public (status: Live) and Private (status: Unlisted). When the content status is _**Live**,_ content is available for consumption publicly. When the content status is _**Unlisted**,_ content can be accessed only by direct content link (deep link).
 
