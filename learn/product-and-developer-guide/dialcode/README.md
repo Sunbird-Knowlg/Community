@@ -20,3 +20,6 @@ In practice physical artefacts will be published once, serving as coordinate to 
 
 ![DIAL code  as coordinate to discover digital coordinates](<../../../.gitbook/assets/DIAL\_code\_ flow (1).png>)
 
+### DIAL Spec
+
+{% embed url="https://github.com/sunbird-specs/DIAL-specs/blob/main/README.md" %}
