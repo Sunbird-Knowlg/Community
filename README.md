@@ -4,15 +4,7 @@
 
 Sunbird Knowlg consists of a set of tools and services that enable you to organise, curate, create, and discover millions of assets.
 
-Here are some examples of solutions that can be enabled using Sunbird Knowlg:
-
-a) A learning management system (LMS) or content management system (CMS) can leverage Sunbird Knowlg to organize their content, create targeted courses, programs, projects or a video repository.
-
-b) An OTT platform can leverage Sunbird Knowlg to create web series, movies & tv shows.
-
-c) Marketing organization(s) can create solutions to generate, manage and track QR Codes for print media marketing campaigns.
-
-d) Large organizations can use Sunbird Knowlg to create and maintain their product catalogues.
+For example, Organizations across multiple domains such as e-Commerce, OTT, Education etc can leverage Sunbird Knowlg to organize their content as per their domain, create targeted courses, programs, projects or a video repository. &#x20;
 
 ## Key capabilities of Sunbird Knowlg
 
