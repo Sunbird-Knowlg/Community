@@ -2,9 +2,9 @@
 
 ## Overview
 
-Sunbird Knowlg consists of a set of tools and services that enable you to organise, curate, create, and discover millions of assets.
+Sunbird Knowlg (_pronounced as the word "knowledge"_) consists of a set of tools and services that enable you to organise, curate, create, and discover millions of assets.
 
-For example, Organizations across multiple domains such as e-Commerce, OTT, Education etc can leverage Sunbird Knowlg to organize their content as per their domain, create targeted courses, programs, projects or a video repository. &#x20;
+For example, Organizations across multiple domains such as e-Commerce, OTT, Education etc can leverage Sunbird Knowlg to organize their content and knowledge assets as per their domain, create targeted courses, programs, projects or a video repository. &#x20;
 
 ## Key capabilities of Sunbird Knowlg
 
