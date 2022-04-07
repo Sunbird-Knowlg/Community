@@ -4,65 +4,19 @@ Telemetry is a specification to instrument all the key events. Using this specif
 
 ### Pdata
 
-This describes about the producer data of the event, and also it has the details about producer id, version of the app and instances of the component. below is the sample pdata.
+This describes the producer data of the event, and also it has the details about the producer id, version of the app, and instances of the component. below is the sample pdata.
 
 ```
     "pdata": {
       "id": "sunbird.portal", // Producer ID. For ex: For sunbird it would be "portal" or "genie"
       "ver": "3.2.12", // Version of the App
       "pid": "sunbird-portal.contentplayer" // Optional. In case the component is distributed, then which instance of that component
-    },
+    },    
 ```
 
-The producer id is different for different instance of the component ,
+#### Below are the list of sample pdata configs for different clients
 
-<details>
-
-<summary>sunbird.mobile</summary>
-
-For sunbird mobile app id will be sunbird.mobile&#x20;
-
-```
-pdata: {
-    "id": "", // unique id assigned to that component. For ex: "sunbird.mobile" 
-    "pid": "", // In case the component is distributed, then which instance of that component. For ex: "sunbird.mobile.contentplayer" incase of content player
-    "ver": "" // version number of the build. For ex: "3.9.437"
-}
-```
-
-</details>
-
-<details>
-
-<summary>sunbird.portal</summary>
-
-For sunbird mobile app id will be sunbird.portal
-
-```
-pdata: {
-    "id": "", // unique id assigned to that component. For ex: "sunbird.portal" 
-    "pid": "", // In case the component is distributed, then which instance of that component. For ex: "sunbird.portal.contentplayer" incase of content player
-    "ver": "" // version number of the build. For ex: "3.9.437"
-}
-```
-
-</details>
-
-<details>
-
-<summary>sunbird.desktop</summary>
-
-For sunbird mobile app id will be sunbird.desktop
-
-```
-pdata: {
-    "id": "", // unique id assigned to that component. For ex:  "sunbird.desktop" incase of desktop
-    "pid": "", // In case the component is distributed, then which instance of that component. For ex: "sunbird.desktop.contentplayer" incase of content player
-    "ver": "" // version number of the build. For ex: "3.9.437"
-}
-```
-
-</details>
+<table><thead><tr><th align="center">Client</th><th align="center">id</th><th align="center">pid</th><th align="center">ver</th><th data-type="number" data-hidden></th></tr></thead><tbody><tr><td align="center">Mobile</td><td align="center">sunbird.mobile</td><td align="center">sunbird.mobile.contentplayer</td><td align="center">3.9.437</td><td>null</td></tr><tr><td align="center">Portal</td><td align="center">sunbird.portal</td><td align="center">sunbird.portal.contentplayer</td><td align="center">4.3.0</td><td>null</td></tr><tr><td align="center">Desktop</td><td align="center">sunbird.desktop</td><td align="center">sunbird.desktop.contentplayer</td><td align="center">4.3.1</td><td>null</td></tr></tbody></table>
 
 ### List of Events
 
