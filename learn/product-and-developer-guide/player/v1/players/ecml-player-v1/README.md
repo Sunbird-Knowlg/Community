@@ -8,8 +8,6 @@ description: ECML Player is used to play the interactive assets
 
 The content player v1 is capable to play the ECML format assets. ECML is a short form of Ekstep content markup language.&#x20;
 
-![](<../../../../../.gitbook/assets/ecmlplayer (1).png>)
-
 #### MIME Type
 
 ```
@@ -64,7 +62,7 @@ Sample config metadata of streaming url:
 
 #### Data object:
 
-By passing the the body of the ECML assets the assets can be rederer in ecml player. This body property is available in content read API which is available in[ content service](../../../content-service/).
+By passing the the body of the ECML assets the assets can be rederer in ecml player. This body property is available in content read API which is available in[ content service](../../../../content-service/).
 
 Sample config of data:
 
@@ -98,79 +96,31 @@ Sample config to play ECML content offline
 
 ### Quiz
 
-Content player v1 is capable to play the assessment content which is written in Ekstep content markup language
-
-![](../../../../../.gitbook/assets/quiz.png)
-
-Content editor is responsible to creation of assessment content. Following plugins are plays the role to play the assessments in content player
-
-#### Plugins
-
-* Question unit : This plugin is responsible to load the different types of questions and templates
-* Question set: Question set plugin is responsible to create and save the different types of question sets and questions
-* Mcq: Using mcq plugin, you can create and render the multiple choice questions
-* FTB : FTB plugins creates and loads fill in the blanks types questions
-* MTF : Match the following type questions can be created in this plugin
-* Reorder : By using this plugin, you can create and render the reordering type questions
-* Question bank: Question bank plugin is responsible to create and load the questions.
-* Preview&#x20;
-* : Preview plugin is taking care of rendering the different types of questions in question bank view - where user can see the immediate preview after creating the questions
-
-### Quiz config for player
-
-Question set plugin is responsible to set and renderer the questions and this can be configure by using the following configuration
-
-#### Question Minimum Font Size
-
-What should be the the minimum font size can be render in content player v1 defines by the _questionMinFontSize_ property.
-
-```
-{
-    questionMinFontSize: '1.285em'
-}
-```
-
-#### Show submit
-
-Show submit property present the show button on end page, which will show after attempting the assessment. This is a configurable property of [overlay config](../content-player-v1.md#overlay) of content player v1.
-
-![](../../../../../.gitbook/assets/showsubmit.png)
-
-Sample config to show submit button.
-
-```
-overlay: {
-    showSubmit: false
-}
-```
+Please refer [Quiz documentations](quiz.md) page.
 
 ### Audio
 
 You can add audio in ecml assets and that can be render in ecml player v1. Currently mp3 type audio is supporting in ecml type contents. Content player v1 provides the ability to mute and unmute this audio.
 
-![](../../../../../.gitbook/assets/audioecml.png)
+![](../../../../../../.gitbook/assets/audioecml.png)
 
 ### Shape
 
-Ecml player v1 is capable to render the shape and which is created in [Interactive editor](../../../../../use/installation-guide/editors/interactive-editor.md)
+Ecml player v1 is capable to render the shape and which is created in [Interactive editor](../../../../../../use/installation-guide/editors/interactive-editor.md)
+
+![](../../../../../../.gitbook/assets/ecmlplayer.png)
 
 ### Video
 
 You can add the mp4 and youtube files in the slides of ECML assets and that can be render in the ECML player v1. Streaming video also supports in this player.
 
-![](<../../../../../.gitbook/assets/ecml video1.png>)
+![](<../../../../../../.gitbook/assets/ecml video1.png>)
 
 ### Navigation
 
 User can navigate from one slide to another in this player. Ecml renderer provides the enhance capability to navigate. This player also supports the custom navigation.
 
-For more information please refer [navigation section](../content-player-v1.md#navigate) of content player v1
-
-### Drag and Drop
-
-After adding the shape and text you can drag and drop this elements in content player. This feature  helps in rearrangement of options in quiz.
-
-![](<../../../../../.gitbook/assets/ezgif.com-gif-maker (4).gif>)
+For more information please refer [navigation section](../../content-player-v1.md#navigate) of content player v1
 
 ### Read along
 

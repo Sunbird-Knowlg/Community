@@ -1,7 +1,7 @@
 # Players
 
-{% content-ref url="ecml-player-v1.md" %}
-[ecml-player-v1.md](ecml-player-v1.md)
+{% content-ref url="ecml-player-v1/" %}
+[ecml-player-v1](ecml-player-v1/)
 {% endcontent-ref %}
 
 {% content-ref url="video-player-v1.md" %}

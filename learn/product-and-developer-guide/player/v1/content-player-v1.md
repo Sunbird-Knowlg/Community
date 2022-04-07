@@ -61,7 +61,7 @@ This is one of the property of [overlay config](content-player-v1.md#overlay). T
 * **Switch user:** Side menu enables user to switch the current user by clicking on this side menu option. Refer [user switcher config](content-player-v1.md#sample-overlay-config) to configure this button.
 * **Mute:** Side menu allows user to mute and unmute the sound of the content. Default is unmute.
 * **Exit:** Its a default feature of the side menu options and user can exit the content bu clicking on this button
-* **Read teacher instructions:** While creating the [ECML type content](players/ecml-player-v1.md) if creator added the instruction to the stage, each stage will show that instructions. This is a configurable property of the side menu
+* **Read teacher instructions:** While creating the [ECML type content](players/ecml-player-v1/) if creator added the instruction to the stage, each stage will show that instructions. This is a configurable property of the side menu
 
 **Sample config to show the instructions**
 

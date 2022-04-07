@@ -10,13 +10,13 @@ Content player v1 is able to play the different format of content using the conf
 
 #### Base launcher
 
-Base launcher is responsible to launch following launcher based on the mime types of the assets
+Base launcher is responsible to launch following launchers based on the mime types of the assets
 
-* ECML launcher: ECML launcher derived from the base launcher and also is responsible to launch the ecml type assets
-* Epub launcher: Epub type assets can be render by using this launcher
-* PDF launcher: If the mime type is application/pdf, base launcher will launches the pdf launcher
-* Video launcher: This launcher is responsible to to launch the mp4, mp3, webm and youtube type assets
-* HTML launcher: This launcher also derived from the base launcher and this launcher is responsible to launch the Html files.
+* ECML : ECML launcher derived from the base launcher and also is responsible to launch the ecml type assets
+* Epub : Epub type assets can be render by using this launcher
+* PDF : If the mime type is application/pdf, base launcher will launches the pdf launcher
+* Video : This launcher is responsible to to launch the mp4, mp3, webm and youtube type assets
+* HTML : This launcher also derived from the base launcher and this launcher is responsible to launch the Html files.
 
 #### Sample config to launch the ECML assets
 

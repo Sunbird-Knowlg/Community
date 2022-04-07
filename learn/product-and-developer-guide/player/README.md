@@ -4,7 +4,7 @@ Players are embeddable tools which help in rendering the assets. For ex., a vide
 
 | Content Format | MIME Type                                                               | Player                                       | Player v2                                                        |
 | -------------- | ----------------------------------------------------------------------- | -------------------------------------------- | ---------------------------------------------------------------- |
-| ECML           | application/vnd.ekstep.ecml-archive                                     | [Yes](v1/players/ecml-player-v1.md)          | No                                                               |
+| ECML           | application/vnd.ekstep.ecml-archive                                     | [Yes](v1/players/ecml-player-v1/)            | No                                                               |
 | HTML, H5P      | application/vnd.ekstep.html-archive, application/vnd.ekstep.h5p-archive | [Yes](v1/players/html-h5p-player-v1.md)      | No                                                               |
 | PDF            | application/pdf                                                         | [Yes](v1/players/pdf-player-v1.md)           | [Yes](v2/pdf-player/)                                            |
 | Epub           | application/epub                                                        | [Yes](v1/players/epub-player-v1.md)          | [Yes](../../../use/installation-guide/players/v2/epub-player.md) |

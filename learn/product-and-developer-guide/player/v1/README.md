@@ -8,7 +8,7 @@ description: >-
 
 This is the classic version of the player. The following formats are supported by this player:
 
-* [ECML](players/ecml-player-v1.md)
+* [ECML](players/ecml-player-v1/)
 * [PDF](players/pdf-player-v1.md)
 * [EPUB](players/epub-player-v1.md)
 * [HTML and H5P](players/html-h5p-player-v1.md)
