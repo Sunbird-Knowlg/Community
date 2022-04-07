@@ -50,6 +50,7 @@
     * [Collection Editor - V2](learn/product-and-developer-guide/editors/collection-editor-v2/README.md)
       * [Architecture](learn/product-and-developer-guide/editors/collection-editor-v2/architecture.md)
       * [Features](learn/product-and-developer-guide/editors/collection-editor-v2/features.md)
+      * [APIs](learn/product-and-developer-guide/editors/collection-editor-v2/apis.md)
       * [FAQ's](learn/product-and-developer-guide/editors/collection-editor-v2/faqs.md)
   * [Content service](learn/product-and-developer-guide/content-service/README.md)
     * [Architecture](learn/product-and-developer-guide/content-service/architecture.md)
