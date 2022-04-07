@@ -16,7 +16,7 @@ This describes the producer data of the event, and also it has the details about
 
 #### Below are the list of sample pdata configs for different clients
 
-<table><thead><tr><th align="center">Client</th><th align="center">id</th><th align="center">pid</th><th align="center">ver</th><th data-type="number" data-hidden></th></tr></thead><tbody><tr><td align="center">Mobile</td><td align="center">sunbird.mobile</td><td align="center">sunbird.mobile.contentplayer</td><td align="center">3.9.437</td><td>null</td></tr><tr><td align="center">Portal</td><td align="center">sunbird.portal</td><td align="center">sunbird.portal.contentplayer</td><td align="center">4.3.0</td><td>null</td></tr><tr><td align="center">Desktop</td><td align="center">sunbird.desktop</td><td align="center">sunbird.desktop.contentplayer</td><td align="center">4.3.1</td><td>null</td></tr></tbody></table>
+<table><thead><tr><th align="center">Client</th><th align="center">id</th><th align="center">pid</th><th align="center">ver</th><th data-type="number" data-hidden></th></tr></thead><tbody><tr><td align="center">Mobile</td><td align="center">sunbird.mobile</td><td align="center">sunbird.mobile.contentplayer</td><td align="center">&#x3C;mobile app version></td><td>null</td></tr><tr><td align="center">Portal</td><td align="center">sunbird.portal</td><td align="center">sunbird.portal.contentplayer</td><td align="center">&#x3C;portal version></td><td>null</td></tr><tr><td align="center">Desktop</td><td align="center">sunbird.desktop</td><td align="center">sunbird.desktop.contentplayer</td><td align="center">&#x3C;desktop app version></td><td>null</td></tr></tbody></table>
 
 ### List of Events
 
@@ -127,20 +127,81 @@ This API is used to log telemetry of user response. For example; Responded to as
 
 </details>
 
-### Sample Telemetry  Event Data
+### Sample Telemetry  Events
+
+Below are the sample telemetry events  check more details about each value in the event [here](https://telemetry.sunbird.org/learn/specification#telemetry-v3-event-structure)
 
 <details>
 
-<summary>Sample Data</summary>
+<summary>START</summary>
 
-Below is the sample telemetry event data and check more details about the each value in the event [here](https://telemetry.sunbird.org/learn/specification#telemetry-v3-event-structure)
+```
+{
+  "eid": "START",
+  "ets": 1649318545112,
+  "ver": "3.0",
+  "mid": "START:d733c45b87270477b1beb612dc7bda4c",
+  "actor": {
+    "id": "632995e29874caa57949ce954e6b5d4a",
+    "type": "User"
+  },
+  "context": {
+    "channel": "01268904781886259221",
+    "pdata": {
+      "id": "staging.sunbird.portal",
+      "ver": "4.8.5",
+      "pid": "sunbird-portal"
+    },
+    "env": "contentplayer",
+    "sid": "35209e6a-d463-37c1-9672-6090ede5d245",
+    "did": "632995e29874caa57949ce954e6b5d4a",
+    "cdata": [
+      {
+        "id": "DH2JihRQhD9quRLkIUroNLfTA2rEQeDC",
+        "type": "ContentSession"
+      },
+      {
+        "id": "ChrI789hrOXvzCMn44U5nEQZn31Epg7o",
+        "type": "PlaySession"
+      },
+      {
+        "id": "2.0",
+        "type": "PlayerVersion"
+      }
+    ],
+    "rollup": {},
+    "uid": "anonymous"
+  },
+  "object": {
+    "id": "do_2132473634393948161725",
+    "ver": "1",
+    "type": "Content",
+    "rollup": {}
+  },
+  "tags": [
+    "01268904781886259221"
+  ],
+  "edata": {
+    "type": "content",
+    "mode": "play",
+    "pageid": "",
+    "duration": 5.35
+  }
+}
+```
+
+</details>
+
+<details>
+
+<summary>INTERACT</summary>
 
 ```
 {
   "eid": "INTERACT", // Event id 
   "ets": 1646727758517, // Event time stamp
-  "ver": "3.0", // Version 
-  "mid": "INTERACT:e6cf5520a276294b068acfabd52f363a",
+  "ver": "3.0", // Event Version 
+  "mid": "INTERACT:e6cf5520a276294b068acfabd52f363a", // Message Id which is uniq
   "actor": { // User details 
     "id": "280d913d358428e24c92ed6b9e6d89a7",
     "type": "User"
@@ -170,9 +231,9 @@ Below is the sample telemetry event data and check more details about the each v
     }
   },
   "object": {
-    "id": "do_2134417722515210241147", // Content identifier
-    "type": "Content", // Resource type
-    "ver": "1",  // Defines version
+    "id": "do_2134417722515210241147", // Asset identifier
+    "type": "Content", // Asset type
+    "ver": "1",  // Asset version
     "rollup": {} // Roll up data
   },
   "tags": [ // Defines the tags data
@@ -183,6 +244,155 @@ Below is the sample telemetry event data and check more details about the each v
     "subtype": "", // Event sub data type
     "id": "gc_menuopen", // Defines the id
     "pageid": "2" // Defines the page id
+  }
+}
+```
+
+</details>
+
+<details>
+
+<summary>IMPRESSION</summary>
+
+```
+{
+  "eid": "IMPRESSION",
+  "ets": 1649320122499,
+  "ver": "3.0",
+  "mid": "IMPRESSION:ffe3a6f635a13f6810cd3c9979ca5529",
+  "actor": {
+    "id": "632995e29874caa57949ce954e6b5d4a",
+    "type": "User"
+  },
+  "context": {
+    "channel": "01268904781886259221",
+    "pdata": {
+      "id": "staging.sunbird.portal",
+      "ver": "4.8.5",
+      "pid": "sunbird-portal"
+    },
+    "env": "contentplayer",
+    "sid": "35209e6a-d463-37c1-9672-6090ede5d245",
+    "did": "632995e29874caa57949ce954e6b5d4a",
+    "cdata": [
+      {
+        "id": "DH2JihRQhD9quRLkIUroNLfTA2rEQeDC",
+        "type": "ContentSession"
+      },
+      {
+        "id": "apTUc3ZpDycy5tm4C6mkhZkifeRA0aRa",
+        "type": "PlaySession"
+      },
+      {
+        "id": "2.0",
+        "type": "PlayerVersion"
+      }
+    ],
+    "rollup": {},
+    "uid": "anonymous"
+  },
+  "object": {
+    "id": "do_2132473634393948161725",
+    "ver": "1",
+    "type": "Content",
+    "rollup": {}
+  },
+  "tags": [
+    "01268904781886259221"
+  ],
+  "edata": {
+    "type": "workflow",
+    "subtype": "",
+    "pageid": "3",
+    "uri": ""
+  }
+}
+```
+
+</details>
+
+<details>
+
+<summary>END</summary>
+
+```
+{
+  "eid": "END",
+  "ets": 1649326236878,
+  "ver": "3.0",
+  "mid": "END:898f1e88610da17e3a12fd0a9a18d9c7",
+  "actor": {
+    "id": "90ee25617d93d2973ab012abf2854322",
+    "type": "User"
+  },
+  "context": {
+    "channel": "01268904781886259221",
+    "pdata": {
+      "id": "staging.sunbird.portal",
+      "ver": "4.8.5",
+      "pid": "sunbird-portal"
+    },
+    "env": "contentplayer",
+    "sid": "cc9d525c-850d-ba69-3589-e4892408d2ff",
+    "did": "90ee25617d93d2973ab012abf2854322",
+    "cdata": [
+      {
+        "id": "1iPaJwSm9CZ642DJ4NPHwx9VXInhkMGm",
+        "type": "ContentSession"
+      },
+      {
+        "id": "rQVRoTYlITk6WBuQm0iQqB3G6zSv4Tm5",
+        "type": "PlaySession"
+      },
+      {
+        "id": "2.0",
+        "type": "PlayerVersion"
+      }
+    ],
+    "rollup": {
+      "l1": "01268904781886259221"
+    },
+    "uid": "anonymous"
+  },
+  "object": {
+    "id": "do_2134250082225192961958",
+    "ver": "1",
+    "type": "Content",
+    "rollup": {
+      "l1": "do_2134250082225192961958"
+    }
+  },
+  "tags": [
+    "01268904781886259221"
+  ],
+  "edata": {
+    "type": "content",
+    "mode": "play",
+    "pageid": "sunbird-player-Endpage",
+    "summary": [
+      {
+        "progress": 100
+      },
+      {
+        "totallength": 137.56
+      },
+      {
+        "visitedlength": 57.708
+      },
+      {
+        "visitedcontentend": false
+      },
+      {
+        "totalseekedlength": 39.583
+      },
+      {
+        "endpageseen": true
+      },
+      {
+        "score": 0
+      }
+    ],
+    "duration": 58.61
   }
 }
 ```
