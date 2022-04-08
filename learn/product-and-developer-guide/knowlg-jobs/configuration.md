@@ -8,7 +8,7 @@ description: >-
 
 Confirguration of all knowledge-platform-jobs during the time of deployment is referred from [sunbird-learning-platform](https://github.com/project-sunbird/sunbird-learning-platform/blob/release-4.8.0/kubernetes/helm\_charts/datapipeline\_jobs/values.j2) repository. However, configuration for local setup is referred from respective job folders in [knowledge-platform-jobs](https://github.com/project-sunbird/knowledge-platform-jobs) repository.
 
-### :stars: asset-enrichment:
+### :stars: asset-enrichment: <a href="#asset-enrichment" id="asset-enrichment"></a>
 
 **Kafka Topic:**
 
@@ -72,7 +72,7 @@ _<mark style="color:blue;">**Dependency:**</mark>_** Jobs:** 'video-stream-gener
 
 
 
-### ****:stars: **audit-event-geneator:**
+### ****:stars: **audit-event-generator:**
 
 **Kafka Topic:**
 
