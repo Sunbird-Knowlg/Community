@@ -4,23 +4,35 @@
 
 ## Types of quiz
 
+* [MCQ](quiz.md#mcq)
+* [MTF](quiz.md#mtf)
+* [FTB](quiz.md#ftb)
+* [Reordering words](quiz.md#reordering-words)
+* [Arrange in Sequence](quiz.md#arrange-in-sequence)
+
 There are following types of assessment can be taken in [ECML player v1](./).
+
+### MCQ
+
+Using v1 player you can render the Multiple choice Question type assets. In this type of questions user has to select the correct options. if the answer is correct, it will show the score in [evaluation popup.](quiz.md#score)
+
+To create the MCQ type questions, please refer [interactive editor](../../../../editors/editor/features.md#mcq) MCQ feature section.
+
+There are following types of layouts can be used for MCQ type question and you can create the same mcq question with different types of layouts
+
+![](<../../../../../../.gitbook/assets/ezgif.com-gif-maker (6).gif>)
 
 ### MTF
 
 MTF is the short form of 'Match the following' questions. v1 player is capable to play the MTF type quiz. This capability provide user to drag and drop the options within a canvas area and also provide the capability to calculate the [partial score](quiz.md#partial-score).
 
-![](../../../../../../.gitbook/assets/mtf.png)
-
-### MCQ&#x20;
-
-Using v1 player you can render the Multiple choice Question type assets. In this type of questions user has to select the correct options. if the answer is correct, it will show the score in [evaluation popup.](quiz.md#score)
-
-![](../../../../../../.gitbook/assets/quiz.png)
+To create the MTF type questions, please refer [interactive editor MTF](../../../../editors/editor/features.md#mtf) feature section.
 
 ### FTB&#x20;
 
 FTB is stands for 'Fill in the blank' type questions. In this type of question v1 player is capable to show the [partial score](quiz.md#partial-score) if some of the answer is correct.
+
+To create the FTB type questions, please refer [interactive editor FTB ](../../../../editors/editor/features.md#ftb)feature section.
 
 ![](../../../../../../.gitbook/assets/ftb.png)
 
@@ -28,19 +40,23 @@ FTB is stands for 'Fill in the blank' type questions. In this type of question v
 
 This type of questions provide user the capability to drag and drop the options within a canvas area to order and reorder the words&#x20;
 
+To create the Reordering words type questions, please refer [interactive editor reordering words ](../../../../editors/editor/features.md#reordering-words)feature section.
+
 ![](<../../../../../../.gitbook/assets/ezgif.com-gif-maker (5).gif>)
 
 ### Arrange in Sequence
 
 In a content player v1 you can render the arrange in sequence type questions.
 
-![](<../../../../../../.gitbook/assets/ezgif.com-gif-maker (4).gif>)
+To create the Arrange in Sequence type questions, please refer [interactive editor Arrange in Sequence](../../../../editors/editor/features.md#arrange-in-sequence) feature section.
 
-Interactive editor is responsible to creation of assessment content. Following plugins are plays the role to play the assessments in content player
+![](<../../../../../../.gitbook/assets/ezgif.com-gif-maker (4).gif>)
 
 ## Configurations
 
-Content player v1 is capable to renderer all above mentioned [types of quiz](quiz.md#quiz-types) and this can be configure by using the following configuration
+Please refer [Configuring Questions](http://docs.sunbird.org/1.8/features-documentation/questionset\_create/#configuring-questions) section in sunbird developer documents to configure the quiz from editor side.
+
+Content player v1 is capable to renderer all above mentioned and this can be configure by using the following configuration.
 
 **Question Minimum Font Size**
 
@@ -68,7 +84,7 @@ overlay: {
 
 ## Evaluation popup
 
-The content player v1 is capable to show the quiz score after end of the assessments. To enable this feature, we need to config the [submit button](quiz.md#show-submit) property.&#x20;
+Please refer [Compiling Question Set](http://docs.sunbird.org/1.8/features-documentation/questionset\_create/#compiling-question-set) section in sunbird developer documents to configure the quiz from editor side.
 
 After every question rendered, the ECML player v1 will show the evaluation popup which helps user to understand the answered option is [correct](quiz.md#correct-answer) or [wrong](quiz.md#wrong-answer).
 
@@ -86,7 +102,7 @@ If the answer is wrong, evaluation popup will show the wrong icon popup with nex
 
 #### Partial score
 
-The partial score can be calculate for [MTF](quiz.md#mtf) and FTB type questions
+The partial score can be calculate for [MTF](quiz.md#mtf) and [FTB](quiz.md#ftb) type questions
 
 ![](<../../../../../../.gitbook/assets/partial score.png>)
 
