@@ -1,3 +1,5 @@
 # Architecture
 
-![](../../../.gitbook/assets/sunbird-knowlg.drawio.png)
+{% content-ref url="../content-service/architecture.md" %}
+[architecture.md](../content-service/architecture.md)
+{% endcontent-ref %}

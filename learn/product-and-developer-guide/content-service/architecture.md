@@ -1,6 +1,6 @@
 # Architecture
 
-![architecture](<../../../.gitbook/assets/architecture - content-service\_1.png>)
+![content-architecture](../../../.gitbook/assets/architecture-sunbird-knowlg-content.png)
 
 ## Microservices
 
@@ -8,7 +8,7 @@
 
 Core service which is exposing all the asset & collection API's(REST API's).
 
-### [License](http://docs.sunbird.org/latest/apis/license/#tag/License-APIs):
+### [License](http://docs.sunbird.org/latest/apis/license/#tag/License-APIs)
 
 This is part of content-service but exposes the list of API's to do CRUD operations of License.&#x20;
 
@@ -29,3 +29,6 @@ DIAL-service: We are using Cassadra as a primary store of DIAL data/information.
 
 To improve the performance of API instead of hitting the DB for every Read call, we are using the Redis as temp cache.
 
+## Flow-diagram
+
+![](../../../.gitbook/assets/flow-diagram-sunbird-knowlg-content.png)

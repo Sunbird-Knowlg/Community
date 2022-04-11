@@ -1,10 +1,8 @@
 # Architecture
 
-### Architecture
+![Content-service Architecture](../../../.gitbook/assets/architecture-sunbird-knowlg-DIAL.png)
 
-![Content-service Architecture](../../../.gitbook/assets/architecture-sunbird-knowlg-DIAL.drawio.png)
+## Flow-diagram
 
-### Flow diagram
-
-![flow-diagram](../../../.gitbook/assets/flow-diagram-DIAL.png)
+![flow-diagram](../../../.gitbook/assets/flow-diagram-sunbird-knowlg-DIAL.png)
 
