@@ -6,7 +6,7 @@ description: >-
 
 # Configuration
 
-Confirguration of all knowledge-platform-jobs during the time of deployment is referred from [sunbird-learning-platform](https://github.com/project-sunbird/sunbird-learning-platform/blob/release-4.8.0/kubernetes/helm\_charts/datapipeline\_jobs/values.j2) repository. However, configuration for local setup is referred from respective job folders in [knowledge-platform-jobs](https://github.com/project-sunbird/knowledge-platform-jobs) repository.
+Configuration of all knowledge-platform-jobs during the time of deployment is referred from [sunbird-learning-platform](https://github.com/project-sunbird/sunbird-learning-platform/blob/release-4.8.0/kubernetes/helm\_charts/datapipeline\_jobs/values.j2) repository. However, configuration for local setup is referred from respective job folders in [knowledge-platform-jobs](https://github.com/project-sunbird/knowledge-platform-jobs) repository.
 
 ### :stars: asset-enrichment: <a href="#asset-enrichment" id="asset-enrichment"></a>
 
@@ -365,71 +365,6 @@ kafka {
 
 ****
 
-### :stars: post-publish-processor:&#x20;
-
-**Kafka Topic:**
-
-```
-kafka {
-      input.topic = {{ env_name }}.content.postpublish.request
-      groupId = {{ env_name }}-post-publish-processor-group
-    }
-```
-
-**Job configuration variables:**
-
-No job functionality specific variables to list.
-
-**Sample kafka event:**
-
-```
-{
-  "eid": "BE_JOB_REQUEST",
-  "ets": 1649170015935,
-  "mid": "LP.1649170015935.2a7382ff-8bc9-4ff5-8620-2d467cf8990a",
-  "actor": {
-    "id": "Post Publish Processor",
-    "type": "System"
-  },
-  "context": {
-    "pdata": {
-      "ver": "1.0",
-      "id": "org.sunbird.platform"
-    },
-    "channel": "01272777697873100812",
-    "env": "sunbirdstaging"
-  },
-  "object": {
-    "ver": "1649169952265",
-    "id": "do_21350999965318348811690"
-  },
-  "edata": {
-    "action": "post-publish-process",
-    "iteration": 1,
-    "identifier": "do_21350999965318348811690",
-    "channel": "01272777697873100812",
-    "mimeType": "application/vnd.ekstep.content-collection",
-    "contentType": "Course",
-    "pkgVersion": 1,
-    "status": "Live",
-    "name": "CourseMTimmothy",
-    "trackable": {
-      "enabled": "Yes",
-      "autoBatch": "No"
-    }
-  }
-}
-```
-
-{% hint style="info" %}
-_<mark style="color:blue;">**Dependency:**</mark>_** ** \
-****1. **Jobs:** 'asset-enrichment' & 'qrcode-image-generator'&#x20;
-
-2\. **Services:** Asset Search Service **(**[Search API](http://docs.sunbird.org/latest/apis/searchapi/#operation/Composite%20Search)), LMS Service ([Course Batch Create](http://docs.sunbird.org/latest/apis/coursebatchmanapi/#operation/CourseBatchCreate)), Learning Service to reserve DIAL codes for a collection.
-{% endhint %}
-
-****
-
 ### :stars: content-publish:&#x20;
 
 **Kafka Topic:**
@@ -508,6 +443,71 @@ kafka {
 
 {% hint style="info" %}
 _<mark style="color:blue;">**Dependency:**</mark>_** Jobs:** 'post-publish-processor', 'video-stream-generator' & 'mvc-indexer'&#x20;
+{% endhint %}
+
+****
+
+### :stars: post-publish-processor:&#x20;
+
+**Kafka Topic:**
+
+```
+kafka {
+      input.topic = {{ env_name }}.content.postpublish.request
+      groupId = {{ env_name }}-post-publish-processor-group
+    }
+```
+
+**Job configuration variables:**
+
+No job functionality specific variables to list.
+
+**Sample kafka event:**
+
+```
+{
+  "eid": "BE_JOB_REQUEST",
+  "ets": 1649170015935,
+  "mid": "LP.1649170015935.2a7382ff-8bc9-4ff5-8620-2d467cf8990a",
+  "actor": {
+    "id": "Post Publish Processor",
+    "type": "System"
+  },
+  "context": {
+    "pdata": {
+      "ver": "1.0",
+      "id": "org.sunbird.platform"
+    },
+    "channel": "01272777697873100812",
+    "env": "sunbirdstaging"
+  },
+  "object": {
+    "ver": "1649169952265",
+    "id": "do_21350999965318348811690"
+  },
+  "edata": {
+    "action": "post-publish-process",
+    "iteration": 1,
+    "identifier": "do_21350999965318348811690",
+    "channel": "01272777697873100812",
+    "mimeType": "application/vnd.ekstep.content-collection",
+    "contentType": "Course",
+    "pkgVersion": 1,
+    "status": "Live",
+    "name": "CourseMTimmothy",
+    "trackable": {
+      "enabled": "Yes",
+      "autoBatch": "No"
+    }
+  }
+}
+```
+
+{% hint style="info" %}
+_<mark style="color:blue;">**Dependency:**</mark>_** ** \
+****1. **Kafka** **Jobs:** 'qrcode-image-generator', **Samza Jobs:** 'publish-pipeline' (For Shallow Copy Collections publishing)
+
+2\. **Services:** Asset Search Service **(**[Search API](http://docs.sunbird.org/latest/apis/searchapi/#operation/Composite%20Search)), LMS Service ([Course Batch Create](http://docs.sunbird.org/latest/apis/coursebatchmanapi/#operation/CourseBatchCreate)), Learning Service to reserve DIAL codes for a collection.
 {% endhint %}
 
 ****
