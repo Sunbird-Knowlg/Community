@@ -67,7 +67,8 @@ kafka {
 ```
 
 {% hint style="info" %}
-_<mark style="color:blue;">**Dependency:**</mark>_** Jobs:** 'video-stream-generator'&#x20;
+_<mark style="color:blue;">**Dependency:**</mark>_** Jobs:** 'video-stream-generator' .\
+**External Software:** imagemagick
 {% endhint %}
 
 
