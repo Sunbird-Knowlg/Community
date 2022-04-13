@@ -129,7 +129,7 @@ This API is used to log telemetry of user response. For example; Responded to as
 
 ### Sample Telemetry  Events
 
-Below are the sample telemetry events  check more details about each value in the event [here](https://telemetry.sunbird.org/learn/specification#telemetry-v3-event-structure)
+Below are the sample telemetry events  check more details about each value in the event [here](https://github.com/project-sunbird/sunbird-player-sdk/blob/master/docs/telemetry/SampleContentPlayerV2Instrumentation.csv)
 
 <details>
 
@@ -399,6 +399,6 @@ Below are the sample telemetry events  check more details about each value in th
 
 </details>
 
-### Telemetry Instrumentation
+### Telemetry Instrumentation for V2 Players
 
-Click [here](https://docs.google.com/spreadsheets/d/1aOwWkff9qULGdk1Tv7F11P9b820J\_bU6V0S10Ww1-HI/edit#gid=2079230452) for telemetry details &#x20;
+Click [here](https://github.com/project-sunbird/sunbird-player-sdk/blob/master/docs/telemetry/ContentPlayerV2Instrumentation.csv) for telemetry details &#x20;
