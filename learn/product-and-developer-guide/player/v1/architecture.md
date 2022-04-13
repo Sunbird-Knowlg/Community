@@ -23,8 +23,8 @@ Base launcher is responsible to launch following launchers based on the mime typ
 ```
 "contentLaunchers": [ // content laucher plugins for specific content mimetypes
     { // Plugin used for ECML content to launch, It is default plugin
-        "mimeType": 'application/vnd.ekstep.html-archive',
-        "id": 'org.sunbird.htmlrenderer',
+        "mimeType": 'application/vnd.ekstep.ecml-archive',
+        "id": 'org.ekstep.ecmlrenderer',
         "ver": 1.0,
         "type": 'plugin'
     }
