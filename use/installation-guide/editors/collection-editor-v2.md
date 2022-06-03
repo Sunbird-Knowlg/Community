@@ -43,7 +43,7 @@ The content players are used to playing the different types of content such as P
 
 Contains Form component powered by angular. This component expects a configuration and renders form according to the view.
 
-#### [Sunbird Telemetry](https://telemetry.sunbird.org)
+#### [Sunbird Telemetry](https://telemetry.sunbird.org/)
 
 Sunbird Telemetry is a specification to instrument all the key events. Using this specification reference applications & services will generate telemetry events.
 

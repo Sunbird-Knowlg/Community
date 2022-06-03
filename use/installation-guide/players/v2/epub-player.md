@@ -43,7 +43,7 @@ Player need some config that needs to be pass to the player as input , below lis
 
 ### External Dependencies
 
-#### [Sunbird Telemetry](https://telemetry.sunbird.org)
+#### [Sunbird Telemetry](https://telemetry.sunbird.org/)
 
 Sunbird Telemetry is a specification to instrument all the key events. Using this specification reference applications & services will generate telemetry events.
 

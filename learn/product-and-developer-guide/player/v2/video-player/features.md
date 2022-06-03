@@ -54,7 +54,7 @@ This forward and backward feature will help us to play video ahead and back.![](
 <summary><strong>Quality selection</strong>(with streaming) </summary>
 
 This quality selection provides  min and max content quality selection based on streaming  quality options.\
-![](../../../../../.gitbook/assets/videoPlayerV2QualitySelection.png)
+![](<../../../../../.gitbook/assets/videoPlayerV2QualitySelection (1).png>)
 
 </details>
 
@@ -82,5 +82,14 @@ This feature is used play and pause the content
 <summary>Playing Rate</summary>
 
 This feature will help us play the video at different speeds.![](../../../../../.gitbook/assets/videoPlayerV2PlayingRate.png)
+
+</details>
+
+<details>
+
+<summary>Subtitle selection(captions)</summary>
+
+This feature will help us to select the subtitle for different languages provided by content.\
+![](../../../../../.gitbook/assets/videoTranscript.png)
 
 </details>
