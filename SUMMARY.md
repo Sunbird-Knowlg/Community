@@ -142,7 +142,9 @@
     * [Object Category Service](use/installation-guide/services/object-category-service.md)
     * [Knowlg Jobs](use/installation-guide/services/knowlg-jobs.md)
 * [Deployment](use/deployment.md)
-* [Release notes](use/release-notes.md)
+* [Release notes](use/release-notes/README.md)
+  * [Release - 4.10.0](use/release-notes/release-4.10.0.md)
+  * [Release - 4.8.0](use/release-notes/release-4.8.0.md)
 * [USE](use/use.md)
 * [Additional Reading](use/additional-reading.md)
 
