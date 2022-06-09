@@ -39,7 +39,7 @@ Here’s the configuration:
 ```
 
 ****\
-****<img src="../../../../.gitbook/assets/image (5).png" alt="" data-size="original">****\
+****![](<../../../../.gitbook/assets/image (5).png>)****\
 ****\
 **- review**\
 ****It’s similar to read mode only. but here users can perform some actions such as publish, reject. \
@@ -92,7 +92,7 @@ Here is the configuration:
 }
 ```
 
-<img src="../../../../.gitbook/assets/NIT (1) (1).png" alt="" data-size="original">
+![](<../../../../.gitbook/assets/NIT (1) (1).png>)
 
 </details>
 
@@ -168,7 +168,7 @@ Here is the configuration:
 }
 ```
 
-<img src="../../../../.gitbook/assets/NIT (3).png" alt="" data-size="original">
+![](<../../../../.gitbook/assets/NIT (3).png>)
 
 </details>
 
@@ -185,7 +185,7 @@ Here is the configuration:
 }
 ```
 
-<img src="../../../../.gitbook/assets/NIT_and_New_Tab (1).png" alt="" data-size="original">
+![](<../../../../.gitbook/assets/NIT\_and\_New\_Tab (1).png>)
 
 </details>
 
@@ -277,7 +277,7 @@ config: {
   }
 ```
 
-<img src="../../../../.gitbook/assets/NIT (7) (1).png" alt="" data-size="original"><img src="../../../../.gitbook/assets/NIT (9) (1).png" alt="" data-size="original"><img src="../../../../.gitbook/assets/NIT_and_data_ts_—_sunbird-collection-editor-1.png" alt="" data-size="original"><img src="../../../../.gitbook/assets/NIT (2).png" alt="" data-size="original">
+![](<../../../../.gitbook/assets/NIT (7) (1).png>)![](<../../../../.gitbook/assets/NIT (9) (1).png>)![](../../../../.gitbook/assets/NIT\_and\_data\_ts\_—\_sunbird-collection-editor-1.png)![](<../../../../.gitbook/assets/NIT (2).png>)
 
 Following are the configuration for add from library page:\
 \
@@ -322,7 +322,7 @@ Here is the screenshot:\
 <summary>Review comment</summary>
 
 Reviewer has an option of providing comments (as a textbox) when requesting changes from the creator. \
-<img src="../../../../.gitbook/assets/NIT (9).png" alt="" data-size="original"><img src="../../../../.gitbook/assets/NIT (10).png" alt="" data-size="original">\
+![](<../../../../.gitbook/assets/NIT (9).png>)![](<../../../../.gitbook/assets/NIT (10).png>)\
 \
 When the creator opens the collection that is sent back for corrections, there is a comments icon in the editor (as in the current editor). Clicking that opens a textbox showing the latest comments from the reviewer.\
 ![](<../../../../.gitbook/assets/NIT (12).png>)

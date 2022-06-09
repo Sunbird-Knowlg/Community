@@ -182,3 +182,7 @@ In the above example 'Response',
 ### What is 'softConstraints' in search request?
 
 'softConstraints' is used to fetch results from ElasticSearch by boosting the relevance of a document based on a particular value of a field.
+
+### Is 'Fuzzy Search' enabled in search API?
+
+No. Fuzzy search has not been implemented in the search API.

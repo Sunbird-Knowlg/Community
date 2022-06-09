@@ -50,7 +50,7 @@ Please refer to the github readme document.
 
     ### External Dependencies
 
-    #### [Sunbird Telemetry](https://telemetry.sunbird.org/)
+    #### [Sunbird Telemetry](https://telemetry.sunbird.org)
 
     Sunbird Telemetry is a specification to instrument all the key events. Using this specification reference applications & services will generate telemetry events.
 

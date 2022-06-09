@@ -11,7 +11,7 @@
 ****[**Common Form (SB-Form)**](https://ed.sunbird.org/use/learn-more/specifications/sunbirded-forms)****\
 ****Use Common Forms to define the dynamic layout of a page that contains fields and sections. What makes this dynamic is that you can show/hide the sections & fields based on certain criteria, which is not possible with static page layouts.
 
-[**Telemetry SDK**](https://telemetry.sunbird.org/)****\
+[**Telemetry SDK**](https://telemetry.sunbird.org)****\
 ****This is used for generating the telemetry from the editor as a utility dependency library.
 
 <mark style="color:purple;">**Common Service Lib**</mark>\
