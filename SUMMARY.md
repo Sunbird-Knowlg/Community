@@ -146,6 +146,7 @@
   * [latest](use/release-notes/latest.md)
   * [Release - 4.10.0](use/release-notes/release-4.10.0.md)
   * [Release - 4.8.0](use/release-notes/release-4.8.0.md)
+* [Release](use/release.md)
 * [USE](use/use.md)
 * [Additional Reading](use/additional-reading.md)
 
