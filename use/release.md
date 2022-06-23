@@ -21,16 +21,14 @@ Find the below release dates on Sunbird-Knowlg.&#x20;
 | **Pre Prod Verification (PPV) End** | 29-Jul, Fri                                  | 23-Sep, Fri                                   | 3-Jun, Fri   |
 | **Production Release**              | <mark style="color:green;">1-Aug, Mon</mark> | <mark style="color:green;">26-Sep, Mon</mark> | 3-Jun, Fri   |
 
-{% embed url="https://docs.google.com/spreadsheets/d/1jEO5gArDZ6tvYdXpQM4VLVITYQaFOjNLG-JcYRIh_Jo/edit#gid=1288711836" %}
-
 ## Release Plan/Process
 
 As a sunbird-knowlg team we follow agile process.&#x20;
 
-* Each release will be having 2 sprints(sprint 1 & 2)
-* Each sprint is a span of 3 weeks.
-* Beta version of specific modules will be released on every sprint end(once for every 3 weeks).
-* Major version will be released on every release(Once for every 1 month, 15 days)
+* Release: Consists of 2 Sprints(Sprint 1 & Sprint 2)
+* Sprint: Each sprint is a span of 3 weeks.
+* Beta version: Specific modules will be released on every sprint end(once for every 3 weeks).
+* Major version: It will be released on every release(Once for every 1 month, 15 days) once we get sign-off by the QA team from pre-prod environment.
 
 For more details refere the below sheet
 
