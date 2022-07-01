@@ -55,6 +55,7 @@ Job is used for trigerring post publish activities when a collection is publishe
 * **Shallow Copy:** [Re-publishing herarchy information](./#content-publish) of shallow copy type of collections when an origin collection is published.
 * **Default DIAL code generation:** [Reserves DIAL Code](http://docs.sunbird.org/latest/apis/dialapi/#operation/Reserve%20Dialcode), linking and [QR Code image generation](./#qrcode-image-generator) for reserved DIAL code by default for a 'Course' primaryCategory object.
 * **Course Batch Creation:** Based on 'traceability' configuration, triggering auto [batch creation](http://docs.sunbird.org/latest/apis/coursebatchmanapi/#operation/CourseBatchCreate) for a 'Course' primaryCategory object if there is no running batch existing.
+* **DIAL Code Context Update:** Triggers individual context update events for newly added dial codes and removed dial codes of a published collection/content.
 
 ![](../../../.gitbook/assets/sunbird-knowlg-post-publish-processor.drawio.png)
 
@@ -86,7 +87,17 @@ Job uses neo4j transactions to index the objects' metadata into Composite search
 
 Job is used to generate streaming media of the uploaded video contents (mp4 and webm mimeTypes).
 
+![](../../../.gitbook/assets/sunbird-knowlg-video-stream-generator.drawio.png)
+
 {% embed url="https://github.com/project-sunbird/knowledge-platform-jobs/tree/release-4.8.0/video-stream-generator" %}
+
+### :stars: dialcode-context-updater:&#x20;
+
+Job is used to update context information for a linked/de-linked dial codes of a content/collection.
+
+![](../../../.gitbook/assets/sunbird-knowlg-dialcode-context-updater.drawio.png)
+
+{% embed url="https://github.com/project-sunbird/knowledge-platform-jobs/tree/release-5.0.0/dialcode-context-updater" %}
 
 
 

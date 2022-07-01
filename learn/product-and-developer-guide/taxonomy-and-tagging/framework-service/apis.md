@@ -12,4 +12,3 @@ description: >-
 * Framework Create, Read, Update, List, Publish and Copy
 * Framework Category Search, Read, Create and Update
 * Framework Term Search, Read, Create and Update
-* Channel Read, Create and Update

@@ -402,7 +402,7 @@ kafka {
 | master.category.validation.enabled    | <p>Used to specify whether object getting published is to be enriched with framework metadata.<br><em>Default value:</em> "Yes"</p>                                                                                                                     |
 | service.print.basePath                | NOT USED                                                                                                                                                                                                                                                |
 | mimetype.allowed\_extensions.word     | <p>Used to specify the list of file extensions allowed for uploaded content object. <br><em>Default value:</em> ["doc", "docx", "ppt", "pptx", "key", "odp", "pps", "odt", "wpd", "wps", "wks"]</p>                                                     |
-|                                       |                                                                                                                                                                                                                                                         |
+| enableDIALContextUpdate               | Used to sepcify if the DIAL code context update data is to be computed using the linked/de-linked Dial codes of the content/collection.                                                                                                                 |
 
 **Sample kafka event:**
 
@@ -718,5 +718,69 @@ _<mark style="color:blue;">**Dependency:**</mark>_** Services:** Content Service
 {% endhint %}
 
 ****
+
+### :stars: dialcode-context-updater:&#x20;
+
+**Kafka Topic:**
+
+```
+kafka {
+      input.topic = "{{ env_name }}.dialcode.context.job.request"
+      groupId = "{{ env_name }}-dialcode-group"
+    }
+```
+
+**Job configuration variables:**
+
+| Variable                                                            | Purpose                                                                                                                                                     |
+| ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| dialcode\_context\_updater.actions                                  | Used to identify dial code context update action                                                                                                            |
+| dialcode\_context\_updater_._search_\__mode                         | Used to set search mode for search API                                                                                                                      |
+| dialcode\_context\_updater_._context\_map\_path                     | Used to specify the path of context Mapping file. File used to specify the field mapping of context schema.jsonld to sunbird content/collection schema.json |
+| dialcode\_context\_updater_._identifier\_search\_fields             | Used to specify the search fields when the content/collection details is fetched for primary category.                                                      |
+| dialcode\_context\_updater_._dial\_code\_context\_read\_api\_path   | Used to specify the api endpoint of the DIAL service read context API (/dialcode/v4/read)                                                                   |
+| dialcode\_context\_updater_._dial\_code\_context\_update\_api\_path | Used to specify the api endpoint of the DIAL service Update context API (/dialcode/v4/update)                                                               |
+|                                                                     |                                                                                                                                                             |
+
+**Sample kafka event:**
+
+```
+{
+  "eid": "BE_JOB_REQUEST",
+  "ets": 1655804893687,
+  "mid": "LP.1655804893687.e8e921df-f479-49a9-af5a-df8bbc4de70a",
+  "actor": {
+    "id": "DIAL code context update Job",
+    "type": "System"
+  },
+  "context": {
+    "pdata": {
+      "ver": "1.0",
+      "id": "org.ekstep.platform"
+    },
+    "channel": "01309282781705830427",
+    "env": "dev"
+  },
+  "object": {
+    "ver": "1.0",
+    "id": "G3L9S2"
+  },
+  "edata": {
+    "action": "dialcode-context-update",
+    "iteration": 1,
+    "dialcode": "G3L9S2",
+    "identifier": "do_113556563202981888177"
+  },
+  "identifier": "do_113556563202981888177"
+}
+```
+
+{% hint style="info" %}
+_<mark style="color:blue;">**Dependency:**</mark>_\
+_<mark style="color:blue;">****</mark>_** Services:** \
+&#x20; ****  1. Search Service - composite search API
+
+&#x20; 2\. DIAL service - DIAL context read and update API
+{% endhint %}
 
 ****
