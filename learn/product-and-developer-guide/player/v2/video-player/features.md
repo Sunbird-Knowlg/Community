@@ -90,6 +90,7 @@ This feature will help us play the video at different speeds.![](../../../../../
 <summary>Subtitle selection(captions)</summary>
 
 This feature will help us to select the subtitle for different languages provided by content.\
-![](../../../../../.gitbook/assets/videoTranscript.png)
+![](../../../../../.gitbook/assets/videoTranscript.png)\
+The design and implementation document  [link](https://project-sunbird.atlassian.net/wiki/spaces/SBDES/pages/3183411217/Enable+transcripts+sub-title+in+video+player)&#x20;
 
 </details>
