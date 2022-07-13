@@ -100,7 +100,8 @@ The design and implementation document  [link](https://project-sunbird.atlassian
 <summary>Interactive Video Support (with QuestionSets)</summary>
 
 Using this feature, we can make the videos interactive, by adding Question-Sets at certain points.  As a result, the user will be able to interact with the video.\
-![](../../../../../.gitbook/assets/interactiveVideo1.png)\
+![](../../../../../.gitbook/assets/interactiveVideo1.png)
+![](../../../../../.gitbook/assets/interactiveVideo2.png)\
 The design and implementation document [link](https://project-sunbird.atlassian.net/wiki/spaces/PRD/pages/3193962714/Enable+Question-Sets+for+video+content)&#x20;
 
 </details>
