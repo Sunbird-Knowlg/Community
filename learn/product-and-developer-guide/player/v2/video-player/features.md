@@ -87,6 +87,14 @@ This feature will help us play the video at different speeds.![](../../../../../
 
 <details>
 
+<summary>Duration</summary>
+
+This feature will help us to get the video duration and use it.
+
+</details>
+    
+<details>
+
 <summary>Subtitle selection(captions)</summary>
 
 This feature will help us to select the subtitle for different languages provided by content.\
