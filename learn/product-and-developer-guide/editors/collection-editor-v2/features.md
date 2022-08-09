@@ -39,7 +39,7 @@ Here’s the configuration:
 ```
 
 ****\
-****<img src="../../../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" data-size="original">****\
+****<img src="../../../../.gitbook/assets/image (3) (1) (1).png" alt="" data-size="original">****\
 ****\
 **- review**\
 ****It’s similar to read mode only. but here users can perform some actions such as publish, reject. \
