@@ -18,7 +18,7 @@ The Taxonomy module enables flexibility to support multiple pedagogic frameworks
 
 An open infrastructure for organizing knowledge across various learning content and frameworks to solve the discoverability of relevant content. Experts created taxonomies are highly sophisticated, as communities and content scale, it is very difficult for a community user to understand the taxonomy and it takes significant discipline to tag content. Taxonomy and tagging infrastructure is a generic service that allows a highly automated way to create and enrich taxonomies and allow tagging, aggregation and categorization of content.
 
-![](<../../.gitbook/assets/taxonomy\_pic (1).png>)
+![](../../.gitbook/assets/taxonomy\_pic.png)
 
 ### Feature
 

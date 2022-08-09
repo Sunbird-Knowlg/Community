@@ -55,7 +55,7 @@ This navigate feature will provide the user to view previous and next page from 
 
 This is one of the property of [overlay config](content-player-v1.md#overlay). This allows user to perform the following actions based input config provided.
 
-![](<../../../../.gitbook/assets/ezgif.com-gif-maker (2).gif>)
+![](<../../../../.gitbook/assets/ezgif.com-gif-maker (2) (1).gif>)
 
 * **Replay**: Its a default feature of the side menu. By clicking on  'replay' user can play the content again.
 * **Switch user:** Side menu enables user to switch the current user by clicking on this side menu option. Refer [user switcher config](content-player-v1.md#sample-overlay-config) to configure this button.
@@ -85,7 +85,7 @@ Sample config to show end page
 
 * **Previous:** In a collection play - the previous button will indicate the previous content in the collection.
 
-![](<../../../../.gitbook/assets/endpage (2).png>)
+![](../../../../.gitbook/assets/endpage.png)
 
 * **Score:** This will indicate the user's score on the end page
 * **Time:** This will indicate - how much time user has spent on the content.

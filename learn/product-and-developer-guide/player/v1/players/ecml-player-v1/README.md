@@ -108,7 +108,7 @@ You can add audio in ecml assets and that can be render in ecml player v1. Curre
 
 Ecml player v1 is capable to render the shape and which is created in [Interactive editor](../../../../../../use/installation-guide/editors/interactive-editor.md)
 
-![](../../../../../../.gitbook/assets/ecmlplayer.png)
+![](<../../../../../../.gitbook/assets/ecmlplayer (1).png>)
 
 ### Video
 

@@ -39,7 +39,7 @@ Hence, categories are completely driven by configuration, without any category s
 Example from education - _**Exam Question paper, Practice Worksheet, Quiz**_ each one is a category of the asset type **Question set.**\
 Analogous example from the real-world - A _**Shoe, Sandal, Flip-flops**_ each one is a category of the asset type **foot wear.**
 
-![](<../../.gitbook/assets/Screen Shot 2022-03-24 at 12.16.00 PM.png>)
+![](<../../.gitbook/assets/Screen Shot 2022-03-24 at 12.16.00 PM (1).png>)
 
 * **Provides rich and customizable tagging frameworks to efficiently organize your assets and help users discover relevant assets.**
 

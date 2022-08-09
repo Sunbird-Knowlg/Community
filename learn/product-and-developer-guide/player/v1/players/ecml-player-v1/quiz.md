@@ -84,7 +84,7 @@ What should be the the minimum font size can be render in content player v1 defi
 
 Show submit property present the show button on end page, which will show after attempting the assessment. This is a configurable property of [overlay config](../../content-player-v1.md#overlay) of content player v1.
 
-![](../../../../../../.gitbook/assets/showsubmit.png)
+<img src="../../../../../../.gitbook/assets/showsubmit (1).png" alt="" data-size="original">
 
 Sample config to show submit button.
 
@@ -112,19 +112,19 @@ After every question rendered, the ECML player v1 will show the following immedi
 
 If the answer is correct, evaluation popup will show the correct icon popup and next button to go to the next question
 
-![](../../../../../../.gitbook/assets/correctansw.png)
+<img src="../../../../../../.gitbook/assets/correctansw.png" alt="" data-size="original">
 
 #### Wrong answer
 
 If the answer is wrong, evaluation popup will show the wrong icon popup with next and try again button.
 
-![](<../../../../../../.gitbook/assets/wrong aswer.png>)
+<img src="../../../../../../.gitbook/assets/wrong aswer.png" alt="" data-size="original">
 
 #### Partial score
 
 The partial score can be calculate for [MTF](quiz.md#mtf) and [FTB](quiz.md#ftb) type questions
 
-![](<../../../../../../.gitbook/assets/partial score.png>)
+<img src="../../../../../../.gitbook/assets/partial score.png" alt="" data-size="original">
 
 
 

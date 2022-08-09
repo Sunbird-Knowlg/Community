@@ -39,7 +39,7 @@ Here’s the configuration:
 ```
 
 ****\
-****<img src="../../../../.gitbook/assets/image (5).png" alt="" data-size="original">****\
+****<img src="../../../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" data-size="original">****\
 ****\
 **- review**\
 ****It’s similar to read mode only. but here users can perform some actions such as publish, reject. \
@@ -68,7 +68,7 @@ Here is the sample configuration for review mode:
 }
 ```
 
-![](../../../../.gitbook/assets/NIT.png)\
+![](<../../../../.gitbook/assets/NIT (12) (1).png>)\
 (Note: In the above case `editableFields.review: ['title']` so only the instruction field is enabled for reviewer while reviewing the collection)
 
 </details>
@@ -277,7 +277,7 @@ config: {
   }
 ```
 
-<img src="../../../../.gitbook/assets/NIT (7) (1).png" alt="" data-size="original"><img src="../../../../.gitbook/assets/NIT (9) (1).png" alt="" data-size="original"><img src="../../../../.gitbook/assets/NIT_and_data_ts_—_sunbird-collection-editor-1.png" alt="" data-size="original"><img src="../../../../.gitbook/assets/NIT (2).png" alt="" data-size="original">
+<img src="../../../../.gitbook/assets/NIT (7) (1).png" alt="" data-size="original"><img src="../../../../.gitbook/assets/NIT (5).png" alt="" data-size="original"><img src="../../../../.gitbook/assets/NIT_and_data_ts_—_sunbird-collection-editor-1.png" alt="" data-size="original"><img src="../../../../.gitbook/assets/NIT (2).png" alt="" data-size="original">
 
 Following are the configuration for add from library page:\
 \

@@ -30,4 +30,4 @@ Below is the configuration metadata to render/play EPUB content:
 1. **Location**\
    This is a default feature and help user to understand current page number and total number of pages
 
-![](../../../../../.gitbook/assets/epub-location.png)
+![](<../../../../../.gitbook/assets/epub-location (1).png>)

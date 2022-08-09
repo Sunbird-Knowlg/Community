@@ -14,7 +14,7 @@ Please refer [adding question set ](http://docs.sunbird.org/1.8/features-documen
 * [Reordering words](features.md#reordering-words)
 * [Arrange in Sequence](features.md#arrange-in-sequence)
 
-![](<../../../../.gitbook/assets/questionset (1).png>)
+![](../../../../.gitbook/assets/questionset.png)
 
 ### MTF
 

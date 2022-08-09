@@ -21,13 +21,13 @@ Below are the steps to create a new framework:
 3. [Create Terms for each category](http://docs.sunbird.org/latest/apis/framework/#operation/FrameworkV1TermCreatePost)
 4. [Publish the Framework](http://docs.sunbird.org/latest/apis/framework/#operation/publishFramework)
 
-Each term can be associated with another term from another category by using 'associationswith' attribute in [Term update API](http://docs.sunbird.org/latest/apis/framework/#operation/FrameworkV1TermUpdateClass2Patch)
+Each term can be associated with another term from **another category** by using _'associationswith'_ attribute in [Term update API](http://docs.sunbird.org/latest/apis/framework/#operation/FrameworkV1TermUpdateClass2Patch)
 
-`Example: { "request": { "term": { "associationswith": [ { "identifier": "associatetermidentifier1" //Term you want to add association with }, { "identifier": "associatetermidentifier2" //Term you want to add association with } ] } } }`
+`Example: { "request": { "term": {`` `**`"associationswith": [ { "identifier": "associatetermidentifier1"`**` ``//Term you want to add association with`` `**`}, { "identifier": "associatetermidentifier2"`**` ``//Term you want to add association with`` `**`} ]`**` ``} } }`
 
-'Level1-term', 'Level2-term' and 'Level3-term' can be created as map-trees under the framework category. 'Level1-concept’ is created as a term directly associated with framework category'. However, 'Level2-term' and 'Level3-term' are created as terms using the Term create API with reference to Parent.
+'Level1-term', 'Level2-term' and 'Level3-term' can be created as treemap under the framework category. 'Level1-term’ is created as a term directly associated with framework category. However, 'Level2-term' and 'Level3-term' are created as terms using the Term create API with reference to parent using _'parents'_ attribute in [Term create API](http://docs.sunbird.org/latest/apis/framework/#operation/FrameworkV1TermCreatePost).
 
-`Example: { "request": { "term": { "name": "Sample Term", "label": "Sample Term", "description": "Sample Term", "code": "sampleTerm" //needs to be unique within a framework "index": 20 //index of term display "parents": [ { "identifier": "parentIdentifier" //Term you want to add association to } ] } } }`
+`Example: { "request": { "term": { "name": "Sample Term", "label": "Sample Term", "description": "Sample Term", "code": "sampleTerm" //needs to be unique within a framework "index": 20 //index of term display`` `**`"parents": [ { "identifier": "parentIdentifier"`**` ``//Term you want to add association to`` `**`} ]`**` ``} } }`
 
 [**API to create ‘Framework Master Category’:**](http://docs.sunbird.org/3.6.0/developer-docs/server-installation/knowledge-platform/#create-master-framework-category)
 
