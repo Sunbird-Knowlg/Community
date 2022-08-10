@@ -456,6 +456,10 @@ _<mark style="color:blue;">**Dependency:**</mark>_** Jobs:** 'post-publish-proce
 kafka {
       input.topic = {{ env_name }}.content.postpublish.request
       groupId = {{ env_name }}-post-publish-processor-group
+      
+      publish.topic = {{ env_name }}.publish.job.request
+      qrimage.topic = {{ env_name }}.qrimage.request
+      dialcode.context.topic = {{ env_name }}.dialcode.context.job.request
     }
 ```
 
@@ -740,6 +744,9 @@ kafka {
 | dialcode\_context\_updater_._identifier\_search\_fields             | Used to specify the search fields when the content/collection details is fetched for primary category.                                                      |
 | dialcode\_context\_updater_._dial\_code\_context\_read\_api\_path   | Used to specify the api endpoint of the DIAL service read context API (/dialcode/v4/read)                                                                   |
 | dialcode\_context\_updater_._dial\_code\_context\_update\_api\_path | Used to specify the api endpoint of the DIAL service Update context API (/dialcode/v4/update)                                                               |
+| service.search.basePath                                             | Used to specify Search service base URL.                                                                                                                    |
+| service.dial\_service.basePath                                      | Used to specify DIAL service base URL.                                                                                                                      |
+| es\_sync\_wait\_time                                                | Used to specify wait time for collection nodes data to sync to ES after collection publish to reflect in search service results.                            |
 |                                                                     |                                                                                                                                                             |
 
 **Sample kafka event:**
