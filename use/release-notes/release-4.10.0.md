@@ -1,12 +1,10 @@
-# Release - 5.1.0 (on going)
+# Release - 5.0.0
 
-### <mark style="color:blue;">5.1.0</mark> (01-08-2022)
+### <mark style="color:blue;">5.0.0</mark> (08-08-2022)
 
-Discussion thread: [https://github.com/Sunbird-Knowlg/Community/discussions](https://github.com/Sunbird-Knowlg/Community/discussions)
-
-| Component | Tag  |
-| --------- | ---- |
-| ****      | **** |
+| Component        | Tag  |
+| ---------------- | ---- |
+| **Dial-Service** | **** |
 
 #### **Features**
 
