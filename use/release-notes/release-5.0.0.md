@@ -7,6 +7,13 @@
 | DIAL Service                    | [**release-5.0.0\_RC1**](https://github.com/project-sunbird/sunbird-dial-service/releases/tag/release-5.0.0\_RC1)    |
 | DIAL Context related Flink jobs | [**release-5.0.0\_RC1**](https://github.com/project-sunbird/knowledge-platform-jobs/releases/tag/release-5.0.0\_RC1) |
 | Content video player            | v[5.0.4](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.0.4)                             |
+| **Hot-FIx: CSP changes**        |                                                                                                                      |
+| Sunbird-Collection-Editor       | TBD                                                                                                                  |
+| Sunbird-Content-Editor          | TBD                                                                                                                  |
+| Sunbird-Generic-Editor          | TBD                                                                                                                  |
+| Content Service                 | TBD                                                                                                                  |
+| Knowledge-platform-jobs         | TBD                                                                                                                  |
+|                                 |                                                                                                                      |
 
 #### **Features**
 
