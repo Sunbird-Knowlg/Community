@@ -2,6 +2,12 @@
 
 ### <mark style="color:blue;">5.0.0</mark> (08-08-2022)
 
+
+
+<mark style="color:red;">**Clouse Service Provider(CSP) changes: To be released**</mark>
+
+<mark style="color:red;">****</mark>
+
 | Component                       | Tag                                                                                                                  |
 | ------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | DIAL Service                    | [**release-5.0.0\_RC1**](https://github.com/project-sunbird/sunbird-dial-service/releases/tag/release-5.0.0\_RC1)    |
