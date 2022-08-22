@@ -4,7 +4,9 @@
 
 
 
-<mark style="color:red;">**Clouse Service Provider(CSP) changes: To be released**</mark>
+<mark style="color:red;">**Hot-fix: To be released**</mark>
+
+<mark style="color:red;">**Communications Service Provider(CSP) changes: All the services should be cloud agnostic**</mark>
 
 <mark style="color:red;">****</mark>
 

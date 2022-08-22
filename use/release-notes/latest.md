@@ -1,14 +1,12 @@
 # latest
 
-### <mark style="color:blue;"></mark>
-
 ### <mark style="color:blue;">5.0.0</mark> (08-08-2022)
 
 
 
-<mark style="color:red;">**Clouse Service Provider(CSP) changes: To be released**</mark>
+<mark style="color:red;">**Hot-fix: To be released**</mark>
 
-
+<mark style="color:red;">**Communications Service Provider(CSP) changes: All the services should be cloud agnostic**</mark>
 
 | Component                       | Tag                                                                                                                  |
 | ------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
