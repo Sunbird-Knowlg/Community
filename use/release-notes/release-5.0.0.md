@@ -10,19 +10,20 @@
 
 <mark style="color:red;">****</mark>
 
-| Component                            | Tag                                                                                                                   |
-| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| DIAL Service                         | [**release-5.0.0\_RC1**](https://github.com/project-sunbird/sunbird-dial-service/releases/tag/release-5.0.0\_RC1)     |
-| DIAL Context related Flink jobs      | [**release-5.0.0\_RC1**](https://github.com/project-sunbird/knowledge-platform-jobs/releases/tag/release-5.0.0\_RC1)  |
-| Content video player                 | [**v5.0.4**](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.0.4)****                      |
-| **Hot-FIx: CSP changes**             |                                                                                                                       |
-| Sunbird-Collection-Editor            | ****[**v5.0.7**](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor-v9/v/5.0.7)****             |
-| Sunbird-Content-Editor               | [**release-5.0.0\_RC1** ](https://github.com/project-sunbird/sunbird-content-editor/releases/tag/release-5.0.0\_RC1)  |
-| Sunbird-Generic-Editor               | [**release-5.0.0\_RC1**](https://github.com/project-sunbird/sunbird-generic-editor/releases/tag/release-5.0.0\_RC1)   |
-| Sunbird-content-plugins              | [**release-5.0.0\_RC1** ](https://github.com/project-sunbird/sunbird-content-plugins/releases/tag/release-5.0.0\_RC1) |
-| Knowledge-platform (Content Service) | [**release-5.0.0\_RC1**](https://github.com/project-sunbird/knowledge-platform/releases/tag/release-5.0.0\_RC1)****   |
-| Knowledge-platform-jobs              | TBD                                                                                                                   |
-|                                      |                                                                                                                       |
+| Component                       | Service to be Build                 | Tag                                                                                                                    | Comment                                                                    |
+| ------------------------------- | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| Kafka setup                     | Deploy/KnowledgePlatform/KafkaSetup | ****[**release-5.0.0\_RC1**](https://github.com/project-sunbird/sunbird-learning-platform/tree/release-5.0.0\_RC1)**** | Deploy this to add newly added topic for **dialcode-context-updater** job. |
+| DIAL Service                    | Build/Core/Dial                     | [**release-5.0.0\_RC1**](https://github.com/project-sunbird/sunbird-dial-service/releases/tag/release-5.0.0\_RC1)      |                                                                            |
+| DIAL Context related Flink jobs | Build/KnowldgePlatform/Flinkjobs    | [**release-5.0.0\_RC1**](https://github.com/project-sunbird/knowledge-platform-jobs/releases/tag/release-5.0.0\_RC1)   | Deploy the **dialcode-context-updater** job.                               |
+| Content video player            | NA                                  | [**v5.0.4**](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.0.4)****                       |                                                                            |
+| **Hot-FIx: CSP changes**        |                                     |                                                                                                                        |                                                                            |
+| Sunbird-Collection-Editor       | NA                                  | ****[**v5.0.7**](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor-v9/v/5.0.7)****              |                                                                            |
+| Sunbird-Content-Editor          | Build/Plugins/ContentEditor         | [**release-5.0.0\_RC1** ](https://github.com/project-sunbird/sunbird-content-editor/releases/tag/release-5.0.0\_RC1)   |                                                                            |
+| Sunbird-Generic-Editor          | Build/Plugins/GenericEditor         | [**release-5.0.0\_RC1**](https://github.com/project-sunbird/sunbird-generic-editor/releases/tag/release-5.0.0\_RC1)    |                                                                            |
+| Sunbird-content-plugins         | Build/Plugins/ContentPlugins        | [**release-5.0.0\_RC1** ](https://github.com/project-sunbird/sunbird-content-plugins/releases/tag/release-5.0.0\_RC1)  |                                                                            |
+| Knowledge-platform              | Build/Kubernetes/Content            | [**release-5.0.0\_RC1**](https://github.com/project-sunbird/knowledge-platform/releases/tag/release-5.0.0\_RC1)****    |                                                                            |
+| Knowledge-platform-jobs         | Build/KnowldgePlatform/Flinkjobs    | [**release-5.0.0\_RC**](https://github.com/project-sunbird/knowledge-platform-jobs/tree/release-5.0.0\_RC2)**2**       |                                                                            |
+|                                 |                                     |                                                                                                                        |                                                                            |
 
 #### **Features**
 
@@ -65,7 +66,7 @@
 
 | Variable                | Description                                                                                                                             |
 | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| enableDIALContextUpdate | Used to sepcify if the DIAL code context update data is to be computed using the linked/de-linked Dial codes of the content/collection. |
+| enableDIALContextUpdate | Used to specify if the DIAL code context update data is to be computed using the linked/de-linked Dial codes of the content/collection. |
 
 **post-publish-processor:**
 
