@@ -73,3 +73,11 @@
 ```
 dialcode.context.topic = {{ env_name }}.dialcode.context.job.request
 ```
+
+**CSP configuration for edtors:**
+
+| Name                          | Configuration                                                                                                                                                                                                                          |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sunbird-collection-editor** | [https://github.com/Sunbird-Ed/sunbird-collection-editor/blob/release-5.0.0/docs/CONFIGURATION.md#2-editor-context](https://github.com/Sunbird-Ed/sunbird-collection-editor/blob/release-5.0.0/docs/CONFIGURATION.md#2-editor-context) |
+| **Sunbird-content-editor**    | [https://github.com/project-sunbird/sunbird-content-editor/tree/release-5.0.0#:\~:text=public%2Ddev/%22-,cloudStorage,-It%20is%20object](https://github.com/project-sunbird/sunbird-content-editor/tree/release-5.0.0)                 |
+| **Sinbird-generic-editor**    | [https://github.com/Sunbird-Ed/sunbird-collection-editor/blob/release-5.0.0/docs/CONFIGURATION.md#2-editor-context](https://github.com/Sunbird-Ed/sunbird-collection-editor/blob/release-5.0.0/docs/CONFIGURATION.md#2-editor-context) |
