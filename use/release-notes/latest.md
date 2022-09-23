@@ -15,8 +15,8 @@
 | Content video player                 | ****[**v5.0.4**](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.0.4)****                    |
 | **Hot-FIx: CSP changes**             |                                                                                                                         |
 | Sunbird-Collection-Editor            | [**v5.0.7**](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor-v9/v/5.0.7)****                   |
-| Sunbird-Content-Editor               | [**release-5.0.0\_RC1** ](https://github.com/project-sunbird/sunbird-content-editor/releases/tag/release-5.0.0\_RC1)    |
-| Sunbird-Generic-Editor               | [**release-5.0.0\_RC1**](https://github.com/project-sunbird/sunbird-generic-editor/releases/tag/release-5.0.0\_RC1)     |
+| Sunbird-Content-Editor               | [**release-5.0.0\_RC3** ](https://github.com/project-sunbird/sunbird-content-editor/releases/tag/release-5.0.0\_RC3)    |
+| Sunbird-Generic-Editor               | [**release-5.0.0\_RC3** ](https://github.com/project-sunbird/sunbird-generic-editor/releases/tag/release-5.0.0\_RC3)    |
 | Sunbird-content-plugins              | [**release-5.0.0\_RC1** ](https://github.com/project-sunbird/sunbird-content-plugins/releases/tag/release-5.0.0\_RC1)   |
 | Knowledge-platform (Content Service) | ****[**release-5.0.0\_RC1**](https://github.com/project-sunbird/knowledge-platform/releases/tag/release-5.0.0\_RC1)**** |
 | Knowledge-platform-jobs              | TBD                                                                                                                     |
