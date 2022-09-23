@@ -37,7 +37,11 @@
 
 [Unable to edit the book - Blank Screen is coming](https://project-sunbird.atlassian.net/browse/SB-30307)
 
-[Content imported from sourcing to consumption should not be linked to collection if it is not published](https://project-sunbird.atlassian.net/browse/SB-30566)
+[Remove originField from content.nested.fields from content public config property](https://project-sunbird.atlassian.net/browse/SB-30560)
+
+[Issue in collection Publish resulting deleted TBU coming in QR code scan/search](https://project-sunbird.atlassian.net/browse/SB-30573)
+
+
 
 #### Documentations
 

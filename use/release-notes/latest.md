@@ -36,6 +36,8 @@
 
 [Content imported from sourcing to consumption should not be linked to collection if it is not published](https://project-sunbird.atlassian.net/browse/SB-30566)
 
+[Issue in collection Publish resulting deleted TBU coming in QR code scan/search](https://project-sunbird.atlassian.net/browse/SB-30573)
+
 #### Documentations
 
 * Adopters - How to setup DIAL context [https://project-sunbird.atlassian.net/wiki/spaces/SBDES/pages/3214016513/Adoption+of+Sunbird+DIAL+Context](https://project-sunbird.atlassian.net/wiki/spaces/SBDES/pages/3214016513/Adoption+of+Sunbird+DIAL+Context)
