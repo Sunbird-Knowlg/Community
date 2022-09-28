@@ -29,19 +29,18 @@
 
 * Knowlg portal - Version 1 : [https://dev.knowlg.sunbird.org/](https://dev.knowlg.sunbird.org/) [#SB-28301](https://project-sunbird.atlassian.net/browse/SB-28301)
 * Interactive Video - Online Playback [#SB-30516](https://project-sunbird.atlassian.net/browse/SB-30516) (Sign-off pending)
-* Content service to update the DIAL context [#SB-30118](https://project-sunbird.atlassian.net/browse/SB-30118)
+* Content service to update the DIAL context [#](https://project-sunbird.atlassian.net/browse/SB-30118)[KN-285](https://project-sunbird.atlassian.net/browse/KN-285)
 * Content - DIAL Reserve API refactoring #[SB-28316](https://project-sunbird.atlassian.net/browse/SB-28316)
 * Collection Dialcode Link API Refactor LP to KP #[SB-30154](https://project-sunbird.atlassian.net/browse/SB-30154)
+* Inclusion of SB vocabulary validation for extended vocabulory #[SB-30378](https://project-sunbird.atlassian.net/browse/SB-30378) (Note: this is a new feature for knowlg, adopter can only implement this feature and not adopt it)
 
 #### **Bug Fixes**
 
-[Unable to edit the book - Blank Screen is coming](https://project-sunbird.atlassian.net/browse/SB-30307)
+[Unable to edit the book - Blank Screen is coming](https://project-sunbird.atlassian.net/browse/SB-30307) #[SB-30307](https://project-sunbird.atlassian.net/browse/SB-30307)
 
-[Remove originField from content.nested.fields from content public config property](https://project-sunbird.atlassian.net/browse/SB-30560)
+[Remove originField from content.nested.fields from content public config property](https://project-sunbird.atlassian.net/browse/SB-30560) #[SB-30560](https://project-sunbird.atlassian.net/browse/SB-30560)
 
-[Issue in collection Publish resulting deleted TBU coming in QR code scan/search](https://project-sunbird.atlassian.net/browse/SB-30573)
-
-
+[Issue in collection Publish resulting deleted TBU coming in QR code scan/search](https://project-sunbird.atlassian.net/browse/SB-30573) #[SB-30573](https://project-sunbird.atlassian.net/browse/SB-30573)
 
 #### Documentations
 
