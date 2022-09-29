@@ -1,14 +1,16 @@
 # Release - 5.0.0
 
+### <mark style="color:blue;">**Hot-fix:  5.0.1 (29-09-2022)**</mark>
+
+<mark style="color:blue;">**Bugs:**</mark>
+
+Content imported from sourcing to consumption should not be linked to collection if it is not published [SB-31006](https://project-sunbird.atlassian.net/browse/SB-31006)
+
+| Component               | Service to be build              | Tag                                                                                                              | Comment                                                                          |
+| ----------------------- | -------------------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Knowledge-platform-jobs | Build/KnowldgePlatform/Flinkjobs | [**release-5.0.1\_RC1**](https://github.com/project-sunbird/knowledge-platform-jobs/tree/release-5.0.1\_RC1)**** | [SB-30566](https://project-sunbird.atlassian.net/browse/SB-30566) patch reversal |
+
 ### <mark style="color:blue;">5.0.0</mark> (08-08-2022)
-
-
-
-<mark style="color:red;">**Hot-fix: To be released**</mark>
-
-<mark style="color:red;">**Communications Service Provider(CSP) changes: All the services should be cloud agnostic**</mark>
-
-<mark style="color:red;">****</mark>
 
 | Component                       | Service to be Build                 | Tag                                                                                                                    | Comment                                                                                                                                                 |
 | ------------------------------- | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -23,10 +25,6 @@
 | Sunbird-content-plugins         | Build/Plugins/ContentPlugins        | [**release-5.0.0\_RC1**](https://github.com/project-sunbird/sunbird-content-plugins/releases/tag/release-5.0.0\_RC1)   |                                                                                                                                                         |
 | Knowledge-platform              | Build/Kubernetes/Content            | [**release-5.0.0\_RC1**](https://github.com/project-sunbird/knowledge-platform/releases/tag/release-5.0.0\_RC1)****    |                                                                                                                                                         |
 | Knowledge-platform-jobs         | Build/KnowldgePlatform/Flinkjobs    | [**release-5.0.0\_RC**](https://github.com/project-sunbird/knowledge-platform-jobs/tree/release-5.0.0\_RC2)**2**       |                                                                                                                                                         |
-| **Hot-FIx:**                    |                                     |                                                                                                                        |                                                                                                                                                         |
-| Knowledge-platform-jobs         | Build/KnowldgePlatform/Flinkjobs    | ****[**release-5.0.1\_RC1**](https://github.com/project-sunbird/knowledge-platform-jobs/tree/release-5.0.1\_RC1)****   | [SB-30566](https://project-sunbird.atlassian.net/browse/SB-30566) patch reversal                                                                        |
-|                                 |                                     |                                                                                                                        |                                                                                                                                                         |
-| ****                            |                                     |                                                                                                                        |                                                                                                                                                         |
 
 #### **Features**
 
