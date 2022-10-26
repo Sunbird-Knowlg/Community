@@ -30,25 +30,32 @@ Please refer to the github readme document.
 
     ### Sample code for references
 
+
+
+    * **Web component** \
+      Refer sample code for Web component  [here](https://github.com/project-sunbird/sunbird-pdf-player/blob/master/web-component/index.html)\
+
     * **Angular** \
       Refer sample code for Angular  [here](https://github.com/project-sunbird/sunbird-pdf-player)\
-
-    * Web component \
-      Refer sample code for Web component  [here](https://github.com/project-sunbird/sunbird-pdf-player/blob/master/web-component/index.html)\
 
 
     ### How to set up
 
 
 
-    * **Angular** \
-      For set up in angular please follow the below link\
-      [Angular Library](https://github.com/project-sunbird/sunbird-pdf-player/tree/master#getting-started)\
+    * **As a  Web component** \
+      For set up as web  component in plain javascript projects please follow the  [link](https://github.com/project-sunbird/sunbird-pdf-player/tree/release-5.2.0#use-as-web-components)\
 
-    * **Others** \
-      For set up in mobile and as web component , please follow below link\
-      [Mobile app](https://github.com/project-sunbird/sunbird-pdf-player/tree/master#mobile-app-integration-steps)\
-      [Web Component](https://github.com/project-sunbird/sunbird-pdf-player/tree/master#use-as-web-components)\
+    * **As a  Web component in angular app**\
+      ****For set up as web  component in angular  projects please follow the  [link](https://github.com/project-sunbird/sunbird-pdf-player/tree/release-5.2.0#use-as-web-component--in-the-angular-app)\
+
+    * **As a  Angular library in angular app**\
+      ****For set up as angular library in angular  projects please follow the  [link](https://github.com/project-sunbird/sunbird-pdf-player/tree/release-5.2.0#use-as-angular-library-in-angular-app)\
+
+    * **As a  Angular library in mobile app**\
+      ****For set up as angular library in  mobile app projects please follow the  [link](https://github.com/project-sunbird/sunbird-pdf-player/tree/release-5.2.0#use-as-angular-library-in-mobile-app)
+
+    \
 
 
     ### External Dependencies

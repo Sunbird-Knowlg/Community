@@ -29,7 +29,7 @@ Content imported from sourcing to consumption should not be linked to collection
 #### **Features**
 
 * Knowlg portal - Version 1 : [https://dev.knowlg.sunbird.org/](https://dev.knowlg.sunbird.org/) [#SB-28301](https://project-sunbird.atlassian.net/browse/SB-28301)
-* Interactive Video - Online Playback [#SB-30516](https://project-sunbird.atlassian.net/browse/SB-30516) (Sign-off pending)
+* Interactive Video - Online Playback [#SB-30516](https://project-sunbird.atlassian.net/browse/SB-30516) (Signed off)
 * Content service to update the DIAL context [#](https://project-sunbird.atlassian.net/browse/SB-30118)[KN-285](https://project-sunbird.atlassian.net/browse/KN-285)
 * Content - DIAL Reserve API refactoring #[SB-28316](https://project-sunbird.atlassian.net/browse/SB-28316)
 * Collection Dialcode Link API Refactor LP to KP #[SB-30154](https://project-sunbird.atlassian.net/browse/SB-30154)

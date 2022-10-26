@@ -24,8 +24,14 @@ Discussion thread: [https://github.com/Sunbird-Knowlg/Community/discussions/42](
 #### **Features**
 
 * Please fine the Knowlg BB sign-off [here](https://docs.google.com/spreadsheets/d/1mmw6t0DRQs4KUqhpmNT4iLANSdhNVCU42ZLp2B6\_1QM/edit#gid=0).
-* Content Publish API LP to KP [#](https://project-sunbird.atlassian.net/browse/SB-30118)[KN-9](https://project-sunbird.atlassian.net/browse/KN-9) (update documentation - JP)
-* Content - DIAL Release API - LP to KP #[KN-257](https://project-sunbird.atlassian.net/browse/KN-257) (update documentation - JP)
+* Content Publish API LP to KP [#](https://project-sunbird.atlassian.net/browse/SB-30118)[KN-9](https://project-sunbird.atlassian.net/browse/KN-9)&#x20;
+
+&#x20;APIs refactored from learning-service to content-service: "\{{host\}}/api/content/v2/publish/\{{content\_id\}}" & "\{{host\}}/api/collection/v1/publish/\{{collection_\__id\}}"&#x20;
+
+* Content - DIAL Release API - LP to KP #[KN-257](https://project-sunbird.atlassian.net/browse/KN-257)&#x20;
+
+APIs refactored from learning-service to content-service: "\{{host\}}/api/content/v2/dialcode/release/\{{content\_id\}}" & "\{{host\}}/api/collection/v1/dialcode/release/\{{collection_\__id\}}" &#x20;
+
 * Collection editor: Angular migration 9 to 12 #[KN-26](https://project-sunbird.atlassian.net/browse/KN-26) (Knowlg specific) (Documentation update - Vaibhav)
 * Integrate cloud-store-sdk for google cloud #[KN-231](https://project-sunbird.atlassian.net/browse/KN-231) (Dev sign off, knowlg specific) (update documentation - Anil or Kumar Gaurav)
 * Implementation - Knowlg player app for PDF, Video and Epub player #[KN-239](https://project-sunbird.atlassian.net/browse/KN-239) (Knowlg BB portal specific)
@@ -36,5 +42,15 @@ Discussion thread: [https://github.com/Sunbird-Knowlg/Community/discussions/42](
 
 #### Documentations
 
+Content Publish API Postman collection: [https://github.com/project-sunbird/knowledge-platform/blob/release-5.1.0/content-api/api-tests/Collections/Publish%20API.postman\_collection.json](https://github.com/project-sunbird/knowledge-platform/blob/release-5.1.0/content-api/api-tests/Collections/Publish%20API.postman\_collection.json)
+
+DIAL code Release API Postman collection: [https://github.com/project-sunbird/knowledge-platform/blob/release-5.1.0/content-api/api-tests/Collections/Release%20DIAL%20Code%20API.postman\_collection.json](https://github.com/project-sunbird/knowledge-platform/blob/release-5.1.0/content-api/api-tests/Collections/Release%20DIAL%20Code%20API.postman\_collection.json)
+
 #### Configurations
 
+Content Service application.conf:
+
+|                             |                                        | Description                                                                            |
+| --------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------- |
+| kafka.publish.request.topic |  \{{ env\_name \}}.publish.job.request | variable to redirect publish instructions to kafka topic of content publish flink job. |
+|                             |                                        |                                                                                        |
