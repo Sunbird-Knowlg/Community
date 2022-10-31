@@ -17,9 +17,9 @@ Discussion thread: [https://github.com/Sunbird-Knowlg/Community/discussions/42](
 \
 
 
-| Component | Tag  |
-| --------- | ---- |
-| ****      | **** |
+| Component                 | Tag                                                                                                    |
+| ------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Sunbird-Collection-Editor | ****[**v5.1.3**](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.1.3)**** |
 
 #### **Features**
 
@@ -32,9 +32,14 @@ Discussion thread: [https://github.com/Sunbird-Knowlg/Community/discussions/42](
 
 APIs refactored from learning-service to content-service: "\{{host\}}/api/content/v2/dialcode/release/\{{content\_id\}}" & "\{{host\}}/api/collection/v1/dialcode/release/\{{collection_\__id\}}" &#x20;
 
-* Collection editor: Angular migration 9 to 12 #[KN-26](https://project-sunbird.atlassian.net/browse/KN-26) (Knowlg specific) (Documentation update - Vaibhav)
+* Collection editor: Angular migration 9 to 12 #[KN-26](https://project-sunbird.atlassian.net/browse/KN-26) (Knowlg specific)
 * Integrate cloud-store-sdk for google cloud #[KN-231](https://project-sunbird.atlassian.net/browse/KN-231) (Dev sign off, knowlg specific) (update documentation - Anil or Kumar Gaurav)
 * Implementation - Knowlg player app for PDF, Video and Epub player #[KN-239](https://project-sunbird.atlassian.net/browse/KN-239) (Knowlg BB portal specific)
+*   **Deprecation Warning:** From release-5.1.0, [<mark style="color:red;">@project-sunbird/sunbird-collection-editor-v9</mark>](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor-v9) <mark style="color:red;">deprecated.</mark> \ <mark style="color:red;"></mark>Please use [@project-sunbird/sunbird-collection-editor](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.1.3) for the latest version with angular 12\
+    \
+    **Install:** _`npm i @project-sunbird/sunbird-collection-editor@5.1.3`_
+
+    **URL:** [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.1.3](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.1.3)
 
 **Bug**
 
