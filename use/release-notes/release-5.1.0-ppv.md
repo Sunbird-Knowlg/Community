@@ -28,9 +28,13 @@ Discussion thread: [https://github.com/Sunbird-Knowlg/Community/discussions/42](
 
 &#x20;APIs refactored from learning-service to content-service: "\{{host\}}/api/content/v2/publish/\{{content\_id\}}" & "\{{host\}}/api/collection/v1/publish/\{{collection_\__id\}}"&#x20;
 
+Note: Existing endPoint '{host\}}/api/content/v1/publish/\{{content\_id\}}' will be deprecated soon
+
 * Content - DIAL Release API - LP to KP #[KN-257](https://project-sunbird.atlassian.net/browse/KN-257)&#x20;
 
 APIs refactored from learning-service to content-service: "\{{host\}}/api/content/v2/dialcode/release/\{{content\_id\}}" & "\{{host\}}/api/collection/v1/dialcode/release/\{{collection_\__id\}}" &#x20;
+
+Note: Existing endPoint '{host\}}/api/dial/v1/release/\{{content\_id\}}' will be deprecated soon.
 
 * Collection editor: Angular migration 9 to 12 #[KN-26](https://project-sunbird.atlassian.net/browse/KN-26) (Knowlg specific)
 * Integrate cloud-store-sdk for google cloud #[KN-231](https://project-sunbird.atlassian.net/browse/KN-231) (Dev sign off, knowlg specific) (update documentation - Anil or Kumar Gaurav)
