@@ -39,15 +39,12 @@ Note: Existing endPoint '{host\}}/api/dial/v1/release/\{{content\_id\}}' will be
 * Collection editor: Angular migration 9 to 12 #[KN-26](https://project-sunbird.atlassian.net/browse/KN-26) (Knowlg specific)
 * Integrate cloud-store-sdk for google cloud #[KN-231](https://project-sunbird.atlassian.net/browse/KN-231) (Dev sign off, knowlg specific) (update documentation - Anil or Kumar Gaurav)
 * Implementation - Knowlg player app for PDF, Video and Epub player #[KN-239](https://project-sunbird.atlassian.net/browse/KN-239) (Knowlg BB portal specific)
-*   **Deprecation Warning:** From release-5.1.0, [<mark style="color:red;">@project-sunbird/sunbird-collection-editor-v9</mark>](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor-v9) <mark style="color:red;">deprecated.</mark> \ <mark style="color:red;"></mark>Please use [@project-sunbird/sunbird-collection-editor](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.1.3) for the latest version with angular 12\
-    \
-    **Install:** _`npm i @project-sunbird/sunbird-collection-editor@5.1.3`_
-
-    **URL:** [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.1.3](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.1.3)
 
 **Bug**
 
 * Already Selected Programs / Verticals values are NOT getting displayed in the editor form when the user edit / send for review #[KN-238](https://project-sunbird.atlassian.net/browse/KN-238) (configuration update - Gourav)
+
+**Deprecations -** [**Release 5.1.0**](../deprecations/release-5.1.0.md) ****&#x20;
 
 #### Documentations
 
