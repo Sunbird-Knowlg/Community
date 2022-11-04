@@ -39,6 +39,8 @@ Note: Existing endPoint '{host\}}/api/dial/v1/release/\{{content\_id\}}' will be
 * Collection editor: Angular migration 9 to 12 #[KN-26](https://project-sunbird.atlassian.net/browse/KN-26) (Knowlg specific)
 * Integrate cloud-store-sdk for google cloud #[KN-231](https://project-sunbird.atlassian.net/browse/KN-231) (Dev sign off, knowlg specific) (update documentation - Anil or Kumar Gaurav)
 * Implementation - Knowlg player app for PDF, Video and Epub player #[KN-239](https://project-sunbird.atlassian.net/browse/KN-239) (Knowlg BB portal specific)
+* PDF player:  Angular migration 9 to 12  #[KN-50](https://project-sunbird.atlassian.net/browse/KN-50) (Knowlg specific)
+* Video player: Available as NG module for Angular based app manage it as dependency #[KN-7](https://project-sunbird.atlassian.net/browse/KN-7)
 
 **Bug**
 
