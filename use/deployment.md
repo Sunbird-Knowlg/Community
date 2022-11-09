@@ -1,16 +1,18 @@
 # Deployment
 
-{% hint style="danger" %}
-The Sunbird-Knowlg can be deployed independently. But at present we dont have installation guide to deploy Sunbird-Knowlg alone. Please reach out to our technical team  to deploy independently. \
+There are two options to deploy Knowlg:
+
+**Option 1: Independently deploy Knowlg building**
+
+The necessary documentation for deploying Knowlg independently is currently in the works. You can reach out to us in the community forums and we will assist you to complete the deployment.
+
 [https://github.com/Sunbird-knowlg/Community/discussions](https://github.com/Sunbird-knowlg/Community/discussions)
-{% endhint %}
 
+**Option 2: Deploying Knowlg as part of Sunbird-ED**
 
-
-{% hint style="danger" %}
-At present Sunbird-Knowlg deployment steps is packaged with Sunbird-ED. \
 Please refer to the [Sunbird-Ed deployment ](https://ed.sunbird.org/use/prerequisites-for-your-own-sunbird-ed-instance)for more details.
-{% endhint %}
+
+
 
 {% content-ref url="https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/-MkgPDmvKwE_DgYJbvPS/" %}
 [Sunbird ED](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/-MkgPDmvKwE\_DgYJbvPS/)
