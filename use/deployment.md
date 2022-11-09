@@ -2,7 +2,7 @@
 
 There are two options to deploy Knowlg:
 
-**Option 1: Independently deploy Knowlg building**
+**Option 1: Independently deploy Knowlg building block**
 
 The necessary documentation for deploying Knowlg independently is currently in the works. You can reach out to us in the community forums and we will assist you to complete the deployment.
 
