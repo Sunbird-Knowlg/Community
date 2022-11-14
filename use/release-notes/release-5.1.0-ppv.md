@@ -25,13 +25,13 @@ Discussion thread: [https://github.com/Sunbird-Knowlg/Community/discussions/42](
 \
 
 
-| Component                 | Tag                                                                                                    |
-| ------------------------- | ------------------------------------------------------------------------------------------------------ |
-| Sunbird-Collection-Editor | ****[**v5.1.3**](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.1.3)**** |
-| Sunbird-pdf-player        | ****[**v5.1.1**](https://www.npmjs.com/package/@project-sunbird/sunbird-pdf-player-v9/v/5.1.1)****     |
-| Sunbird-video-player      | ****[**v5.1.1**](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.1)****   |
-| Sunbird-epub-player       | ****[**v5.1.0**](https://www.npmjs.com/package/@project-sunbird/sunbird-epub-player-v9/v/5.1.0)****    |
-|                           |                                                                                                        |
+| Component                 | Tag                                                                                                             |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Sunbird-Collection-Editor | ****[**v5.1.3**](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.1.3)****          |
+| Sunbird-pdf-player        | ****[**v5.1.1**](https://www.npmjs.com/package/@project-sunbird/sunbird-pdf-player-v9/v/5.1.1)****              |
+| Sunbird-video-player      | ****[**v5.1.1**](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.1)****            |
+| Sunbird-epub-player       | ****[**v5.1.0**](https://www.npmjs.com/package/@project-sunbird/sunbird-epub-player-v9/v/5.1.0)****             |
+| knowledge-platform        | ****[**release-5.1.0\_RC1**](https://github.com/project-sunbird/knowledge-platform/tree/release-5.1.0\_RC1)**** |
 
 #### **Features**
 

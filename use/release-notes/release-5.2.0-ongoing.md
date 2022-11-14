@@ -1,8 +1,6 @@
 # Release-5.2.0 (ongoing)
 
-### <mark style="color:blue;">5.2.0</mark> (12-09-2022)
-
-Discussion thread: [https://github.com/Sunbird-Knowlg/Community/discussions/76](https://github.com/Sunbird-Knowlg/Community/discussions/76)
+### <mark style="color:blue;">5.2.0</mark> (01-08-2022)
 
 |                | Start date   | End date     |
 | -------------- | ------------ | ------------ |
