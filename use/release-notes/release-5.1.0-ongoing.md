@@ -1,4 +1,4 @@
-# Release-5.1.0 (PPV)
+# Release-5.1.0
 
 ### <mark style="color:blue;">**Hot-fix:  5.1.1**</mark>** (14-11-2022)**
 
@@ -68,7 +68,63 @@ DIAL code Release API Postman collection: [https://github.com/project-sunbird/kn
 
 #### Configurations
 
-Content Service application.conf:
+Content Service application configuration:
+
+For Bug [KN-238](https://project-sunbird.atlassian.net/browse/KN-238) The following fields needs to be updated for resource save form API.
+
+**URL:**  /action/data/v1/form/read
+
+**Request parameter** :-
+
+`"type": "content",`
+
+`subtype": "resource",`
+
+`"action": "save"`
+
+**Fields needs to be update**:
+
+```
+{
+	"code": "verticals",
+	"dataType": "text",
+	"description": "Verticals",
+	"editable": true,
+	"index": 12,
+	"inputType": "select",
+	"label": "Verticals",
+	"name": "Verticals",
+	"placeholder": "Choose from the list of verticals",
+	"renderingHints": {},
+	"range": [
+		"Nipun Bharat",
+		"Adult Education",
+		"Vocational Education",
+		"CWSN",
+		"Virtual Labs"
+	],
+	"required": false,
+	"visible": true
+}, {
+	"code": "programs",
+	"dataType": "text",
+	"description": "Programs",
+	"editable": true,
+	"index": 12,
+	"inputType": "select",
+	"label": "Programs",
+	"name": "Programs",
+	"placeholder": "Choose from the list of programs",
+	"renderingHints": {},
+	"range": [
+		"NISHTHA 2.0 (Secondary Level)",
+		"NISHTHA 3.0 (Nipun Bharat)",
+		"Chapter as a Course"
+	],
+	"required": false,
+	"visible": true
+}
+```
 
 |                             |                                        | Description                                                                            |
 | --------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------- |
