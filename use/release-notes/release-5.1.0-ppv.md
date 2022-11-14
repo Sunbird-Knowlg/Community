@@ -1,6 +1,14 @@
 # Release-5.1.0 (PPV)
 
+### <mark style="color:blue;">**Hot-fix:  5.1.1**</mark>** (14-11-2022)**
 
+<mark style="color:blue;">**Bugs:**</mark>
+
+Null pointer exception thrown while publishing collection when 'objectType' attribute is missing from the children metadata in the collection Hierarchy. [KN-609](https://project-sunbird.atlassian.net/browse/KN-609)&#x20;
+
+| Component               | Service to be build              | Tag                                                                                                                          | Comment                                         |
+| ----------------------- | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| Knowledge-platform-jobs | Build/KnowldgePlatform/Flinkjobs | ****[**release-5.1.1\_RC1**](https://github.com/project-sunbird/knowledge-platform-jobs/releases/tag/release-5.1.1\_RC1)**** | Build and depoy '**content-publish**' flink job |
 
 ### <mark style="color:blue;">5.1.0</mark> (01-08-2022)
 
