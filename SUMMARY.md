@@ -146,7 +146,7 @@
 * [Release notes](use/release-notes/README.md)
   * [Release-5.2.0 (ongoing)](use/release-notes/release-5.2.0-ongoing.md)
   * [latest](use/release-notes/latest.md)
-  * [Release-5.1.0 (PPV)](use/release-notes/release-5.1.0-ppv.md)
+  * [Release-5.1.0](use/release-notes/release-5.1.0.md)
   * [Release - 5.0.0](use/release-notes/release-5.0.0.md)
   * [Release - 4.10.0](use/release-notes/release-4.10.0.md)
   * [Release - 4.8.0](use/release-notes/release-4.8.0.md)
