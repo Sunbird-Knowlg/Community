@@ -1,5 +1,15 @@
 # Release - 5.0.0
 
+### <mark style="color:blue;">**Hot-fix:  5.0.3 (17-11-2022)**</mark>
+
+<mark style="color:blue;">**Bugs:**</mark>
+
+Null pointer exception while publishing collection [KN-609](https://project-sunbird.atlassian.net/browse/KN-609)
+
+| Component               | Service to be build              | Tag                                                                                                                     | Comment |
+| ----------------------- | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------- |
+| Knowledge-platform-jobs | Build/KnowldgePlatform/Flinkjobs | ****[**release-5.0.3\_RC1**](https://github.com/project-sunbird/knowledge-platform-jobs/commits/release-5.0.3\_RC1)**** |         |
+
 ### <mark style="color:blue;">**Hot-fix:  5.0.1 (29-09-2022)**</mark>
 
 <mark style="color:blue;">**Bugs:**</mark>
