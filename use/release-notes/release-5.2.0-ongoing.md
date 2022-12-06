@@ -14,11 +14,11 @@ Discussion thread: [https://github.com/Sunbird-Knowlg/Community/discussions/76](
 
 
 
-| Component                | Service to be build                                             | Tag                                                                                                                    | Comment                                                                                                                                                                                                                                                                 |
-| ------------------------ | --------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Knowledge-platform       | <p>Build/Kubernetes/Content</p><p>Build/Kubernetes/Taxonomy</p> | ****[**release-5.2.0\_RC1**](https://github.com/project-sunbird/knowledge-platform/tree/release-5.2.0\_RC1)****        | Deploy the content-service and taxonomy-service. Please find the configuration changes below in [Configurations](https://knowlg.sunbird.org/use/release-notes/release-5.2.0-ongoing#configurations) section.                                                            |
-| Sunbird-learning-service | Build/KnowldgePlatform/Learning                                 | ****[**release-5.2.0\_RC1**](https://github.com/project-sunbird/sunbird-learning-platform/tree/release-5.2.0\_RC1)**** | Deploy the learning service.                                                                                                                                                                                                                                            |
-| Knowledge-platform-jobs  | Build/KnowldgePlatform/Flinkjobs                                | ****[**release-5.2.0\_RC1**](https://github.com/project-sunbird/knowledge-platform-jobs/tree/release-5.2.0\_RC1)****   | Please deploy the assessment-enrichment, content-publish, qrcode-image-generator search-indexer flink jobs. Please find the configuration changes below in [Configurations](https://knowlg.sunbird.org/use/release-notes/release-5.2.0-ongoing#configurations) section. |
+| Component                | Service to be build                                             | Tag                                                                                                                    | Comment                                                                                                                                                                                                                                                                                                                                                                                            |
+| ------------------------ | --------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Knowledge-platform       | <p>Build/Kubernetes/Content</p><p>Build/Kubernetes/Taxonomy</p> | ****[**release-5.2.0\_RC1**](https://github.com/project-sunbird/knowledge-platform/tree/release-5.2.0\_RC1)****        | Deploy the content-service and taxonomy-service. Please find the configuration changes below in [Configurations](https://knowlg.sunbird.org/use/release-notes/release-5.2.0-ongoing#configurations) section.                                                                                                                                                                                       |
+| Sunbird-learning-service | Build/KnowldgePlatform/Learning                                 | ****[**release-5.2.0\_RC1**](https://github.com/project-sunbird/sunbird-learning-platform/tree/release-5.2.0\_RC1)**** | Deploy the learning service.                                                                                                                                                                                                                                                                                                                                                                       |
+| Knowledge-platform-jobs  | Build/KnowldgePlatform/Flinkjobs                                | ****[**release-5.2.0\_RC1**](https://github.com/project-sunbird/knowledge-platform-jobs/tree/release-5.2.0\_RC1)****   | Please deploy the **assessment-enrichment**, **content-publish**, **qrcode-image-generator**, **search-indexer**, **csp-migrator,** **live-node-publisher,** **live-video-stream-generator,** **cassandra-data-migration** flink jobs. Please find the configuration changes below in [Configurations](https://knowlg.sunbird.org/use/release-notes/release-5.2.0-ongoing#configurations) section. |
 
 ### Configurations
 
@@ -55,4 +55,13 @@ cloudstorage_metadata_list: '["appIcon","posterImage","artifactUrl","downloadUrl
 * <mark style="color:red;">sunbird\_public\_storage\_account\_key</mark>
 * <mark style="color:red;">azure\_public\_container</mark>
 * <mark style="color:red;">sunbird\_content\_azure\_storage\_container</mark>
+
+
+
+**New Flink Jobs:**
+
+* csp-migrator
+* live-node-publisher
+* live-video-stream-generator
+* cassandra-data-migration
 
