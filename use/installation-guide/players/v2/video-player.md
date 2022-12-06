@@ -38,14 +38,22 @@ Please refer to the github readme document.
 
     ### How to set up
 
-    * **Angular** \
-      For set up in angular please follow the below link\
-      [Angular Library](https://github.com/project-sunbird/sunbird-video-player/tree/master#getting-started)\
+    * **As a  Web component** \
+      For set up as web  component in plain javascript projects please follow the  [link](https://github.com/project-sunbird/sunbird-video-player/tree/release-5.3.0#use-as-web-components)\
 
-    * **Others** \
-      For set up in mobile and as web component , please follow below link\
-      [Mobile app](https://github.com/project-sunbird/sunbird-video-player/tree/master#mobile-app-integration-steps)\
-      [Web Component](https://github.com/project-sunbird/sunbird-video-player/tree/master#use-as-web-components)\
+    * **As a  Web component in angular app**\
+      ****For set up as web  component in angular  projects please follow the  [link](https://github.com/project-sunbird/sunbird-video-player/tree/release-5.3.0#use-as-web-component--in-the-angular-app)\
+
+    * **As a  Web component in mobile app**\
+      ****For set up as web  component in mobile app  projects please follow the  [link](https://github.com/project-sunbird/sunbird-video-player/tree/release-5.3.0#use-as-web-component-in-mobile-app)\
+
+    * **As a  Angular library in angular app**\
+      ****For set up as angular library in angular  projects please follow the  [link](https://github.com/project-sunbird/sunbird-video-player/tree/release-5.3.0#use-as-angular-library-in-angular-app)\
+
+    * **As a  Angular library in mobile app**\
+      ****For set up as angular library in  mobile app projects please follow the  [link](https://github.com/project-sunbird/sunbird-video-player/tree/release-5.3.0#use-as-angular-library-in-mobile-app)
+
+    \
 
 
     ### External Dependencies

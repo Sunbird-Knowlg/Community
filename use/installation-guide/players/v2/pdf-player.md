@@ -49,6 +49,9 @@ Please refer to the github readme document.
     * **As a  Web component in angular app**\
       ****For set up as web  component in angular  projects please follow the  [link](https://github.com/project-sunbird/sunbird-pdf-player/tree/release-5.2.0#use-as-web-component--in-the-angular-app)\
 
+    * **As a  Web component in mobile app**\
+      ****For set up as web  component in mobile app  projects please follow the  [link](https://github.com/project-sunbird/sunbird-pdf-player/tree/release-5.2.0#use-as-web-component-in-mobile-app)\
+
     * **As a  Angular library in angular app**\
       ****For set up as angular library in angular  projects please follow the  [link](https://github.com/project-sunbird/sunbird-pdf-player/tree/release-5.2.0#use-as-angular-library-in-angular-app)\
 
