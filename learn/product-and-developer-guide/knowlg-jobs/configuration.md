@@ -881,6 +881,10 @@ kafka {
 | content.assessment\_table        | Used to specify assessment data table                                             |
 | questionset.hierarchy.keyspace   | Used to specify the keyspace containing question set hierarchy table.             |
 | questionset.hierarchy.table      | Used to specify the question set hierarchy table                                  |
+| migrationVersion                 | Used to specify the migration version                                             |
+|                                  |                                                                                   |
+|                                  |                                                                                   |
+|                                  |                                                                                   |
 
 
 

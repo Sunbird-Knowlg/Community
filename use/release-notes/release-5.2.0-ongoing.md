@@ -60,8 +60,8 @@ cloudstorage_metadata_list: '["appIcon","posterImage","artifactUrl","downloadUrl
 
 **New Flink Jobs:**
 
-* csp-migrator
-* live-node-publisher
-* live-video-stream-generator
-* cassandra-data-migration
+* [csp-migrator](https://knowlg.sunbird.org/learn/product-and-developer-guide/knowlg-jobs/configuration#csp-migrator)
+* [live-node-publisher](https://knowlg.sunbird.org/learn/product-and-developer-guide/knowlg-jobs/configuration#live-node-publisher)
+* [live-video-stream-generator](https://knowlg.sunbird.org/learn/product-and-developer-guide/knowlg-jobs/configuration#live-video-stream-generator)
+* [cassandra-data-migration](https://knowlg.sunbird.org/learn/product-and-developer-guide/knowlg-jobs/configuration#cassandra-data-migration)
 
