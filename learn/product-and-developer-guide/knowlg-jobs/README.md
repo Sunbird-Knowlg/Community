@@ -63,7 +63,11 @@ Job is used for trigerring post publish activities when a collection is publishe
 
 {% hint style="info" %}
 _<mark style="color:blue;">**Note:**</mark>_ <mark style="color:blue;"></mark><mark style="color:blue;"></mark> Side output topic 'publish.topic = \{{ env\_name \}}.learning.job.request' which is currently serviced by 'publish-pipeline' Samza job will be updated to 'publish.topic = \{{ env\_name \}}.**publish**.job.request' to be serviced by 'content-publish' Flink job.
+
+<mark style="color:green;">**All samza-jobs have been converted to flink jobs from release-5.0.0. From release-5.0.0, there will be no development/enhancement on samza-jobs.**</mark>&#x20;
 {% endhint %}
+
+
 
 
 
@@ -139,7 +143,7 @@ Job is used to republish already live contents. This job will refer to the data 
 
 This job is exact replica of the 'video-stream-generator' job. This was created to monitor/control the infra requirement needed for generation of new streaming URLs as part of new cloud service provider migration.&#x20;
 
-<figure><img src="../../../.gitbook/assets/sunbird-knowlg-live-video-stream-generator.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sunbird-knowlg-live-video-stream-generator.drawio (1).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://github.com/project-sunbird/knowledge-platform-jobs/tree/release-5.2.0/live-video-stream-generator" %}
 
