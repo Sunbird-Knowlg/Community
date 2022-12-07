@@ -56,7 +56,14 @@ Reference diagram to know how the migration of existing data with CNAME(storing 
 migration flow diagram (migration-job flow & migration-process workflow)
 {% endembed %}
 
-#### Sequence of migration steps:
+### Sequence of migration steps:
+
+1.  Jenkins jobs to trigger the migration\
+    TBU: Jenkins Job link\
+    Configuration of the Jenkins job
+
+
+2. Migration of data execution order
 
 The content migration should execute in the below order only. Otherwise there is a chances of migration failure because of dependent content is not yet migrated. [more details](https://docs.google.com/spreadsheets/d/13DaXCx8uToOwinlAPxvTat8NELxiPgG4KXATcKaJm\_c/edit#gid=1675310401\&range=K3)
 
@@ -78,14 +85,28 @@ The content migration should execute in the below order only. Otherwise there is
 | 14       | ECML            | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.ecml-archive -limit 1000             |
 | 15       | Collection      | --graphId domain --objectType Collection,CollectionImage --mimeType application/vnd.ekstep.content-collection -limit 1000 |
 
-#### Migration Version status Information:
+### Migration status: migrationVersion of the node object
 
-* 1.0 => neo4j data and cassandra data migration completed for the object
-* 0.1 => neo4j data migration or cassandra data migration failed for the object
-* 0.5 => migration skipped for the object
-* 1.1 => neo4j data and cassandra data migration completed for the object and ECAR is republished.
-* 0.2 => neo4j data and cassandra data migration completed for the object. But, ECAR republish has failed.
-* 1.2 => neo4j data and cassandra data migration completed for video type of asset/content and streamingUrl is regenerated successfully.
+**1.Neo4J & Cassandra data migration started**
 
-#### Verification of migration steps:
+* no version => Data migration started for each Neo4j node. It will migrate the Neo4j data and Cassandra data migration failed for the object
+* <mark style="color:red;">0.1</mark> => <mark style="color:red;">Fail</mark>: Data migration is failed for the Neo4J data or Cassandra data of the specific node(identifier is the key to know for which node it failed. We can check the logs of the service to know the reason of failure)
+* <mark style="color:green;">1.0</mark> => <mark style="color:green;">Success:</mark> Neo4j data and Cassandra data migration completed for the object(node)\
+
+
+**2.ECAR Generation**(after previous step of Neo4J & Cassandra data migration success)
+
+* <mark style="color:green;">1.1</mark> => <mark style="color:green;">Success:</mark> Neo4j data and Cassandra data migration completed for the object and ECAR is republished.
+* <mark style="color:red;">0.1</mark> => <mark style="color:red;">Fail</mark>: Neo4j data and Cassandra data migration completed for the object. But, ECAR republish has failed.
+
+**3.Video streaming generation** (after previous step of ECAR generate is success)
+
+* <mark style="color:green;">1.2</mark> => <mark style="color:green;">Success:</mark> Neo4j data and Cassandra data migration completed for video type of asset/content and streamingUrl is regenerated successfully.
+* <mark style="color:red;">0.5</mark> => <mark style="color:red;">Fail</mark>:  migration skipped for the object
+
+### Verification of migration steps:
+
+More details of verification steps are added in the below confluence wiki
+
+{% embed url="https://project-sunbird.atlassian.net/wiki/spaces/SBDES/pages/3257892877/Verification+of+Migration+Steps" %}
 
