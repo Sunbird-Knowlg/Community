@@ -67,6 +67,8 @@ cloudstorage_metadata_list: '["appIcon","posterImage","artifactUrl","downloadUrl
 
 ### Migration process:
 
+refer [data-migration.md](../../learn/product-and-developer-guide/other/data-migration.md "mention") page for more details.
+
 Reference diagram to know how the migration of existing data with CNAME(storing relative path DB)&#x20;
 
 {% embed url="https://app.diagrams.net/#G1HzUob6a9_TrVWhcoo1nWoKPVN0PKzpmQ" %}

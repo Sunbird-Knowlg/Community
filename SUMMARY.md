@@ -110,6 +110,7 @@
     * [Configuration](learn/product-and-developer-guide/knowlg-jobs/configuration.md)
     * [FAQs](learn/product-and-developer-guide/knowlg-jobs/faqs.md)
   * [Other](learn/product-and-developer-guide/other/README.md)
+    * [Data Migration](learn/product-and-developer-guide/other/data-migration.md)
     * [Schema strucure](learn/product-and-developer-guide/other/schema-strucure.md)
 * [Product Roadmap](learn/product-roadmap.md)
 
