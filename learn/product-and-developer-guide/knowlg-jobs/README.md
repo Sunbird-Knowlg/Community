@@ -133,7 +133,7 @@ Job is used to replace cloud service provider references in the neo4j and cassan
 
 ### :stars: live-node-publisher:&#x20;
 
-Job is used to republish already live contents. This job will refer to the data of live node only and not to the data of image node if exists. Please note that image node if exists, will not be deleted from the neo4j and 'pkgVersion' of the live node will not be incremented on republishing. &#x20;
+Job is used to republish already live contents. This job will refer to the data of live node only and not to the data of image node if exists. Please note that image node if exists, will not be deleted from the neo4j. &#x20;
 
 <figure><img src="../../../.gitbook/assets/sunbird-knowlg-live-node-publisher.drawio.png" alt=""><figcaption></figcaption></figure>
 
