@@ -11,6 +11,16 @@ This document details about the migration of below points
 
     Example: Moving from Azure to AWS service provider.
 
+#### Migration data
+
+* Neo4J node data need to migrate
+*   Cassandra data need to migrate
+
+    This will impact for collections like Textbook, Course, ECML contents.
+* DIAL code download URL
+* ECAR generate
+* Generating new video steaming(for new CSP provider)
+
 Reference diagram to know how the migration of existing data with CNAME(storing relative path DB)&#x20;
 
 {% embed url="https://app.diagrams.net/#G1HzUob6a9_TrVWhcoo1nWoKPVN0PKzpmQ" %}
