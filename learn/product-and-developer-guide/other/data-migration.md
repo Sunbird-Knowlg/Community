@@ -1,7 +1,7 @@
 ---
 description: >-
   This document details about migration of data from cloud absolute paths stored
-  in the database with relative paths OR with new CSP abosulte paths.
+  in the database with relative paths OR with new CSP absolute paths.
 ---
 
 # Data Migration
@@ -56,18 +56,20 @@ Reference diagram to know how the migration of existing data with CNAME(storing 
 migration flow diagram (migration-job flow & migration-process workflow)
 {% endembed %}
 
-### Sequence of migration steps:
-
-1. Jenkins jobs to trigger the migration\
-   Configuration of the Jenkins job
-2. Migration of data execution order
-
 #### Flink Jobs used for migration:
 
-* [csp-migrator](https://knowlg.sunbird.org/learn/product-and-developer-guide/knowlg-jobs/configuration#csp-migrator)
-* [live-node-publisher](https://knowlg.sunbird.org/learn/product-and-developer-guide/knowlg-jobs/configuration#live-node-publisher)
-* [live-video-stream-generator](https://knowlg.sunbird.org/learn/product-and-developer-guide/knowlg-jobs/configuration#live-video-stream-generator)
-* [cassandra-data-migration](https://knowlg.sunbird.org/learn/product-and-developer-guide/knowlg-jobs/configuration#cassandra-data-migration): For migration of dialcode\_images and dialcode\_batch cassandra tables only
+* [csp-migrator](https://knowlg.sunbird.org/learn/product-and-developer-guide/knowlg-jobs/configuration#csp-migrator): For migration of data in eno4j and cassandra tables.
+* [live-node-publisher](https://knowlg.sunbird.org/learn/product-and-developer-guide/knowlg-jobs/configuration#live-node-publisher): For republishing of live nodes (Content and Collection).
+* [live-video-stream-generator](https://knowlg.sunbird.org/learn/product-and-developer-guide/knowlg-jobs/configuration#live-video-stream-generator): For regeneration of streamUrl using new Media service.
+* [cassandra-data-migration](https://knowlg.sunbird.org/learn/product-and-developer-guide/knowlg-jobs/configuration#cassandra-data-migration): For migration of data in any cassandra table, column wise.
+
+{% hint style="info" %}
+Note:&#x20;
+
+1. Jenkins Job '<mark style="color:green;">**Neo4jElasticSearchSyncTool**</mark>' is used to insert the events into 'csp-migrator' job input topic. 'csp-migrator' job will further insert topics into 'live-node-publisher' job and 'live-video-stream-generator' jobs based on conditions. Jenkins job command: **migratecspdata**
+2. '**cassandra-data-migration'** job is to be used for migration of '_dialcode\_images'_ and '_dialcode\_batch'_ cassandra tables in '_dialcodes_**'** keyspace.
+3. <mark style="color:orange;">**We suggest to run the migration flink jobs in a separate kafka setup with increased processing ability and storage for storing all kakfa events and logs.**</mark>
+{% endhint %}
 
 The content migration should execute in the below order only. Otherwise there is a chances of migration failure because of dependent content is not yet migrated. [more details](https://docs.google.com/spreadsheets/d/13DaXCx8uToOwinlAPxvTat8NELxiPgG4KXATcKaJm\_c/edit#gid=1675310401\&range=K3)
 
@@ -79,10 +81,10 @@ The content migration should execute in the below order only. Otherwise there is
 | 4        | Plugin, Youtube Content, PDF Content,EPUB Content | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.plugin-archive,video/x-youtube,application/pdf,application/epub --limit 1000 |
 | 5        | AssessmentItem                                    | --graphId domain --objectType AssessmentItem --limit 1000                                                                                                         |
 | 6        | ItemSet                                           | --graphId domain --objectType ItemSet --limit 1000                                                                                                                |
-| 7        | H5P Content                                       | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.h5p-archive -limit 1000                                                      |
-| 8        | HTML                                              | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.html-archive -limit 1000                                                     |
-| 9        | Question                                          | --graphId domain --objectType Question  -limit 1000                                                                                                               |
-| 10       | QuestionSet                                       | --graphId domain --objectType QuestionSet,QuestionSetImage  -limit 1000                                                                                           |
+| 7        | Question                                          | --graphId domain --objectType Question  -limit 1000                                                                                                               |
+| 8        | QuestionSet                                       | --graphId domain --objectType QuestionSet,QuestionSetImage  -limit 1000                                                                                           |
+| 9        | H5P Content                                       | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.h5p-archive -limit 1000                                                      |
+| 10       | HTML                                              | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.html-archive -limit 1000                                                     |
 | 11       | ECML                                              | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.ecml-archive -limit 1000                                                     |
 | 12       | Collection                                        | --graphId domain --objectType Collection,CollectionImage --mimeType application/vnd.ekstep.content-collection -limit 1000                                         |
 
