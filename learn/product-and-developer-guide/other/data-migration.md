@@ -73,6 +73,13 @@ Note:&#x20;
 
 The content migration should execute in the below order only. Otherwise there is a chances of migration failure because of dependent content is not yet migrated. [more details](https://docs.google.com/spreadsheets/d/13DaXCx8uToOwinlAPxvTat8NELxiPgG4KXATcKaJm\_c/edit#gid=1675310401\&range=K3)
 
+### Migration Steps
+
+* Before running the migration steps, go [here](https://project-sunbird.atlassian.net/wiki/spaces/SBDES/pages/3257892877/Verification+of+Migration+Steps) and run all the queries and keep the output to compare after migration.
+* Go to Deploy/KnowledgePlatform/Neo4jElasticSearchSyncTool jenkins job.
+* Select the command as **migratecspdata**
+* And copy and paste the parameter one by one in parameter section in jenkins deployment job.
+
 | Sequence | Type                                              | Sync Tool Jenkins Parameters                                                                                                                                      |
 | -------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1        | Video Asset                                       | --graphId domain --objectType Asset --mimeType video/webm,video/mp4 --limit 1000                                                                                  |
