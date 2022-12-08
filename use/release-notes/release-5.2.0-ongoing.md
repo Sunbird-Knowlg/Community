@@ -1,6 +1,6 @@
 # Release-5.2.0 (ongoing)
 
-### <mark style="color:blue;">5.2.0</mark> (12-09-2022)
+## <mark style="color:blue;">5.2.0</mark> (12-09-2022)
 
 Discussion thread: [https://github.com/Sunbird-Knowlg/Community/discussions/76](https://github.com/Sunbird-Knowlg/Community/discussions/76)
 
@@ -11,6 +11,26 @@ Discussion thread: [https://github.com/Sunbird-Knowlg/Community/discussions/76](
 | Sprint 2       | 17 Oct 2022  | 4 Nov 2022   |
 | PPV            | 7 Nov 2022   | 18 Nov 2022  |
 | Prod           | 21 Nov 2022  |              |
+
+### Features
+
+*   Angular version upgrade&#x20;
+
+    * PDF Player (12 to 14 with IVY) #[KN-316](https://project-sunbird.atlassian.net/browse/KN-316)
+    * Video, Epub Players(9 to 12) #[KN-523](https://project-sunbird.atlassian.net/browse/KN-523)
+
+
+* Player: Published as web-component for ease of integration which is framework agnostic
+  * Video Player #[KN-517](https://project-sunbird.atlassian.net/browse/KN-517)
+  * Epub Player #[KN-517](https://project-sunbird.atlassian.net/browse/KN-517)
+  * PDF player #[KN-304](https://project-sunbird.atlassian.net/browse/KN-304)\
+
+* [CSP - Knowlg microservices should be cloud agnostic](https://project-sunbird.atlassian.net/browse/KN-603) [#KN-603](https://project-sunbird.atlassian.net/browse/KN-603)
+
+### Bug
+
+* Properties with underscore are getting omitted from context data search#[KN-546](https://project-sunbird.atlassian.net/browse/KN-546) (It will go has hot fix)
+* Unable to release dial codes from collection[#KN-547](https://project-sunbird.atlassian.net/browse/KN-547)
 
 #### Default values for config
 
