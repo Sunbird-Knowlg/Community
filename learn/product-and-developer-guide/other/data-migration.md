@@ -82,18 +82,18 @@ The content migration should execute in the below order only. Otherwise there is
 
 | Sequence | Type                                              | Sync Tool Jenkins Parameters                                                                                                                                      |
 | -------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1        | Video Asset                                       | --graphId domain --objectType Asset --mimeType video/webm,video/mp4 --limit 1000                                                                                  |
-| 2        | Other Asset                                       | --graphId domain --objectType Asset --limit 1000                                                                                                                  |
-| 3        | Video Content                                     | --graphId domain --objectType Content,ContentImage --mimeType video/mp4,video/webm -limit 1000                                                                    |
-| 4        | Plugin, Youtube Content, PDF Content,EPUB Content | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.plugin-archive,video/x-youtube,application/pdf,application/epub --limit 1000 |
-| 5        | AssessmentItem                                    | --graphId domain --objectType AssessmentItem --limit 1000                                                                                                         |
-| 6        | ItemSet                                           | --graphId domain --objectType ItemSet --limit 1000                                                                                                                |
-| 7        | Question                                          | --graphId domain --objectType Question  -limit 1000                                                                                                               |
-| 8        | QuestionSet                                       | --graphId domain --objectType QuestionSet,QuestionSetImage  -limit 1000                                                                                           |
-| 9        | H5P Content                                       | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.h5p-archive -limit 1000                                                      |
-| 10       | HTML                                              | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.html-archive -limit 1000                                                     |
-| 11       | ECML                                              | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.ecml-archive -limit 1000                                                     |
-| 12       | Collection                                        | --graphId domain --objectType Collection,CollectionImage --mimeType application/vnd.ekstep.content-collection -limit 1000                                         |
+| 1        | Video Asset                                       | --graphId domain --objectType Asset --mimeType video/webm,video/mp4 --delay 2000                                                                                  |
+| 2        | Other Asset                                       | --graphId domain --objectType Asset --delay 2000                                                                                                                  |
+| 3        | Video Content                                     | --graphId domain --objectType Content,ContentImage --mimeType video/mp4,video/webm --delay 2000                                                                   |
+| 4        | Plugin, Youtube Content, PDF Content,EPUB Content | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.plugin-archive,video/x-youtube,application/pdf,application/epub --delay 2000 |
+| 5        | AssessmentItem                                    | --graphId domain --objectType AssessmentItem --delay 2000                                                                                                         |
+| 6        | ItemSet                                           | --graphId domain --objectType ItemSet --delay 2000                                                                                                                |
+| 7        | Question                                          | --graphId domain --objectType Question --delay 2000                                                                                                               |
+| 8        | QuestionSet                                       | --graphId domain --objectType QuestionSet,QuestionSetImage --delay 2000                                                                                           |
+| 9        | H5P Content                                       | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.h5p-archive --delay 2000                                                     |
+| 10       | HTML                                              | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.html-archive --delay 2000                                                    |
+| 11       | ECML                                              | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.ecml-archive --delay 2000                                                    |
+| 12       | Collection                                        | --graphId domain --objectType Collection,CollectionImage --mimeType application/vnd.ekstep.content-collection --delay 2000                                        |
 
 ### Migration status: migrationVersion of the node object
 
