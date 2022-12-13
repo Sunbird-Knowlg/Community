@@ -66,9 +66,11 @@ migration flow diagram (migration-job flow & migration-process workflow)
 {% hint style="info" %}
 Note:&#x20;
 
-1. Jenkins Job '<mark style="color:green;">**Neo4jElasticSearchSyncTool**</mark>' is used to insert the events into 'csp-migrator' job input topic. 'csp-migrator' job will further insert topics into 'live-node-publisher' job and 'live-video-stream-generator' jobs based on conditions. Jenkins job command: **migratecspdata**
-2. '**cassandra-data-migration'** job is to be used for migration of '_dialcode\_images'_ and '_dialcode\_batch'_ cassandra tables in '_dialcodes_**'** keyspace.
-3. <mark style="color:orange;">**We suggest to run the migration flink jobs in a separate kafka setup with increased processing ability and storage for storing all kakfa events and logs.**</mark>
+* Jenkins Job '<mark style="color:green;">**Neo4jElasticSearchSyncTool**</mark>' is used to insert the events into 'csp-migrator' job input topic. 'csp-migrator' job will further insert topics into 'live-node-publisher' job and 'live-video-stream-generator' jobs based on conditions. Jenkins job command: **migratecspdata**
+* '**cassandra-data-migration'** job is to be used for migration of '_dialcode\_images'_ and '_dialcode\_batch'_ cassandra tables in '_dialcodes_**'** keyspace.
+* <mark style="color:orange;">**Run the migration flink jobs in a separate kafka setup with increased processing ability and storage for storing all kakfa events and logs.**</mark>
+* <mark style="color:orange;">**Increase the infra for neo4j. Also, increase the neo4j max heap size in neo4j conf file.**</mark>&#x20;
+* <mark style="color:orange;">**Increase infra for logstash, search-indexer flink job and ElasticSearch to handle the neo4j transaction data sync.**</mark>
 {% endhint %}
 
 The content migration should execute in the below order only. Otherwise there is a chances of migration failure because of dependent content is not yet migrated. [more details](https://docs.google.com/spreadsheets/d/13DaXCx8uToOwinlAPxvTat8NELxiPgG4KXATcKaJm\_c/edit#gid=1675310401\&range=K3)
@@ -82,18 +84,31 @@ The content migration should execute in the below order only. Otherwise there is
 
 | Sequence | Type                                              | Sync Tool Jenkins Parameters                                                                                                                                      |
 | -------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1        | Video Asset                                       | --graphId domain --objectType Asset --mimeType video/webm,video/mp4 --limit 1000                                                                                  |
-| 2        | Other Asset                                       | --graphId domain --objectType Asset --limit 1000                                                                                                                  |
-| 3        | Video Content                                     | --graphId domain --objectType Content,ContentImage --mimeType video/mp4,video/webm -limit 1000                                                                    |
-| 4        | Plugin, Youtube Content, PDF Content,EPUB Content | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.plugin-archive,video/x-youtube,application/pdf,application/epub --limit 1000 |
-| 5        | AssessmentItem                                    | --graphId domain --objectType AssessmentItem --limit 1000                                                                                                         |
-| 6        | ItemSet                                           | --graphId domain --objectType ItemSet --limit 1000                                                                                                                |
-| 7        | Question                                          | --graphId domain --objectType Question  -limit 1000                                                                                                               |
-| 8        | QuestionSet                                       | --graphId domain --objectType QuestionSet,QuestionSetImage  -limit 1000                                                                                           |
-| 9        | H5P Content                                       | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.h5p-archive -limit 1000                                                      |
-| 10       | HTML                                              | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.html-archive -limit 1000                                                     |
-| 11       | ECML                                              | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.ecml-archive -limit 1000                                                     |
-| 12       | Collection                                        | --graphId domain --objectType Collection,CollectionImage --mimeType application/vnd.ekstep.content-collection -limit 1000                                         |
+| 1        | Video Asset                                       | --graphId domain --objectType Asset --mimeType video/webm,video/mp4 --delay 2000                                                                                  |
+| 2        | Other Asset                                       | --graphId domain --objectType Asset --delay 2000                                                                                                                  |
+| 3        | Video Content                                     | --graphId domain --objectType Content,ContentImage --mimeType video/mp4,video/webm --delay 2000                                                                   |
+| 4        | Plugin, Youtube Content, PDF Content,EPUB Content | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.plugin-archive,video/x-youtube,application/pdf,application/epub --delay 2000 |
+| 5        | AssessmentItem                                    | --graphId domain --objectType AssessmentItem --delay 2000                                                                                                         |
+| 6        | ItemSet                                           | --graphId domain --objectType ItemSet --delay 2000                                                                                                                |
+| 7        | H5P Content                                       | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.h5p-archive --delay 2000                                                     |
+| 8        | HTML                                              | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.html-archive --delay 2000                                                    |
+| 9        | ECML                                              | --graphId domain --objectType Content,ContentImage --mimeType application/vnd.ekstep.ecml-archive --delay 2000                                                    |
+| 10       | Collection                                        | --graphId domain --objectType Collection,CollectionImage --mimeType application/vnd.ekstep.content-collection --delay 2000                                        |
+
+{% hint style="info" %}
+Note:
+
+* ECML migration can be triggered only after Asset, AssessmentItem and ItemSet migration is completed.
+* For Collection migration to be triggered, pre-requisites are:
+
+&#x20;       a. Question, QuestionSet migration should be completed (as part of Inquiry BB).
+
+&#x20;       b. All assets and contents are to be migrated successfully.&#x20;
+
+&#x20;       c. All migrated contents data should be synced to ElasticSearch.
+{% endhint %}
+
+
 
 ### Migration status: migrationVersion of the node object
 
