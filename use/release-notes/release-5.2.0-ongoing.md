@@ -110,5 +110,6 @@ valid_cloudstorage_base_urls: '["https://sunbirddevbbpublic.blob.core.windows.ne
 
 refer [data-migration.md](../../learn/product-and-developer-guide/other/data-migration.md "mention") page for more details.
 
+### API Deprecation details:
 
-
+refer [Deprecations Release-5.2.0](../deprecations/release-5.2.0.md) page for more details
