@@ -153,7 +153,6 @@
   * [Release - 4.8.0](use/release-notes/release-4.8.0.md)
 * [Breaking Changes](use/breaking-changes.md)
 * [Deprecations](use/deprecations/README.md)
-  * [Release-5.2.0](use/deprecations/release-5.2.0.md)
   * [Release-5.1.0](use/deprecations/release-5.1.0.md)
 * [Release](use/release.md)
 * [USE](use/use.md)
