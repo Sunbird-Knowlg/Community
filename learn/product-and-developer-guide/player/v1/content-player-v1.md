@@ -85,7 +85,7 @@ Sample config to show end page
 
 * **Previous:** In a collection play - the previous button will indicate the previous content in the collection.
 
-![](../../../../.gitbook/assets/endpage.png)
+![](<../../../../.gitbook/assets/endpage (2).png>)
 
 * **Score:** This will indicate the user's score on the end page
 * **Time:** This will indicate - how much time user has spent on the content.

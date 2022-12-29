@@ -2,7 +2,7 @@
 
 The interactive editor is similar to Google slides. Using this editor users can create content on slides. The editor also allows creators to preview the content.
 
-![](<../../../../.gitbook/assets/image (4).png>)
+![](<../../../../.gitbook/assets/image (7).png>)
 
 ### :stars:Tech Stack
 

@@ -48,7 +48,7 @@ This forward and backward feature will help us to play video ahead and back.![](
 <summary><strong>Quality selection</strong>(with streaming)</summary>
 
 This quality selection provides min and max content quality selection based on streaming quality options.\
-![](<../../../../../.gitbook/assets/videoPlayerV2QualitySelection (1) (1).png>)
+![](<../../../../../.gitbook/assets/videoPlayerV2QualitySelection (2).png>)
 
 </details>
 

@@ -11,7 +11,7 @@ Job handles image and video media files that are part of the uploaded/created co
 * Image Enrichment: As part of image media file enrichment, image resizing with optimal DPI is done. 3 variants (low, medium and high resolution) of the image is generated and stored in cloud.
 * Video Enrichment: As part of video media file enrichment, fetching of video metadata, generation of a thumbnail for the video and triggering [video-stream-generator](./#video-stream-generator) job for generation of streamable source is done.
 
-![](../../../.gitbook/assets/sunbird-knowlg-asset-enrichment.drawio.png)
+![](<../../../.gitbook/assets/sunbird-knowlg-asset-enrichment.drawio (2).png>)
 
 {% embed url="https://github.com/project-sunbird/knowledge-platform-jobs/tree/release-4.8.0/asset-enrichment" %}
 
@@ -19,7 +19,7 @@ Job handles image and video media files that are part of the uploaded/created co
 
 Job uses the neo4j mutation data to generate AUDIT events of the knowlg objects as per [Sunbird Telemetry spec](http://docs.sunbird.org/latest/developer-docs/telemetry/specification/) which will be consumed by data analytics jobs.
 
-![](../../../.gitbook/assets/sunbird-knowlg-audit-event-generator.drawio.png)
+![](<../../../.gitbook/assets/sunbird-knowlg-audit-event-generator.drawio (1).png>)
 
 {% embed url="https://github.com/project-sunbird/knowledge-platform-jobs/tree/release-4.8.0/audit-event-generator" %}
 
@@ -27,7 +27,7 @@ Job uses the neo4j mutation data to generate AUDIT events of the knowlg objects 
 
 Job uses the neo4j mutation data to index transactions for audit purpose. old and new values of the updated object in each neo4j transaction will be audited.
 
-![](../../../.gitbook/assets/sunbird-knowlg-audit-history-indexer.drawio.png)
+![](<../../../.gitbook/assets/sunbird-knowlg-audit-history-indexer.drawio (1).png>)
 
 {% embed url="https://github.com/project-sunbird/knowledge-platform-jobs/tree/release-4.8.0/audit-history-indexer" %}
 
@@ -133,7 +133,7 @@ Job is used to replace cloud service provider references in the neo4j and cassan
 
 ### :stars: live-node-publisher:&#x20;
 
-Job is used to republish already live contents. This job will refer to the data of live node only and not to the data of image node if exists. Please note that image node if exists, will not be deleted from the neo4j and 'pkgVersion' of the live node will not be incremented on republishing. &#x20;
+Job is used to republish already live contents. This job will refer to the data of live node only and not to the data of image node if exists. Please note that image node if exists, will not be deleted from the neo4j. &#x20;
 
 <figure><img src="../../../.gitbook/assets/sunbird-knowlg-live-node-publisher.drawio.png" alt=""><figcaption></figcaption></figure>
 

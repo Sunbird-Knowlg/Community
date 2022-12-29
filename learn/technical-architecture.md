@@ -1,3 +1,3 @@
 # Technical Architecture
 
-![](../assets/images/kp\_architecture.png)
+![](../.gitbook/assets/kp\_architecture.png)

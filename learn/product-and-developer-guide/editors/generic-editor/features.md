@@ -18,20 +18,20 @@
 *   #### Replace already Uploaded Files
 
     Uploaded the wrong file? Use this feature to replace uploaded files\
-    ![](<../../../../.gitbook/assets/Cursor\_and\_NIT\_🔊 (1).png>)\
+    ![](<../../../../.gitbook/assets/Cursor\_and\_NIT\_🔊 (3).png>)\
 
 *   #### Preview
 
     Allows users an in-browser preview of files after they upload.\
-    ![](<../../../../.gitbook/assets/Cursor\_and\_NIT\_🔊 (5).png>)\
+    ![](<../../../../.gitbook/assets/Cursor\_and\_NIT\_🔊 (2).png>)\
 
 * &#x20;**Download**\
   ****Allows users an in-browser download of files after they upload\
-  ![](<../../../../.gitbook/assets/Cursor\_and\_NIT\_🔊 (8).png>)\
+  ![](<../../../../.gitbook/assets/Cursor\_and\_NIT\_🔊 (5).png>)\
 
 * **Limited Sharing**\
   ****This feature allows creators to share their content to a limited set of users for early feedback.\
-  ![](<../../../../.gitbook/assets/Cursor\_and\_NIT\_🔊 (3).png>)\
+  ![](<../../../../.gitbook/assets/Cursor\_and\_NIT\_🔊 (1).png>)\
 
 * **Collaboration**\
   ****This feature enables creators to collaborate with other creators to create content.\

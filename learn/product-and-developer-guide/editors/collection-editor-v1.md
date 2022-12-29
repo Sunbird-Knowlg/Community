@@ -10,7 +10,7 @@ description: Multilevel hierarchy contents like Book, Course, Collection, etc.
 
 Collection editor enables creators to create collections such as courses textbooks etc. The key capabilities of this editor are: a) ability for creators to define the structure of the ToC b) ability to tag the collection c) link assets to the collection and d) collaboration
 
-![](<../../../.gitbook/assets/image (2) (1).png>)
+![](../../../.gitbook/assets/image.png)
 
 ### :stars:Tech Stack
 

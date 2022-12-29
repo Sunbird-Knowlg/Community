@@ -25,7 +25,7 @@ Here’s the configuration:
 }
 ```
 
-![](<../../../../.gitbook/assets/NIT (6).png>)\
+![](<../../../../.gitbook/assets/NIT (10).png>)\
 In the above screenshot, you can see all the contents but can not perform any actions on the editor.\
 ****\
 **- edit**\
@@ -39,7 +39,7 @@ Here’s the configuration:
 ```
 
 ****\
-****<img src="../../../../.gitbook/assets/image (3) (1) (1).png" alt="" data-size="original">****\
+****<img src="../../../../.gitbook/assets/image (8).png" alt="" data-size="original">****\
 ****\
 **- review**\
 ****It’s similar to read mode only. but here users can perform some actions such as publish, reject. \
@@ -68,7 +68,7 @@ Here is the sample configuration for review mode:
 }
 ```
 
-![](<../../../../.gitbook/assets/NIT (12) (1).png>)\
+![](<../../../../.gitbook/assets/NIT (8).png>)\
 (Note: In the above case `editableFields.review: ['title']` so only the instruction field is enabled for reviewer while reviewing the collection)
 
 </details>
@@ -92,7 +92,7 @@ Here is the configuration:
 }
 ```
 
-<img src="../../../../.gitbook/assets/NIT (1) (1).png" alt="" data-size="original">
+<img src="../../../../.gitbook/assets/NIT (12).png" alt="" data-size="original">
 
 </details>
 
@@ -151,7 +151,7 @@ Here is the configuration:
 ```
 
 _**(Note: If you add more depth you need to add more levels in the hierarchy.)**_\
-![](<../../../../.gitbook/assets/NIT (4).png>)
+![](<../../../../.gitbook/assets/NIT (6).png>)
 
 </details>
 
@@ -168,7 +168,7 @@ Here is the configuration:
 }
 ```
 
-<img src="../../../../.gitbook/assets/NIT (3).png" alt="" data-size="original">
+<img src="../../../../.gitbook/assets/NIT (4).png" alt="" data-size="original">
 
 </details>
 
@@ -185,7 +185,7 @@ Here is the configuration:
 }
 ```
 
-<img src="../../../../.gitbook/assets/NIT_and_New_Tab (1).png" alt="" data-size="original">
+<img src="../../../../.gitbook/assets/NIT_and_New_Tab.png" alt="" data-size="original">
 
 </details>
 
@@ -196,19 +196,19 @@ Here is the configuration:
 When "generateDIALCodes" is set to `yes` it enables the add dialcode option in the collection editor. With which the creator can generate and link to the same collection.\
 `generateDIALCodes: yes/no`
 
-![](<../../../../.gitbook/assets/NIT (8).png>)\
+![](<../../../../.gitbook/assets/NIT (16).png>)\
 \
 Following are the validations for generateDIALCodes\*\*:\*\*\
 \*\*\*\*\
 **1.** **dialcodeMaxLength**\
 The `dialcodeMaxLength` defines the maximum number of dial-codes to be generated. This value must be less than or equal to the value of the `dialcodeMaxLength`\
-`otherwise, it'll throw an error message as:\` ![](../../../../.gitbook/assets/NIT\_and\_New\_Tab.png)\
+`otherwise, it'll throw an error message as:\` ![](<../../../../.gitbook/assets/NIT\_and\_New\_Tab (1).png>)\
 The default value is `250`\
 \
 **2**.**dialcodeMinLength**\
 \*\*\*\*The `dialcodeMinLength` defines the minimum number of dial-codes to be generated. This value must be greater than or equal to the value of the `dialcodeMinLength`\
 \`\`otherwise, it'll throw an error message as:\
-![](<../../../../.gitbook/assets/NIT (10) (1).png>)\
+![](<../../../../.gitbook/assets/NIT (13).png>)\
 The default value is `2`
 
 </details>
@@ -277,7 +277,7 @@ config: {
   }
 ```
 
-<img src="../../../../.gitbook/assets/NIT (7) (1).png" alt="" data-size="original"><img src="../../../../.gitbook/assets/NIT (5).png" alt="" data-size="original"><img src="../../../../.gitbook/assets/NIT_and_data_ts_—_sunbird-collection-editor-1.png" alt="" data-size="original"><img src="../../../../.gitbook/assets/NIT (2).png" alt="" data-size="original">
+<img src="../../../../.gitbook/assets/NIT (9).png" alt="" data-size="original"><img src="../../../../.gitbook/assets/NIT (3).png" alt="" data-size="original"><img src="../../../../.gitbook/assets/NIT_and_data_ts_—_sunbird-collection-editor-1.png" alt="" data-size="original"><img src="../../../../.gitbook/assets/NIT (7).png" alt="" data-size="original">
 
 Following are the configuration for add from library page:\
 \
@@ -313,7 +313,7 @@ children: {
 
 \
 Here is the screenshot:\
-![](<../../../../.gitbook/assets/image (2).png>)
+![](<../../../../.gitbook/assets/image (5).png>)
 
 </details>
 
@@ -322,9 +322,9 @@ Here is the screenshot:\
 <summary>Review comment</summary>
 
 Reviewer has an option of providing comments (as a textbox) when requesting changes from the creator. \
-<img src="../../../../.gitbook/assets/NIT (9).png" alt="" data-size="original"><img src="../../../../.gitbook/assets/NIT (10).png" alt="" data-size="original">\
+<img src="../../../../.gitbook/assets/NIT (17).png" alt="" data-size="original"><img src="../../../../.gitbook/assets/NIT (1).png" alt="" data-size="original">\
 \
 When the creator opens the collection that is sent back for corrections, there is a comments icon in the editor (as in the current editor). Clicking that opens a textbox showing the latest comments from the reviewer.\
-![](<../../../../.gitbook/assets/NIT (12).png>)
+![](<../../../../.gitbook/assets/NIT (5).png>)
 
 </details>

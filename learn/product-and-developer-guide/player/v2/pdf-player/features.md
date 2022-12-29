@@ -35,6 +35,6 @@ Navigate feature allows user to jump to a specific page within the PDF document.
 
 This feature informs users their progress within the PDF document.&#x20;
 
-![](../../../../../.gitbook/assets/pdfPlayerv2Location.png)
+![](<../../../../../.gitbook/assets/pdfPlayerv2Location (1).png>)
 
 </details>

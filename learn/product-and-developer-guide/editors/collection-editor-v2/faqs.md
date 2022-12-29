@@ -294,7 +294,7 @@ Yes, For more information please check the [features](features.md) section of th
 <summary>What is the "Publish checklist" in the editor?</summary>
 
 When the reviewer tries to publish the collection, a dialog with the list of items in the checklist is shown. The reviewer has to check all the items before the collection can be published.\
-![](<../../../../.gitbook/assets/NIT (1).png>)
+![](<../../../../.gitbook/assets/NIT (15).png>)
 
 In case there is no checklist configured, a standard confirmation dialog is shown. \
 ![](../../../../.gitbook/assets/NIT\_and\_FAQ\_s\_-\_Sunbird\_Knowlg.png)\
