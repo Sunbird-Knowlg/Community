@@ -104,6 +104,7 @@ The content migration should execute in the below order only. Otherwise there is
 {% hint style="info" %}
 Note:
 
+* If the 'migratecspdata' command stops before reaching 100%, please wait for 'csp-migrator' job lag to reach 0 before triggerring the same 'migratecspdata' command again.
 * ECML migration can be triggered only after Asset, AssessmentItem and ItemSet migration is completed.
 * For Collection migration to be triggered, pre-requisites are:
 
