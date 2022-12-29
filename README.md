@@ -22,10 +22,10 @@ For example, organizations across multiple domains such as e-Commerce, OTT, Educ
 
 ### Adopters:
 
-**DIKSHA by NCERT**_,_ **Ministry of Education, India**
+* **DIKSHA by NCERT**_,_ **Ministry of Education, India**
 
-**Lex by Infosys**
+* **Lex by Infosys**
 
-**Contributors**
+* **Contributors**
 
 Ekstep
