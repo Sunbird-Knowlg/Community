@@ -6,9 +6,8 @@
 
 Course progress does not get updated correctly. [ KN-710](https://project-sunbird.atlassian.net/browse/KN-710)
 
-| Component          | Tag                                                                                                   | Comment                |
-| ------------------ | ----------------------------------------------------------------------------------------------------- | ---------------------- |
-| Sunbird-Pdf-Player | ****[**​v5.1.3**](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.3)**** |  End event summary fix |
+| Sunbird-Video-Player | ****[**​v5.1.3**](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.3)**** |  End event summary fix |
+| -------------------- | ----------------------------------------------------------------------------------------------------- | ---------------------- |
 
 ### <mark style="color:blue;">**Hot-fix:  5.1.1**</mark>** (14-11-2022)**
 

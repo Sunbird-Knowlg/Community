@@ -8,6 +8,9 @@
 
 Course progress does not get updated correctly( End event summary fix). [ #KN-710](https://project-sunbird.atlassian.net/browse/KN-710) (It will go has hot fix)
 
+| Sunbird-Video-Player | **​**[**​**](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.3)****[**v5.2.4**](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.2.4)**** | End event summary fix |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------- |
+
 ##
 
 ## <mark style="color:blue;">5.2.0</mark> (12-09-2022)
