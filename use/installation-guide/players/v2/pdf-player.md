@@ -56,7 +56,16 @@ Please refer to the github readme document.
       ****For set up as angular library in angular  projects please follow the  [link](https://github.com/project-sunbird/sunbird-pdf-player/tree/release-5.2.0#use-as-angular-library-in-angular-app)\
 
     * **As a  Angular library in mobile app**\
-      ****For set up as angular library in  mobile app projects please follow the  [link](https://github.com/project-sunbird/sunbird-pdf-player/tree/release-5.2.0#use-as-angular-library-in-mobile-app)
+      ****For set up as angular library in  mobile app projects please follow the  [link](https://github.com/project-sunbird/sunbird-pdf-player/tree/release-5.2.0#use-as-angular-library-in-mobile-app)\
+
+    * **As a  Web component in react app**\
+      ****For set up as web component in react app  projects please follow the  [link](https://github.com/Sunbird-Knowlg/knowlg-portal/tree/release-5.3.0/react-app#readme)\
+
+    * **As a  Web component in flutter app**\
+      ****For set up as web component in flutter app  projects please follow the  [link](https://github.com/Sunbird-Knowlg/knowlg-portal/tree/release-5.3.0/flutter\_app#readme)\
+
+    * **As a  Web component in react native app**\
+      ****For set up as web component in react native app  projects please follow the  [link](https://github.com/Sunbird-Knowlg/knowlg-portal/tree/release-5.3.0/reactNative#readme)
 
     \
 

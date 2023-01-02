@@ -35,6 +35,7 @@ Discussion thread: [https://github.com/Sunbird-Knowlg/Community/discussions/76](
 
 * Properties with underscore are getting omitted from context data search#[KN-546](https://project-sunbird.atlassian.net/browse/KN-546) (It will go has hot fix)
 * Unable to release dial codes from collection[#KN-547](https://project-sunbird.atlassian.net/browse/KN-547)
+* Course progress does not get updated correctly( End event summary fix). [ #KN-710](https://project-sunbird.atlassian.net/browse/KN-710) (It will go has hot fix)
 
 #### Default values for config
 
