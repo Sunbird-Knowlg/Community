@@ -1,5 +1,15 @@
 # Release-5.2.0 (ongoing)
 
+## <mark style="color:blue;">hot-fix changes(release-5.2.0 itself)</mark>
+
+[Release-5.1.2 hot-fix changes](release-5.1.0-ongoing.md#hot-fix-5.1.2-29-12-2022) are merged as part of the existing release-5.2.0 itself.
+
+### Bug
+
+Course progress does not get updated correctly( End event summary fix). [ #KN-710](https://project-sunbird.atlassian.net/browse/KN-710) (It will go has hot fix)
+
+##
+
 ## <mark style="color:blue;">5.2.0</mark> (12-09-2022)
 
 Discussion thread: [https://github.com/Sunbird-Knowlg/Community/discussions/76](https://github.com/Sunbird-Knowlg/Community/discussions/76)
@@ -35,7 +45,6 @@ Discussion thread: [https://github.com/Sunbird-Knowlg/Community/discussions/76](
 
 * Properties with underscore are getting omitted from context data search#[KN-546](https://project-sunbird.atlassian.net/browse/KN-546) (It will go has hot fix)
 * Unable to release dial codes from collection[#KN-547](https://project-sunbird.atlassian.net/browse/KN-547)
-* Course progress does not get updated correctly( End event summary fix). [ #KN-710](https://project-sunbird.atlassian.net/browse/KN-710) (It will go has hot fix)
 
 #### Default values for config
 
