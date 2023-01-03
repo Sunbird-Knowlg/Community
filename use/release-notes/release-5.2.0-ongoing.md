@@ -51,7 +51,7 @@ Discussion thread: [https://github.com/Sunbird-Knowlg/Community/discussions/76](
 
 #### Default values for config
 
-default config for [flink-jobs](https://github.com/project-sunbird/sunbird-learning-platform/blob/92604bb70357cea083a879f818a5c6b30bebbaeb/kubernetes/ansible/roles/flink-jobs-deploy/defaults/main.yml#L399) and [services](https://github.com/project-sunbird/sunbird-devops/blob/cc90889f2d13c4385a1cef0bfefbeec30e71406e/ansible/roles/stack-sunbird/defaults/main.yml#L1052)
+default config for [flink-jobs](https://github.com/project-sunbird/sunbird-learning-platform/blob/00ec4cc965a21145d65509e913961627a6d3f6fc/ansible/inventory/env/group\_vars/all.yml#L127) and [services](https://github.com/project-sunbird/sunbird-devops/blob/cc90889f2d13c4385a1cef0bfefbeec30e71406e/ansible/roles/stack-sunbird/defaults/main.yml#L1052)
 
 ```
 cloudstorage_relative_path_prefix_content: "CONTENT_STORAGE_BASE_PATH"
