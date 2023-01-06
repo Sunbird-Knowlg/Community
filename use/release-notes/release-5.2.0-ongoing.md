@@ -126,3 +126,14 @@ refer [data-migration.md](../../learn/product-and-developer-guide/other/data-mig
 ### API Deprecation details:
 
 refer [Deprecations Release-5.2.0](../deprecations/release-5.2.0.md) page for more details
+
+### **Schema Deprecation properties:**
+
+**relName** and **relTrackable** properties have been deprecated from the [relational metadata schema](https://github.com/project-sunbird/knowledge-platform/blob/release-5.2.0/schemas/relationalmetadata/1.0/schema.json).&#x20;
+
+| Deprecated Properties | Alternate Properties |
+| --------------------- | -------------------- |
+| relName               | name                 |
+| relTrackable          | optional             |
+
+\
