@@ -1,4 +1,4 @@
-# Release-5.2.0 (ongoing)
+# Release-5.2.0
 
 ## <mark style="color:blue;">hot-fix changes(release-5.2.0 itself)</mark>
 
@@ -48,6 +48,10 @@ Discussion thread: [https://github.com/Sunbird-Knowlg/Community/discussions/76](
 
 * Properties with underscore are getting omitted from context data search#[KN-546](https://project-sunbird.atlassian.net/browse/KN-546) (It will go has hot fix)
 * Unable to release dial codes from collection[#KN-547](https://project-sunbird.atlassian.net/browse/KN-547)
+
+### Known Issues
+
+* QR code is not getting updated on UI when updated through CSV[#KN-730](https://project-sunbird.atlassian.net/browse/KN-730)
 
 #### Default values for config
 
