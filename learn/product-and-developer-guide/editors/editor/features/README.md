@@ -1,6 +1,8 @@
 # Features
 
-Features are listed out in this [sunbird developer documents](sunbird-developer-documents.md). Please refer for more information.
+## Content Editor
+
+Features are listed out in this [content editor document](content-editor.md). Please refer for more information.
 
 ## Quiz
 

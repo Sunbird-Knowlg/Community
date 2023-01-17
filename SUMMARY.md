@@ -45,7 +45,7 @@
     * [Architecture](learn/product-and-developer-guide/editors/architecture.md)
     * [Interactive Editor](learn/product-and-developer-guide/editors/editor/README.md)
       * [Features](learn/product-and-developer-guide/editors/editor/features/README.md)
-        * [Sunbird developer documents](learn/product-and-developer-guide/editors/editor/features/sunbird-developer-documents.md)
+        * [Content Editor](learn/product-and-developer-guide/editors/editor/features/content-editor.md)
     * [File Upload Editor](learn/product-and-developer-guide/editors/generic-editor/README.md)
       * [Features](learn/product-and-developer-guide/editors/generic-editor/features.md)
     * [Collection Editor - V1](learn/product-and-developer-guide/editors/collection-editor-v1.md)
