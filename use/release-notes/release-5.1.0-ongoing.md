@@ -1,6 +1,6 @@
 # Release-5.1.0
 
-### <mark style="color:blue;">**Hot-fix:  5.1.2**</mark>** (29-12-2022)**
+<mark style="color:blue;">**Hot-fix:  5.1.2**</mark>** (29-12-2022)**
 
 <mark style="color:blue;">**Bugs:**</mark>
 

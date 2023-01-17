@@ -1,5 +1,25 @@
 # Release-5.2.0
 
+### <mark style="color:blue;">**Hot-fix:  5.2.0**</mark>** (16-01-2023)**
+
+<mark style="color:blue;">**Bugs:**</mark>
+
+Mobile:- Not getting the merit certificate, the scores are not updated on the TOC page. [ ](https://project-sunbird.atlassian.net/browse/KN-710)[KN-731](https://project-sunbird.atlassian.net/browse/KN-731)
+
+| Sunbird-Content-Player | ****[**v5.1.0**](https://www.npmjs.com/package/@project-sunbird/content-player/v/5.1.0)**** |  Whitelist urls config fixes |
+| ---------------------- | ------------------------------------------------------------------------------------------- | ---------------------------- |
+
+<mark style="color:red;">Required configuration changes: The parent container(Portal & Mobile App’s) should have pass the CNAME or blob URLs as a whiteListUrl configuration. Previously it was hard-coded in player, from this release we are expecting this whiteListUrl as a configuration. The URLs that passed as configuration only will allow from player, other URLs will be blocked.</mark>
+
+```
+playerConfig = {
+   context: ... //context config
+   config: { whiteListUrl : ['https://obj.stage.sunbirded.org/**']} //whitelist URLs array config
+   metadata: ... // metadata of the content
+   data: ... // body of the content
+}
+```
+
 ## <mark style="color:blue;">hot-fix changes(release-5.2.0 itself)</mark>
 
 [Release-5.1.2 hot-fix changes](release-5.1.0-ongoing.md#hot-fix-5.1.2-29-12-2022) are merged as part of the existing release-5.2.0 itself.
