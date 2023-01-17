@@ -6,7 +6,7 @@ Features are listed out in this [content editor document](content-editor.md). Pl
 
 ## Quiz
 
-Please refer [adding question set ](http://docs.sunbird.org/1.8/features-documentation/questionset\_create/)in sunbird developer documents to how to add the question set
+Please refer [adding question set ](adding-question-set.md)in sunbird developer documents to how to add the question set
 
 **The following types of quiz can be create in interactive editor**
 
@@ -20,11 +20,11 @@ Please refer [adding question set ](http://docs.sunbird.org/1.8/features-documen
 
 ### MTF
 
-MTF Template is used to create the Match the following type questions. Please refer [Creating Fill in the Blanks Question](http://docs.sunbird.org/1.8/features-documentation/questionset\_create/#creating-questions) section in sunbird doc
+MTF Template is used to create the Match the following type questions. Please refer [Creating Fill in the Blanks Question](adding-question-set.md#creating-fill-in-the-blanks-question) section in sunbird doc
 
 ### MCQ
 
-MCQ Template is used to create the Multiple choice type questions. Please refer [Creating Multiple Choice Question ](http://docs.sunbird.org/1.8/features-documentation/questionset\_create/#creating-questions)section in sunbird doc
+MCQ Template is used to create the Multiple choice type questions. Please refer [Creating Multiple Choice Question ](adding-question-set.md#creating-questions)section in sunbird doc
 
 Mcq has the different types of layouts which can be used to create the multiple choice questions
 
@@ -32,7 +32,7 @@ Mcq has the different types of layouts which can be used to create the multiple 
 
 ### FTB
 
-By using this template you can create the Fill in the blank type questions. Please refer [Creating Fill in the Blanks Question](http://docs.sunbird.org/1.8/features-documentation/questionset\_create/#creating-questions) section in sunbird doc
+By using this template you can create the Fill in the blank type questions. Please refer [Creating Fill in the Blanks Question](adding-question-set.md#creating-fill-in-the-blanks-question) section in sunbird doc
 
 ### Reordering words
 
@@ -63,6 +63,6 @@ You can create the questions like, you want to arrange the sentences in correct 
 
 ## Configurations
 
-Please refer [Configuring Questions](http://docs.sunbird.org/1.8/features-documentation/questionset\_create/#configuring-questions) section in sunbird developer documents to how to add the question set
+Please refer [Configuring Questions](adding-question-set.md#configuring-questions) section in sunbird developer documents to how to add the question set
 
 ###

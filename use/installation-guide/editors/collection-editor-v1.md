@@ -18,7 +18,7 @@ Please refer to the[ README.md](https://github.com/project-sunbird/sunbird-colle
 
 ### How to content Plugins launch
 
-[http://docs.sunbird.org/2.10.0/developer-docs/server-installation/plugins/](http://docs.sunbird.org/2.10.0/developer-docs/server-installation/plugins/)
+Please follow [link](plugins.md).
 
 ### Configuration
 

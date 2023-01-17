@@ -22,7 +22,7 @@ Please refer to the [How to Configure section of the README.md ](https://github.
 
 ### How to content Plugins launch
 
-[http://docs.sunbird.org/2.10.0/developer-docs/server-installation/plugins/](http://docs.sunbird.org/2.10.0/developer-docs/server-installation/plugins/)
+Please refer [link](plugins.md)
 
 ### Integration
 

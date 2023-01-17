@@ -34,4 +34,4 @@ The file upload editor enables creators to create content by a simple upload. Th
 
 ### ​:stars:FAQ's
 
-Please refer to this link for FAQ's: [http://docs.sunbird.org/latest/faqs/content\_upload/](http://docs.sunbird.org/latest/faqs/content\_upload/)
+Please refer to this [link](faqs/content-upload.md) for FAQ's

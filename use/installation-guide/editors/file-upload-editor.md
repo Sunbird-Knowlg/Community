@@ -22,11 +22,11 @@ Please refer to the [config section of the README.md](https://github.com/gouravm
 
 ### How to content Plugins launch
 
-[http://docs.sunbird.org/2.10.0/developer-docs/server-installation/plugins/](http://docs.sunbird.org/2.10.0/developer-docs/server-installation/plugins/)
+Please refer [link](plugins.md)
 
 ### How to upload contents
 
-[http://docs.sunbird.org/latest/faqs/content\_upload/](http://docs.sunbird.org/latest/faqs/content\_upload/)
+Please refer [link](../../../learn/product-and-developer-guide/editors/generic-editor/faqs/content-upload.md)
 
 ### Integration
 

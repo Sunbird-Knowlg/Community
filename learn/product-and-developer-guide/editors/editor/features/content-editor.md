@@ -1,4 +1,4 @@
-# Sunbird developer documents
+# Content Editor
 
 ## Content Editor Parts <a href="#content-editor-parts" id="content-editor-parts"></a>
 
@@ -334,7 +334,7 @@ You can add activities by selecting activities from the list displayed in the ac
 The content editor supports video links from\
   publicly shared videos\
   from Google Drive\
-  URL of an MP4 video from online content. To do so, refer to the [Adding Video](http://docs.sunbird.org/2.5.0/features-documentation/video\_add)\
+  URL of an MP4 video from online content. To do so, refer to the [Adding Video](add-video.md)\
 
 
 <figure><img src="../../../../../.gitbook/assets/ AddVideo.png" alt=""><figcaption></figcaption></figure>
@@ -349,7 +349,7 @@ To integrate math function with the editor click Add Activity icon. The Add Acti
 1\. Enter the keyword **math text** in the search bar\
 2\. Click **Search**\
 3\. Select the **Math Text** tile from the search result\
-4\. Click Add. The **Math** Function symbol (Sigma) appears in the Tool Bar. For further information, refer [Adding Math Function](http://docs.sunbird.org/2.5.0/features-documentation/math\_function)****
+4\. Click Add. The **Math** Function symbol (Sigma) appears in the Tool Bar. For further information, refer [Adding Math Function](adding-math-function.md)
 
 <figure><img src="../../../../../.gitbook/assets/AddingActivity (1).png" alt=""><figcaption></figcaption></figure>
 
