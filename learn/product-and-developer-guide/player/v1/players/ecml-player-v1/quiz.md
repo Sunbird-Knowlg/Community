@@ -16,7 +16,7 @@ There are following types of assessment can be taken in [ECML player v1](./).
 
 Using v1 player you can render the Multiple choice Question type assets. In this type of questions user has to select the correct options.
 
-To create the MCQ type questions, please refer [interactive editor](../../../../editors/editor/features.md#mcq) MCQ feature section.
+To create the MCQ type questions, please refer [interactive editor](../../../../editors/editor/features/#mcq) MCQ feature section.
 
 &#x20;As image showing bellow, you can create the same MCQ question with different types of layouts.
 
@@ -26,13 +26,13 @@ To create the MCQ type questions, please refer [interactive editor](../../../../
 
 MTF is the short form of 'Match the following' questions. v1 player is capable to play the MTF type quiz. This capability provide user to drag and drop the options within a canvas area and also provide the capability to calculate the partial score.
 
-To create the MTF type questions, please refer [interactive editor MTF](../../../../editors/editor/features.md#mtf) feature section.
+To create the MTF type questions, please refer [interactive editor MTF](../../../../editors/editor/features/#mtf) feature section.
 
 ### FTB&#x20;
 
 FTB is stands for 'Fill in the blank' type questions. In this type of question v1 player is capable to show the partial score if some of the answer is correct.
 
-To create the FTB type questions, please refer [interactive editor FTB ](../../../../editors/editor/features.md#ftb)feature section.
+To create the FTB type questions, please refer [interactive editor FTB ](../../../../editors/editor/features/#ftb)feature section.
 
 ![](../../../../../../.gitbook/assets/ftb2.png)
 
@@ -40,7 +40,7 @@ To create the FTB type questions, please refer [interactive editor FTB ](../../.
 
 This type of questions provide user the capability to drag and drop the options within a canvas area to order and reorder the words&#x20;
 
-To create the Reordering words type questions, please refer [interactive editor reordering words ](../../../../editors/editor/features.md#reordering-words)feature section.
+To create the Reordering words type questions, please refer [interactive editor reordering words ](../../../../editors/editor/features/#reordering-words)feature section.
 
 ![](<../../../../../../.gitbook/assets/ezgif.com-gif-maker (5).gif>)
 
@@ -48,7 +48,7 @@ To create the Reordering words type questions, please refer [interactive editor 
 
 In a content player v1 you can render the arrange in sequence type questions.
 
-To create the Arrange in Sequence type questions, please refer [interactive editor Arrange in Sequence](../../../../editors/editor/features.md#arrange-in-sequence) feature section.
+To create the Arrange in Sequence type questions, please refer [interactive editor Arrange in Sequence](../../../../editors/editor/features/#arrange-in-sequence) feature section.
 
 ![](<../../../../../../.gitbook/assets/ezgif.com-gif-maker (4).gif>)
 

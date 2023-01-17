@@ -1,6 +1,6 @@
 # Features
 
-Features are listed out in this [sunbird developer documents](http://docs.sunbird.org/2.5.0/features-documentation/contenteditor/). Please refer for more information.
+Features are listed out in this [sunbird developer documents](sunbird-developer-documents.md). Please refer for more information.
 
 ## Quiz
 
@@ -8,13 +8,13 @@ Please refer [adding question set ](http://docs.sunbird.org/1.8/features-documen
 
 **The following types of quiz can be create in interactive editor**
 
-* [MTF](features.md#mtf)
-* [MCQ](features.md#mcq)
-* [FTB](features.md#ftb)
-* [Reordering words](features.md#reordering-words)
-* [Arrange in Sequence](features.md#arrange-in-sequence)
+* [MTF](./#mtf)
+* [MCQ](./#mcq)
+* [FTB](./#ftb)
+* [Reordering words](./#reordering-words)
+* [Arrange in Sequence](./#arrange-in-sequence)
 
-![](../../../../.gitbook/assets/questionset.png)
+![](../../../../../.gitbook/assets/questionset.png)
 
 ### MTF
 
@@ -26,7 +26,7 @@ MCQ Template is used to create the Multiple choice type questions. Please refer 
 
 Mcq has the different types of layouts which can be used to create the multiple choice questions
 
-![](<../../../../.gitbook/assets/mcq layouts.png>)
+![](<../../../../../.gitbook/assets/mcq layouts.png>)
 
 ### FTB
 
@@ -36,13 +36,13 @@ By using this template you can create the Fill in the blank type questions. Plea
 
 To arrange the given words in proper order to form a sentence use this reordering words templates.
 
-![](../../../../.gitbook/assets/rearrangethewords.png)
+![](../../../../../.gitbook/assets/rearrangethewords.png)
 
 ### Arrange in Sequence
 
 You can create the questions like, you want to arrange the sentences in correct sequence. This also supports the different types of layouts and partial scoring.
 
-![](../../../../.gitbook/assets/arragnethesequnce.png)
+![](../../../../../.gitbook/assets/arragnethesequnce.png)
 
 ## Plugins
 
@@ -57,7 +57,7 @@ You can create the questions like, you want to arrange the sentences in correct 
 * Question bank: Question bank plugin is responsible to create and load the questions.
 * Preview : Preview plugin is taking care of rendering the different types of questions in question bank view - where user can see the immediate preview after creating the questions
 
-![](<../../../../.gitbook/assets/question set bank.png>)
+![](<../../../../../.gitbook/assets/question set bank.png>)
 
 ## Configurations
 
