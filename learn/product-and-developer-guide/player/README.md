@@ -35,4 +35,4 @@ metadata: {
 
 Assets can be rendered offline in the player. Only html/h5p player v1 won't support the offline play.&#x20;
 
-Please refer developer doc for [offline telemetry sync](http://docs.sunbird.org/2.0.0/developer-docs/how-to-guide/sync\_telemetry\_data\_captured\_from\_offline\_devices/) support
+Please refer developer doc for [offline telemetry sync](telemetry-events/offline-telemetry.md) support

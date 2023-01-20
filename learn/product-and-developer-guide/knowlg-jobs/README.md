@@ -17,7 +17,7 @@ Job handles image and video media files that are part of the uploaded/created co
 
 ### :stars: audit-event-generator:&#x20;
 
-Job uses the neo4j mutation data to generate AUDIT events of the knowlg objects as per [Sunbird Telemetry spec](http://docs.sunbird.org/latest/developer-docs/telemetry/specification/) which will be consumed by data analytics jobs.
+Job uses the neo4j mutation data to generate AUDIT events of the knowlg objects as per [Sunbird Telemetry spec](https://telemetry.sunbird.org/learn/v3\_event\_details) which will be consumed by data analytics jobs.
 
 ![](<../../../.gitbook/assets/sunbird-knowlg-audit-event-generator.drawio (1).png>)
 

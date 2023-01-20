@@ -56,7 +56,7 @@ To create the Arrange in Sequence type questions, please refer [interactive edit
 
 ### Editor
 
-Please refer [Configuring Questions](http://docs.sunbird.org/1.8/features-documentation/questionset\_create/#configuring-questions) section in sunbird developer documents to configure the quiz from editor side.
+Please refer [Configuring Questions](../../../../editors/editor/features/adding-question-set.md#configuring-questions) section in sunbird developer documents to configure the quiz from editor side.
 
 ### Player
 
@@ -98,7 +98,7 @@ overlay: {
 
 ### Quiz
 
-Please refer [Compiling Question Set](http://docs.sunbird.org/1.8/features-documentation/questionset\_create/#compiling-question-set) section in sunbird developer documents to configure the quiz.
+Please refer [Compiling Question Set](../../../../editors/editor/features/adding-question-set.md#compiling-question-set) section in sunbird developer documents to configure the quiz.
 
 The following things can be configure to render the quiz.
 

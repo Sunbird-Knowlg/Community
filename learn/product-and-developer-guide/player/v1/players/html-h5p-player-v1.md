@@ -53,4 +53,4 @@ org.ekstep.contentrenderer.interface.telemetryService.interact(data)
 RI.telemetryService.interact(data)
 ```
 
-Please refer to these [developer documents](http://docs.sunbird.org/latest/developer-docs/telemetry/htmlinterfacelibrary/) for more information.
+Please refer to these [developer documents](https://telemetry.sunbird.org/use/html\_interface\_library) for more information.

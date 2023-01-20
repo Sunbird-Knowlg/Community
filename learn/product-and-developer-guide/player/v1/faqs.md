@@ -1,7 +1,5 @@
 # FAQs
 
-Please refer to [FAQs of sunbird](http://docs.sunbird.org/latest/faqs/) documents for more questions
-
 <details>
 
 <summary>How to setup content player v1?</summary>

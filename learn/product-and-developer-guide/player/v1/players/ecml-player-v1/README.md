@@ -124,4 +124,4 @@ For more information please refer [navigation section](../../content-player-v1.m
 
 ### Read along
 
-Content player v1 supports read the text with the help of read along plugin. Please refer [read along](http://docs.sunbird.org/1.8/features-documentation/contenteditor/#adding-text) text in developer documentations
+Content player v1 supports read the text with the help of read along plugin. Please refer [read along](../../../../editors/editor/features/content-editor.md#adding-text) text in developer documentations
