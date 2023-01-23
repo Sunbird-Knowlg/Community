@@ -1,5 +1,11 @@
 # Release-5.2.0
 
+### <mark style="color:blue;">**Hot-fix:  5.2.1**</mark>** (20-01-2023)**
+
+| Component               | Build Job                         | Build Tag                                                                                                        | Deploy Job                         | Deployment                                                                                                 | Comment                                                                                                               |
+| ----------------------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Knowledge-platform-jobs | Build/KnowledgePlatform/FlinkJobs | [release-5.2.1\_RC1](https://github.com/project-sunbird/knowledge-platform-jobs/releases/tag/release-5.2.1\_RC1) | Deploy/KnowledgePlatform/FlinkJobs | [release-5.2.1\_RC1](https://github.com/project-sunbird/sunbird-learning-platform/tree/release-5.2.1\_RC1) | "csp-migrator" job enhancement to upload external url artifacts and google drive artifacts to sunbird cloud container |
+
 ### <mark style="color:blue;">**Hot-fix:  5.2.0**</mark>** (16-01-2023)**
 
 <mark style="color:blue;">**Bugs:**</mark>
