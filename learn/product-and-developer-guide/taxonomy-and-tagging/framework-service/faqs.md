@@ -31,13 +31,15 @@ Each term can be associated with another term from **another category** by using
 
 [**API to create ‘Framework Master Category’:**](http://docs.sunbird.org/3.6.0/developer-docs/server-installation/knowledge-platform/#create-master-framework-category)
 
-`curl --location --request POST '{{host}}/action/framework/v3/category/master/create'`\
-`--header 'Content-Type: application/json'`\
-`--header 'Authorization: Bearer {{APIKey}}'`\
-`--header 'x-authenticated-user-token: {{user_token}}'`\
-`--data-raw '{ "request": { "category":{ "name":"Learning Outcome", "description":"Learning Outcome", "code":"learningOutcome" } } }'`
+```
+curl --location --request POST '{{host}}/action/framework/v3/category/master/create'
+--header 'Content-Type: application/json'
+--header 'Authorization: Bearer {{APIKey}}'
+--header 'x-authenticated-user-token: {{user_token}}'
+--data-raw '{"request":{"category":{"name":"Learning Outcome","description":"Learning Outcome","code":"learningOutcome","targetIdFieldName":"targetLearningOutcomeIds","searchLabelFieldName":"se_learningOutcomes","searchIdFieldName":"se_learningOutcomeIds","orgIdFieldName":"learningOutcomeIds"}}}'
+```
 
-\`\`
+
 
 {% embed url="http://docs.sunbird.org/2.10.0/developer-docs/how-to-guide/how_to_create_framework_in_sunbird" %}
 
