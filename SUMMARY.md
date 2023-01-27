@@ -41,7 +41,7 @@
         * [Features](learn/product-and-developer-guide/player/v2/video-player/features.md)
         * [Configuration](learn/product-and-developer-guide/player/v2/video-player/configuration.md)
         * [FAQ's](learn/product-and-developer-guide/player/v2/video-player/faqs.md)
-    * [Telemetry Events](learn/product-and-developer-guide/player/telemetry-events.md)
+    * [Telemetry Events](learn/product-and-developer-guide/player/telemetry-events/README.md)
       * [Offline Telemetry](learn/product-and-developer-guide/player/telemetry-events/offline-telemetry.md)
       * [Generate API keys](learn/product-and-developer-guide/player/telemetry-events/generate-api-keys.md)
   * [Editors](learn/product-and-developer-guide/editors/README.md)

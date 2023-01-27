@@ -1,6 +1,6 @@
 # Assets search service
 
-The **Assets search microservice** provides ability to search and discover assets on the platform. [Composite search API](http://docs.sunbird.org/latest/apis/searchapi/#tag/Search-APIs) can be used for fetching all types of objects in the application ('Content', 'ContentImage', 'Collection', 'CollectionImage', 'QuestionSet', 'QuestionSetImage', 'Asset', 'Channel', 'Framework', 'ObjectCategory', 'ObjectCategoryDefintion', 'License', 'Question', etc. )
+The **Assets search microservice** provides ability to search and discover assets on the platform. [Composite search API](https://documenter.getpostman.com/view/25463377/2s8ZDa3MP7) can be used for fetching all types of objects in the application ('Content', 'ContentImage', 'Collection', 'CollectionImage', 'QuestionSet', 'QuestionSetImage', 'Asset', 'Channel', 'Framework', 'ObjectCategory', 'ObjectCategoryDefintion', 'License', 'Question', etc. )
 
 Any of the attributes of [object model](https://github.com/project-sunbird/knowledge-platform/tree/master/schemas) can be used in the filters. By default, composite search API returns objects having 'status' as "Live" and "visibility" as "default". Default result 'limit' is 100.
 

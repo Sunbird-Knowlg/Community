@@ -29,4 +29,4 @@ An open infrastructure for organizing knowledge across various learning content 
 * Auto-tagging using Machine Learning
 * Telemetry data for policymaking
 
-[Taxonomy API](http://docs.sunbird.org/latest/apis/framework/)
+[Taxonomy API](https://documenter.getpostman.com/view/25463377/2s8ZDa32ay)
