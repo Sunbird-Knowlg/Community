@@ -516,7 +516,7 @@ No job functionality specific variables to list.
 _<mark style="color:blue;">**Dependency:**</mark>_** ** \
 ****1. **Kafka** **Jobs:** 'qrcode-image-generator', **Samza Jobs:** 'publish-pipeline' (For Shallow Copy Collections publishing)
 
-2\. **Services:** Asset Search Service **(**[Search API](http://docs.sunbird.org/latest/apis/searchapi/#operation/Composite%20Search)), LMS Service ([Course Batch Create](http://docs.sunbird.org/latest/apis/coursebatchmanapi/#operation/CourseBatchCreate)), Learning Service to reserve DIAL codes for a collection.
+2\. **Services:** Asset Search Service **(**[Search API](https://documenter.getpostman.com/view/25463377/2s8ZDa3MP7)), LMS Service ([Course Batch Create](https://lern.sunbird.org/learn/product-and-developer-guide/batch-service/api-documentation#api-documentation)), Learning Service to reserve DIAL codes for a collection.
 {% endhint %}
 
 ****

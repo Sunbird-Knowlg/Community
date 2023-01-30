@@ -8,7 +8,7 @@
 
 Core service which is exposing all the asset & collection API's(REST API's).
 
-### [License](http://docs.sunbird.org/latest/apis/license/#tag/License-APIs)
+### [License](https://documenter.getpostman.com/view/25463377/2s935hR7Ek#intro)
 
 This is part of content-service but exposes the list of API's to do CRUD operations of License.&#x20;
 

@@ -173,8 +173,11 @@
   * [Release-5.2.0](use/deprecations/release-5.2.0.md)
   * [Release-5.1.0](use/deprecations/release-5.1.0.md)
 * [Release](use/release.md)
-* [USE](use/use.md)
-* [Additional Reading](use/additional-reading.md)
+* [USE](use/use/README.md)
+  * [Infra Requirements](use/use/infra-requirements.md)
+* [Additional Reading](use/additional-reading/README.md)
+  * [Content Service Environment Variables](use/additional-reading/content-service-environment-variables.md)
+  * [Import External Content](use/additional-reading/import-external-content.md)
 
 ## Archived
 
