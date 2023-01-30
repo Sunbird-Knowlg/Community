@@ -53,7 +53,7 @@ Job is used for publishing content/collection objects that are submitted for pub
 Job is used for trigerring post publish activities when a collection is published. Like,
 
 * **Shallow Copy:** [Re-publishing herarchy information](./#content-publish) of shallow copy type of collections when an origin collection is published.
-* **Default DIAL code generation:** [Reserves DIAL Code](http://docs.sunbird.org/latest/apis/dialapi/#operation/Reserve%20Dialcode), linking and [QR Code image generation](https://documenter.getpostman.com/view/25463377/2s935hR7AM#c70aa3ea-78c1-46ee-9ffe-0d194ff5c711) for reserved DIAL code by default for a 'Course' primaryCategory object.
+* **Default DIAL code generation:** [Reserves DIAL Code](https://documenter.getpostman.com/view/25463377/2s935hRnae#cb3a2a6e-2e4c-4a13-9cde-5abf9b848baa), linking and [QR Code image generation](https://documenter.getpostman.com/view/25463377/2s935hR7AM#c70aa3ea-78c1-46ee-9ffe-0d194ff5c711) for reserved DIAL code by default for a 'Course' primaryCategory object.
 * **Course Batch Creation:** Based on 'traceability' configuration, triggering auto [batch creation](https://lern.sunbird.org/learn/product-and-developer-guide/batch-service/api-documentation#api-documentation) for a 'Course' primaryCategory object if there is no running batch existing.
 * **DIAL Code Context Update:** Triggers individual context update events for newly added dial codes and removed dial codes of a published collection/content.
 
@@ -73,7 +73,7 @@ _<mark style="color:blue;">**Note:**</mark>_ <mark style="color:blue;"></mark><m
 
 ### :stars: qrcode-image-generator:&#x20;
 
-Job is used for generating QR Code images for the reserved DIAL codes of a collection using the process Id generated when the [DIAL code reserve API](http://docs.sunbird.org/latest/apis/dialapi/#operation/Reserve%20Dialcode) is invoked.
+Job is used for generating QR Code images for the reserved DIAL codes of a collection using the process Id generated when the [DIAL code reserve API](https://documenter.getpostman.com/view/25463377/2s935hRnae#cb3a2a6e-2e4c-4a13-9cde-5abf9b848baa) is invoked.
 
 ![](../../../.gitbook/assets/sunbird-knowlg-qrcode-image-generator.drawio.png)
 

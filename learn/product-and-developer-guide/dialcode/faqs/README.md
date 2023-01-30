@@ -4,19 +4,19 @@ description: This page answers frequently asked questions about DIAL code servic
 
 # FAQs
 
-### How to create a DIAL code?
+How to create a DIAL code?
 
 You should [create a publisher](https://documenter.getpostman.com/view/25463377/2s935hR7AM#81d8ee57-d567-4e62-829e-d3ee7c5671cf) in order to [create/generate a DIAL code](https://documenter.getpostman.com/view/25463377/2s935hR7AM#dc8b03d5-95e3-4314-a78a-ab61e9ebaa4e).
 
 ### How to generate QR Code images of DIAL codes?
 
-You have to [reserve DIAL codes](http://docs.sunbird.org/latest/apis/dialapi/#operation/Reserve%20Dialcode) for a textbook before downloading the QR Code images of the reserved DIAL codes. Once, the DIAL codes are reserved, you can [download QR code images](https://documenter.getpostman.com/view/25463377/2s935hR7AM#c70aa3ea-78c1-46ee-9ffe-0d194ff5c711) using the "processId" returned in the response of 'Reserve DIAL codes API'.
+You have to [reserve DIAL codes](https://documenter.getpostman.com/view/25463377/2s935hRnae#cb3a2a6e-2e4c-4a13-9cde-5abf9b848baa) for a textbook before downloading the QR Code images of the reserved DIAL codes. Once, the DIAL codes are reserved, you can [download QR code images](https://documenter.getpostman.com/view/25463377/2s935hR7AM#c70aa3ea-78c1-46ee-9ffe-0d194ff5c711) using the "processId" returned in the response of 'Reserve DIAL codes API'.
 
 ### How to link a DIAL code to content?
 
 DIAL codes can only be linked to Collection and Collection Units at present. However, contents can be added to collection units and hence, make contents indirectly linked to DIAL codes.
 
-{% embed url="http://docs.sunbird.org/4.6.0/developer-docs/how-to-guide/link_dial_code_to_a_book" %}
+Please follow this [link](link-dial-code-to-a-book.md).
 
 ### How to check if a QR code is linked to a content?
 
