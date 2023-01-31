@@ -4,7 +4,7 @@ description: This page addresses frequently asked questions about Content Servic
 
 # FAQs
 
-### What is the life-cycle of a content object?
+What is the life-cycle of a content object?
 
 Content when created will have '**Draft**' status. When the Content is submitted for Review, content status will be updated to '**Review**'. When a Content is accepted (submitted for publishing), status will first move to 'Processing' and then to '**Live**' if it is processed successfully else to '**Failed**'. When a published content is edited, a **image** node gets created with the id ending with '**.img**' (do\_Id.img). Status of the image node will be 'Draft' whereas status of non-image node will be 'Live'. Image node will follow the above life cycle.
 
@@ -26,9 +26,9 @@ Actual node will be **hard deleted** from the system.
 
 ### How is Search Content API different from Composite Search API?
 
-[Search Content API](http://docs.sunbird.org/latest/apis/contentapi/index.html#operation/Search%20Content) can be used for fetching object types 'Content', 'ContentImage', 'Collection', 'CollectionImage' and 'Asset' only. Whereas, [Composite search API](http://docs.sunbird.org/latest/apis/searchapi/#tag/Search-APIs) can be used for fetching all types of objects in the application ('Content', 'ContentImage', 'Collection', 'CollectionImage', 'QuestionSet', 'QuestionSetImage', 'Asset', 'Channel', 'Framework', 'ObjectCategory', 'ObjectCategoryDefintion', 'License', 'Question', etc. )
+[Search Content API](https://documenter.getpostman.com/view/25463377/2s935hRnae#53a9e9d0-eb1a-4136-9b82-8d0f36c74b9b) can be used for fetching object types 'Content', 'ContentImage', 'Collection', 'CollectionImage' and 'Asset' only. Whereas, [Composite search API](https://documenter.getpostman.com/view/25463377/2s8ZDa3MP7) can be used for fetching all types of objects in the application ('Content', 'ContentImage', 'Collection', 'CollectionImage', 'QuestionSet', 'QuestionSetImage', 'Asset', 'Channel', 'Framework', 'ObjectCategory', 'ObjectCategoryDefintion', 'License', 'Question', etc. )
 
-Note: All attributes in [respective object schemas'](https://github.com/project-sunbird/knowledge-platform/tree/master/schemas) can be used for searching in API filters. However, 'objectType' attribute cannot be used in [Search Content API](http://docs.sunbird.org/latest/apis/contentapi/index.html#operation/Search%20Content).
+Note: All attributes in [respective object schemas'](https://github.com/project-sunbird/knowledge-platform/tree/master/schemas) can be used for searching in API filters. However, 'objectType' attribute cannot be used in [Search Content API](https://documenter.getpostman.com/view/25463377/2s935hRnae#53a9e9d0-eb1a-4136-9b82-8d0f36c74b9b).
 
 ### How are the content objects stored in database?
 
@@ -50,7 +50,7 @@ When a Content object Publish API is invoked, after metadata validation, content
 
 ### How to upload a content?
 
-{% embed url="http://docs.sunbird.org/latest/developer-docs/how-to-guide/how_to_upload_existing_content" %}
+#### [Upload Content](upload-content.md)
 
 ### What file formats can be uploaded as content?
 

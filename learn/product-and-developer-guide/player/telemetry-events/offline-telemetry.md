@@ -90,7 +90,7 @@ For more information, please refer to the [Telemetry Specification](https://tele
 ### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
 * The [API Key for access](generate-api-keys.md) and basic authentication
-* An API client to make API calls. For example use Postman refer [Using Postman](http://docs.sunbird.org/2.0.0/apis/framework/#tag/usingpostman) The offline user must share telemetry file of Sunbird app with admin
+* An API client to make API calls. For example use Postman refer [Using Postman](https://documenter.getpostman.com/view/25463377/2s8ZDa32ay) The offline user must share telemetry file of Sunbird app with admin
 * Admin must download the shared file and open the file with Sunbird app installed on his or her device
 
 **Sharing telemetry file:**

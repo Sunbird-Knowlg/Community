@@ -7,7 +7,7 @@ In this page, we map the [capabilities](../capabilities/) offered by Knowlg to t
 * [Rich & Diverse Assets](./#rich-and-diverse-assets)
 * [Organized Collections](./#organized-collections)
 * [Asset Lifecycle Management](./#asset-lifecycle-management)
-* [Powerful Discovery](./#powerful-discovery)
+* [Powerful Discovery](../capabilities/powerful-discovery.md)
 * [Phygital Discovery](./#phygital-discovery)
 * [Observability](./#observability)
 

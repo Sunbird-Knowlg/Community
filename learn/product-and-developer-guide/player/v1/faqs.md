@@ -12,7 +12,7 @@ Refer [setup the content player](../../../../use/installation-guide/players/v1/h
 
 <summary> How to configure content player v1?</summary>
 
-Refer [configuration section](faqs.md#configurations) for configuration.
+Refer [configuration section](../../../../use/installation-guide/players/v1/how-to-setup.md#configuration) for configuration.
 
 </details>
 
@@ -52,6 +52,7 @@ Refer [HTML/h5p player](players/html-h5p-player-v1.md) v1 page
 
 <summary>Video can be stream in content player v1?</summary>
 
-Yes, Video can be stream using the [streamingUrl](broken-reference). For more information refer [video player v1](broken-reference) page
+Yes, Video can be stream using the [streamingUrl](broken-reference). For more information refer [video player v1](players/video-player-v1.md) page
 
 </details>
+

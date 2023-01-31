@@ -39,11 +39,9 @@ curl --location --request POST '{{host}}/action/framework/v3/category/master/cre
 --data-raw '{"request":{"category":{"name":"Learning Outcome","description":"Learning Outcome","code":"learningOutcome","targetIdFieldName":"targetLearningOutcomeIds","searchLabelFieldName":"se_learningOutcomes","searchIdFieldName":"se_learningOutcomeIds","orgIdFieldName":"learningOutcomeIds"}}}'
 ```
 
+### [Create Framework](create-framework.md)&#x20;
 
-
-{% embed url="http://docs.sunbird.org/2.10.0/developer-docs/how-to-guide/how_to_create_framework_in_sunbird" %}
-
-{% embed url="http://docs.sunbird.org/2.10.0/developer-docs/how-to-guide/how_to_seeddata_in_framework" %}
+### [Add Content to Framework](add-content-to-framework.md)
 
 ### How to fetch list of all Frameworks in the sunbird instance?
 

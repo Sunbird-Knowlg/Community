@@ -279,7 +279,7 @@ The Scribblepad helps users take notes if required, while viewing content\
 
 To add question set, click the Add Question Set icon on the toolbar. The question set browser page is displayed.\
 To ensure that the content achieves the learning objective it is important to check and reaffirm the learner’s progress at different points in the study material. Adding questions and question sets are one method\
-1\. Click the Add Question Set icon on the toolbar. For further information, refer [Adding Question Set](http://docs.sunbird.org/2.5.0/features-documentation/questionset\_create)
+1\. Click the Add Question Set icon on the toolbar. For further information, refer [Adding Question Set](adding-question-set.md)
 
 <figure><img src="../../../../../.gitbook/assets/AddingQuestionSet.png" alt=""><figcaption></figcaption></figure>
 
@@ -380,7 +380,7 @@ All details associated with the resource must be updated before sending the reso
 All created study material must be reviewed and approved by designated reviewers before it can be published. To send content for review:\
 1\. Click Save to save the content\
 2\. Click Send for review to send the created content for review\
-3\. Before sending for review, you can share the content to a limited audience. To know more this, refer [Limited Publishing and Sharing](http://docs.sunbird.org/2.5.0/features-documentation/limitedpublishnshare)\
+3\. Before sending for review, you can share the content to a limited audience. To know more this, refer [Limited Publishing and Sharing](limited-publishing-and-sharing.md)\
 
 
 <figure><img src="../../../../../.gitbook/assets/Sendforreview.png" alt=""><figcaption></figcaption></figure>

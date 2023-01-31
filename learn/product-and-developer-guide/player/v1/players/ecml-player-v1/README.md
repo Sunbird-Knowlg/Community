@@ -36,7 +36,7 @@ Based on the configuration ECML content can be rendered.
 }
 ```
 
-Please refer [user task workflow](http://docs.sunbird.org/2.2.0/usertaskflow/how\_do\_i\_create\_content/) section for more information
+Please refer [user task workflow](create-content.md) section for more information
 
 ## **Features**
 

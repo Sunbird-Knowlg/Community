@@ -26,7 +26,7 @@ Actual node will be **hard deleted** from the system.
 
 ### Can I add/remove contents to/from collections without needing to update collection hierarchy using Update Hierarchy API?
 
-Yes, using [Add Hierarchy API](http://docs.sunbird.org/latest/apis/collectionapi/index.html#operation/Add%20Collection%20Hierarchy) and Remove Hierarchy API, one can add or remove contents/collections to/from a collection unit.
+Yes, using [Add Hierarchy API](https://documenter.getpostman.com/view/25463377/2s8ZDa32au) and Remove Hierarchy API, one can add or remove contents/collections to/from a collection unit.
 
 ### How are the collection objects stored in database?
 

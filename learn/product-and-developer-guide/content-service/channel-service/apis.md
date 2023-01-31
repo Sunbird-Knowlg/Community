@@ -1,6 +1,6 @@
 # APIs
 
-### [Channel APIs](http://docs.sunbird.org/latest/apis/framework/#tag/Channel-APIs)
+### [Channel APIs](https://documenter.getpostman.com/view/25463377/2s8ZDa32ay#693a9b1f-4eb3-4241-9396-5bd9a4c5266c)
 
 These APIs are used to manage object type - channel.
 
