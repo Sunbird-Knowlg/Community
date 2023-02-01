@@ -12,5 +12,5 @@ Release timeline:
 | Sprint 1       | 21-Nov, 2022                         | 9 Dec 2022   |
 | Sprint 2       | 12 Dec 2022                          | 30 Dec 2022  |
 | PPV            | 2 Jan 2022                           | 13 Jan 2022  |
-| Prod           | 31 Jan 2022 (expected sign off date) |              |
+| Prod           | 01 Feb 2023 (expected sign off date) |              |
 
