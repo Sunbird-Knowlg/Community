@@ -50,4 +50,4 @@ Hot fix bug (included in the above link):
 
 ****
 
-<mark style="color:red;">**NOTE: No tags for this release.**</mark>&#x20;
+<mark style="color:red;">**NOTE:**</mark> There is no change in this release. So Please use [release-5.2.0 ](https://knowlg.sunbird.org/use/release-notes/release-5.2.0-ongoing)Tags.
