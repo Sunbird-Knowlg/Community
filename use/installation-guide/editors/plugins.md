@@ -6,7 +6,7 @@ This page explains the jobs to be run to build and deploy plugins. In order to d
 
 ### Build <a href="#build" id="build"></a>
 
-Switch to the `Build/Plugins` folder and run all jobs. Ensure all ArtifactUpload jobs are sucessful after the build. For the value of the **github\_release\_tag**, refer to [Current Release Tags and Jenkins Jobs Reference](../../release-notes/latest.md)
+Switch to the `Build/Plugins` folder and run all jobs. Ensure all ArtifactUpload jobs are sucessful after the build. For the value of the **github\_release\_tag**, refer to [Current Release Tags and Jenkins Jobs Reference](broken-reference)
 
 #### Prerequisites Before Deployment <a href="#prerequisites-before-deployment" id="prerequisites-before-deployment"></a>
 
