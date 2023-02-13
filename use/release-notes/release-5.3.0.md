@@ -31,3 +31,7 @@ Bug Fixes - click [here](https://project-sunbird.atlassian.net/issues/?filter=11
 **Test Scenarios: No new test scenarios**
 
 **Documentation issue, release 5.3.0:** [**KN-782**](https://project-sunbird.atlassian.net/browse/KN-782)****
+
+****
+
+<mark style="color:red;">**NOTE: No tags for this release.**</mark>&#x20;
