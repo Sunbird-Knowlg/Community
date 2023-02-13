@@ -24,9 +24,25 @@ Release timeline:
 
 This document contains information about the new features and enhancements planned to the Knowlg building block as part of release 5.3.0:
 
-Enhancements: Click here to view the list.&#x20;
+Enhancements: Click [here](https://project-sunbird.atlassian.net/issues/?filter=12761\&jql=project%20%3D%20KN%20AND%20issuetype%20in%20\(Documentation-Issue%2C%20Minor-Enhancement%2C%20RFC\)%20AND%20status%20in%20\(Done%2C%20%22In%20Validation%22\)%20AND%20labels%20in%20\(QA\_Required%2C%20QA\_Not\_Required%2C%20QA\_Required\_Regression\)%20AND%20Sprint%20in%20\(310%2C%20311\)%20ORDER%20BY%20key%20ASC%2C%20created%20DESC) to view the list.&#x20;
 
-Bug Fixes - click [here](https://project-sunbird.atlassian.net/issues/?filter=11287\&jql=project%20%3D%20KN%20AND%20issuetype%20%3D%20Bug%20AND%20labels%20%3D%20QA\_Required%20AND%20Sprint%20in%20\(311%2C%20310\)%20ORDER%20BY%20key%20ASC%2C%20created%20DESC) to see the list of bugs fixed in this release.
+Bug Fixes - click [here](https://project-sunbird.atlassian.net/issues/?filter=12760\&jql=project%20%3D%20KN%20AND%20issuetype%20%3D%20Bug%20AND%20status%20in%20\(Done%2C%20%22In%20Validation%22\)%20AND%20Sprint%20in%20\(310%2C%20311\)%20ORDER%20BY%20key%20ASC%2C%20created%20DESC) to see the list of bugs fixed in this release.
+
+Bug verified (included in the above link):
+
+1. Collection Editor special character issue [#KN-685](https://project-sunbird.atlassian.net/browse/KN-685)
+
+Knowlg specific bugs (included in the above link):
+
+1. HTML and H5P players preview is not available, but loading upto 100% [#KN-505](https://project-sunbird.atlassian.net/browse/KN-505)
+2. User is unable to download the content from file upload editor [#KN-506](https://project-sunbird.atlassian.net/browse/KN-506)
+3. User is unable to create new questions under resources [#KN-545](https://project-sunbird.atlassian.net/browse/KN-545)
+4. Portal : user is not able to move to next page in the epub content [#KN-659](https://project-sunbird.atlassian.net/browse/KN-659)
+
+Hot fix bug (included in the above link):
+
+1. &#x20;Content is not republished and migration version is as 1 for the live content. [#KN-742](https://project-sunbird.atlassian.net/browse/KN-742)
+2. CLONE - Search and Replace array lengths don't match: 2 vs 1 failure message is coming in bulk upload reports after doing bulk upload of h5p and html contents [#KN-760](https://project-sunbird.atlassian.net/browse/KN-760) (could not be verified on Knowlg portal)
 
 **Test Scenarios: No new test scenarios**
 
