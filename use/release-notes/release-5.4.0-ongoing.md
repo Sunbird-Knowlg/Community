@@ -15,3 +15,13 @@ Release timeline:
 | Prod           | 13-Mar-2023 |              |
 
 5.4 scope : Click [here](https://project-sunbird.atlassian.net/issues/?filter=12759\&jql=project%20%3D%20KN%20AND%20issuetype%20in%20\(standardIssueTypes\(\)%2C%20Bug%2C%20Documentation-Issue%2C%20Installation-Issues%2C%20Minor-Enhancement%2C%20RFC\)%20AND%20Sprint%20in%20\(351%2C%20352\)%20ORDER%20BY%20key%20ASC%2C%20created%20DESC) for 5.4 scope
+
+
+
+KN-802: SYNC Tool configuration update
+
+| **Variable**                     | **Values**                                                  | **description**                                                                                                                                         |
+| -------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `replace_dest_string`            | true/false                                                  | Used to specify if the Relative path string replace is to be enabled                                                                                    |
+| `replace_src_string_DIAL_store`  | `DIAL_STORAGE_BASE_PATH`                                    | Currently configured relative path variable name to be stored in database instead of BLOB absolute URL                                                  |
+| `replace_dest_string_DIAL_store` | Ex: `https://sunbirddevbbpublic.blob.core.windows.net/dial` | BLOB URL and container combination value that is used to replace ‘`DIAL_STORAGE_BASE_PATH`’ relative path variable while syncing image ‘url’ data to ES |
