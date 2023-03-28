@@ -48,6 +48,22 @@ Hot fix bug (included in the above link):
 
 **Documentation issue, release 5.3.0:** [**KN-782**](https://project-sunbird.atlassian.net/browse/KN-782)****
 
+
+
+**Config for Special Character issue in collection editor:**
+
+Please use the below config to fix the special character issue. Add pattern match to resolve the issue.
+
+```
+"validations": [
+    {
+      "type": "pattern",
+      "value": "[a-zA-Z0-9 _\\\/.'-]+$",
+      "message": "Special characters are not allowed"
+    }
+  ]
+```
+
 ****
 
 <mark style="color:red;">**NOTE:**</mark> There is no change in this release. So Please use [release-5.2.0 ](https://knowlg.sunbird.org/use/release-notes/release-5.2.0-ongoing)Tags.
