@@ -26,10 +26,10 @@ It is used to organize your assets in a multi-level hierarchy and creation proce
 
 It is used to fetch the content metadata.
 
-| API                                          | Description                                                                                                     |
-| -------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| `{host}/action/content/v3/read/{content_id}` | This is used to fetch the published content metadata.                                                           |
-| `{host}/content/data/v1/telemetry`           | It is used to log the [telemetry](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/-MkM7F4oILSpCJPO0YUu/) data. |
+| API                                          | Description                                                                                                   |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| `{host}/action/content/v3/read/{content_id}` | This is used to fetch the published content metadata.                                                         |
+| `{host}/content/data/v1/telemetry`           | It is used to log the [telemetry](http://localhost:5000/o/-Mi9QwJlsfb7xuxTBc0J/s/-MkM7F4oILSpCJPO0YUu/) data. |
 
 ### [**Channel Service**](../../content-service/channel-service/apis.md)
 
@@ -73,7 +73,7 @@ It is used to configure fields displayed in a form used in editors for the creat
 | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `{host}/action/object/category/definition/v1/read?fields=objectMetadata,forms,name` | It is used to read [object category defination](../../taxonomy-and-tagging/object-category-service/) of a primary category. (Ex. Digital textbook, Explanation Resourse, etc...) |
 
-### <mark style="color:blue;">****</mark>[<mark style="color:blue;">**User Service**</mark>](https://app.gitbook.com/s/4ZKyfmmhMWpPkD6iYvKF/learn/product-and-developer-guide/user-and-org-service/api-documentation)<mark style="color:blue;">****</mark>
+### <mark style="color:blue;">****</mark>[<mark style="color:blue;">**User Service**</mark>](http://localhost:5000/s/4ZKyfmmhMWpPkD6iYvKF/learn/product-and-developer-guide/user-and-org-service/api-documentation)<mark style="color:blue;">****</mark>
 
 The user service is used to fetch the list of users for [collaboration](features.md).  It's optional service when collaboration feature is disabled in the editor.
 

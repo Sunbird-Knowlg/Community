@@ -67,6 +67,7 @@
       * [APIs](learn/product-and-developer-guide/editors/collection-editor-v2/apis.md)
       * [FAQ's](learn/product-and-developer-guide/editors/collection-editor-v2/faqs.md)
     * [How to contribute as a JS plugin](learn/product-and-developer-guide/editors/how-to-contribute-as-a-js-plugin/README.md)
+      * [How do I think about a plugin?](learn/product-and-developer-guide/editors/how-to-contribute-as-a-js-plugin/how-do-i-think-about-a-plugin.md)
       * [Interactive Editor Plugin Guide](learn/product-and-developer-guide/editors/how-to-contribute-as-a-js-plugin/interactive-editor-plugin-guide.md)
       * [Using SDK to create and test the plugin](learn/product-and-developer-guide/editors/how-to-contribute-as-a-js-plugin/using-sdk-to-create-and-test-the-plugin.md)
   * [Content service](learn/product-and-developer-guide/content-service/README.md)
