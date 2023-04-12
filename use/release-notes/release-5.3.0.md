@@ -46,7 +46,7 @@ Hot fix bug (included in the above link):
 
 **Test Scenarios: No new test scenarios**
 
-**Documentation issue, release 5.3.0:** [**KN-782**](https://project-sunbird.atlassian.net/browse/KN-782)****
+**Documentation issue, release 5.3.0:** [**KN-782**](https://project-sunbird.atlassian.net/browse/KN-782)
 
 
 
@@ -64,6 +64,6 @@ Please use the below config to fix the special character issue. Add pattern matc
   ]
 ```
 
-****
 
-<mark style="color:red;">**NOTE:**</mark> There is no change in this release. So Please use [release-5.2.0 ](https://knowlg.sunbird.org/use/release-notes/release-5.2.0-ongoing)Tags.
+
+<mark style="color:red;">**NOTE:**</mark> There is no change in this release. So please use [release-5.2.0 ](https://knowlg.sunbird.org/use/release-notes/release-5.2.0-ongoing)Tags.(There are some **hot-fixes** added on top of release-5.2.0. Please ensure you have upgraded to those tags)
