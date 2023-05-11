@@ -38,6 +38,8 @@ Bug Fixes - click here to see the list of bugs fixed in this release.
 
 In this release, we have published NPM package for the below editor and players web components.    These NPM web components can help simplify web development by providing a standardized way to use editors and players in any UI framework, and which can save time and effort eventually.&#x20;
 
+And also we have introduced a oneclick-installation feature using Terraform,allowing easy provisioning of all services,databases and jobs .The installation process has been optimized to reduce manual configuration steps and simplify setup for new users.
+
 ### Collection **Editor as Web** component:
 
 Tag: 1.0.2
@@ -69,4 +71,16 @@ Tag: 1.0.1
 Install: `npm i @project-sunbird/sunbird-epub-player-web-component`
 
 URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-epub-player-web-component/v/1.0.1](https://www.npmjs.com/package/@project-sunbird/sunbird-epub-player-web-component/v/1.0.1)
+
+### Oneclick-installation:
+
+#### Features:
+
+* Terraform scripts have been implemented to automate the provisioning process, ensuring consistent and reliable deployments.
+* Terraform variables and templates have been added, providing users with the ability to customize the deployment according to their specific requirements.
+
+#### Installation and Upgrade Instructions:
+
+Follow the README.md file from the below link for any specific configuration steps or considerations.\
+[https://github.com/aimansharief/knowledge-platform/blob/knowlg-oneclick/knowlg-automation/README.md](https://github.com/aimansharief/knowledge-platform/blob/knowlg-oneclick/knowlg-automation/README.md)
 
