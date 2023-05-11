@@ -34,21 +34,39 @@ Bug Fixes - click here to see the list of bugs fixed in this release.
 
 **Documentation issue, release 5.4.0:** KN-839
 
+## Release Tags:
 
+In this release, we have published NPM package for the below editor and players web components.    These NPM web components can help simplify web development by providing a standardized way to use editors and players in any UI framework, and which can save time and effort eventually. Please find below&#x20;
 
-| Component                               | Tag                                                                                                               |
-| --------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| Sunbird-Collection-Editor web component | [**1.0.2**](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor-web-component?)              |
-| Sunbird-pdf-player web component        | [**1.0.1**](https://www.npmjs.com/package/@project-sunbird/sunbird-pdf-player-web-component?activeTab=versions)   |
-| Sunbird-video-player web component      | [**1.0.1**](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-web-component?activeTab=versions) |
-| Sunbird-epub-player web component       | [**1.0.1**](https://www.npmjs.com/package/@project-sunbird/sunbird-epub-player-web-component?activeTab=versions)  |
+### Collection **Editor as Web** component:
 
+Tag: 1.0.2
 
+Install: `npm i @project-sunbird/sunbird-collection-editor-web-component`
 
-&#x20;Collection editor provided as a web component  [**#KN-847**](https://project-sunbird.atlassian.net/browse/KN-847)
+URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor-web-component/v/1.0.2](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor-web-component/v/1.0.2)
 
-&#x20;PDF player provided as web component in npm [ **#KN-832**](https://project-sunbird.atlassian.net/browse/KN-832)
+### Sunbird-pdf-player **as Web** component:
 
-&#x20;Video player provided as web component in npm [**#KN-834**](https://project-sunbird.atlassian.net/browse/KN-834)
+Tag: 1.0.1
 
-&#x20;Epub player provided as web component in npm [**#KN-833**](https://project-sunbird.atlassian.net/browse/KN-833)
+Install: `npm i @project-sunbird/sunbird-pdf-player-web-component`
+
+URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-pdf-player-web-component/v/1.0.1](https://www.npmjs.com/package/@project-sunbird/sunbird-pdf-player-web-component/v/1.0.1)
+
+### Sunbird-video-player **as Web** component:
+
+Tag: 1.0.1
+
+Install: `npm i @project-sunbird/sunbird-video-player-web-component`
+
+URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-web-component/v/1.0.1](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-web-component/v/1.0.1)
+
+### Sunbird-epub-player **as Web** component:
+
+Tag: 1.0.1
+
+Install: `npm i @project-sunbird/sunbird-epub-player-web-component`
+
+URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-epub-player-web-component/v/1.0.1](https://www.npmjs.com/package/@project-sunbird/sunbird-epub-player-web-component/v/1.0.1)
+
