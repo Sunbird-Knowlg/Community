@@ -36,7 +36,7 @@ Bug Fixes - click here to see the list of bugs fixed in this release.
 
 ## Release Tags:
 
-In this release, we have published NPM package for the below editor and players web components.    These NPM web components can help simplify web development by providing a standardized way to use editors and players in any UI framework, and which can save time and effort eventually. Please find below&#x20;
+In this release, we have published NPM package for the below editor and players web components.    These NPM web components can help simplify web development by providing a standardized way to use editors and players in any UI framework, and which can save time and effort eventually.&#x20;
 
 ### Collection **Editor as Web** component:
 
