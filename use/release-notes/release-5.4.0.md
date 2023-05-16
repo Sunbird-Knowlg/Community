@@ -1,4 +1,4 @@
-# Release - 5.4.0(latest)
+# Release - 5.4.0
 
 ## <mark style="color:blue;">5.4.0</mark> (15-03-2023)
 
@@ -28,7 +28,7 @@ Enhancements: Click [here](https://project-sunbird.atlassian.net/issues/?filter=
 
 Bug Fixes - click [here](https://project-sunbird.atlassian.net/issues/?filter=12759\&jql=project%20%3D%20KN%20AND%20issuetype%20%3D%20Bug%20AND%20status%20in%20\(Done%2C%20%22In%20Validation%22\)%20AND%20labels%20in%20\(QA\_Not\_Required%2C%20QA\_Required%2C%20QA\_Required\_Regression%2C%20Regression\)%20AND%20Sprint%20in%20\(351%2C%20352\)%20ORDER%20BY%20key%20ASC%2C%20created%20DESC) to see the list of bugs fixed in this release.
 
-**Test Scenarios:**[ **Link**](https://docs.google.com/spreadsheets/d/1YOe4QB0gqA53gFTzsP-6MtQI02EaKiUzn1SPihZPaeM/edit#gid=117864265)****
+**Test Scenarios:**[ **Link**](https://docs.google.com/spreadsheets/d/1YOe4QB0gqA53gFTzsP-6MtQI02EaKiUzn1SPihZPaeM/edit#gid=117864265)
 
 **Documentation issue, release 5.4.0:** [KN-839](https://project-sunbird.atlassian.net/browse/KN-839)
 
@@ -58,4 +58,4 @@ URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v
 | `replace_src_string_DIAL_store`  | `DIAL_STORAGE_BASE_PATH`                                    | Currently configured relative path variable name to be stored in database instead of BLOB absolute URL                                                  |
 | `replace_dest_string_DIAL_store` | Ex: `https://sunbirddevbbpublic.blob.core.windows.net/dial` | BLOB URL and container combination value that is used to replace ‘`DIAL_STORAGE_BASE_PATH`’ relative path variable while syncing image ‘url’ data to ES |
 
-### ****
+###

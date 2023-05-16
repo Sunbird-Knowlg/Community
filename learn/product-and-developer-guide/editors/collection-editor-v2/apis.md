@@ -49,7 +49,7 @@ The asset manager for easy creation and discovery of assets (Images, Videos, etc
 | `{host}/action/content/v3/upload/url/{asset_id}` | It is used to fetch the pre-signed cloud URL location to upload asset.        |
 | `{host}/action/asset/v1/upload/{asset_id}`       | It is used to upload the asset artifact to the pre-signed cloud URL location. |
 
-### [**Assets search service**](../../assets-search-service/apis.md)****
+### [**Assets search service**](../../assets-search-service/apis.md)
 
 The asset search service provides services to search and discover [assets](../../assets-search-service/).
 
@@ -73,7 +73,7 @@ It is used to configure fields displayed in a form used in editors for the creat
 | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `{host}/action/object/category/definition/v1/read?fields=objectMetadata,forms,name` | It is used to read [object category defination](../../taxonomy-and-tagging/object-category-service/) of a primary category. (Ex. Digital textbook, Explanation Resourse, etc...) |
 
-### <mark style="color:blue;">****</mark>[<mark style="color:blue;">**User Service**</mark>](http://localhost:5000/s/4ZKyfmmhMWpPkD6iYvKF/learn/product-and-developer-guide/user-and-org-service/api-documentation)<mark style="color:blue;">****</mark>
+### [<mark style="color:blue;">**User Service**</mark>](http://localhost:5000/s/4ZKyfmmhMWpPkD6iYvKF/learn/product-and-developer-guide/user-and-org-service/api-documentation)
 
 The user service is used to fetch the list of users for [collaboration](features.md).  It's optional service when collaboration feature is disabled in the editor.
 

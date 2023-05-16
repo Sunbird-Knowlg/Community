@@ -22,11 +22,11 @@ On the Question Set page, search for questions or apply filters to narrow down y
 
 1\. Type keywords to search for questions\
 2\. Apply filters for better search results using:\
- **** a) **Language**\
- **** b) **Difficulty**\
- **** c) **Question Type**\
- **** d) **Grade Level**\
- **** e) **Concepts**. Refer [Concept Selector](concept-selector.md)\
+ a) **Language**\
+ b) **Difficulty**\
+ c) **Question Type**\
+ d) **Grade Level**\
+ e) **Concepts**. Refer [Concept Selector](concept-selector.md)\
 3\. Use **My Questions** slider to search for questions that you have uploaded. To search for questions available on the portal, disable this option\
 4\. Select questions from the results displayed on the left pane\
 5\. The selected question can be previewed on the right pane\

@@ -95,7 +95,7 @@ You can add audio to read along text either by selecting an audio file from a li
 <figure><img src="../../../../../.gitbook/assets/ReadingAlong.png" alt=""><figcaption></figcaption></figure>
 
 **Sync Audio Text with Audio to Read Along**\
-****
+
 
 1. To set the speed of text enunciation, set the playback rate to **Normal, Slow or Slower**
 2. Press the **Spacebar** button on your keyboard to space pauses and synchronize words of the sentence with the audio
@@ -104,7 +104,7 @@ You can add audio to read along text either by selecting an audio file from a li
 <figure><img src="../../../../../.gitbook/assets/ReadingAlong2.png" alt=""><figcaption></figcaption></figure>
 
 **Read Along - Highlighter**\
-****
+
 
 After adding the audio file, you can highlight the text associated with the audio
 
@@ -194,7 +194,7 @@ The process of changing the written script from one language to another is known
 <figure><img src="../../../../../.gitbook/assets/AddImages.png" alt=""><figcaption></figcaption></figure>
 
 **Selecting Images**\
-****
+
 
 You can add images either by selecting an image from a list or uploading images from your local machine to use immediately
 
@@ -207,7 +207,7 @@ You can add images either by selecting an image from a list or uploading images 
 <figure><img src="../../../../../.gitbook/assets/SelectingImages.png" alt=""><figcaption></figcaption></figure>
 
 **Uploading and Using Images**\
-****
+
 
 1. Click Choose **File to browse** and select a file from your local drive or open the explorer in a separate window and drag and drop the required file on the screen. \
    **Note**: Supported file formats are: .jpeg, .jpg, .png
@@ -220,7 +220,7 @@ You can add images either by selecting an image from a list or uploading images 
 <figure><img src="../../../../../.gitbook/assets/UploadingandUsingImages.png" alt=""><figcaption></figcaption></figure>
 
 **Formatting Images**\
-****
+
 
 After selecting and adding an image to the slide, the customize tab displays options to add features to the shapes. You can:
 
@@ -238,7 +238,7 @@ After selecting and adding an image to the slide, the customize tab displays opt
 <figure><img src="../../../../../.gitbook/assets/AddAudio (1).png" alt=""><figcaption></figcaption></figure>
 
 **Uploading Audio**\
-****
+
 
 1. Click Choose File to browse and select a file from your local drive or open the explorer in a separate window and drag and drop the required file on the screen. \
    **Note**: Supported file formats are: .mp3, .mp4
@@ -257,7 +257,7 @@ A Hotspot is an invisible button. Attach hotspot to any text, shape, or object t
 <figure><img src="../../../../../.gitbook/assets/AddHotspot.png" alt=""><figcaption></figcaption></figure>
 
 **Adding Action to the Hotspot**\
-****
+
 
 1. Click the **Action** tab on the right pane
 2. Select an interaction from the drop-down menu
@@ -310,7 +310,7 @@ You can add activities by selecting activities from the list displayed in the ac
 <figure><img src="../../../../../.gitbook/assets/AddingDetails.png" alt=""><figcaption></figcaption></figure>
 
 **Configuring Activity Details**\
-****
+
 
 1. If the selected activity has details added at the time of creation, the appropriate activity category icon is displayed. Click the icon to view or modify activity details
 2. If no details have been added, you can enter the activity details in the **Configuring Activity** details screen
@@ -356,7 +356,7 @@ To integrate math function with the editor click Add Activity icon. The Add Acti
 #### Adding Details
 
 All details associated with the resource must be updated before sending the resource for review.\
-****
+
 
 1. Enter a **Name** for the resource
 2. Enter a **Description**

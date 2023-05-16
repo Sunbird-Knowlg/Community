@@ -1,6 +1,6 @@
-# Release - 5.5.0 (ongoing)
+# Release - 5.5.0 (latest)
 
-## <mark style="color:blue;">5.5.0</mark> (-2023)
+## <mark style="color:blue;">5.5.0</mark> (15-05-2023)
 
 Discussion thread: [https://github.com/orgs/Sunbird-Knowlg/discussions/106](https://github.com/orgs/Sunbird-Knowlg/discussions/106)
 
@@ -18,21 +18,21 @@ Release timeline:
 
 ### Document Release Version
 
-| Project        | Release Version | Date          |
-| -------------- | --------------- | ------------- |
-| Sunbird Knowlg | R5.5.0          | 15 March 2022 |
+| Project        | Release Version | Date        |
+| -------------- | --------------- | ----------- |
+| Sunbird Knowlg | R5.5.0          | 15 May 2023 |
 
 ### **1. Summary of the changes**
 
 This document contains information about the new features and enhancements planned to the Knowlg building block as part of release 5.5.0:
 
-Enhancements: Click here to view the list.&#x20;
+Enhancements: Click [here](https://project-sunbird.atlassian.net/issues/?filter=12779\&jql=project%20%3D%20KN%20AND%20issuetype%20in%20\(Documentation-Issue%2C%20Installation-Issues%2C%20Minor-Enhancement%2C%20RFC\)%20AND%20status%20in%20\(Done%2C%20%22In%20Validation%22\)%20AND%20labels%20in%20\(QA\_Not\_Required%2C%20QA\_Required%2C%20QA\_Required\_Regression\)%20AND%20Sprint%20in%20\(383%2C%20384\)%20ORDER%20BY%20key%20ASC%2C%20created%20DESC) to view the list.&#x20;
 
-Bug Fixes - click here to see the list of bugs fixed in this release.
+Bug Fixes - click [here](https://project-sunbird.atlassian.net/issues/?filter=12779\&jql=project%20%3D%20KN%20AND%20issuetype%20%3D%20Bug%20AND%20status%20in%20\(Done%2C%20%22In%20Validation%22\)%20AND%20Sprint%20in%20\(383%2C%20384\)%20ORDER%20BY%20key%20ASC%2C%20created%20DESC) to see the list of bugs fixed in this release.
 
-**Test Scenarios: Link**
+**Test Scenarios: NA**
 
-**Documentation issue, release 5.4.0:** KN-839
+**Documentation issue, release 5.4.0:** [KN-866](https://project-sunbird.atlassian.net/browse/KN-866)
 
 ## Release Tags:
 

@@ -6,7 +6,7 @@
 
 This is used for generating the telemetry from the player as a utility dependency library.
 
-****
+
 
 **Sunbird Player SDK:**
 

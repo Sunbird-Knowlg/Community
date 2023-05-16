@@ -16,7 +16,7 @@ Following are types of mode:\
 3\. review\
 \
 **- read**\
-****The read mode is a feature within the editor that allows users to see the editor. But you cannot edit it.\
+The read mode is a feature within the editor that allows users to see the editor. But you cannot edit it.\
 Here’s the configuration:
 
 ```
@@ -27,9 +27,9 @@ Here’s the configuration:
 
 ![](<../../../../.gitbook/assets/NIT (10).png>)\
 In the above screenshot, you can see all the contents but can not perform any actions on the editor.\
-****\
+\
 **- edit**\
-****All the fields will be enabled to edit for the collection creator.\
+All the fields will be enabled to edit for the collection creator.\
 Here’s the configuration:
 
 ```
@@ -38,11 +38,11 @@ Here’s the configuration:
 }
 ```
 
-****\
-****<img src="../../../../.gitbook/assets/image (8).png" alt="" data-size="original">****\
-****\
+\
+<img src="../../../../.gitbook/assets/image (8).png" alt="" data-size="original">\
+\
 **- review**\
-****It’s similar to read mode only. but here users can perform some actions such as publish, reject. \
+It’s similar to read mode only. but here users can perform some actions such as publish, reject. \
 Here’s the configuration:
 
 ```

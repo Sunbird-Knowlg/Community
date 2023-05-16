@@ -73,7 +73,7 @@ _<mark style="color:blue;">**Dependency:**</mark>_** Jobs:** 'video-stream-gener
 
 
 
-### ****:stars: **audit-event-generator:**
+### :stars: **audit-event-generator:**
 
 **Kafka Topic:**
 
@@ -138,7 +138,7 @@ kafka {
 }
 ```
 
-****
+
 
 ### :stars: audit-history-indexer:
 
@@ -364,7 +364,7 @@ kafka {
 }
 ```
 
-****
+
 
 ### :stars: content-publish:&#x20;
 
@@ -443,14 +443,14 @@ kafka {
 ```
 
 {% hint style="info" %}
-_<mark style="color:blue;">**Dependency:**</mark>_** **&#x20;
+_<mark style="color:blue;">**Dependency:**</mark>_&#x20;
 
 **Services:** Content Service - composite search API
 
 **Jobs:** 'post-publish-processor', 'video-stream-generator' & 'mvc-indexer'&#x20;
 {% endhint %}
 
-****
+
 
 ### :stars: post-publish-processor:&#x20;
 
@@ -513,13 +513,13 @@ No job functionality specific variables to list.
 ```
 
 {% hint style="info" %}
-_<mark style="color:blue;">**Dependency:**</mark>_** ** \
-****1. **Kafka** **Jobs:** 'qrcode-image-generator', **Samza Jobs:** 'publish-pipeline' (For Shallow Copy Collections publishing)
+_<mark style="color:blue;">**Dependency:**</mark>_ \
+1\. **Kafka** **Jobs:** 'qrcode-image-generator', **Samza Jobs:** 'publish-pipeline' (For Shallow Copy Collections publishing)
 
 2\. **Services:** Asset Search Service **(**[Search API](https://documenter.getpostman.com/view/25463377/2s8ZDa3MP7)), LMS Service ([Course Batch Create](https://lern.sunbird.org/learn/product-and-developer-guide/batch-service/api-documentation#api-documentation)), Learning Service to reserve DIAL codes for a collection.
 {% endhint %}
 
-****
+
 
 ### :stars: qrcode-image-generator:&#x20;
 
@@ -583,7 +583,7 @@ kafka {
 }
 ```
 
-_<mark style="color:blue;">****</mark>_
+
 
 ### :stars: search-indexer:&#x20;
 
@@ -725,7 +725,7 @@ kafka {
 _<mark style="color:blue;">**Dependency:**</mark>_** Services:** Content Service - system update API
 {% endhint %}
 
-****
+
 
 ### :stars: dialcode-context-updater:&#x20;
 
@@ -788,13 +788,13 @@ kafka {
 
 {% hint style="info" %}
 _<mark style="color:blue;">**Dependency:**</mark>_\
-_<mark style="color:blue;">****</mark>_** Services:** \
-&#x20; ****  1. Search Service - composite search API
+** Services:** \
+&#x20; 1\. Search Service - composite search API
 
 &#x20; 2\. DIAL service - DIAL context read and update API
 {% endhint %}
 
-****
+
 
 ### :stars: cassandra-data-migration:&#x20;
 
@@ -1008,7 +1008,7 @@ kafka {
 ```
 
 {% hint style="info" %}
-_<mark style="color:blue;">**Dependency:**</mark>_** **&#x20;
+_<mark style="color:blue;">**Dependency:**</mark>_&#x20;
 
 **Services:** Search Service - composite search API
 
@@ -1077,7 +1077,7 @@ kafka {
 ```
 
 {% hint style="info" %}
-_<mark style="color:blue;">**Dependency:**</mark>_** **&#x20;
+_<mark style="color:blue;">**Dependency:**</mark>_&#x20;
 
 **Services:** Content Service - system update API
 

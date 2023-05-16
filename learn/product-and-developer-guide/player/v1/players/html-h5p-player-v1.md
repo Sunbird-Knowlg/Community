@@ -16,7 +16,7 @@ Html Player is used to play the html and h5p files. These files can be renderer 
 "mimeType": "application/vnd.ekstep.html-archive"
 ```
 
-## ****
+##
 
 ## **Configuration**
 

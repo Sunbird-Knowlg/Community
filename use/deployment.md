@@ -37,10 +37,10 @@ The below list of DB's are used in the above micro-services
   _Taxonomy-service_: Object category definations are stored here. \
   DIAL-service: We are using Cassadra as a primary store of DIAL data/information. This data will be synced to Elasticsearch through flinkJob(search-Indxer)
 * **Redis:**\
-  ****To improve the performance of API instead of hitting the DB for every Read call, we are using the Redis as temp cache.
+  To improve the performance of API instead of hitting the DB for every Read call, we are using the Redis as temp cache.
 * **Elasticsearch:**\
-  ****This is the primary DB of the search-service(asset-search-service). There is not directly feed/post of the data to the elastic-search DB. The data will be synced from Neo4J to elasticsearch through Flink job(Search-indexer) only.\
+  This is the primary DB of the search-service(asset-search-service). There is not directly feed/post of the data to the elastic-search DB. The data will be synced from Neo4J to elasticsearch through Flink job(Search-indexer) only.\
 
 
-****
+
 

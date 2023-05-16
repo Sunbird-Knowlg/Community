@@ -1,4 +1,4 @@
-# Release-5.1.0
+# Release - 5.1.0
 
 <mark style="color:blue;">**Hot-fix:  5.1.2**</mark>** (29-12-2022)**
 
@@ -6,8 +6,8 @@
 
 Course progress does not get updated correctly. [ KN-710](https://project-sunbird.atlassian.net/browse/KN-710)
 
-| Sunbird-Video-Player | ****[**​v5.1.3**](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.3)**** |  End event summary fix |
-| -------------------- | ----------------------------------------------------------------------------------------------------- | ---------------------- |
+| Sunbird-Video-Player | [**​v5.1.3**](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.3) |  End event summary fix |
+| -------------------- | --------------------------------------------------------------------------------------------- | ---------------------- |
 
 ### <mark style="color:blue;">**Hot-fix:  5.1.1**</mark>** (14-11-2022)**
 
@@ -15,9 +15,9 @@ Course progress does not get updated correctly. [ KN-710](https://project-sunbir
 
 Null pointer exception thrown while publishing collection when 'objectType' attribute is missing from the children metadata in the collection Hierarchy. [KN-609](https://project-sunbird.atlassian.net/browse/KN-609)&#x20;
 
-| Component               | Service to be build              | Tag                                                                                                                          | Comment                                         |
-| ----------------------- | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| Knowledge-platform-jobs | Build/KnowldgePlatform/Flinkjobs | ****[**release-5.1.1\_RC1**](https://github.com/project-sunbird/knowledge-platform-jobs/releases/tag/release-5.1.1\_RC1)**** | Build and depoy '**content-publish**' flink job |
+| Component               | Service to be build              | Tag                                                                                                                  | Comment                                         |
+| ----------------------- | -------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| Knowledge-platform-jobs | Build/KnowldgePlatform/Flinkjobs | [**release-5.1.1\_RC1**](https://github.com/project-sunbird/knowledge-platform-jobs/releases/tag/release-5.1.1\_RC1) | Build and depoy '**content-publish**' flink job |
 
 ### <mark style="color:blue;">5.1.0</mark> (01-08-2022)
 
@@ -34,13 +34,13 @@ Discussion thread: [https://github.com/Sunbird-Knowlg/Community/discussions/42](
 \
 
 
-| Component                 | Tag                                                                                                             |
-| ------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| Sunbird-Collection-Editor | ****[**v5.1.3**](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.1.3)****          |
-| Sunbird-pdf-player        | ****[**v5.1.1**](https://www.npmjs.com/package/@project-sunbird/sunbird-pdf-player-v9/v/5.1.1)****              |
-| Sunbird-video-player      | ****[**v5.1.1**](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.1)****            |
-| Sunbird-epub-player       | ****[**v5.1.0**](https://www.npmjs.com/package/@project-sunbird/sunbird-epub-player-v9/v/5.1.0)****             |
-| knowledge-platform        | ****[**release-5.1.0\_RC1**](https://github.com/project-sunbird/knowledge-platform/tree/release-5.1.0\_RC1)**** |
+| Component                 | Tag                                                                                                     |
+| ------------------------- | ------------------------------------------------------------------------------------------------------- |
+| Sunbird-Collection-Editor | [**v5.1.3**](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.1.3)          |
+| Sunbird-pdf-player        | [**v5.1.1**](https://www.npmjs.com/package/@project-sunbird/sunbird-pdf-player-v9/v/5.1.1)              |
+| Sunbird-video-player      | [**v5.1.1**](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.1)            |
+| Sunbird-epub-player       | [**v5.1.0**](https://www.npmjs.com/package/@project-sunbird/sunbird-epub-player-v9/v/5.1.0)             |
+| knowledge-platform        | [**release-5.1.0\_RC1**](https://github.com/project-sunbird/knowledge-platform/tree/release-5.1.0\_RC1) |
 
 #### **Features**
 
@@ -67,7 +67,7 @@ Note: Existing endPoint '{host\}}/api/dial/v1/release/\{{content\_id\}}' will be
 
 * Already Selected Programs / Verticals values are NOT getting displayed in the editor form when the user edit / send for review #[KN-238](https://project-sunbird.atlassian.net/browse/KN-238) (configuration update - Gourav)
 
-**Deprecations -** [**Release 5.1.0**](../deprecations/release-5.1.0.md) ****&#x20;
+**Deprecations -** [**Release 5.1.0**](../deprecations/release-5.1.0.md)&#x20;
 
 #### Documentations
 

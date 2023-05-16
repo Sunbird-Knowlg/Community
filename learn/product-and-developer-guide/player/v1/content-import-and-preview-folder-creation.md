@@ -29,4 +29,3 @@ The v1 player is capable to provide the build to verify the changes locally. Her
     ```
 * Just copy and paste it into your project and follow the given [instructions](https://github.com/project-sunbird/sunbird-content-player/tree/release-5.1.0#how-to-render-the-contents)
 
-``
