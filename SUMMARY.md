@@ -167,6 +167,7 @@
     * [Knowlg Jobs](use/installation-guide/services/knowlg-jobs.md)
 * [Deployment](use/deployment.md)
 * [Release notes](use/release-notes/README.md)
+  * [Release - 5.6.0 (Ongoing)](use/release-notes/release-5.6.0-ongoing.md)
   * [Release - 5.5.0 (latest)](use/release-notes/release-5.5.0-latest.md)
   * [Release - 5.4.0](use/release-notes/release-5.4.0.md)
   * [Release - 5.3.0](use/release-notes/release-5.3.0.md)
