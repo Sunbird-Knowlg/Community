@@ -16,9 +16,7 @@ Release timeline:
 
 ### Document Release Version
 
-| Project        | Release Version | Date          |
-| -------------- | --------------- | ------------- |
-| Sunbird Knowlg | R5.4.0          | 15 March 2022 |
+<table><thead><tr><th width="229">Project</th><th>Release Version</th><th>Date</th></tr></thead><tbody><tr><td>Sunbird Knowlg</td><td>R5.4.0</td><td>15 March 2022</td></tr></tbody></table>
 
 ### **1. Summary of the changes**
 
@@ -44,11 +42,7 @@ URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v
 
 ### API Services:
 
-| Component                | Service to be Build              | Tag                                                                                                                | Deploy Job                         | Deployment Tag                                                                                                        | Comment                                                                                                                                                        |
-| ------------------------ | -------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Knowledge-platform       | Build/Kubernetes/Content         | [release-5.4.0\_RC1](https://github.com/project-sunbird/knowledge-platform/releases/tag/release-5.4.0\_RC1)        | Deploy/Kubernetes/Content          | [release-5.4.0-knowlg\_RC1](https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.4.0-knowlg\_RC1) | Deploy Tag is given for reference only. Please do not use directly for deployment. For Detailed Configuration Details, Please refer to SYNC Tool configuration |
-| Knowledge-platform-jobs  | Build/KnowldgePlatform/Flinkjobs | [release-5.4.0\_RC1](https://github.com/project-sunbird/knowledge-platform-jobs/releases/tag/release-5.4.0\_RC1)   | Deploy/KnowledgePlatform/FlinkJobs | [release-5.4.0\_RC1](https://github.com/project-sunbird/sunbird-learning-platform/releases/tag/release-5.4.0\_RC1)    | <p>Deploy the </p><p><strong>qrcode-image-generator</strong></p><p>flink job</p>                                                                               |
-| Sunbird-learning-service | Build/KnowledgePlatform/Learning | [release-5.4.0\_RC1](https://github.com/project-sunbird/sunbird-learning-platform/releases/tag/release-5.4.0\_RC1) | Deploy/KnowledgePlatform/Learning  | [release-5.4.0\_RC1](https://github.com/project-sunbird/sunbird-learning-platform/releases/tag/release-5.4.0\_RC1)    |                                                                                                                                                                |
+<table><thead><tr><th width="186.5">Component</th><th>Service to be Build</th><th width="100">Tag</th><th>Deploy Job</th><th>Deployment Tag</th><th>Comment</th></tr></thead><tbody><tr><td>dial-service</td><td>Build/Core/Dial</td><td><a href="https://github.com/Sunbird-Knowlg/sunbird-dial-service/releases/tag/release-5.4.0_RC1">release-5.4.0_RC1</a></td><td>Deploy/Kubernetes/Dial</td><td><a href="https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.4.0-knowlg_RC1">release-5.4.0-knowlg_RC1</a></td><td>Deploy Tag is given for reference only. Please do not use directly for deployment. For Detailed Configuration Details, Please refer to SYNC Tool configuration</td></tr><tr><td>Knowledge-platform-jobs</td><td>Build/KnowldgePlatform/Flinkjobs</td><td><a href="https://github.com/project-sunbird/knowledge-platform-jobs/releases/tag/release-5.4.0_RC1">release-5.4.0_RC1</a></td><td>Deploy/KnowledgePlatform/FlinkJobs</td><td><a href="https://github.com/project-sunbird/sunbird-learning-platform/releases/tag/release-5.4.0_RC1">release-5.4.0_RC1</a></td><td><p>Deploy the </p><p><strong>qrcode-image-generator</strong></p><p>flink job</p></td></tr><tr><td>Sunbird-learning-service</td><td>Build/KnowledgePlatform/Learning</td><td><a href="https://github.com/project-sunbird/sunbird-learning-platform/releases/tag/release-5.4.0_RC1">release-5.4.0_RC1</a></td><td>Deploy/KnowledgePlatform/Learning</td><td><a href="https://github.com/project-sunbird/sunbird-learning-platform/releases/tag/release-5.4.0_RC1">release-5.4.0_RC1</a></td><td></td></tr></tbody></table>
 
 #### KN-802: SYNC Tool configuration update
 
