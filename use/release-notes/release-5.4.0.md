@@ -1,5 +1,29 @@
 # Release - 5.4.0
 
+## <mark style="color:blue;">Hot-fix 5.4.1</mark> (4-07-2023)
+
+**Bugs:**
+
+* Image URL is null when user downloads course QR code from Published bucket- [KN-889](https://project-sunbird.atlassian.net/browse/KN-889)
+
+| Component               | Build Job                         | Build Tag                                                                                                       | Deploy Job                         | Deployment                                                                                                | Comment                                                                                   |
+| ----------------------- | --------------------------------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| Knowledge-platform-jobs | Build/KnowledgePlatform/FlinkJobs | [release-5.4.1\_RC1](https://github.com/Sunbird-Knowlg/knowledge-platform-jobs/releases/tag/release-5.4.1\_RC1) | Deploy/KnowledgePlatform/FlinkJobs | [release-5.4.1\_RC1](https://github.com/Sunbird-Knowlg/sunbird-learning-platform/tree/release-5.4.1\_RC1) | <p>Jobs to be deployed:</p><p><strong>qrcode-image-generator</strong></p><p>flink job</p> |
+
+**Enhancement:**
+
+* As part of KN-889 enhancement has been done to Sync Tool - [KN-889](https://project-sunbird.atlassian.net/browse/KN-889)
+
+'_syncdialcodes_' command has been enhanced to accept '--filenames' as input parameter to which QR Code file names from _dial codes.dialcode\_images_ can be passed to sync '_imageUrl_' of DIAL codes to Elastic search
+
+Sample Command:
+
+```
+java -Dconfig.file=/home/learning/sync_tool/application.conf -jar sync-tool-0.0.1-SNAPSHOT.jar syncdialcodes --filenames 0_U7J3S8,0_R9Y6W5
+```
+
+<table><thead><tr><th width="186.5">Component</th><th>Service to be Build</th><th width="100">Tag</th><th>Deploy Job</th><th>Deployment Tag</th><th>Comment</th></tr></thead><tbody><tr><td>Sunbird-learning-service</td><td>Build/KnowledgePlatform/Learning</td><td><a href="https://github.com/Sunbird-Knowlg/sunbird-learning-platform/releases/tag/release-5.4.1_RC1">release-5.4.1_RC1</a></td><td>Deploy/KnowledgePlatform/Learning</td><td><a href="https://github.com/Sunbird-Knowlg/sunbird-learning-platform/releases/tag/release-5.4.1_RC1">release-5.4.1_RC1</a></td><td></td></tr></tbody></table>
+
 ## <mark style="color:blue;">5.4.0</mark> (15-03-2023)
 
 Discussion thread: [https://github.com/orgs/Sunbird-Knowlg/discussions/93](https://github.com/orgs/Sunbird-Knowlg/discussions/93)
