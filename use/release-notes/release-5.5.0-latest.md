@@ -6,21 +6,13 @@ Discussion thread: [https://github.com/orgs/Sunbird-Knowlg/discussions/106](http
 
 Release timeline:
 
-|                | Start date   | End date     |
-| -------------- | ------------ | ------------ |
-| Planning phase | 27-Feb, 2023 | 14-Mar, 2023 |
-| Sprint 1       | 15-Mar, 2023 | 5-Apr, 2023  |
-| Sprint 2       | 6-Apr, 2023  | 27-Apr, 2023 |
-| PPV            | 28-Apr, 2023 | 12-May, 2023 |
-| Prod           | 15-May, 2023 |              |
+<table><thead><tr><th></th><th width="192.33333333333331">Start date</th><th>End date</th></tr></thead><tbody><tr><td>Planning phase</td><td>27-Feb, 2023</td><td>14-Mar, 2023</td></tr><tr><td>Sprint 1</td><td>15-Mar, 2023</td><td>5-Apr, 2023</td></tr><tr><td>Sprint 2</td><td>6-Apr, 2023</td><td>27-Apr, 2023</td></tr><tr><td>PPV</td><td>28-Apr, 2023</td><td>12-May, 2023</td></tr><tr><td>Prod</td><td>15-May, 2023</td><td></td></tr></tbody></table>
 
 **5.5 total scope**: [Link](https://project-sunbird.atlassian.net/issues/?filter=12779)
 
 ### Document Release Version
 
-| Project        | Release Version | Date        |
-| -------------- | --------------- | ----------- |
-| Sunbird Knowlg | R5.5.0          | 15 May 2023 |
+<table><thead><tr><th width="229">Project</th><th>Release Version</th><th>Date</th></tr></thead><tbody><tr><td>Sunbird Knowlg</td><td>R5.5.0</td><td>15 May 2023</td></tr></tbody></table>
 
 ### **1. Summary of the changes**
 
@@ -71,6 +63,11 @@ Tag: 1.0.1
 Install: `npm i @project-sunbird/sunbird-epub-player-web-component`
 
 URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-epub-player-web-component/v/1.0.1](https://www.npmjs.com/package/@project-sunbird/sunbird-epub-player-web-component/v/1.0.1)
+
+
+
+**Note:** All the player angular libraries are updated with angular version 14 and published to npm with version 5.5.0.\
+**From the next release, the web component will be the primary export that is recommended way to use the players.**
 
 ### Oneclick-installation:
 
