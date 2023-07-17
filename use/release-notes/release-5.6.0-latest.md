@@ -8,19 +8,75 @@ Release timeline:
 
 <table><thead><tr><th></th><th width="192.33333333333331">Start date</th><th>End date</th></tr></thead><tbody><tr><td>Planning phase</td><td>28-Apr, 2023</td><td>12-May, 2023</td></tr><tr><td>Sprint 1</td><td>15-May, 2023</td><td>2-Jun, 2023</td></tr><tr><td>Sprint 2</td><td>5-Jun, 2023</td><td>23-Jun, 2023</td></tr><tr><td>PPV</td><td>26-Jun, 2023</td><td>7-Jul, 2023</td></tr><tr><td>Prod</td><td><mark style="color:red;">12 July 2023</mark> (<mark style="color:green;">delayed 2 days</mark>)</td><td></td></tr></tbody></table>
 
-**5.6 total scope**: [Link](https://project-sunbird.atlassian.net/issues/?filter=12793)
-
 ### Document Release Version
 
 <table><thead><tr><th width="229">Project</th><th>Release Version</th><th>Date</th></tr></thead><tbody><tr><td>Sunbird Knowlg</td><td>R5.6.0</td><td>12 July 2023</td></tr></tbody></table>
 
-### **1. Summary of the changes**
+### **Important note to the adopters:**
 
-This document contains information about the new features and enhancements planned to the Knowlg building block as part of release 5.6.0:
 
-Enhancements: Click [here](https://project-sunbird.atlassian.net/issues/?filter=12823\&jql=project%20%3D%20KN%20AND%20issuetype%20in%20\(Documentation-Issue%2C%20Installation-Issues%2C%20Minor-Enhancement%2C%20RFC\)%20AND%20Sprint%20in%20\(418%2C%20419\)%20ORDER%20BY%20cf%5B10010%5D%20ASC%2C%20created%20DESC) to view the list.&#x20;
 
-Bug Fixes - click [here](https://project-sunbird.atlassian.net/issues/?filter=12823\&jql=project%20%3D%20KN%20AND%20issuetype%20%3D%20Bug%20AND%20Sprint%20in%20\(418%2C%20419\)%20ORDER%20BY%20cf%5B10010%5D%20ASC%2C%20created%20DESC) to see the list of bugs fixed in this release.
+### Following are the Planned Tickets of R 5.6.0
+
+#### New Features:
+
+None
+
+#### Enhancements / Technical tasks::
+
+<table><thead><tr><th width="83.33333333333331">S.no</th><th width="124">JIRA ID</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-10">KN-10</a></td><td>Refactoring taxonomy API's</td></tr><tr><td>2</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-848">KN-848</a></td><td>[Stack] Update Scala version(2.11 to 2.12)</td></tr><tr><td>3</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-868">KN-868</a></td><td>Updating PDF, Video, EPUB player from angular libraries to web component in Collection editor</td></tr></tbody></table>
+
+### Release Tags:
+
+#### Upgrade Knowlg From 5.5.0 to 5.6.0
+
+### API Services:
+
+<table><thead><tr><th width="186.5">Component</th><th>Service to be Build</th><th width="100">Tag</th><th>Deploy Job</th><th>Deployment Tag</th><th>Comment</th></tr></thead><tbody><tr><td>Schema upload</td><td>NA</td><td>NA</td><td>Deploy/Kubernetes/UploadSchema</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform/releases/tag/release-5.6.0_RC2">release-5.6.0_RC2</a></td><td></td></tr><tr><td>Knowledge-platform</td><td>Build/Core/Content</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform/releases/tag/release-5.6.0_RC2">release-5.6.0_RC2</a></td><td>Deploy/Kubernetes/Content</td><td><a href="https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.6.0-knowlg_RC1">release-5.6.0-knowlg_RC1</a></td><td></td></tr><tr><td></td><td>Build/Core/Taxonomy</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform/releases/tag/release-5.6.0_RC2">release-5.6.0_RC2</a></td><td>Deploy/Kubernetes/Taxonomy</td><td><a href="https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.6.0-knowlg_RC1">release-5.6.0-knowlg_RC1</a></td><td></td></tr><tr><td>Knowledge-mw-service</td><td>Build/Core/KnowledgeMW</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-mw-service/releases/tag/release-5.6.0_RC1">release-5.6.0_RC1</a></td><td>Deploy/Kubernetes/KnowledgeMW</td><td><a href="https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.6.0-knowlg_RC1">release-5.6.0-knowlg_RC1</a></td><td></td></tr><tr><td>Sunbird-learning-service</td><td>Build/KnowledgePlatform/Learning</td><td><a href="https://github.com/Sunbird-Knowlg/sunbird-learning-platform/releases/tag/release-5.6.0_RC1">release-5.6.0_RC1</a></td><td>Deploy/KnowledgePlatform/Learning</td><td><a href="https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.6.0-knowlg_RC1">release-5.6.0-knowlg_RC1</a></td><td></td></tr></tbody></table>
+
+### Collection Editor Web Component:
+
+Tag: `v1.1.0`
+
+Install: `npm i @project-sunbird/sunbird-collection-editor-web-component@1.1.0`
+
+URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor-web-component/v/1.1.0](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor-web-component/v/1.1.0)
+
+### Configuration/Environment variable changes:
+
+#### Knowledge-mw-service:
+
+Add the below env variable to give taxonomy service URL in Knowlg MW Service:
+
+`sunbird_taxonomy_service_api_base_url={{default('http://taxonomy-service:9000')}}`
+
+#### Knowledge-platform -> Taxonomy Service:
+
+Add the below env variables in `taxonomy-service_application.conf`
+
+1. framework.keyspace="\{{ lp\_cassandra\_keyspace\_prefix \}}\_hierarchy\_store"&#x20;
+2. framework.hierarchy.table="framework\_hierarchy"&#x20;
+3. framework.categories\_cached=\["subject", "medium", "gradeLevel", "board"]&#x20;
+4. framework.cache.ttl=86400 framework.cache.read=true&#x20;
+5. framework.max\_term\_creation\_limit=200
+
+**NOTE:** Previously, these configurations were as part of the sunbird learning service, but in this release we moved all the Framework APIs to the taxonomy service, so we need to add above configuration as part of  `taxonomy-service_application.conf`
+
+### Breaking changes (The existing features will break the if we don’t do the below actions):
+
+Previously below, APIs are part of the Sunbird learning service, but now we moved these APIs to the Content & taxonomy service without changing any API contract, and we made changes to make sure these APIs will not serving from Sunbird learning service.&#x20;
+
+So please ensure while upgrading to 5.6.0 Knowlg above-mentioned services and environments are updated properly.
+
+**List of APIs moved to Content Service:**
+
+<table><thead><tr><th width="89">S.No</th><th>API</th></tr></thead><tbody><tr><td>1</td><td>/content/v3/publish</td></tr><tr><td>2</td><td>/content/v3/retire</td></tr><tr><td>3</td><td>/content/v3/unlisted/publish</td></tr><tr><td>4</td><td>/content/v3/dialcode/link</td></tr><tr><td>5</td><td>/content/v3/dialcode/release</td></tr><tr><td>6</td><td>/content/v3/dialcode/reserve</td></tr></tbody></table>
+
+**List of APIs moved to Taxonomy Service:**
+
+<table><thead><tr><th width="94">S.No</th><th>API</th></tr></thead><tbody><tr><td>1</td><td>/framework/v3/read</td></tr><tr><td>2</td><td>/framework/v3/create</td></tr><tr><td>3</td><td>/framework/v3/update</td></tr><tr><td>4</td><td>/framework/v3/copy</td></tr><tr><td>5</td><td>/framework/v3/publish</td></tr><tr><td>6</td><td>/framework/v3/retire</td></tr><tr><td>7</td><td>/framework/v3/term/read</td></tr><tr><td>8</td><td>/framework/v3/term/create</td></tr><tr><td>9</td><td>/framework/v3/term/update</td></tr><tr><td>10</td><td>/framework/v3/term/retire</td></tr><tr><td>11</td><td>/framework/v3/category/read</td></tr><tr><td>12</td><td>/framework/v3/category/create</td></tr><tr><td>13</td><td>/framework/v3/category/update</td></tr><tr><td>14</td><td>/framework/v3/category/retire</td></tr><tr><td>15</td><td>/framework/v3/category/master/create</td></tr><tr><td>16</td><td>/framework/v3/category/master/update</td></tr><tr><td>17</td><td>/framework/v3/category/master/read</td></tr><tr><td>18</td><td>/framework/v3/category/master/retire</td></tr></tbody></table>
+
+
 
 **Test Scenarios:** [Link](https://project-sunbird.atlassian.net/browse/KN-901)
 
