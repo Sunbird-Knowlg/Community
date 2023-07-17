@@ -16,9 +16,7 @@ Release timeline:
 
 ### Document Release Version
 
-| Project        | Release Version | Date             |
-| -------------- | --------------- | ---------------- |
-| Sunbird Knowlg | R5.3.0          | 02 February 2022 |
+<table><thead><tr><th width="229">Project</th><th>Release Version</th><th>Date</th></tr></thead><tbody><tr><td>Sunbird Knowlg</td><td>R5.3.0</td><td>02 February 2022</td></tr></tbody></table>
 
 ### **1. Summary of the changes**
 

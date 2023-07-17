@@ -87,11 +87,7 @@ kafka {
 
 **Job configuration variables:**
 
-| Variable          | Purpose                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| schema.basepath\* | Used to access object schema files basepath that are hosted publicly using which object schema file path can be constructed. (Basepath Example: [https://sunbirddev.blob.core.windows.net/sunbird-dial-dev/schemas/local](https://sunbirddev.blob.core.windows.net/sunbird-dial-dev/schemas/local), Object schema file path example: [https://sunbirddev.blob.core.windows.net/sunbird-dial-dev/schemas/local/content/schema.json](https://sunbirddev.blob.core.windows.net/sunbird-dial-dev/schemas/local/content/schema.json)) |
-| channel.default\* | Used to generate context information.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+<table><thead><tr><th width="227.3754826523833">Variable</th><th>Purpose</th></tr></thead><tbody><tr><td>schema.basepath*</td><td>Used to access object schema files basepath that are hosted publicly using which object schema file path can be constructed. (Basepath Example: <a href="https://sunbirddev.blob.core.windows.net/sunbird-dial-dev/schemas/local">https://sunbirddev.blob.core.windows.net/sunbird-dial-dev/schemas/local</a>, Object schema file path example: <a href="https://sunbirddev.blob.core.windows.net/sunbird-dial-dev/schemas/local/content/schema.json">https://sunbirddev.blob.core.windows.net/sunbird-dial-dev/schemas/local/content/schema.json</a>)</td></tr><tr><td>channel.default*</td><td>Used to generate context information.</td></tr><tr><td></td><td></td></tr></tbody></table>
 
 **Sample kafka event:**
 
@@ -153,10 +149,7 @@ kafka {
 
 **Job configuration variables:**
 
-| Variable | Purpose                                                                                                                 |
-| -------- | ----------------------------------------------------------------------------------------------------------------------- |
-| timezone | <p>Used to generate index name for the autit event to be indexed in ElasticSearch.<br><em>Default value:</em> "IST"</p> |
-|          |                                                                                                                         |
+<table><thead><tr><th width="227.3754826523833">Variable</th><th>Purpose</th></tr></thead><tbody><tr><td>timezone</td><td>Used to generate index name for the autit event to be indexed in ElasticSearch.<br><em>Default value:</em> "IST"</td></tr><tr><td></td><td></td></tr></tbody></table>
 
 **Sample kafka event:**
 
@@ -740,18 +733,7 @@ kafka {
 
 **Job configuration variables:**
 
-| Variable                                                            | Purpose                                                                                                                                                     |
-| ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| dialcode\_context\_updater.actions                                  | Used to identify dial code context update action                                                                                                            |
-| dialcode\_context\_updater_._search_\__mode                         | Used to set search mode for search API                                                                                                                      |
-| dialcode\_context\_updater_._context\_map\_path                     | Used to specify the path of context Mapping file. File used to specify the field mapping of context schema.jsonld to sunbird content/collection schema.json |
-| dialcode\_context\_updater_._identifier\_search\_fields             | Used to specify the search fields when the content/collection details is fetched for primary category.                                                      |
-| dialcode\_context\_updater_._dial\_code\_context\_read\_api\_path   | Used to specify the api endpoint of the DIAL service read context API (/dialcode/v4/read)                                                                   |
-| dialcode\_context\_updater_._dial\_code\_context\_update\_api\_path | Used to specify the api endpoint of the DIAL service Update context API (/dialcode/v4/update)                                                               |
-| service.search.basePath                                             | Used to specify Search service base URL.                                                                                                                    |
-| service.dial\_service.basePath                                      | Used to specify DIAL service base URL.                                                                                                                      |
-| es\_sync\_wait\_time                                                | Used to specify wait time for collection nodes data to sync to ES after collection publish to reflect in search service results.                            |
-|                                                                     |                                                                                                                                                             |
+<table><thead><tr><th width="360">Variable</th><th>Purpose</th></tr></thead><tbody><tr><td>dialcode_context_updater.actions</td><td>Used to identify dial code context update action</td></tr><tr><td>dialcode_context_updater<em>.</em>search<em>_</em>mode</td><td>Used to set search mode for search API</td></tr><tr><td>dialcode_context_updater<em>.</em>context_map_path</td><td>Used to specify the path of context Mapping file. File used to specify the field mapping of context schema.jsonld to sunbird content/collection schema.json</td></tr><tr><td>dialcode_context_updater<em>.</em>identifier_search_fields</td><td>Used to specify the search fields when the content/collection details is fetched for primary category.</td></tr><tr><td>dialcode_context_updater<em>.</em>dial_code_context_read_api_path</td><td>Used to specify the api endpoint of the DIAL service read context API (/dialcode/v4/read)</td></tr><tr><td>dialcode_context_updater<em>.</em>dial_code_context_update_api_path</td><td>Used to specify the api endpoint of the DIAL service Update context API (/dialcode/v4/update)</td></tr><tr><td>service.search.basePath</td><td>Used to specify Search service base URL.</td></tr><tr><td>service.dial_service.basePath</td><td>Used to specify DIAL service base URL.</td></tr><tr><td>es_sync_wait_time</td><td>Used to specify wait time for collection nodes data to sync to ES after collection publish to reflect in search service results.</td></tr><tr><td></td><td></td></tr></tbody></table>
 
 **Sample kafka event:**
 

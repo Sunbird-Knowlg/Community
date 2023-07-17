@@ -2,14 +2,7 @@
 
 Players are embeddable tools which help in rendering the assets. For ex., a video player plays all video content. Below are the players provided by Sunbird Knowlg building block:
 
-| Content Format | MIME Type                                                               | Player                                       | Player v2                                                        |
-| -------------- | ----------------------------------------------------------------------- | -------------------------------------------- | ---------------------------------------------------------------- |
-| ECML           | application/vnd.ekstep.ecml-archive                                     | [Yes](v1/players/ecml-player-v1/)            | No                                                               |
-| HTML, H5P      | application/vnd.ekstep.html-archive, application/vnd.ekstep.h5p-archive | [Yes](v1/players/html-h5p-player-v1.md)      | No                                                               |
-| PDF            | application/pdf                                                         | [Yes](v1/players/pdf-player-v1.md)           | [Yes](v2/pdf-player/)                                            |
-| Epub           | application/epub                                                        | [Yes](v1/players/epub-player-v1.md)          | [Yes](../../../use/installation-guide/players/v2/epub-player.md) |
-| WEBM, MP4      | video/Webm, video/mp4                                                   | [Yes](v1/players/video-player-v1.md)         | [Yes](v2/video-player/)                                          |
-| YOUTUBE        | video/x-youtube,                                                        | [Yes](v1/players/video-player-v1.md#youtube) | No                                                               |
+<table><thead><tr><th width="171.13336635502452">Content Format</th><th width="261">MIME Type</th><th width="150">Player</th><th>Player v2</th></tr></thead><tbody><tr><td>ECML</td><td>application/vnd.ekstep.ecml-archive</td><td><a href="v1/players/ecml-player-v1/">Yes</a></td><td>No</td></tr><tr><td>HTML, H5P</td><td>application/vnd.ekstep.html-archive, application/vnd.ekstep.h5p-archive</td><td><a href="v1/players/html-h5p-player-v1.md">Yes</a></td><td>No</td></tr><tr><td>PDF</td><td>application/pdf</td><td><a href="v1/players/pdf-player-v1.md">Yes</a></td><td><a href="v2/pdf-player/">Yes</a></td></tr><tr><td>Epub</td><td>application/epub</td><td><a href="v1/players/epub-player-v1.md">Yes</a></td><td><a href="../../../use/installation-guide/players/v2/epub-player.md">Yes</a></td></tr><tr><td>WEBM, MP4</td><td>video/Webm, video/mp4</td><td><a href="v1/players/video-player-v1.md">Yes</a></td><td><a href="v2/video-player/">Yes</a></td></tr><tr><td>YOUTUBE</td><td>video/x-youtube, </td><td><a href="v1/players/video-player-v1.md#youtube">Yes</a></td><td>No</td></tr></tbody></table>
 
 ### MIME Type
 

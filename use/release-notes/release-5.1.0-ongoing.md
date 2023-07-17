@@ -15,9 +15,7 @@ Course progress does not get updated correctly. [ KN-710](https://project-sunbir
 
 Null pointer exception thrown while publishing collection when 'objectType' attribute is missing from the children metadata in the collection Hierarchy. [KN-609](https://project-sunbird.atlassian.net/browse/KN-609)&#x20;
 
-| Component               | Service to be build              | Tag                                                                                                                  | Comment                                         |
-| ----------------------- | -------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| Knowledge-platform-jobs | Build/KnowldgePlatform/Flinkjobs | [**release-5.1.1\_RC1**](https://github.com/project-sunbird/knowledge-platform-jobs/releases/tag/release-5.1.1\_RC1) | Build and depoy '**content-publish**' flink job |
+<table><thead><tr><th width="140">Component</th><th width="127">Service to be build</th><th width="358">Tag</th><th>Comment</th></tr></thead><tbody><tr><td>Knowledge-platform-jobs</td><td>Build/KnowldgePlatform/Flinkjobs</td><td><a href="https://github.com/project-sunbird/knowledge-platform-jobs/releases/tag/release-5.1.1_RC1"><strong>release-5.1.1_RC1</strong></a></td><td>Build and depoy '<strong>content-publish</strong>' flink job</td></tr></tbody></table>
 
 ### <mark style="color:blue;">5.1.0</mark> (01-08-2022)
 
@@ -34,13 +32,7 @@ Discussion thread: [https://github.com/Sunbird-Knowlg/Community/discussions/42](
 \
 
 
-| Component                 | Tag                                                                                                     |
-| ------------------------- | ------------------------------------------------------------------------------------------------------- |
-| Sunbird-Collection-Editor | [**v5.1.3**](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.1.3)          |
-| Sunbird-pdf-player        | [**v5.1.1**](https://www.npmjs.com/package/@project-sunbird/sunbird-pdf-player-v9/v/5.1.1)              |
-| Sunbird-video-player      | [**v5.1.1**](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.1)            |
-| Sunbird-epub-player       | [**v5.1.0**](https://www.npmjs.com/package/@project-sunbird/sunbird-epub-player-v9/v/5.1.0)             |
-| knowledge-platform        | [**release-5.1.0\_RC1**](https://github.com/project-sunbird/knowledge-platform/tree/release-5.1.0\_RC1) |
+<table><thead><tr><th width="372.5">Component</th><th>Tag</th></tr></thead><tbody><tr><td>Sunbird-Collection-Editor</td><td><a href="https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.1.3"><strong>v5.1.3</strong></a></td></tr><tr><td>Sunbird-pdf-player</td><td><a href="https://www.npmjs.com/package/@project-sunbird/sunbird-pdf-player-v9/v/5.1.1"><strong>v5.1.1</strong></a></td></tr><tr><td>Sunbird-video-player</td><td><a href="https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/5.1.1"><strong>v5.1.1</strong></a></td></tr><tr><td>Sunbird-epub-player</td><td><a href="https://www.npmjs.com/package/@project-sunbird/sunbird-epub-player-v9/v/5.1.0"><strong>v5.1.0</strong></a></td></tr><tr><td>knowledge-platform</td><td><a href="https://github.com/project-sunbird/knowledge-platform/tree/release-5.1.0_RC1"><strong>release-5.1.0_RC1</strong></a></td></tr></tbody></table>
 
 #### **Features**
 
@@ -135,7 +127,4 @@ For Bug [KN-238](https://project-sunbird.atlassian.net/browse/KN-238) The follow
 }
 ```
 
-|                             |                                        | Description                                                                            |
-| --------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------- |
-| kafka.publish.request.topic |  \{{ env\_name \}}.publish.job.request | variable to redirect publish instructions to kafka topic of content publish flink job. |
-|                             |                                        |                                                                                        |
+<table><thead><tr><th width="258"></th><th></th><th>Description</th></tr></thead><tbody><tr><td>kafka.publish.request.topic</td><td> {{ env_name }}.publish.job.request</td><td>variable to redirect publish instructions to kafka topic of content publish flink job.</td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
