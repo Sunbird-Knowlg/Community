@@ -14,7 +14,10 @@ Release timeline:
 
 ### **Important note to the adopters:**
 
+As part of this release, we have made two changes which are important to know everyone.
 
+1. We have upgraded Scala version 2.11 to 2.12 of Knowlg Platform. This includes changes in the Graph engine.
+2. We have moved all taxonomy APIs from the learning service to the taxonomy service and removed code from the learning service. The plan is we will shut down the entire learning service in the next release once we have verified there is no API serving from the learning service.&#x20;
 
 ### Following are the Planned Tickets of R 5.6.0
 
@@ -24,7 +27,7 @@ None
 
 #### Enhancements / Technical tasks::
 
-<table><thead><tr><th width="83.33333333333331">S.no</th><th width="124">JIRA ID</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-10">KN-10</a></td><td>Refactoring taxonomy API's</td></tr><tr><td>2</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-848">KN-848</a></td><td>[Stack] Update Scala version(2.11 to 2.12)</td></tr><tr><td>3</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-868">KN-868</a></td><td>Updating PDF, Video, EPUB player from angular libraries to web component in Collection editor</td></tr></tbody></table>
+<table><thead><tr><th width="83.33333333333331">S.no</th><th width="124">JIRA ID</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-10">KN-10</a></td><td>Refactoring taxonomy API's</td></tr><tr><td>2</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-848">KN-848</a></td><td>[Stack] Update Scala version(2.11 to 2.12)</td></tr><tr><td>3</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-868">KN-868</a></td><td>Updating PDF, Video, EPUB player from angular libraries to web component in Collection editor</td></tr><tr><td>4</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-868">KN-869</a></td><td>POC: Change of Graph Database for Sunbird Knowlg</td></tr></tbody></table>
 
 ### Release Tags:
 
@@ -82,7 +85,7 @@ So please ensure while upgrading to 5.6.0 Knowlg above-mentioned services and en
 
 <table><thead><tr><th width="94">S.No</th><th>API</th></tr></thead><tbody><tr><td>1</td><td>/framework/v3/read</td></tr><tr><td>2</td><td>/framework/v3/create</td></tr><tr><td>3</td><td>/framework/v3/update</td></tr><tr><td>4</td><td>/framework/v3/copy</td></tr><tr><td>5</td><td>/framework/v3/publish</td></tr><tr><td>6</td><td>/framework/v3/retire</td></tr><tr><td>7</td><td>/framework/v3/term/read</td></tr><tr><td>8</td><td>/framework/v3/term/create</td></tr><tr><td>9</td><td>/framework/v3/term/update</td></tr><tr><td>10</td><td>/framework/v3/term/retire</td></tr><tr><td>11</td><td>/framework/v3/category/read</td></tr><tr><td>12</td><td>/framework/v3/category/create</td></tr><tr><td>13</td><td>/framework/v3/category/update</td></tr><tr><td>14</td><td>/framework/v3/category/retire</td></tr><tr><td>15</td><td>/framework/v3/category/master/create</td></tr><tr><td>16</td><td>/framework/v3/category/master/update</td></tr><tr><td>17</td><td>/framework/v3/category/master/read</td></tr><tr><td>18</td><td>/framework/v3/category/master/retire</td></tr></tbody></table>
 
-
+### Additional Info:
 
 **Test Scenarios:** [Link](https://project-sunbird.atlassian.net/browse/KN-901)
 
