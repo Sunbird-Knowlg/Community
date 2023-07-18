@@ -62,6 +62,12 @@ Add the below env variables in `taxonomy-service_application.conf`
 
 **NOTE:** Previously, these configurations were as part of the sunbird learning service, but in this release we moved all the Framework APIs to the taxonomy service, so we need to add above configuration as part of  `taxonomy-service_application.conf`
 
+### Deprecations and Removals:
+
+As part of this release, we have deprecated the below list of APIs.
+
+<table><thead><tr><th width="96">S.No</th><th>API</th></tr></thead><tbody><tr><td>1</td><td>/framework/v3/list</td></tr><tr><td>2</td><td>/framework/v3/term/search</td></tr><tr><td>3</td><td>/framework/v3/category/search</td></tr><tr><td>4</td><td>/framework/v3/category/master/search</td></tr></tbody></table>
+
 ### Breaking changes (The existing features will break the if we don’t do the below actions):
 
 Previously below, APIs are part of the Sunbird learning service, but now we moved these APIs to the Content & taxonomy service without changing any API contract, and we made changes to make sure these APIs will not serving from Sunbird learning service.&#x20;
