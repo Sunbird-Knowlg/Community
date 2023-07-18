@@ -16,8 +16,8 @@ Release timeline:
 
 As part of this release, we have made two changes which are important to know everyone.
 
-1. We have upgraded Scala version 2.11 to 2.12 of Knowlg Platform. This includes changes in the Graph engine.
-2. We have moved all taxonomy APIs from the learning service to the taxonomy service and removed code from the learning service. The plan is we will shut down the entire learning service in the next release once we have verified there is no API serving from the learning service.&#x20;
+1. As part of the Knowlg Platform upgrade, the Scala version has been updated from 2.11 to 2.12. This upgrade encompasses changes in the Graph engine as well.
+2. We have migrated all taxonomy APIs from the learning-service to the taxonomy-service and eliminated the corresponding code from the learning-service. Our plan is to completely decommission the learning-service in the upcoming release, pending confirmation that no APIs are being served from the learning-service.
 
 ### Following are the Planned Tickets of R 5.6.0
 
@@ -49,9 +49,13 @@ URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor-w
 
 #### Knowledge-mw-service:
 
-Add the below env variable to give taxonomy service URL in Knowlg MW Service:
+To provide the taxonomy service URL in the Knowledge Middleware (Knowlg MW) service, you can add the following environment variable:
 
-`sunbird_taxonomy_service_api_base_url={{default('http://taxonomy-service:9000')}}`
+Variable name: `sunbird_taxonomy_service_api_base_url`&#x20;
+
+Value: \[`http://taxonomy-service:9000`]
+
+Make sure to replace `[http://taxonomy-service:9000]` with the actual URL of the taxonomy service. By setting this environment variable, the Knowlg MW service will be able to connect to the taxonomy service using the specified URL.
 
 #### Knowledge-platform -> Taxonomy Service:
 
@@ -63,7 +67,7 @@ Add the below env variables in `taxonomy-service_application.conf`
 4. framework.cache.ttl=86400 framework.cache.read=true&#x20;
 5. framework.max\_term\_creation\_limit=200
 
-**NOTE:** Previously, these configurations were as part of the sunbird learning service, but in this release we moved all the Framework APIs to the taxonomy service, so we need to add above configuration as part of  `taxonomy-service_application.conf`
+**NOTE:** In the previous configuration, these settings were included in the sunbird-learning-service. However, for this release, we have transferred all framework APIs to the taxonomy-service. Therefore, you will need to add the above configuration as part of the `taxonomy-service_application.conf` file.
 
 ### Deprecations and Removals:
 
@@ -73,9 +77,9 @@ As part of this release, we have deprecated the below list of APIs.
 
 ### Breaking changes (The existing features will break the if we don’t do the below actions):
 
-Previously below, APIs are part of the Sunbird learning service, but now we moved these APIs to the Content & taxonomy service without changing any API contract, and we made changes to make sure these APIs will not serving from Sunbird learning service.&#x20;
+During the upgrade to version 5.6.0, it is essential to ensure that the mentioned services and environments are properly updated. Previously, the APIs mentioned were part of the sunbird-learning-service, but now they have been moved to the content-service & taxonomy-service without altering the API contract. Additionally, changes have been made to ensure that these APIs are no longer served from the sunbird-learning-service.&#x20;
 
-So please ensure while upgrading to 5.6.0 Knowlg above-mentioned services and environments are updated properly.
+Therefore, it is crucial to verify that the necessary updates are implemented correctly for a smooth transition to version 5.6.0.
 
 **List of APIs moved to Content Service:**
 
