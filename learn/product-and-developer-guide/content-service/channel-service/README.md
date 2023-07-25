@@ -1,3 +1,3 @@
-# Channel Service
+# Channel APIs
 
-Channel service is build and deployed as part of the content service.
+Channel APIs are built and deployed as part of the content service.

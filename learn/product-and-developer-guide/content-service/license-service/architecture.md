@@ -1,5 +1,5 @@
 # Architecture
 
-{% content-ref url="../architecture.md" %}
-[architecture.md](../architecture.md)
+{% content-ref url="../content-apis/architecture.md" %}
+[architecture.md](../content-apis/architecture.md)
 {% endcontent-ref %}

@@ -1,6 +1,6 @@
 # Architecture
 
-![content-architecture](../../../.gitbook/assets/architecture-sunbird-knowlg-content.png)
+![content-architecture](../../../../.gitbook/assets/architecture-sunbird-knowlg-content.png)
 
 ## Microservices
 
@@ -31,4 +31,4 @@ To improve the performance of API instead of hitting the DB for every Read call,
 
 ## Flow-diagram
 
-![](../../../.gitbook/assets/flow-diagram-sunbird-knowlg-content.png)
+![](../../../../.gitbook/assets/flow-diagram-sunbird-knowlg-content.png)

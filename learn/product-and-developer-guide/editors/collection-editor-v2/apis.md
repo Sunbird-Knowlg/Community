@@ -6,13 +6,13 @@ The DIAL service is used to generate, link, and check the status of the DIAL cod
 
 <table><thead><tr><th width="248.78987889750402">API</th><th>Description</th></tr></thead><tbody><tr><td><code>{host}/action/dialcode/v1/reserve/{collection_id}</code></td><td>To <code>reserve</code> DIAL codes for the collection.</td></tr><tr><td><code>{host}/action/dialcode/v1/process/status/{process_id}</code></td><td>To check the status of  QR Code images generation of the reserved DIAL codes . </td></tr><tr><td><code>{host}/action/dialcode/v3/search</code></td><td>It is used for searching the DIAL codes of a channel.</td></tr></tbody></table>
 
-### [**Collection service**](../../content-service-1/content-api.md)
+### [**Collection service**](../../content-service/content-service-1/content-api.md)
 
 It is used to organize your assets in a multi-level hierarchy and creation processes like Draft, Review, and Publish
 
 <table><thead><tr><th width="271.8951583323191">API</th><th>Description</th></tr></thead><tbody><tr><td><code>{host}/action/content/v3/hierarchy/update</code></td><td>It is used to update hierarchy of the collection.</td></tr><tr><td><code>{host}/action/content/v3/hierarchy/{collection_id}?mode=edit</code></td><td>This is used to fetch the collection hierarchy in the draft/review status.</td></tr><tr><td><code>{host}/action/content/v3/review/{collection_id}</code></td><td>It is used to send the collection for review.</td></tr><tr><td><code>{host}/action/content/v3/reject/{collection_id}</code></td><td>To reject the collection which is up for review.</td></tr><tr><td><code>{host}/action/content/v3/publish/{collection_id}</code></td><td>To publish the content which is up for review.</td></tr></tbody></table>
 
-### [**Content service**](../../content-service/content-api.md)
+### [**Content service**](../../content-service/content-apis/content-api.md)
 
 It is used to fetch the content metadata.
 
@@ -24,7 +24,7 @@ It's used to fetch the channel details.
 
 <table><thead><tr><th width="306.8770382608114">API</th><th>Description</th></tr></thead><tbody><tr><td><code>{host}/api/channel/v1/read/{channel_id}</code></td><td>It is used to read a <a href="../../content-service/channel-service/">channel</a> details.</td></tr></tbody></table>
 
-### [**Media service**](../../content-service-2/content-api.md)
+### [**Media service**](../../content-service/content-service-2/content-api.md)
 
 The asset manager for easy creation and discovery of assets (Images, Videos, etc…)
 

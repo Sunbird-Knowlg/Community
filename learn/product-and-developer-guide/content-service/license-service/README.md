@@ -1,3 +1,3 @@
-# License Service
+# License APIs
 
-License service is build and deployed as part of the content service.
+License APIs are built and deployed as part of the content service.
