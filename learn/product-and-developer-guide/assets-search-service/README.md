@@ -1,27 +1,9 @@
-# Assets search service
+# Search Service
 
-The **Assets search microservice** provides ability to search and discover assets on the platform. [Composite search API](https://documenter.getpostman.com/view/25463377/2s8ZDa3MP7) can be used for fetching all types of objects in the application ('Content', 'ContentImage', 'Collection', 'CollectionImage', 'QuestionSet', 'QuestionSetImage', 'Asset', 'Channel', 'Framework', 'ObjectCategory', 'ObjectCategoryDefintion', 'License', 'Question', etc. )
+The **search service** is designed to enable users to efficiently search and explore assets on the platform. The primary API for this purpose is the Composite search API, which provides a unified way to fetch various types of objects within the application. These objects include 'Content', 'ContentImage', 'Collection', 'CollectionImage', 'QuestionSet', 'QuestionSetImage', 'Asset', 'Channel', 'Framework', 'ObjectCategory', 'ObjectCategoryDefinition', 'License', 'Question', and more.
 
-Any of the attributes of [object model](https://github.com/project-sunbird/knowledge-platform/tree/master/schemas) can be used in the filters. By default, composite search API returns objects having 'status' as "Live" and "visibility" as "default". Default result 'limit' is 100.
+Users have the flexibility to apply filters based on any attribute of the [object model](https://github.com/Sunbird-Knowlg/knowledge-platform/tree/master/schemas). This means that they can narrow down their search results by specifying specific criteria, such as title, category, author, date, or any other relevant attribute associated with the objects.
 
-#### **API Search Filter Operators:**
+By default, the Composite search API returns objects that have a 'status' of "Live" and a 'visibility' of "default". These defaults ensure that the initial search results are relevant and align with the platform's standard display settings.
 
-Filters are by default searched based on equals match, that is case insensitive but the request can specify other operators to search against the fields. These are as follows:
-
-**String fields:**
-
-* Default - String match, contains case insensitive
-* startsWith - String match, starts with
-* endsWith - String match, ends with
-* contains - contains match
-* value - contains match
-* Array - Exact match with any of the given values
-
-**Number fields:**
-
-* Default - Equals
-* \>= - Greater than or equals
-* \> - Greater than
-* <= - Less than or equals
-* < - Less than
-* Array - Exact match with any of the given values
+It's important to note that the default result 'limit' is set to 100, meaning that the API will return up to 100 matching objects in a single response. If more results are needed, users may consider pagination or adjusting the limit accordingly.

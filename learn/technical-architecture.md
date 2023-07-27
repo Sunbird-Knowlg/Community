@@ -1,3 +1,6 @@
 # Technical Architecture
 
-![](../.gitbook/assets/kp\_architecture.png)
+
+
+<figure><img src="../.gitbook/assets/Technical-architecture.png" alt=""><figcaption><p>Technical-architecture</p></figcaption></figure>
+

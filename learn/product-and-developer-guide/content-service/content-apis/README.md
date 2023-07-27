@@ -1,6 +1,6 @@
 # Content APIs
 
-Content APIs is the core of the SB-Knowlg. All the API's related to Asset & it's life-cycle are part of this service.&#x20;
+The Content APIs serve as the core of SB-Knowlg. Within this service, all APIs related to assets and their life-cycle are integrated. This means that the Content APIs handle various functionalities, including the creation, retrieval, updating, and management of assets throughout their life-cycle within the SB-Knowlg platform. By consolidating all asset-related operations in this service, it ensures a centralized and cohesive approach to managing content, enabling efficient and consistent asset management across the platform.
 
 ### :stars: Installation guide
 

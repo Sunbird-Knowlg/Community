@@ -41,7 +41,7 @@ In this page, we map the [capabilities](../capabilities/) offered by Knowlg to t
 
 | Component                                        | Description                                                                                                                                                       |
 | ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Asset seach service](assets-search-service/)    | This is a service offered for ease of discovery of assets. This service will expose the API's only to read & filter the assets.                                   |
+| [seach service](assets-search-service/)          | This is a service offered for ease of discovery of assets. This service will expose the API's only to read & filter the assets.                                   |
 | [Taxonomy service](taxonomy-and-tagging/)        | This service helps to define your own framework to organize the assets in a specific structure. It also enables you to define the categories & tagging of assets. |
 | Dependency - [Content-service](content-service/) | The data in the content-service will be synced to the asset-search service for ease of discovery.                                                                 |
 
