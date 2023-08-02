@@ -175,7 +175,7 @@
     * [Collection Editor - V2](use/installation-guide/editors/collection-editor-v2.md)
     * [Plugins](use/installation-guide/editors/plugins.md)
   * [Services](use/installation-guide/services/README.md)
-    * [Asset management service](use/installation-guide/services/asset-management-service/README.md)
+    * [Content Service](use/installation-guide/services/asset-management-service/README.md)
       * [Configuration](use/installation-guide/services/asset-management-service/service-configuration.md)
     * [DIAL Service](use/installation-guide/services/dial-service.md)
     * [Taxonomy Service](use/installation-guide/services/taxonomy-service.md)

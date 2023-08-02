@@ -4,18 +4,11 @@ description: >-
   management service and how to set it up locally.
 ---
 
-# Asset management service
+# Content Service
 
-As part of Asset management service, this setup will address Content service, Collection Service, Media Service, Channel Service, License Service, Event and EventSet Service.
+As part of Content Service, this setup will address Content APIs, Collection APIs, Media APIs, Channel APIs, License APIs, Event and EventSet APIs.
 
 ### Local Setup:
 
-{% embed url="https://github.com/project-sunbird/knowledge-platform/tree/release-4.8.0" %}
+{% embed url="https://github.com/Sunbird-Knowlg/knowledge-platform/tree/release-5.6.0" %}
 
-### Dependency
-
-{% hint style="danger" %}
-Content service has dependency on [learning service](https://github.com/project-sunbird/sunbird-learning-platform/tree/release-4.8.0) for content and collection objects publishing and dialcode linking APIs. In future, these functionalities will be developed as part of knowledge-platform repository and the learning service dependency will be resolved.
-{% endhint %}
-
-{% embed url="https://github.com/project-sunbird/sunbird-learning-platform/tree/release-4.8.0" %}
