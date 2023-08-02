@@ -8,7 +8,7 @@ description: >-
 
 As part of Content Service, this setup will address Content APIs, Collection APIs, Media APIs, Channel APIs, License APIs, Event and EventSet APIs.
 
-### Local Setup:
+Kindly use the following link for **local setup:**
 
 {% embed url="https://github.com/Sunbird-Knowlg/knowledge-platform/tree/release-5.6.0" %}
 

@@ -2,10 +2,8 @@
 description: This page will describe how to setup Taxonomy Service locally.
 ---
 
-# Taxonomy Service
+# Taxonomy Service (Taxonomy & Tagging)
 
-Taxonomy service at the moment is being served by Learning service. &#x20;
+Kindly use the following link for **local setup:**
 
-Learning-Service cocal setup:
-
-{% embed url="https://github.com/project-sunbird/sunbird-learning-platform/tree/release-4.8.0" %}
+{% embed url="https://github.com/Sunbird-Knowlg/knowledge-platform/tree/release-5.5.0" %}

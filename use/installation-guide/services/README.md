@@ -16,8 +16,8 @@ description: This section will help to setup Sunbird knowlg services locally.
 [taxonomy-service.md](taxonomy-service.md)
 {% endcontent-ref %}
 
-{% content-ref url="object-category-service.md" %}
-[object-category-service.md](object-category-service.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 Local Installation
