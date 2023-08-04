@@ -8,7 +8,7 @@ The below diagram represents the components involved and their arrangement in a 
 4. To enhance the API's performance and reduce the need for frequent database queries during Read calls, we have implemented **Redis** as a temporary cache. Redis serves as an in-memory data store that holds frequently accessed data. When a Read call is made to the API, the data is first checked in the Redis cache. If the data is found in Redis, the API can retrieve it directly from memory, avoiding the need to hit the database. This caching strategy significantly improves response times and reduces the load on the database, resulting in a more efficient and responsive API. Additionally, by using Redis as a cache, we can ensure that frequently requested data is readily available, further optimizing the overall performance of the API.
 5. By leveraging **Flink** (Async Jobs), we enable real-time and batch data processing with low latency, high throughput, and fault tolerance.
 
-<figure><img src="../../../../.gitbook/assets/content-architecture (1).png" alt=""><figcaption><p>Content Architecture</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/content-architecture.png" alt=""><figcaption><p>Content Architecture</p></figcaption></figure>
 
 ## Flow-diagram
 
