@@ -1,5 +1,5 @@
 # Architecture
 
-{% content-ref url="../../content-service/content-apis/architecture.md" %}
-[architecture.md](../../content-service/content-apis/architecture.md)
-{% endcontent-ref %}
+The below diagram represents the components involved and their arrangement in a Taxonomy service to Serve **Framework APIs**
+
+<figure><img src="../../../../.gitbook/assets/Taxonomy-architecture.png" alt=""><figcaption></figcaption></figure>

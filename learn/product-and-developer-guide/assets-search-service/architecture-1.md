@@ -4,9 +4,9 @@ The below diagram represents the components involved and their arrangement in **
 
 1. The **search service** module has a play application and its internal actor module.&#x20;
 2. By leveraging **Elasticsearch**, we can deliver an efficient and robust search experience to our users, ensuring that our application performs exceptionally well and remains flexible to adapt to future needs.
-3. By leveraging **Flink**, we enable real-time and batch data processing with low latency, high throughput, and fault tolerance.
+3. By leveraging **Flink(Async Jobs)**, we enable real-time and batch data processing with low latency, high throughput, and fault tolerance.
 
-<figure><img src="../../../.gitbook/assets/asset-search-architecture (7).png" alt=""><figcaption><p>asset-search-architecture</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/asset-search-architecture.png" alt=""><figcaption><p>Search Architecture</p></figcaption></figure>
 
 ## Flow-diagram
 
