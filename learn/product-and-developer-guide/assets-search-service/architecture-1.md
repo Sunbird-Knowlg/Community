@@ -6,7 +6,7 @@ The below diagram represents the components involved and their arrangement in **
 2. By leveraging **Elasticsearch**, we can deliver an efficient and robust search experience to our users, ensuring that our application performs exceptionally well and remains flexible to adapt to future needs.
 3. By leveraging **Flink(Async Jobs)**, we enable real-time and batch data processing with low latency, high throughput, and fault tolerance.
 
-<figure><img src="../../../.gitbook/assets/asset-search-architecture.png" alt=""><figcaption><p>Search Architecture</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/asset-search-architecture (9).png" alt=""><figcaption></figcaption></figure>
 
 ## Flow-diagram
 

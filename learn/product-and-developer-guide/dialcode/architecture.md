@@ -1,8 +1,10 @@
 # Architecture
 
-![Content-service Architecture](../../../.gitbook/assets/architecture-sunbird-knowlg-DIAL.png)
+
+
+<figure><img src="../../../.gitbook/assets/DIAL-architecture.png" alt=""><figcaption><p>DIAL Architecture</p></figcaption></figure>
 
 ## Flow-diagram
 
-![flow-diagram](../../../.gitbook/assets/flow-diagram-sunbird-knowlg-DIAL.png)
+<figure><img src="../../../.gitbook/assets/DIAL-flow-diagram.png" alt=""><figcaption></figcaption></figure>
 
