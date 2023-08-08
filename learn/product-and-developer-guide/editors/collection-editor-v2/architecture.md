@@ -1,5 +1,17 @@
 # Architecture
 
+### Overview
+
+The below diagram represents the Collection Editor components.
+
+<figure><img src="../../../../.gitbook/assets/Collection-Editor.png" alt=""><figcaption><p>Collection Editor</p></figcaption></figure>
+
+### Editor Modules
+
+<figure><img src="../../../../.gitbook/assets/Editor Modules.png" alt=""><figcaption><p>Editor Modules</p></figcaption></figure>
+
+### Flow diagram
+
 ![Collection Editor V2 - Architecture](../../../../.gitbook/assets/collection-editor-architecture.png)
 
 [<mark style="color:blue;">**Fancytree**</mark>](https://github.com/mar10/fancytree/wiki)\

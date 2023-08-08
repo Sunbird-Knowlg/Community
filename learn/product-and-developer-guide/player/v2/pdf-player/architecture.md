@@ -4,7 +4,15 @@ description: This describes about the architecture diagram of the pdf player.
 
 # Architecture
 
+The below diagram represents the PDF player components.
+
+<figure><img src="../../../../../.gitbook/assets/PDF Player (1).png" alt=""><figcaption><p>PDF Player</p></figcaption></figure>
+
+### Flow-diagram&#x20;
+
 ![](../../../../../.gitbook/assets/contentPlayerV2Pdf.png)
+
+##
 
 **Common Service Lib:**\
 This is used for generating the telemetry from the player as a utility dependency library.

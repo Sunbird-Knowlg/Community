@@ -1,6 +1,14 @@
 # Architecture
 
+The below diagram represents the EPUB player components.
+
+<figure><img src="../../../../../.gitbook/assets/EPUB Player.png" alt=""><figcaption><p>EPUB Player</p></figcaption></figure>
+
+### Flow-diagram&#x20;
+
 ![](../../../../../.gitbook/assets/contentPlayerV2Epub.png)
+
+##
 
 **Common Service Lib:**
 

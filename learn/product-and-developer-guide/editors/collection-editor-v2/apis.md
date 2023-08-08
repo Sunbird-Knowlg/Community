@@ -1,5 +1,7 @@
 # APIs
 
+This page provides an explanation of the list of APIs that are utilized by the collection editor.
+
 ### [**DIAL Service**](../../dialcode/apis.md)
 
 The DIAL service is used to generate, link, and check the status of the DIAL code.
