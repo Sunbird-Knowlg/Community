@@ -1,5 +1,31 @@
 # Release - 5.4.0
 
+## <mark style="color:blue;">Hot-fix 5.4.2</mark> (08-08-2023)
+
+**Enhancement:**
+
+KN-902: CSP changes
+
+As part of this hotfix, we have integrated a JavaScript file upload library. This library is designed to function with presignedURLs, file objects, and provider names. Depending on the provided values, the library will initiate interactions with the specified cloud provider and proceed to upload the file to the designated presignedURL.
+
+### Collection **Editor**:
+
+Tag: v5.4.4
+
+Install: _npm i @project-sunbird/sunbird-collection-editor@_5.4.4
+
+URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.4](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.4)
+
+### File Upload library:
+
+Tag: v1.0.1
+
+Install: _npm i_ @project-sunbird/sunbird-file-upload-library@1.0.1
+
+URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-file-upload-library/v/1.0.1](https://www.npmjs.com/package/@project-sunbird/sunbird-file-upload-library/v/1.0.1)
+
+
+
 ## <mark style="color:blue;">Hot-fix 5.4.1</mark> (4-07-2023)
 
 **Bugs:**
