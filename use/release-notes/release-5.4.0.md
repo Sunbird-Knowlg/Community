@@ -26,6 +26,16 @@ URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-file-upload-library
 
 
 
+Please build and deploy using blow genric-editor and content-plugin tags for new CSP changes.
+
+### Generic **Editor**:
+
+Tag: release-5.2.1\_RC1
+
+### Content Plugins:
+
+Tag: release-5.2.1\_RC1
+
 ## <mark style="color:blue;">Hot-fix 5.4.1</mark> (4-07-2023)
 
 **Bugs:**
