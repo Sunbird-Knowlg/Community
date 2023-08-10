@@ -1,45 +1,5 @@
 # Release - 5.4.0
 
-## <mark style="color:blue;">Hot-fix 5.4.2</mark> (08-08-2023)
-
-**Enhancement:**
-
-KN-902: CSP changes
-
-As part of this hotfix, we have integrated a JavaScript file upload library. This library is designed to function with presignedURLs, file objects, and provider names. Depending on the provided values, the library will initiate interactions with the specified cloud provider and proceed to upload the file to the designated presignedURL.
-
-### Collection **Editor**:
-
-Tag: v5.4.5
-
-Install: _npm i @project-sunbird/sunbird-collection-editor@_5.4.5
-
-URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.5](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.5)
-
-**NOTE:** Editor is expecting `provider` name inside config. for more details, [clike here](https://github.com/Sunbird-Knowlg/sunbird-collection-editor/blob/release-5.4.0/docs/CONFIGURATION.md)
-
-### File Upload library:
-
-Tag: v1.0.1
-
-Install: _npm i_ @project-sunbird/sunbird-file-upload-library@1.0.1
-
-URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-file-upload-library/v/1.0.1](https://www.npmjs.com/package/@project-sunbird/sunbird-file-upload-library/v/1.0.1)
-
-
-
-Please build and deploy using blow genric-editor and content-plugin tags for new CSP changes.
-
-### Generic **Editor**:
-
-Tag: release-5.2.1\_RC1
-
-### Content Plugins:
-
-Tag: release-5.2.1\_RC1
-
-**NOTE:** Editor is expecting `provider` name inside config. for more details, [click here](https://github.com/Sunbird-Knowlg/sunbird-generic-editor/blob/release-5.2.1/README.md)
-
 ## <mark style="color:blue;">Hot-fix 5.4.1</mark> (4-07-2023)
 
 **Bugs:**
