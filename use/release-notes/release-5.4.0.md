@@ -10,11 +10,11 @@ As part of this hotfix, we have integrated a JavaScript file upload library. Thi
 
 ### Collection **Editor**:
 
-Tag: v5.4.4
+Tag: v5.4.5
 
-Install: _npm i @project-sunbird/sunbird-collection-editor@_5.4.4
+Install: _npm i @project-sunbird/sunbird-collection-editor@_5.4.5
 
-URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.4](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.4)
+URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.5](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.5)
 
 ### File Upload library:
 
