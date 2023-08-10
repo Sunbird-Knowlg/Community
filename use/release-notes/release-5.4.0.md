@@ -16,6 +16,8 @@ Install: _npm i @project-sunbird/sunbird-collection-editor@_5.4.5
 
 URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.5](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.5)
 
+**NOTE:** Editor is expecting `provider` name inside config. for more details, [clike here](https://github.com/Sunbird-Knowlg/sunbird-collection-editor/blob/release-5.4.0/docs/CONFIGURATION.md)
+
 ### File Upload library:
 
 Tag: v1.0.1
@@ -35,6 +37,8 @@ Tag: release-5.2.1\_RC1
 ### Content Plugins:
 
 Tag: release-5.2.1\_RC1
+
+**NOTE:** Editor is expecting `provider` name inside config. for more details, [click here](https://github.com/Sunbird-Knowlg/sunbird-generic-editor/blob/release-5.2.1/README.md)
 
 ## <mark style="color:blue;">Hot-fix 5.4.1</mark> (4-07-2023)
 
