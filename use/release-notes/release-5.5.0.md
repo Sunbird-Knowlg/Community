@@ -10,21 +10,21 @@ As part of this hotfix, we have integrated a JavaScript file upload library. Thi
 
 ### Collection **Editor**:
 
-Tag: v5.4.5
+Tag: v5.4.8
 
-Install: _npm i @project-sunbird/sunbird-collection-editor@_5.4.5
+Install: _npm i @project-sunbird/sunbird-collection-editor@_5.4.8
 
-URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.5](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.5)
+URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.8](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.8)
 
 **NOTE:** Editor is expecting `provider` name inside config. for more details, [clike here](https://github.com/Sunbird-Knowlg/sunbird-collection-editor/blob/release-5.4.0/docs/CONFIGURATION.md)
 
 ### File Upload library:
 
-Tag: v1.0.1
+Tag: v1.0.2
 
-Install: _npm i_ @project-sunbird/sunbird-file-upload-library@1.0.1
+Install: _npm i_ @project-sunbird/sunbird-file-upload-library@1.0.2
 
-URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-file-upload-library/v/1.0.1](https://www.npmjs.com/package/@project-sunbird/sunbird-file-upload-library/v/1.0.1)
+URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-file-upload-library/v/1.0.2](https://www.npmjs.com/package/@project-sunbird/sunbird-file-upload-library/v/1.0.2)
 
 
 
