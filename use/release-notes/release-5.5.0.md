@@ -8,6 +8,8 @@ KN-902: CSP changes
 
 As part of this hotfix, we have integrated a JavaScript file upload library. This library is designed to function with presignedURLs, file objects, and provider names. Depending on the provided values, the library will initiate interactions with the specified cloud provider and proceed to upload the file to the designated presignedURL.
 
+### Release Tags:
+
 ### Collection **Editor**:
 
 Tag: v5.4.8
@@ -53,6 +55,12 @@ Tag: release-5.2.1\_RC1
 Tag: release-5.2.1\_RC1
 
 **NOTE:** Editor is expecting `provider` name inside config. for more details, [click here](https://github.com/Sunbird-Knowlg/sunbird-generic-editor/blob/release-5.2.1/README.md)
+
+### API Services:
+
+<table><thead><tr><th width="186.5">Component</th><th>Service to be Build</th><th width="100">Tag</th><th>Deploy Job</th><th>Deployment Tag</th><th>Comment</th></tr></thead><tbody><tr><td>Knowledge-platform</td><td>Build/Core/Content</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform/releases/tag/release-5.5.0_RC1">release-5.5.0_RC1</a></td><td>Deploy/Kubernetes/Content</td><td><a href="https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.5.0-knowlg_RC1">release-5.5.0-knowlg_RC1</a></td><td></td></tr><tr><td>Knowledge-platform-jobs</td><td>Build/KnowledgePlatform/FlinkJobs</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform-jobs/releases/tag/release-5.5.0_RC1">release-5.5.0_RC1</a></td><td>Deploy/KnowledgePlatform/FlinkJobs</td><td><a href="https://github.com/Sunbird-Knowlg/sunbird-learning-platform/tree/release-5.4.1_RC1">release-5.4.1_RC1</a></td><td>Jobs to be deployed:<br>1. <strong>asset-enrichment</strong><br>2.<strong>content-publish</strong><br>3. <strong>post-publish-processor</strong><br>4. <strong>qrcode-image-generator</strong><br>5. <strong>video-stream-generator</strong></td></tr></tbody></table>
+
+
 
 ## <mark style="color:blue;">5.5.0</mark> (15-05-2023)
 
