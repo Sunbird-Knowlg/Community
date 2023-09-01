@@ -20,7 +20,7 @@ URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v
 
 **NOTE:**&#x20;
 
-1. &#x20;Editor is expecting `provider` name inside config. for more details, [clike here](https://github.com/Sunbird-Knowlg/sunbird-collection-editor/blob/release-5.4.0/docs/CONFIGURATION.md)\\
+1. &#x20;Editor is expecting `provider` name inside config. for more details, [clike here](https://github.com/Sunbird-Knowlg/sunbird-collection-editor/blob/release-5.4.0/docs/CONFIGURATION.md)
 2. Please add File Upload library in `package.json`. Collection editor has a dependency on File Upload library.   &#x20;
 
 ### File Upload library:
