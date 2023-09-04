@@ -37,13 +37,13 @@ Please build and deploy using blow content-editor and content-plugin tags for ne
 
 ### Content **Editor**:
 
-Tag: release-5.2.1\_RC1
+Tag: release-5.2.1\_RC2
 
 ### Content Plugins:
 
-Tag: release-5.2.1\_RC1
+Tag: release-5.2.1\_RC2
 
-**NOTE:** Editor is expecting `provider` name inside config. for more details, [click here](https://github.com/Sunbird-Knowlg/sunbird-content-editor/blob/release-5.2.1/README.md)
+**NOTE:** Editor is expecting `provider` name inside config. For more details, [click here](https://github.com/Sunbird-Knowlg/sunbird-content-editor/blob/release-5.2.1/README.md)
 
 ### Sunbird Generic **Editor**:
 
@@ -51,11 +51,11 @@ Please build and deploy using blow genric-editor and content-plugin tags for new
 
 ### Generic **Editor**:
 
-Tag: release-5.2.1\_RC1
+Tag: release-5.2.1\_RC2
 
 ### Content Plugins:
 
-Tag: release-5.2.1\_RC1
+Tag: release-5.2.1\_RC2
 
 **NOTE:** Editor is expecting `provider` name inside config. for more details, [click here](https://github.com/Sunbird-Knowlg/sunbird-generic-editor/blob/release-5.2.1/README.md)
 
