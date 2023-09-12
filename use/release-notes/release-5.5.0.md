@@ -72,13 +72,11 @@ For above-mentioned build jobs, configure like as we mentioned below.
 
 #### Configure the following values:
 
-
-
-| Name |   |   |
-| ---- | - | - |
-|      |   |   |
-|      |   |   |
-|      |   |   |
+| Name                       |                 |                                                       |
+| -------------------------- | --------------- | ----------------------------------------------------- |
+| CLOUD\_STORE\_GROUP\_ID    | org.sunbird     | Set the cloud storage SDK group\_id ex: org.sunbird   |
+| CLOUD\_STORE\_ARTIFACT\_ID | cloud-store-sdk | Set the cloud storage artefact id ex: cloud-store-sdk |
+| CLOUD\_STORE\_VERSION      | 1.4.6           | Set the cloud storage version ex: 1.4.6               |
 
 ## <mark style="color:blue;">5.5.0</mark> (15-05-2023)
 
