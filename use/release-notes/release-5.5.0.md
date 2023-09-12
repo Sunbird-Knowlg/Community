@@ -10,19 +10,6 @@ As part of this hotfix, we have integrated a JavaScript file upload library. Thi
 
 ### Release Tags:
 
-### Collection **Editor**:
-
-Tag: v5.4.8
-
-Install: _npm i @project-sunbird/sunbird-collection-editor@_5.4.8
-
-URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.8](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.8)
-
-**NOTE:**&#x20;
-
-1. &#x20;Editor is expecting `provider` name inside config. for more details, [clike here](https://github.com/Sunbird-Knowlg/sunbird-collection-editor/blob/release-5.4.0/docs/CONFIGURATION.md)
-2. Please add File Upload library in `package.json`. Collection editor has a dependency on File Upload library.   &#x20;
-
 ### File Upload library:
 
 Tag: v1.0.2
@@ -37,7 +24,20 @@ Please [click here](https://github.com/Sunbird-Knowlg/sunbird-file-upload-librar
 
 The current iteration of this library has been developed with a primary focus on facilitating operations within the Azure cloud environment. Should you have the intention of expanding its capabilities to encompass additional Cloud Service Providers (CSPs) such as AWS, GCP, or Oracle, I highly recommend referring to the accompanying documentation. This document offers a comprehensive and detailed guide, providing step-by-step instructions and valuable insights on how to successfully extend the library's functionality to these other CSPs, ensuring seamless integration and compatibility.
 
-[https://github.com/Sunbird-Knowlg/sunbird-file-upload-library#how-to-extended-to-other-cloud-providers](https://github.com/Sunbird-Knowlg/sunbird-file-upload-library#how-to-extended-to-other-cloud-providers)
+{% embed url="https://github.com/Sunbird-Knowlg/sunbird-file-upload-library#how-to-extended-to-other-cloud-providers" %}
+
+### Collection **Editor**:
+
+Tag: v5.4.8
+
+Install: _npm i @project-sunbird/sunbird-collection-editor@_5.4.8
+
+URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.8](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.8)
+
+**NOTE:**&#x20;
+
+1. &#x20;Editor is expecting `provider` name inside config. for more details, [clike here](https://github.com/Sunbird-Knowlg/sunbird-collection-editor/blob/release-5.4.0/docs/CONFIGURATION.md)
+2. Please add File Upload library in `package.json`. Collection editor has a dependency on File Upload library.   &#x20;
 
 ### Sunbird Content **Editor**:
 
@@ -65,7 +65,20 @@ Tag: release-5.2.1\_RC2
 
 Tag: release-5.2.1\_RC2
 
-**NOTE:** Editor is expecting `provider` name inside config. for more details, [click here](https://github.com/Sunbird-Knowlg/sunbird-generic-editor/blob/release-5.2.1/README.md)
+**NOTE:** Editor is expecting `provider` name inside config. For more details, [click here](https://github.com/Sunbird-Knowlg/sunbird-generic-editor/blob/release-5.2.1/README.md)
+
+
+
+<mark style="color:red;">**IMPORTANT NOTE CSP Changes:**</mark>&#x20;
+
+At present, all editors are utilizing the default file upload library, which is designed to support the _Azure_ CSP provider. However, if an adopter wishes to extend this library to incorporate new CSPs such as _AWS or GCP_, the following modifications need to be made in both Editors and Plugins to ensure their functionality:
+
+1. The editor anticipates the inclusion of the `provider` name within the configuration. Please ensure that the provider name is added to the configuration as specified in the readme.md file.
+2. Update the package.json file with the new version of the **File Upload library**. It's important to note that the Collection editor relies on the File Upload library, so this update is crucial.
+3. In order to incorporate the new version of the **File Upload library**, make the following changes to the specified plugins, and subsequently perform the build and deployment for both the Content editor and Generic editor. It's essential to replace the mentioned file at the following location: `editor/libs/sunbird-file-upload-library.js`, ensuring that the filename remains unchanged.
+   * org.ekstep.assetbrowser-1.4
+   * org.ekstep.uploadlargecontent-1.0
+   * org.ekstep.uploadcontent-1.5
 
 ### API Services:
 
