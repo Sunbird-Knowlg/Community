@@ -67,9 +67,7 @@ Tag: release-5.2.1\_RC2
 
 **NOTE:** Editor is expecting `provider` name inside config. For more details, [click here](https://github.com/Sunbird-Knowlg/sunbird-generic-editor/blob/release-5.2.1/README.md)
 
-
-
-<mark style="color:red;">**IMPORTANT NOTE CSP Changes:**</mark>&#x20;
+### <mark style="color:blue;background-color:red;">Crucial Note Regarding CSP Changes:</mark>
 
 At present, all editors are utilizing the default file upload library, which is designed to support the _Azure_ CSP provider. However, if an adopter wishes to extend this library to incorporate new CSPs such as _AWS or GCP_, the following modifications need to be made in both Editors and Plugins to ensure their functionality:
 
