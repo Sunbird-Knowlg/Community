@@ -31,6 +31,14 @@ Install: _npm i_ @project-sunbird/sunbird-file-upload-library@1.0.2
 
 URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-file-upload-library/v/1.0.2](https://www.npmjs.com/package/@project-sunbird/sunbird-file-upload-library/v/1.0.2)
 
+Please [click here](https://github.com/Sunbird-Knowlg/sunbird-file-upload-library#sunbirdfileuploadlib) to find more details about how to install and use of this library.
+
+#### How to extend the _File upload library_ code to other Cloud Service Providers (CSPs):
+
+The current iteration of this library has been developed with a primary focus on facilitating operations within the Azure cloud environment. Should you have the intention of expanding its capabilities to encompass additional Cloud Service Providers (CSPs) such as AWS, GCP, or Oracle, I highly recommend referring to the accompanying documentation. This document offers a comprehensive and detailed guide, providing step-by-step instructions and valuable insights on how to successfully extend the library's functionality to these other CSPs, ensuring seamless integration and compatibility.
+
+[https://github.com/Sunbird-Knowlg/sunbird-file-upload-library#how-to-extended-to-other-cloud-providers](https://github.com/Sunbird-Knowlg/sunbird-file-upload-library#how-to-extended-to-other-cloud-providers)
+
 ### Sunbird Content **Editor**:
 
 Please build and deploy using blow content-editor and content-plugin tags for new CSP changes.
@@ -65,7 +73,7 @@ Tag: release-5.2.1\_RC2
 
 ### Jenkins **Configurations for CSP support:**
 
-Set the variables _**CLOUD\_STORE\_GROUP\_ID**, **CLOUD\_STORE\_ARTIFACT\_ID**_ and _**cloud\_store\_version**_ with appropriate values in Jenkins, either at the global level or for each individual service in the build job's configuration.\
+Set the variables _**CLOUD\_STORE\_GROUP\_ID**, **CLOUD\_STORE\_ARTIFACT\_ID**_ and _**CLOUD\_STORE\_VERSION**_ with appropriate values in Jenkins, either at the global level or for each individual service in the build job's configuration.\
 For above-mentioned build jobs, configure like as we mentioned below.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-09-12 at 10.23.57 AM.png" alt=""><figcaption></figcaption></figure>
