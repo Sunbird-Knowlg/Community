@@ -63,7 +63,22 @@ Tag: release-5.2.1\_RC2
 
 <table><thead><tr><th width="186.5">Component</th><th>Service to be Build</th><th width="100">Tag</th><th>Deploy Job</th><th>Deployment Tag</th><th>Comment</th></tr></thead><tbody><tr><td>Knowledge-platform</td><td>Build/Core/Content</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform/releases/tag/release-5.5.0_RC1">release-5.5.0_RC1</a></td><td>Deploy/Kubernetes/Content</td><td><a href="https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.5.0-knowlg_RC1">release-5.5.0-knowlg_RC1</a></td><td></td></tr><tr><td>Knowledge-platform-jobs</td><td>Build/KnowledgePlatform/FlinkJobs</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform-jobs/releases/tag/release-5.5.0_RC2">release-5.5.0_RC2</a></td><td>Deploy/KnowledgePlatform/FlinkJobs</td><td><a href="https://github.com/Sunbird-Knowlg/sunbird-learning-platform/tree/release-5.4.1_RC1">release-5.4.1_RC1</a></td><td>Jobs to be deployed:<br>1. <strong>asset-enrichment</strong><br>2.<strong>content-publish</strong><br>3. <strong>post-publish-processor</strong><br>4. <strong>qrcode-image-generator</strong><br>5. <strong>video-stream-generator</strong></td></tr></tbody></table>
 
+### Jenkins **Configurations for CSP support:**
 
+Set the variables _**CLOUD\_STORE\_GROUP\_ID**, **CLOUD\_STORE\_ARTIFACT\_ID**_ and _**cloud\_store\_version**_ with appropriate values in Jenkins, either at the global level or for each individual service in the build job's configuration.\
+For above-mentioned build jobs, configure like as we mentioned below.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-09-12 at 10.23.57 AM.png" alt=""><figcaption></figcaption></figure>
+
+#### Configure the following values:
+
+
+
+| Name |   |   |
+| ---- | - | - |
+|      |   |   |
+|      |   |   |
+|      |   |   |
 
 ## <mark style="color:blue;">5.5.0</mark> (15-05-2023)
 
