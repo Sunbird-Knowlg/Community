@@ -37,6 +37,25 @@ None
 
 <table><thead><tr><th width="186.5">Component</th><th>Service to be Build</th><th width="100">Tag</th><th>Deploy Job</th><th>Deployment Tag</th><th>Comment</th></tr></thead><tbody><tr><td>Schema upload</td><td>NA</td><td>NA</td><td>Deploy/Kubernetes/UploadSchema</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform/releases/tag/release-5.6.0_RC2">release-5.6.0_RC2</a></td><td></td></tr><tr><td>Knowledge-platform</td><td>Build/Core/Content</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform/releases/tag/release-5.6.0_RC3">release-5.6.0_RC3</a></td><td>Deploy/Kubernetes/Content</td><td><a href="https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.6.0-knowlg_RC1">release-5.6.0-knowlg_RC1</a></td><td></td></tr><tr><td></td><td>Build/Core/Taxonomy</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform/releases/tag/release-5.6.0_RC2">release-5.6.0_RC2</a></td><td>Deploy/Kubernetes/Taxonomy</td><td><a href="https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.6.0-knowlg_RC1">release-5.6.0-knowlg_RC1</a></td><td></td></tr><tr><td>Knowledge-mw-service</td><td>Build/Core/KnowledgeMW</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-mw-service/releases/tag/release-5.6.0_RC1">release-5.6.0_RC1</a></td><td>Deploy/Kubernetes/KnowledgeMW</td><td><a href="https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.6.0-knowlg_RC1">release-5.6.0-knowlg_RC1</a></td><td></td></tr><tr><td>Sunbird-learning-service</td><td>Build/KnowledgePlatform/Learning</td><td><a href="https://github.com/Sunbird-Knowlg/sunbird-learning-platform/releases/tag/release-5.6.0_RC1">release-5.6.0_RC1</a></td><td>Deploy/KnowledgePlatform/Learning</td><td><a href="https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.6.0-knowlg_RC1">release-5.6.0-knowlg_RC1</a></td><td></td></tr></tbody></table>
 
+### NOTE:
+
+Below jenkins configurations are specifically for Content Service.&#x20;
+
+### Jenkins **Configurations for CSP support:**
+
+Set the variables _**CLOUD\_STORE\_GROUP\_ID**, **CLOUD\_STORE\_ARTIFACT\_ID**_ and _**CLOUD\_STORE\_VERSION**_ with appropriate values in Jenkins, either at the global level or for each individual service in the build job's configuration.\
+For above-mentioned build jobs, configure like as we mentioned below.
+
+<figure><img src="../../.gitbook/assets/spaces%2FaanfWbeVT74C5lXDPde3%2Fuploads%2F2WT3nARKN2NNAc8JZPzZ%2FScreenshot%202023-09-12%20at%2010.webp" alt=""><figcaption></figcaption></figure>
+
+#### Configure the following values:
+
+|                            |                       |                                                             |
+| -------------------------- | --------------------- | ----------------------------------------------------------- |
+| CLOUD\_STORE\_GROUP\_ID    | org.sunbird           | Set the cloud storage SDK group\_id ex: org.sunbird         |
+| CLOUD\_STORE\_ARTIFACT\_ID | cloud-store-sdk\_2.12 | Set the cloud storage artefact id ex: cloud-store-sdk\_2.12 |
+| CLOUD\_STORE\_VERSION      | 1.4.6                 | Set the cloud storage version ex: 1.4.6                     |
+
 ### Collection Editor Web Component:
 
 Tag: `v1.1.0`
