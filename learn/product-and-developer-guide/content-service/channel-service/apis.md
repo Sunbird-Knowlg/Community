@@ -4,4 +4,4 @@
 
 These APIs are used to manage object type - channel.
 
-Channel CRUD Operations - [Create](https://documenter.getpostman.com/view/25463377/2s8ZDa32ay#03a07692-308b-4ae1-815f-5a4afdfdb025), [Read](https://documenter.getpostman.com/view/25463377/2s8ZDa32ay#475a8136-5701-4f89-92d5-093afb300b4d), [Update](https://documenter.getpostman.com/view/25463377/2s8ZDa32ay#9070f5db-e118-4aef-9d65-cc0acb717692) and Delete (Logical retire - status updated to 'Retired').
+Channel CRUD Operations - [Create](https://documenter.getpostman.com/view/25463377/2s9YC4VDFm#b150b829-350f-4794-9341-0ca097528f8c), [Read](https://documenter.getpostman.com/view/25463377/2s9YC4VDFm#05fae256-2655-47d8-8229-076ed9f95680), [Update](https://documenter.getpostman.com/view/25463377/2s9YC4VDFm#3a6704cd-d8b7-4af6-8ba7-3fa70cacfc65)&#x20;
