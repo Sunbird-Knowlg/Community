@@ -45,11 +45,11 @@ Please build and deploy using blow content-editor and content-plugin tags for ne
 
 ### Content **Editor**:
 
-Tag: release-5.2.1\_RC2
+Tag: release-5.2.1\_RC3
 
 ### Content Plugins:
 
-Tag: release-5.2.1\_RC2
+Tag: release-5.2.1\_RC3
 
 **NOTE:** Editor is expecting `provider` name inside config. For more details, [click here](https://github.com/Sunbird-Knowlg/sunbird-content-editor/blob/release-5.2.1/README.md)
 
