@@ -28,11 +28,11 @@ The current iteration of this library has been developed with a primary focus on
 
 ### Collection **Editor**:
 
-Tag: v5.4.8
+Tag: v5.4.9
 
-Install: _npm i @project-sunbird/sunbird-collection-editor@_5.4.8
+Install: _npm i @project-sunbird/sunbird-collection-editor@_5.4.9
 
-URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.8](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.8)
+URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.9](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.9)
 
 **NOTE:**&#x20;
 
