@@ -58,11 +58,19 @@ For above-mentioned build jobs, configure like as we mentioned below.
 
 ### Collection Editor Web Component:
 
-Tag: `v1.1.0`
+Tag: `v1.6.0`
 
-Install: `npm i @project-sunbird/sunbird-collection-editor-web-component@1.1.0`
+Install: `npm i @project-sunbird/sunbird-collection-editor-web-component@1.6.0`
 
-URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor-web-component/v/1.1.0](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor-web-component/v/1.1.0)
+URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor-web-component/v/1.6.0](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor-web-component/v/1.6.0)
+
+### Collection Editor:
+
+Tag: `v5.6.1`
+
+Install: `npm i @project-sunbird/sunbird-collection-editor@5.4.9`
+
+URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.6.1](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.6.1)
 
 ### Configuration/Environment variable changes:
 
