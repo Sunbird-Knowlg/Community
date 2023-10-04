@@ -14,8 +14,8 @@ Please refer to the [Sunbird-Ed deployment ](https://ed.sunbird.org/use/prerequi
 
 
 
-{% content-ref url="http://127.0.0.1:5000/o/-Mi9QwJlsfb7xuxTBc0J/s/-MkgPDmvKwE_DgYJbvPS/" %}
-[Sunbird ED](http://127.0.0.1:5000/o/-Mi9QwJlsfb7xuxTBc0J/s/-MkgPDmvKwE\_DgYJbvPS/)
+{% content-ref url="http://127.0.0.1:5000/o/naZWP5132vMLc9ip5KP0/s/-MkgPDmvKwE_DgYJbvPS/" %}
+[Sunbird ED](http://127.0.0.1:5000/o/naZWP5132vMLc9ip5KP0/s/-MkgPDmvKwE\_DgYJbvPS/)
 {% endcontent-ref %}
 
 ![](<../.gitbook/assets/SB-Knowlg (2).png>)

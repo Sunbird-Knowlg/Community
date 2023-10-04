@@ -44,7 +44,7 @@ ECAR is an archive file which contains metadata and artifact related to content.
 
 ### **Video Streaming**
 
-_**streamingUrl**_ attribute captures the link of video streaming. For more details, refer to the job [here](../../knowlg-jobs/).&#x20;
+_**streamingUrl**_ attribute captures the link of video streaming. For more details, refer to the job [here](../knowlg-jobs/).&#x20;
 
 ### **Source file storage**
 
@@ -67,7 +67,7 @@ Failed (status: Failed)
 Content having the status Retired can't be discovered for consumption/adoption.\
 
 
-![](<../../../../.gitbook/assets/sunbird-knowlg-status flow diagram.png>)
+![](<../../../.gitbook/assets/sunbird-knowlg-status flow diagram.png>)
 
 ### **Player compatibility**
 

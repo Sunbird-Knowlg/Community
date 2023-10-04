@@ -5,7 +5,7 @@ XYZ Corp, is a global conglomerate with over ten thousand employees, spread acro
 ### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
 * An intialized Sunbird instance with channel
-* The [API Key for access](../../../player/telemetry-events/generate-api-keys.md) and basic authentication
+* The [API Key for access](../../player/telemetry-events/generate-api-keys.md) and basic authentication
 * Software that can make API calls like curl or [POSTMAN](https://www.getpostman.com/docs/v6/postman/api\_documentation/intro\_to\_api\_documentation)
 * Content creation access
 * Content artifacts with a unique object ID
