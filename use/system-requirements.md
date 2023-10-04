@@ -38,7 +38,7 @@ In order to achieve full deployment of a Knowlg instance within a Kubernetes clu
 | Type  | Details                                                             |
 | ----- | ------------------------------------------------------------------- |
 | Infra | 4 nodes Kubernetes clusters with 4 Core 16 GB RAM & 100 GB storage. |
-| Cost  | Monthly cost approx 60K (100% usage)                                |
+| Cost  | Monthly cost approx 60K INR (100% usage)                            |
 
 
 
