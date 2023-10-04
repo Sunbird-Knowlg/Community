@@ -12,11 +12,11 @@ As part of this hotfix, we have integrated a JavaScript file upload library. Thi
 
 ### File Upload library:
 
-Tag: v1.0.2
+Tag: v1.0.3
 
-Install: _npm i_ @project-sunbird/sunbird-file-upload-library@1.0.2
+Install: _npm i_ @project-sunbird/sunbird-file-upload-library@1.0.3
 
-URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-file-upload-library/v/1.0.2](https://www.npmjs.com/package/@project-sunbird/sunbird-file-upload-library/v/1.0.2)
+URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-file-upload-library/v/1.0.3](https://www.npmjs.com/package/@project-sunbird/sunbird-file-upload-library/v/1.0.3)
 
 Please [click here](https://github.com/Sunbird-Knowlg/sunbird-file-upload-library#sunbirdfileuploadlib) to find more details about how to install and use of this library.
 
@@ -28,11 +28,11 @@ The current iteration of this library has been developed with a primary focus on
 
 ### Collection **Editor**:
 
-Tag: v5.4.9
+Tag: v5.4.10
 
-Install: _npm i @project-sunbird/sunbird-collection-editor@_5.4.9
+Install: _npm i @project-sunbird/sunbird-collection-editor@_5.4.10
 
-URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.9](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.9)
+URL: [https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.10](https://www.npmjs.com/package/@project-sunbird/sunbird-collection-editor/v/5.4.10)
 
 **NOTE:**&#x20;
 
