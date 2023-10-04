@@ -35,7 +35,7 @@ Refer [https://www.elastic.co/guide/en/cloud-enterprise/current/ece-hardware-pre
 
 In order to achieve full deployment of a Knowlg instance within a Kubernetes cluster, encompassing microservices, job processing, and databases, the following infrastructure components are essential:
 
-|       |                                                                     |
+| Type  | Details                                                             |
 | ----- | ------------------------------------------------------------------- |
 | Infra | 4 nodes Kubernetes clusters with 4 Core 16 GB RAM & 100 GB storage. |
 | Cost  | Monthly cost approx 60K (100% usage)                                |
