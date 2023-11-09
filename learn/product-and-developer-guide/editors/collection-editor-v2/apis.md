@@ -50,7 +50,7 @@ It is used to configure fields displayed in a form used in editors for the creat
 
 <table><thead><tr><th width="249.67764401568172">API</th><th>Description</th></tr></thead><tbody><tr><td><code>{host}/action/object/category/definition/v1/read?fields=objectMetadata,forms,name</code></td><td>It is used to read <a href="../../taxonomy-and-tagging/object-category-service/">object category defination</a> of a primary category. (Ex. Digital textbook, Explanation Resourse, etc...)</td></tr></tbody></table>
 
-### [<mark style="color:blue;">**User Service**</mark>](http://127.0.0.1:5000/s/4ZKyfmmhMWpPkD6iYvKF/learn/product-and-developer-guide/user-and-org-service/apis)
+### [<mark style="color:blue;">**User Service**</mark>](http://127.0.0.1:5000/s/4ZKyfmmhMWpPkD6iYvKF/use/developer-guide/user-and-org-service/apis)
 
 The user service is used to fetch the list of users for [collaboration](features.md).  It's optional service when collaboration feature is disabled in the editor.
 
