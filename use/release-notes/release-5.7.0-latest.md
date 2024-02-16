@@ -1,5 +1,37 @@
 # Release - 5.7.0 (latest)
 
+## <mark style="color:blue;">Hot-fix 5.7.0</mark> (14-02-2024)
+
+**Bugs:**
+
+1. Portal: When content creator TN tried to save course, its throwing error "Something went wrong" -[KN-973](https://project-sunbird.atlassian.net/browse/KN-973)
+2. \[Mobile]\[SSO]: After accepting the Global Consent pop up, the user navigates to the 'Edit Profile' screen, where the user is unable to select the fields. - [KN-974](https://project-sunbird.atlassian.net/browse/KN-974)
+
+<table><thead><tr><th width="186.5">Component</th><th>Service to be Build</th><th width="100">Tag</th><th>Deploy Job</th><th>Deployment Tag</th><th>Comment</th></tr></thead><tbody><tr><td>Knowledge-platform</td><td>Build/Core/Content</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform/releases/tag/release-5.7.0_RC7">release-5.7.0_RC7</a></td><td>Deploy/Kubernetes/Content</td><td><a href="https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.6.0-knowlg_RC1">release-5.6.0-knowlg_RC1</a></td><td></td></tr><tr><td></td><td>Build/Core/Taxonomy</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform/releases/tag/release-5.7.0_RC7">release-5.7.0_RC7</a></td><td>Deploy/Kubernetes/Taxonomy</td><td><a href="https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.6.0-knowlg_RC1">release-5.6.0-knowlg_RC1</a></td><td></td></tr></tbody></table>
+
+#### **Configurations**:
+
+As part of this release, we moved `retire`  API to content service. So, please update/add below kafka topic as a configuration.
+
+```properties
+kafka.topics.graph.event = "<ENV>.learning.graph.events"
+```
+
+Example:    `dev.knowlg.learning.graph.events`&#x20;
+
+## <mark style="color:blue;">Hot-fix 5.7.0</mark> (12-02-2024)
+
+**Bugs:**
+
+1. Configured Category values are not coming for the Draft and Published Text Book - [KN-966](https://project-sunbird.atlassian.net/browse/KN-966)
+2. \[SHALLOW COPY]: User is able to delete the Shallow copy created book where user should not be able to delete the Book. - [KN-970](https://project-sunbird.atlassian.net/browse/KN-970)
+
+
+
+<table><thead><tr><th width="186.5">Component</th><th>Service to be Build</th><th width="100">Tag</th><th>Deploy Job</th><th>Deployment Tag</th><th>Comment</th></tr></thead><tbody><tr><td>Knowledge-platform</td><td>Build/Core/Content</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform/releases/tag/release-5.7.0_RC6">release-5.7.0_RC6</a></td><td>Deploy/Kubernetes/Content</td><td><a href="https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.6.0-knowlg_RC1">release-5.6.0-knowlg_RC1</a></td><td></td></tr></tbody></table>
+
+
+
 <mark style="color:blue;">5.7.0</mark> (13-09-2023)
 
 Discussion thread: [https://github.com/orgs/Sunbird-Knowlg/discussions/146](https://github.com/orgs/Sunbird-Knowlg/discussions/146)
@@ -40,17 +72,7 @@ None
 
 ### API Services:
 
-<table><thead><tr><th width="186.5">Component</th><th>Service to be Build</th><th width="100">Tag</th><th>Deploy Job</th><th>Deployment Tag</th><th>Comment</th></tr></thead><tbody><tr><td>Schema upload</td><td>NA</td><td>NA</td><td>Deploy/Kubernetes/UploadSchema</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform/releases/tag/release-5.7.0_RC4">release-5.7.0_RC4</a></td><td></td></tr><tr><td>Knowledge-platform</td><td>Build/Core/Content</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform/releases/tag/release-5.7.0_RC7">release-5.7.0_RC7</a></td><td>Deploy/Kubernetes/Content</td><td><a href="https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.6.0-knowlg_RC1">release-5.6.0-knowlg_RC1</a></td><td></td></tr><tr><td></td><td>Build/Core/Taxonomy</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform/releases/tag/release-5.7.0_RC7">release-5.7.0_RC7</a></td><td>Deploy/Kubernetes/Taxonomy</td><td><a href="https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.6.0-knowlg_RC1">release-5.6.0-knowlg_RC1</a></td><td></td></tr></tbody></table>
-
-#### **Configurations**:
-
-As part of this release, we moved `retire`  API to content service. So, please update/add below kafka topic as a configuration.
-
-```properties
-kafka.topics.graph.event = "<ENV>.learning.graph.events"
-```
-
-Example:    `dev.knowlg.learning.graph.events`&#x20;
+<table><thead><tr><th width="186.5">Component</th><th>Service to be Build</th><th width="100">Tag</th><th>Deploy Job</th><th>Deployment Tag</th><th>Comment</th></tr></thead><tbody><tr><td>Schema upload</td><td>NA</td><td>NA</td><td>Deploy/Kubernetes/UploadSchema</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform/releases/tag/release-5.7.0_RC4">release-5.7.0_RC4</a></td><td></td></tr><tr><td>Knowledge-platform</td><td>Build/Core/Content</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform/releases/tag/release-5.7.0_RC4">release-5.7.0_RC4</a></td><td>Deploy/Kubernetes/Content</td><td><a href="https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.6.0-knowlg_RC1">release-5.6.0-knowlg_RC1</a></td><td></td></tr><tr><td></td><td>Build/Core/Taxonomy</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform/releases/tag/release-5.7.0_RC4">release-5.7.0_RC4</a></td><td>Deploy/Kubernetes/Taxonomy</td><td><a href="https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.6.0-knowlg_RC1">release-5.6.0-knowlg_RC1</a></td><td></td></tr></tbody></table>
 
 ## user-pii-data-updater:
 
