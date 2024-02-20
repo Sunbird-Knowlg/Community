@@ -22,9 +22,9 @@ a) Content - This asset allows you to create a variety of content enabling you t
 
 b) Collections - click [here](organised-collections.md) to know more about this asset type
 
-c) Question(s) - click [here](http://127.0.0.1:5000/o/-Mi9QwJlsfb7xuxTBc0J/s/Wu4HIWGkb7dD4y0Kup4W/) to know more about this asset type
+c) Question(s) - click [here](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/Wu4HIWGkb7dD4y0Kup4W/) to know more about this asset type
 
-d) Question Set - click [here](http://127.0.0.1:5000/o/-Mi9QwJlsfb7xuxTBc0J/s/Wu4HIWGkb7dD4y0Kup4W/) to know more about this asset type
+d) Question Set - click [here](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/Wu4HIWGkb7dD4y0Kup4W/) to know more about this asset type
 
 e) Media Resources - This asset type comprises of lowest level of reusable assets such as images, video, audio files etc
 

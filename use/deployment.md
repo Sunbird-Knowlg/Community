@@ -14,13 +14,13 @@ Please refer to the [Sunbird-Ed deployment ](https://ed.sunbird.org/use/prerequi
 
 
 
-{% content-ref url="http://127.0.0.1:5000/o/naZWP5132vMLc9ip5KP0/s/-MkgPDmvKwE_DgYJbvPS/" %}
-[Sunbird ED](http://127.0.0.1:5000/o/naZWP5132vMLc9ip5KP0/s/-MkgPDmvKwE\_DgYJbvPS/)
+{% content-ref url="https://app.gitbook.com/o/naZWP5132vMLc9ip5KP0/s/-MkgPDmvKwE_DgYJbvPS/" %}
+[Sunbird ED](https://app.gitbook.com/o/naZWP5132vMLc9ip5KP0/s/-MkgPDmvKwE\_DgYJbvPS/)
 {% endcontent-ref %}
 
 ![](<../.gitbook/assets/SB-Knowlg (2).png>)
 
-[SB-Knowlg ](http://127.0.0.1:5000/o/-Mi9QwJlsfb7xuxTBc0J/s/aanfWbeVT74C5lXDPde3/)is packaged with some micro-services as shown in the above architecture.
+[SB-Knowlg ](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/aanfWbeVT74C5lXDPde3/)is packaged with some micro-services as shown in the above architecture.
 
 * [Content-service](../learn/product-and-developer-guide/content-service/)
 * [Search-service](../learn/product-and-developer-guide/assets-search-service/)(also called asset-search-service)

@@ -18,7 +18,7 @@ It is used to organize your assets in a multi-level hierarchy and creation proce
 
 It is used to fetch the content metadata.
 
-<table><thead><tr><th width="319.40060078281294">API</th><th>Description</th></tr></thead><tbody><tr><td><code>{host}/action/content/v3/read/{content_id}</code></td><td>This is used to fetch the published content metadata.</td></tr><tr><td><code>{host}/content/data/v1/telemetry</code></td><td>It is used to log the <a href="http://127.0.0.1:5000/o/-Mi9QwJlsfb7xuxTBc0J/s/-MkM7F4oILSpCJPO0YUu/">telemetry</a> data.</td></tr></tbody></table>
+<table><thead><tr><th width="319.40060078281294">API</th><th>Description</th></tr></thead><tbody><tr><td><code>{host}/action/content/v3/read/{content_id}</code></td><td>This is used to fetch the published content metadata.</td></tr><tr><td><code>{host}/content/data/v1/telemetry</code></td><td>It is used to log the <a href="https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/-MkM7F4oILSpCJPO0YUu/">telemetry</a> data.</td></tr></tbody></table>
 
 ### [**Channel Service**](../../content-service/channel-service/apis.md)
 
@@ -50,7 +50,7 @@ It is used to configure fields displayed in a form used in editors for the creat
 
 <table><thead><tr><th width="249.67764401568172">API</th><th>Description</th></tr></thead><tbody><tr><td><code>{host}/action/object/category/definition/v1/read?fields=objectMetadata,forms,name</code></td><td>It is used to read <a href="../../taxonomy-and-tagging/object-category-service/">object category defination</a> of a primary category. (Ex. Digital textbook, Explanation Resourse, etc...)</td></tr></tbody></table>
 
-### [<mark style="color:blue;">**User Service**</mark>](http://127.0.0.1:5000/s/4ZKyfmmhMWpPkD6iYvKF/use/developer-guide/user-and-org-service/apis)
+### [<mark style="color:blue;">**User Service**</mark>](https://app.gitbook.com/s/4ZKyfmmhMWpPkD6iYvKF/use/developer-guide/user-and-org-service/apis)
 
 The user service is used to fetch the list of users for [collaboration](features.md).  It's optional service when collaboration feature is disabled in the editor.
 

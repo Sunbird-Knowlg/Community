@@ -35,10 +35,10 @@ The APIs service is used to read the content details using READ/GET API calls.
 
 ### External Dependencies
 
-#### [Sunbird Telemetry](http://127.0.0.1:5000/o/-Mi9QwJlsfb7xuxTBc0J/s/-MkM7F4oILSpCJPO0YUu/)
+#### [Sunbird Telemetry](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/-MkM7F4oILSpCJPO0YUu/)
 
 Sunbird Telemetry is a specification to instrument all the key events. Using this specification reference applications & services will generate telemetry events.
 
-#### [Sunbird inQuiry](http://127.0.0.1:5000/o/-Mi9QwJlsfb7xuxTBc0J/s/Wu4HIWGkb7dD4y0Kup4W/)
+#### [Sunbird inQuiry](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/Wu4HIWGkb7dD4y0Kup4W/)
 
 Sunbird inQuiry is used to play the questionnnaire while playing the content. This is especially used to play Interactive-video content.
