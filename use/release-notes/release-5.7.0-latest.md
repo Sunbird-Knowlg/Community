@@ -1,5 +1,27 @@
 # Release - 5.7.0 (latest)
 
+## <mark style="color:blue;">Hot-fix 5.7.0</mark> (22-02-2024)
+
+**Bugs:**
+
+1. CLONE - New framework category values are not getting saved while creating resource content - [KN-972](https://project-sunbird.atlassian.net/browse/KN-972)
+
+### Release Tags:
+
+### Sunbird Content **Editor**:
+
+Please build and deploy using blow content-editor and content-plugin tags for above bug fix.
+
+### Content **Editor**:
+
+Tag: release-5.2.1\_RC4
+
+### Content Plugins:
+
+Tag: release-5.2.1\_RC4
+
+
+
 ## <mark style="color:blue;">Hot-fix 5.7.0</mark> (14-02-2024)
 
 **Bugs:**
