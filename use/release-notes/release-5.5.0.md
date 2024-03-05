@@ -26,6 +26,12 @@ The current iteration of this library has been developed with a primary focus on
 
 {% embed url="https://github.com/Sunbird-Knowlg/sunbird-file-upload-library#how-to-extended-to-other-cloud-providers" %}
 
+### Content Plugins:
+
+Please build and deploy using blow content-plugin tags for new CSP changes.
+
+Tag: release-5.2.1\_RC4
+
 ### Collection **Editor**:
 
 Tag: v5.4.10
