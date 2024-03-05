@@ -1,4 +1,4 @@
-# Release - 5.7.0 (latest)
+# Release - 5.7.0
 
 ## <mark style="color:blue;">Hot-fix 5.7.0</mark> (27-02-2024)
 
