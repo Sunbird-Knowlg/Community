@@ -1,18 +1,30 @@
-# Release - 6.0.0 (Ongoing)
+# Release - 6.0.0 (latest)
 
-## <mark style="color:blue;">6.0.0</mark> (\_-\_-2024)
+## <mark style="color:blue;">6.0.0</mark> (04-03-2024)
 
-Discussion thread:&#x20;
+Discussion thread: [https://github.com/orgs/Sunbird-Knowlg/discussions/189](https://github.com/orgs/Sunbird-Knowlg/discussions/189)
 
 Release timeline:
 
-|                | Start date | End date |
-| -------------- | ---------- | -------- |
-| Planning phase |            |          |
-| Sprint 1       |            |          |
-| Sprint 2       |            |          |
-| PPV            |            |          |
-| Prod           |            |          |
+|                | Start date   | End date     |
+| -------------- | ------------ | ------------ |
+| Planning phase | 23-Oct, 2023 | 3-Nov, 2023  |
+| Sprint 1       | 6-Nov, 2023  | 24-Nov, 2023 |
+| Sprint 2       | 27-Nov, 2023 | 15-Feb, 2024 |
+| PPV            | 16-Feb, 2024 | 1-Mar, 2024  |
+| Prod           | 4-Mar, 2024  |              |
+
+**6.0.0 total scope**: [Link](https://project-sunbird.atlassian.net/issues/?filter=12876)
+
+### **1. Summary of the changes**
+
+This document contains information about the new features and enhancements planned to the Knowlg building block as part of release 6.0.0:
+
+Enhancements: Click [here](https://project-sunbird.atlassian.net/issues/?filter=12902) to view the list.
+
+Bug Fixes - click [here](https://project-sunbird.atlassian.net/issues/?filter=12903) to see the list of bugs fixed in this release.
+
+**Test Scenarios:** [**KN-968**](https://project-sunbird.atlassian.net/browse/KN-968)
 
 ### Document Release Version
 
