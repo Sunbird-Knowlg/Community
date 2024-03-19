@@ -62,9 +62,19 @@ Release timeline:
 
 
 
+### Sunbird PDF Player:
 
+**Angular version - 16**
 
+**Install:** _npm i @project-sunbird/sunbird-pdf-player-v9@6.1.0_
 
+[https://www.npmjs.com/package/@project-sunbird/sunbird-pdf-player-v9/v/6.1.0](https://www.npmjs.com/package/@project-sunbird/sunbird-pdf-player-v9/v/6.1.0)
+
+**Angular version - 17**
+
+**Install:** _npm i @project-sunbird/sunbird-pdf-player-v9@6.1.1_
+
+[https://www.npmjs.com/package/@project-sunbird/sunbird-pdf-player-v9/v/6.1.1](https://www.npmjs.com/package/@project-sunbird/sunbird-pdf-player-v9/v/6.1.1)
 
 
 
