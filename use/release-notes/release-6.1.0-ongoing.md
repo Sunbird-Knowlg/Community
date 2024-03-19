@@ -56,9 +56,9 @@ Release timeline:
 
 **Angular version - 17**
 
-**Install:** _npm i @project-sunbird/sunbird-player-sdk-v9@6.0.6_
+**Install:** _npm i @project-sunbird/sunbird-player-sdk-v9@6.0.7_
 
-[https://www.npmjs.com/package/@project-sunbird/sunbird-player-sdk-v9/v/6.0.6](https://www.npmjs.com/package/@project-sunbird/sunbird-player-sdk-v9/v/6.0.6)
+[https://www.npmjs.com/package/@project-sunbird/sunbird-player-sdk-v9/v/6.0.7](https://www.npmjs.com/package/@project-sunbird/sunbird-player-sdk-v9/v/6.0.7)
 
 
 
