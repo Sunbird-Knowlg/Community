@@ -1,5 +1,18 @@
 # Release - 5.7.0
 
+## <mark style="color:blue;">Hot-fix 5.7.0</mark> (20-03-2024)
+
+Bug:
+
+1. cloud storage SDK values pass in build time in search-service: [KN-1033](https://project-sunbird.atlassian.net/browse/KN-1033)
+2. Question & Question Set objects image nodes issue &#x20;
+
+### Release Tags:
+
+### API Services:
+
+<table><thead><tr><th width="183.5">Component</th><th>Service to be Build</th><th width="100">Tag</th><th>Deploy Job</th><th>Deployment Tag</th><th>Comment</th></tr></thead><tbody><tr><td>Search-service</td><td>Build/Core/search</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform/tree/release-5.7.0_RC8">release-5.7.0_RC8</a></td><td>Deploy/Kubernetes/Search</td><td><a href="https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.6.0-knowlg_RC1">release-5.6.0-knowlg_RC1</a></td><td>Deploy Tag is given for reference only. Please do not use directly for deployment.</td></tr></tbody></table>
+
 ## <mark style="color:blue;">Hot-fix 5.7.0</mark> (27-02-2024)
 
 **Bugs:**
@@ -10,7 +23,7 @@
 
 ### API Services:
 
-<table><thead><tr><th width="186.5">Component</th><th>Service to be Build</th><th width="100">Tag</th><th>Deploy Job</th><th>Deployment Tag</th><th>Comment</th></tr></thead><tbody><tr><td>Knowledge-platform-jobs</td><td>Build/KnowledgePlatform/FlinkJobs</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform-jobs/releases/tag/release-5.7.0_RC1">release-5.7.0_RC1</a></td><td>Deploy/KnowledgePlatform/FlinkJobs</td><td><a href="https://github.com/Sunbird-Knowlg/sunbird-learning-platform/tree/release-5.5.0_RC1">release-5.5.0_RC1</a></td><td>Jobs to be deployed:<br>1. <strong>content-publish</strong></td></tr></tbody></table>
+<table><thead><tr><th width="183.5">Component</th><th>Service to be Build</th><th width="100">Tag</th><th>Deploy Job</th><th>Deployment Tag</th><th>Comment</th></tr></thead><tbody><tr><td>Knowledge-platform-jobs</td><td>Build/KnowledgePlatform/FlinkJobs</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform-jobs/releases/tag/release-5.7.0_RC1">release-5.7.0_RC1</a></td><td>Deploy/KnowledgePlatform/FlinkJobs</td><td><a href="https://github.com/Sunbird-Knowlg/sunbird-learning-platform/tree/release-5.5.0_RC1">release-5.5.0_RC1</a></td><td>Jobs to be deployed:<br>1. <strong>content-publish</strong></td></tr></tbody></table>
 
 ### Sunbird Content **Editor**:
 
