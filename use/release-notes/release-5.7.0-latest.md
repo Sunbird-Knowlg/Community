@@ -1,6 +1,6 @@
 # Release - 5.7.0
 
-## <mark style="color:blue;">Hot-fix 5.7.0</mark> (20-03-2024<mark style="color:blue;">Hot-fix 5.7.0</mark> (20-03-2024)
+## <mark style="color:blue;">Hot-fix 5.7.0</mark> (20-03-2024)
 
 Bug:
 
