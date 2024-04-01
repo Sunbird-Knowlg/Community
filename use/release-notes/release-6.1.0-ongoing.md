@@ -78,3 +78,21 @@ Release timeline:
 
 
 
+### Sunbird Video Player:
+
+**Angular Version - 16**
+
+**Install:** _npm i @project-sunbird/sunbird-video-player-v9@6.1.0_
+
+[https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/6.1.0](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/6.1.0)
+
+**Angular Version - 17**
+
+**Install:** _npm i @project-sunbird/sunbird-video-player-v9@6.1.1_
+
+[https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/6.1.1](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/6.1.1)
+
+
+
+
+
