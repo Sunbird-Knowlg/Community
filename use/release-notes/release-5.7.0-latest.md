@@ -1,5 +1,13 @@
 # Release - 5.7.0
 
+## <mark style="color:blue;">Hot-fix 5.7.0</mark> (17-04-2024)
+
+1. Removing inQuiry schemas from Knowlg repo ([IQ-750](https://project-sunbird.atlassian.net/browse/IQ-750))
+
+### Release Tags:
+
+<table><thead><tr><th width="186.5">Component</th><th>Service to be Build</th><th width="100">Tag</th><th>Deploy Job</th><th>Deployment Tag</th><th>Comment</th></tr></thead><tbody><tr><td>Schema upload</td><td>NA</td><td>NA</td><td>Deploy/Kubernetes/UploadSchema</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform/releases/tag/release-5.7.0_RC9">release-5.7.0_RC9</a></td><td></td></tr></tbody></table>
+
 ## <mark style="color:blue;">Hot-fix 5.7.0</mark> (20-03-2024)
 
 Bug:
