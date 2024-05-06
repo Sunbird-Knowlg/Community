@@ -1,6 +1,6 @@
-# Release - 6.1.0 (Ongoing)
+# Release - 6.1.0 (latest)
 
-## <mark style="color:blue;">6.1.0</mark> (Ongoing)
+## <mark style="color:blue;">6.1.0</mark> (latest)
 
 Discussion thread: [https://github.com/orgs/Sunbird-Knowlg/discussions/190](https://github.com/orgs/Sunbird-Knowlg/discussions/190)
 
