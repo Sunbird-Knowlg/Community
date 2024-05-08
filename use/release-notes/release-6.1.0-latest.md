@@ -1,5 +1,24 @@
 # Release - 6.1.0 (latest)
 
+## <mark style="color:blue;">Hot-fix 6.1.0</mark> (08-05-2024)
+
+1. Image URL is not getting generated when QR code is searched - [KN-1071](https://project-sunbird.atlassian.net/browse/KN-1071)
+
+### Release Tags
+
+<table><thead><tr><th width="186.5">Component</th><th>Service to be Build</th><th width="100">Tag</th><th>Deploy Job</th><th>Deployment Tag</th><th>Comment</th></tr></thead><tbody><tr><td>Schema upload</td><td>NA</td><td>NA</td><td>Deploy/Kubernetes/UploadSchema</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform/releases/tag/release-6.1.0_RC2">release-6.1.0_RC2</a></td><td></td></tr><tr><td>Knowledge-platform</td><td>Build/Core/Content</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform/releases/tag/release-6.1.0_RC2">release-6.1.0_RC2</a></td><td>Deploy/Kubernetes/Content</td><td><a href="https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.6.0-knowlg_RC1">release-5.6.0-knowlg_RC1</a></td><td>Deploy Tag is given for reference only. Please do not use directly for deployment.</td></tr></tbody></table>
+
+### Configuration/Environment variable changes:
+
+#### Variables Added in Content-Service:
+
+| Variable Name                   | Description                                                  | Default Value |
+| ------------------------------- | ------------------------------------------------------------ | ------------- |
+| cloud\_storage\_dial\_container | Storage container name to store dial codes                   | dial          |
+| dialcode\_image.keyspace        | Keyspace name to store dial code images details in Cassandra | dialcodes     |
+
+
+
 ## <mark style="color:blue;">6.1.0</mark> (29-04-2024)
 
 Discussion thread: [https://github.com/orgs/Sunbird-Knowlg/discussions/190](https://github.com/orgs/Sunbird-Knowlg/discussions/190)
@@ -46,6 +65,16 @@ This release involves upgrading Elasticsearch from version 6.8.22 to version 7.1
    * Please  [**Click Here**](https://project-sunbird.atlassian.net/wiki/spaces/SBDES/pages/3439198248/Elasticsearch+Version+Upgrade+6.8.23+to+7.17.13) for upgrading ES from 6.8.22 to 7.17.13 documentation.
 
 Once you have upgraded to Elasticsearch 7.17.13, please consider using the below release tags for API services and Flink Jobs deployment.
+
+### Following are the Planned Tickets of R 6.1.0 <a href="#release-tags" id="release-tags"></a>
+
+#### New Features:
+
+None
+
+#### Enhancements / Technical tasks:
+
+<table><thead><tr><th width="83.33333333333331">S.no</th><th width="165">JIRA ID</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-879">KN-879</a></td><td>DIAL code APIs Move from Knowlg MW to Content Service</td></tr><tr><td>2</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-982">KN-982</a></td><td>Sunbird Video Player - Angular version upgrade 15 to 17</td></tr><tr><td>3</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-983">KN-983</a></td><td>Sunbird PDF Player - Angular version upgrade 15 to 17</td></tr><tr><td>4</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-979">KN-979</a></td><td>Angular version update for Player SDK from 13 to 17</td></tr></tbody></table>
 
 ### Release Tags: <a href="#release-tags" id="release-tags"></a>
 
@@ -122,7 +151,44 @@ Once you have upgraded to Elasticsearch 7.17.13, please consider using the below
 
 [https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/6.1.1](https://www.npmjs.com/package/@project-sunbird/sunbird-video-player-v9/v/6.1.1)
 
+### Configuration/Environment variable changes:
 
+In this release, we've transferred the following two APIs from _**Knowledge-MW-service**_ to _**Content-Service.**_ Because we moved these APIs to the _**Content-Service**_, the endpoints have been updated to ensure consistency with other content APIs.
+
+<table><thead><tr><th width="89">S.No</th><th>Old API Endpoint</th><th>New API Endpoint</th></tr></thead><tbody><tr><td>1</td><td>/v1/dialcode/reserve/:identifier</td><td>/content/v3/dialcode/reserve/:identifier (OR)<br>/content/v4/dialcode/reserve/:identifier</td></tr><tr><td>2</td><td>/v1/dialcode/process/status</td><td><p>/content/v3/process/status/:processid</p><p>(OR)<br>/content/v4/process/status/:processid</p></td></tr></tbody></table>
+
+Consequently, to reflect these changes, we'll need to update the _**upstream\_url**_ configuration in kong-api layer to reference Content-Service instead of Knowledge-MW-service.&#x20;
+
+**Previous:**
+
+```
+- name: reserveDialcode
+  uris: "{{ dialcode_service_prefix }}/v1/reserve"
+  upstream_url: "{{ knowledge_mw_service_url }}/v1/dialcode/reserve"
+  
+- name: qrCodeBatchProcessStatus
+  uris: "{{ dialcode_service_prefix }}/v1/process/status"
+  upstream_url: "{{ knowledge_mw_service_url }}/v1/dialcode/process/status"
+```
+
+**Update to:**
+
+```
+- name: reserveDialcode
+  uris: "{{ dialcode_service_prefix }}/v1/reserve"
+  upstream_url: "{{ content_service_url }}/content/v3/dialcode/reserve"
+  
+- name: qrCodeBatchProcessStatus
+  uris: "{{ dialcode_service_prefix }}/v1/process/status"
+  upstream_url: "{{ content_service_url }}/content/v3/process/status
+```
+
+#### Variables Added in Content-Service:
+
+| Variable Name            | Description                                                   | Default Value                     |
+| ------------------------ | ------------------------------------------------------------- | --------------------------------- |
+| kafka.dial.request.topic | Input Kafka Topic Name                                        | \{{ env\_name \}}.qrimage.request |
+| dialcode.keyspace        | Keyspace name to store dial code process details in Cassandra | dialcodes                         |
 
 
 

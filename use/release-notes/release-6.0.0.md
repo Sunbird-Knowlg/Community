@@ -16,7 +16,7 @@ Release timeline:
 
 **6.0.0 total scope**: [Link](https://project-sunbird.atlassian.net/issues/?filter=12876)
 
-### **1. Summary of the changes**
+### **Summary of the changes**
 
 This document contains information about the new features and enhancements planned to the Knowlg building block as part of release 6.0.0:
 
@@ -86,7 +86,7 @@ None
 
 #### Enhancements / Technical tasks::
 
-<table><thead><tr><th width="83.33333333333331">S.no</th><th width="124">JIRA ID</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-939">KN-939</a></td><td>Fixing vulnerabilities in Knowlg building block</td></tr><tr><td>2</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-968">KN-968</a></td><td>Term create API enhancement</td></tr><tr><td>3</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-955">KN-955</a></td><td>Framework API automation (Framework category and Framework term)</td></tr><tr><td>4</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-958">KN-958</a></td><td>Content APIs automation</td></tr></tbody></table>
+<table><thead><tr><th width="83.33333333333331">S.no</th><th width="165">JIRA ID</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-939">KN-939</a></td><td>Fixing vulnerabilities in Knowlg building block</td></tr><tr><td>2</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-968">KN-968</a></td><td>Term create API enhancement</td></tr><tr><td>3</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-955">KN-955</a></td><td>Framework API automation (Framework category and Framework term)</td></tr><tr><td>4</td><td><a href="https://project-sunbird.atlassian.net/browse/KN-958">KN-958</a></td><td>Content APIs automation</td></tr></tbody></table>
 
 ### Release Tags:
 
