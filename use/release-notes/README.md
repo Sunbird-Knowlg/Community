@@ -2,6 +2,18 @@
 
 ### This section represents the release versions of Knowlg building block:
 
+{% content-ref url="release-6.1.0-latest.md" %}
+[release-6.1.0-latest.md](release-6.1.0-latest.md)
+{% endcontent-ref %}
+
+{% content-ref url="release-6.0.0.md" %}
+[release-6.0.0.md](release-6.0.0.md)
+{% endcontent-ref %}
+
+{% content-ref url="release-5.7.0-latest.md" %}
+[release-5.7.0-latest.md](release-5.7.0-latest.md)
+{% endcontent-ref %}
+
 {% content-ref url="release-5.6.0.md" %}
 [release-5.6.0.md](release-5.6.0.md)
 {% endcontent-ref %}
