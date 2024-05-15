@@ -15,3 +15,21 @@ Release timeline:
 | Prod           | 24-Jun, 2024 |              |
 
 **6.2.0 total scope**: [Link](https://project-sunbird.atlassian.net/issues/?filter=12944)
+
+
+
+
+
+### Sunbird EPub Player:
+
+**Angular Version - 16**
+
+**Install:** _npm i @project-sunbird/sunbird-epub-player-v9@6.1.0_
+
+[https://www.npmjs.com/package/@project-sunbird/sunbird-epub-player-v9/v/6.1.0](https://www.npmjs.com/package/@project-sunbird/sunbird-epub-player-v9/v/6.1.0)
+
+**Angular Version - 17**
+
+**Install:** _npm i @project-sunbird/sunbird-video-player-v9@6.2.0_
+
+[https://www.npmjs.com/package/@project-sunbird/sunbird-epub-player-v9/v/6.2.0](https://www.npmjs.com/package/@project-sunbird/sunbird-epub-player-v9/v/6.2.0)
