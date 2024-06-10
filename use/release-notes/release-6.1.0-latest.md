@@ -1,5 +1,13 @@
 # Release - 6.1.0 (latest)
 
+## <mark style="color:blue;">Hot-fix 6.1.0</mark> (07-06-2024)
+
+1. DIAL service Build issue fix
+
+### Release Tags
+
+<table><thead><tr><th width="186.5">Component</th><th>Service to be Build</th><th width="100">Tag</th><th>Deploy Job</th><th>Deployment Tag</th><th>Comment</th></tr></thead><tbody><tr><td>dial-service</td><td>Build/Core/Dial</td><td><a href="https://github.com/Sunbird-Knowlg/sunbird-dial-service/releases/tag/release-6.1.0_RC2">release-6.1.0_RC2</a></td><td>Deploy/Kubernetes/Dial</td><td><a href="https://github.com/project-sunbird/sunbird-devops/releases/tag/release-5.6.0-knowlg_RC1">release-5.6.0-knowlg_RC1</a></td><td>Deploy Tag is given for reference only. Please do not use directly for deployment.</td></tr></tbody></table>
+
 ## <mark style="color:blue;">Hot-fix 6.1.0</mark> (08-05-2024)
 
 1. Image URL is not getting generated when QR code is searched - [KN-1071](https://project-sunbird.atlassian.net/browse/KN-1071)
