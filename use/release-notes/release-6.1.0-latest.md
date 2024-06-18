@@ -47,7 +47,7 @@ To migrate Azure Media Services (AMS) data to MediaKind (MK.IO), follow these st
 
     [https://docs.mk.io/docs/bulk-asset-migration-from-ams-storage](https://docs.mk.io/docs/bulk-asset-migration-from-ams-storage)
 
-#### Configurations:
+### Configuration/Environment variable changes: <a href="#configuration-environment-variable-changes" id="configuration-environment-variable-changes"></a>
 
 | Variable Name	        | Description                                                                                                                                                                           | Default Value                                     |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
