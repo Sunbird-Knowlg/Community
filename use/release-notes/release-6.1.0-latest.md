@@ -97,7 +97,7 @@ https://ep-default-mkservicepoc.japaneast.streaming.mediakind.com/daac53ae-f3a9-
 
 ### Release Tags
 
-<table><thead><tr><th width="186.5">Component</th><th>Service to be Build</th><th width="100">Tag</th><th>Deploy Job</th><th>Deployment Tag</th><th>Comment</th></tr></thead><tbody><tr><td>Knowledge-platform-jobs</td><td>Build/KnowledgePlatform/FlinkJobs</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform-jobs/releases/tag/release-6.1.0_RC2">release-6.1.0_RC2</a></td><td>Deploy/KnowledgePlatform/FlinkJobs</td><td><a href="https://github.com/Sunbird-Knowlg/sunbird-learning-platform/releases/tag/release-5.7.0_RC7">release-5.7.0_RC7</a></td><td>Jobs to be deployed:<br>1. <strong>video-stream-generator</strong></td></tr></tbody></table>
+<table><thead><tr><th width="186.5">Component</th><th>Service to be Build</th><th width="100">Tag</th><th>Deploy Job</th><th>Deployment Tag</th><th>Comment</th></tr></thead><tbody><tr><td>Knowledge-platform-jobs</td><td>Build/KnowledgePlatform/FlinkJobs</td><td><a href="https://github.com/Sunbird-Knowlg/knowledge-platform-jobs/releases/tag/release-6.1.0_RC3">release-6.1.0_RC3</a></td><td>Deploy/KnowledgePlatform/FlinkJobs</td><td><a href="https://github.com/Sunbird-Knowlg/sunbird-learning-platform/releases/tag/release-5.7.0_RC8">release-5.7.0_RC8</a></td><td>Jobs to be deployed:<br>1. <strong>video-stream-generator</strong></td></tr></tbody></table>
 
 
 
