@@ -91,6 +91,7 @@ https://ep-default-mkservicepoc.japaneast.streaming.mediakind.com/daac53ae-f3a9-
 | media\_service\_azure\_resource\_group\_name | Azure media service resource group name |
 | media\_service\_azure\_token\_client\_key    | Azure media service client key          |
 | media\_service\_azure\_token\_client\_secret | Azure media service client secret       |
+| media\_service\_azure\_stream\_base\_url     | Azure media service stream base URL     |
 
 
 
