@@ -47,19 +47,52 @@ To migrate Azure Media Services (AMS) data to MediaKind (MK.IO), follow these st
 
     [https://docs.mk.io/docs/bulk-asset-migration-from-ams-storage](https://docs.mk.io/docs/bulk-asset-migration-from-ams-storage)
 
+_**NOTE: Once migration done. We need to republish the contents**:_
+
+* _As we know, streaming URLs are stored in content metadata, which we use to play the streaming assets. Since these assets are migrated to MK.IO, the base path will change as shown below. Therefore, we need to republish all those contents._
+
+**Before Migration: Azure Streaming URL**:
+
+```bash
+https://sunbirddevmedia-inct.streaming.media.azure.net/daac53ae-f3a9-44b6-a546-7fc08c37848c/do_2133506859240161281539_163308.ism/manifest(format=m3u8-cmaf)
+```
+
+**After Migration: MK.IO Streaming URL**:
+
+```bash
+https://ep-default-mkservicepoc.japaneast.streaming.mediakind.com/daac53ae-f3a9-44b6-a546-7fc08c37848c/do_2133506859240161281539_163308.ism/manifest(format=m3u8-cmaf)
+```
+
+* If you observe both URLs, only the base path is changing.
+
 ### Configuration/Environment variable changes: <a href="#configuration-environment-variable-changes" id="configuration-environment-variable-changes"></a>
 
-| Variable Name	        | Description                                                                                                                                                                           | Default Value                                     |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| project\_name         | MK.IO subscription name                                                                                                                                                               |                                                   |
-| auth\_token           | MK.IO authentication token to access the MediaKind APIs. Please refer above **step2** for auth token generation.                                                                      |                                                   |
-| account\_name         | MK.IO storage account name. Please refer above **step3** to get this name.                                                                                                            |                                                   |
-| api.endpoint          | MK.IO API endpoint                                                                                                                                                                    | [https://api.mk.io/api](https://api.mk.io/api%22) |
-| transform.default     | Please refer above **step5** to get this value. While creating we have used name `media_transform_default` that is waht we kept as default you can this value whatever name you want. | media\_transform\_default                         |
-| stream.base\_url      | Please refer above **step4** to get this value. Once you created streaming endpoint it will provide some base url copy that value here.                                               |                                                   |
-| stream.endpoint\_name | Please refer above **step4** to get this value.                                                                                                                                       |                                                   |
-| stream.protocol       |                                                                                                                                                                                       | Hls                                               |
-| stream.policy\_name   |                                                                                                                                                                                       | Predefined\_ClearStreamingOnly                    |
+#### New Configurations:&#x20;
+
+| Variable Name	                         | Description                                                                                                                                                                           | Default Value                                     |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| azure\_mediakind.project\_name         | MK.IO subscription name                                                                                                                                                               |                                                   |
+| azure\_mediakind.auth\_token           | MK.IO authentication token to access the MediaKind APIs. Please refer above **step2** for auth token generation.                                                                      |                                                   |
+| azure\_mediakind.account\_name         | MK.IO storage account name. Please refer above **step3** to get this name.                                                                                                            |                                                   |
+| azure\_mediakind.api.endpoint          | MK.IO API endpoint                                                                                                                                                                    | [https://api.mk.io/api](https://api.mk.io/api%22) |
+| azure\_mediakind.transform.default     | Please refer above **step5** to get this value. While creating we have used name `media_transform_default` that is waht we kept as default you can this value whatever name you want. | media\_transform\_default                         |
+| azure\_mediakind.stream.base\_url      | Please refer above **step4** to get this value. Once you created streaming endpoint it will provide some base url copy that value here.                                               |                                                   |
+| azure\_mediakind.stream.endpoint\_name | Please refer above **step4** to get this value.                                                                                                                                       |                                                   |
+| azure\_mediakind.stream.protocol       |                                                                                                                                                                                       | Hls                                               |
+| azure\_mediakind.stream.policy\_name   |                                                                                                                                                                                       | Predefined\_ClearStreamingOnly                    |
+
+#### Deprecated Configurations:
+
+| Variable Name	                               | Description                             |
+| -------------------------------------------- | --------------------------------------- |
+| media\_service\_azure\_tenant                | Azure media service tenant name         |
+| media\_service\_azure\_subscription\_id      | Azure media service subscription ID     |
+| media\_service\_azure\_account\_name         | Azure media service account name        |
+| media\_service\_azure\_resource\_group\_name | Azure media service resource group name |
+| media\_service\_azure\_token\_client\_key    | Azure media service client key          |
+| media\_service\_azure\_token\_client\_secret | Azure media service client secret       |
+
+
 
 ### Release Tags
 
